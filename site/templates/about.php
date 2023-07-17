@@ -15,48 +15,18 @@
 				</p>
 			</div>
 			<div class="px-3 pt-2 pb-5">
-				<p class="address">
-					co–struct AG
-					Tragwerksplanung
-					Förrlibuckstrasse 225
-					CH—8005 Zürich
+				<?php snippet('address_ZH') ?><br>
+				<?php snippet('address_VD') ?><br>
+				<?php snippet('contact') ?>
 
-					co–struct AG
-					Ingénierie structurale
-					Chemin des Clos 17
-					CH—1170 Aubonne
-
-					+41 44 506 66 30
-					<a href="mailto:hello@martinaholenstein.ch">Email</a>
-					<a href="https://www.instagram.com/inanamm/" target="_blank">Instagram</a>
-				</p>
 			</div>
 			<div class="px-3 pt-2 pb-5">
-				<div class="collapse collapse-plus">
-					<input type="checkbox" />
-					<div class="collapse-title">
-						Fabrice Meylan
-					</div>
-					<div class="collapse-content">
-						<p>+41 44 506 66 30<br>
-							fabrice@co–struct.ch</p>
-						<div class="w-40 aspect-[4/5] bg-csblue opacity-10"></div>
-					</div>
-				</div>
-				<div class="collapse collapse-plus">
-					<input type="checkbox" />
-					<div class="collapse-title">
-						Sam Bouten
-					</div>
-					<div class="collapse-content">
-						<p>+41 44 506 66 30<br>
-							sam@co–struct.ch</p>
-						<div class="w-40 aspect-[4/5] bg-csblue opacity-10"></div>
-					</div>
-				</div>
+				<?php snippet('coworkers') ?>
 			</div>
-
 			<div class="px-3 pt-2 pb-5">hello</div>
+			<div>
+				<?php snippet('copyright') ?>
+			</div>
 		</div>
 	</main>
 	<?php snippet('footer') ?>

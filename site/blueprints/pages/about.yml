@@ -1,18 +1,44 @@
 title: About Page
 
 columns:
+#linke Seite
   main:
-    width: 2/3
+    width: 1/2
     sections:
       fields:
         type: fields
-        fields:
-          myBlocksField:
-            type: blocks
+        fields: 
+          Bueroprofil: 
+            type: writer
+          toggle:
+            label: Bewerbungen?
+            type: toggle
+            text: 
+              - "yes"
+              - "no"
+          Jobbeschreibung:
+            type: text
+            when:
+              toggle: false
+          Beschreibung:
+            type: text
+            when: 
+              toggle: true
+          category:
+            label: Category
+            type: select
+            options:
+              keinestelle: Keine Offene Stelle
+              offeneStelle: Wir freuen uns auf ihre Bewerbung
 
 
+
+
+
+
+#rechte Seite
   sidebar:
-    width: 1/3
+    width: 1/2
     sections:
       pages:
         type: pages

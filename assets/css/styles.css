@@ -44,7 +44,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Macan, sans-serif;
+  font-family: MacanBook, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -843,9 +843,18 @@ html {
   padding-top: 0.5rem;
 }
 
+.font-mono {
+  font-family: Monospace821BT, monospace;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-csblue {
@@ -855,4 +864,54 @@ html {
 
 .opacity-10 {
   opacity: 0.1;
+}
+
+@font-face {
+  font-family: "Monospace821BT";
+
+  src: url("/assets/css/Monospace\ 821\ BT\ Regular.otf");
+}
+
+@font-face {
+  font-family: "MacanSemibold";
+
+  src: url("/assets/css/Macan-Semibold.woff");
+}
+
+@font-face {
+  font-family: "MacanBook";
+
+  src: url("/assets/css/Macan-Book.woff");
+}
+
+.textred {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1.25rem;
+  font-family: Monospace821BT, monospace;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.05em;
+}
+
+@media (min-width: 640px) {
+  .textred {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .textred {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .textred {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }

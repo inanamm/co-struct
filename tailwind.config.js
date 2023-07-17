@@ -6,7 +6,8 @@ module.exports = {
     },
 
     fontFamily: {
-      sans: ['Macan', 'sans-serif'],
+      sans: ['MacanBook', 'sans-serif'],
+      sansbold: ['MacanSemibold', 'sans-serif'],
       mono: ['Monospace821BT', 'monospace'],
     },
     extend: {},
@@ -24,4 +25,4 @@ module.exports = {
     prefix: "", // prefix for daisyUI classnames (components, modifiers and responsive class names. Not colors)
     logs: true, // Shows info about daisyUI version and used config in the console when building your CSS
   },
-};
+}; 

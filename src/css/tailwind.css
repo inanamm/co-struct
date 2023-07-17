@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Monospace821BT";
+    src: url("/assets/css/Monospace\ 821\ BT\ Regular.otf");
+}
+
+@font-face {
+    font-family: "MacanSemibold";
+    src: url("/assets/css/Macan-Semibold.woff");
+}
+
+@font-face {
+    font-family: "MacanBook";
+    src: url("/assets/css/Macan-Book.woff");
+}
+
+
+.textred {
+    @apply font-mono text-xs tracking-wider px-3 pt-2 pb-5 sm:text-xl md:text-3xl xl:text-6xl;
+}
