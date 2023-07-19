@@ -14,10 +14,33 @@
 					Das Ziel ist, innovative Tragsysteme von der Entstehung des Projekts an zu planen und dabei ein besonderes Augenmerk auf ästhetische Aspekte zu legen. Die enge Zusammenarbeit mit den verschiedenen Partner:innen, sowie die proaktive Optimierung der erdachten Strukturen liegen co–struct am Herzen. Die Ökologie im Bauwesen regt unsere Kreativität an, um für jedes Bauwerk die am besten geeigneten Materialien zu finden.
 				</p>
 			</div>
-			<div class="font-sans text-lg px-3 pt-2 pb-5">
-				<?php snippet('address_ZH') ?><br>
-				<?php snippet('address_VD') ?><br>
+			<div class="flex flex-col gap-4 font-sans text-lg px-3 pt-2 pb-5">
+				<?php snippet(
+					'address',
+					[
+						'companyName' => 'co–struct AG',
+						'description' => 'Tragwerksplanung',
+						'street' => 'Förrlibuckstrasse 225',
+						'postalCode' => 'CH—8005',
+						'place' => 'Zürich'
+					]
+				) ?>
+				<?php snippet(
+					'address',
+					[
+						'companyName' => 'co–struct AG',
+						'description' => 'Ingénierie structurale',
+						'street' => 'Chemin des Clos 17',
+						'postalCode' => 'CH—1170',
+						'place' => 'Aubonne'
+					]
+				) ?>
 				<?php snippet('contact') ?>
+				<?php snippet('link', [
+					'url' => 'https://google.com',
+					'description' => 'googleus', 
+					'blank' => true
+				]) ?>
 
 			</div>
 
@@ -30,16 +53,15 @@
 				<?php snippet('coworkers') ?>
 			</div>
 			<div class="px-3 pt-2 pb-5">
-			<?php snippet('subtitle', ['subtitle' => 'Ehemalige']) ?>
-
+				<?php snippet('subtitle', ['subtitle' => 'Ehemalige']) ?>
 				<ul>
 					<li>Mathias Stefan Hürlimanner</li>
 					<li>Alex Hanimann</li>
 				</ul>
 			</div>
-			<div class="px-3 pt-2 pb-5">
-			<?php snippet('subtitle', ['subtitle' => 'Bewerbungen']) ?>
-				Momentan haben wir leider keine offenen Stellen.
+			<div class="font-sans text-base px-3 pt-2 pb-5">
+				<?php snippet('subtitle', ['subtitle' => 'Bewerbungen']) ?>
+				<p>Momentan haben wir leider keine offenen Stellen.</p>
 			</div>
 			<div class="text-xs font-mono px-3 pt-2 pb-5">
 				<?php snippet('copyright') ?>
