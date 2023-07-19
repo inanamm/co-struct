@@ -1,0 +1,1 @@
+<h2 class="font-sans text-lg"><?= $subtitle ?></h2>

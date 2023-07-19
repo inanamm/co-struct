@@ -9,4 +9,3 @@
 ## When creating a new project
 1. git init –> creates a .git folder (where this project lives locally)
 2. gh repo create –> github client to create a remote repository on github
-

@@ -794,20 +794,12 @@ html {
   visibility: collapse;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .flex {
   display: flex;
 }
 
 .aspect-\[4\/5\] {
   aspect-ratio: 4/5;
-}
-
-.w-40 {
-  width: 10rem;
 }
 
 .flex-col {
@@ -831,20 +823,48 @@ html {
 }
 
 .px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .pb-5 {
-  padding-bottom: 1.25rem;
+  padding-bottom: 25px;
 }
 
 .pt-2 {
-  padding-top: 0.5rem;
+  padding-top: 10px;
 }
 
 .font-mono {
   font-family: Monospace821BT, monospace;
+}
+
+.font-sans {
+  font-family: MacanBook, sans-serif;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: 0.03rem;
+}
+
+.text-lg {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.0375rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.035rem;
+}
+
+.text-xs {
+  font-size: 0.625rem;
+  line-height: 0.875rem;
+  letter-spacing: 0.025rem;
 }
 
 .text-5xl {
@@ -852,14 +872,22 @@ html {
   line-height: 1;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-csblue {
   --tw-text-opacity: 1;
   color: rgb(0 0 255 / var(--tw-text-opacity));
+}
+
+.text-csyellow {
+  --tw-text-opacity: 1;
+  color: rgb(255 241 25 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.underline-offset-2 {
+  text-underline-offset: 2px;
 }
 
 .opacity-10 {
@@ -884,34 +912,21 @@ html {
   src: url("/assets/css/Macan-Book.woff");
 }
 
-.textred {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  padding-top: 0.5rem;
-  padding-bottom: 1.25rem;
-  font-family: Monospace821BT, monospace;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  letter-spacing: 0.05em;
+.hover\:text-cslightblue:hover {
+  --tw-text-opacity: 1;
+  color: rgb(145 186 210 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
-  .textred {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .textred {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
 @media (min-width: 1280px) {
-  .textred {
-    font-size: 3.75rem;
+  .xl\:text-5xl {
+    font-size: 3rem;
     line-height: 1;
   }
 }
