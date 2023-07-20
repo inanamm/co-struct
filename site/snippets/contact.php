@@ -1,5 +1,8 @@
-<p>
-    +41 44 506 66 30<br>
-    <a href="mailto:hello@co-struct.ch">hello@co–struct.ch</a><br>
-    <a href="https://www.instagram.com/co_struct/" target="_blank">Instagram</a>
-</p>
+<div class="flex flex-col gap-0">
+    <?php snippet('link', [
+        'url' => 'mailto:hello@co-struct.ch',
+        'description' => 'hello@co–struct.ch',
+        'blank' => false
+        ]) ?>
+    +41 44 506 66 30
+</div>

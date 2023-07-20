@@ -811,12 +811,20 @@ html {
   flex-direction: column;
 }
 
-.gap-2 {
-  gap: 10px;
+.gap-1 {
+  gap: 5px;
+}
+
+.gap-3 {
+  gap: 15px;
 }
 
 .gap-4 {
   gap: 20px;
+}
+
+.gap-2 {
+  gap: 10px;
 }
 
 .divide-y > :not([hidden]) ~ :not([hidden]) {
@@ -828,6 +836,11 @@ html {
 .divide-csblue > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgb(0 0 255 / var(--tw-divide-opacity));
+}
+
+.divide-csgreen > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(0 118 5 / var(--tw-divide-opacity));
 }
 
 .bg-csblue {
@@ -846,6 +859,10 @@ html {
 
 .pt-2 {
   padding-top: 10px;
+}
+
+.pt-3 {
+  padding-top: 15px;
 }
 
 .font-mono {
@@ -883,6 +900,11 @@ html {
 .text-csblue {
   --tw-text-opacity: 1;
   color: rgb(0 0 255 / var(--tw-text-opacity));
+}
+
+.text-csgreen {
+  --tw-text-opacity: 1;
+  color: rgb(0 118 5 / var(--tw-text-opacity));
 }
 
 .text-csyellow {
