@@ -1,1 +1,1 @@
-<h2 class="font-sans text-lg"><?= $subtitle ?></h2>
+<h2 class="font-sans text-lg pb-2"><?= $subtitle ?></h2>
