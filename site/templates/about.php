@@ -9,33 +9,39 @@
 		<div class="flex flex-col divide-y divide-csblue last:divide-csblue">
 			<div class="font-sans text-lg px-3 pt-2 pb-5">
 				<p class="description">
-					co–struct ist ein inhabergeführtes Büro für Tragwerksplanung in Zürich und Aubonne, gegründet von Fabrice Meylan und Sam Bouten.
-					Das Ziel ist, innovative Tragsysteme von der Entstehung des Projekts an zu planen und dabei ein besonderes Augenmerk auf ästhetische Aspekte zu legen. Die enge Zusammenarbeit mit den verschiedenen Partner:innen, sowie die proaktive Optimierung der erdachten Strukturen liegen co–struct am Herzen. Die Ökologie im Bauwesen regt unsere Kreativität an, um für jedes Bauwerk die am besten geeigneten Materialien zu finden.
+					<?= $page->Bueroprofil() ?>
 				</p>
 			</div>
 			<div class="flex flex-col gap-4 font-sans text-lg px-3 pt-2 pb-5">
-				<?php snippet(
-					'address',
-					[
-						'companyName' => 'co–struct AG',
-						'description' => 'Tragwerksplanung',
-						'street' => 'Förrlibuckstrasse 225',
-						'postalCode' => 'CH—8005',
-						'place' => 'Zürich'
-					]
-				) ?>
-				<?php snippet(
-					'address',
-					[
-						'companyName' => 'co–struct AG',
-						'description' => 'Ingénierie structurale',
-						'street' => 'Chemin des Clos 17',
-						'postalCode' => 'CH—1170',
-						'place' => 'Aubonne'
-					]
-				) ?>
+				<?php if ($address = $page->addressZH()->toObject()) : ?>
+					<?php snippet(
+						'address',
+						[
+							'companyName' => $address->companyName(),
+							'description' => $address->description(),
+							'street' => $address->street(),
+							'postalCode' => $address->postalCode(),
+							'place' => $address->place(),
+						]
+					) ?>
+				<?php endif ?>
+
+				<?php if ($address = $page->addressVD()->toObject()) : ?>
+					<?php snippet(
+						'address',
+						[
+							'companyName' => $address->companyName(),
+							'description' => $address->description(),
+							'street' => $address->street(),
+							'postalCode' => $address->postalCode(),
+							'place' => $address->place(),
+						]
+					) ?>
+				<?php endif ?>
+
 				<div class="flex flex-col gap-0">
-					<?php snippet('contact') ?>
+
+					<?php snippet('contact', ['phone' => $page->phone(), 'email' => $page->email()]) ?>
 					<?php snippet('link', [
 						'url' => 'https://www.instagram.com/co_struct/',
 						'description' => 'Instagram',
@@ -44,18 +50,13 @@
 				</div>
 			</div>
 
-			<!-- <div class="px-3 pt-2 pb-5">
-				<?php snippet('subtitle', ['subtitle' => 'Hello!']) ?>
-				<?php snippet('link', [
-					'url' => 'https://google.com',
-					'description' => 'googleus',
-					'blank' => true
-				]) ?>
-			</div> -->
-
 			<div class="px-3 pt-2 pb-5">
 				<?php snippet('subtitle', ['subtitle' => 'Mitarbeitende']) ?>
-				<?php snippet('coworkers') ?>
+
+				<?php if ($coworkers = $page->coworkers()->toStructure()) : ?>
+					<?php snippet('coworkers', ['coworkers' => $coworkers]) ?>
+				<?php endif ?>
+
 			</div>
 			<div class="px-3 pt-2 pb-5">
 				<?php snippet('subtitle', ['subtitle' => 'Ehemalige']) ?>
@@ -76,6 +77,7 @@
 	<div class="text-csblue">
 		<?php snippet('footer') ?>
 	</div>
+
 </body>
 
 

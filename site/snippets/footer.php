@@ -2,7 +2,7 @@
 	<div class="flex flex-col divide-y divide-black">
 		<div></div>
 		<div class="flex flex-col gap-4 font-mono text-sm px-3 pt-2 pb-5">
-			<?php snippet('contact') ?>
+			<?php snippet('contact', ['phone' => $page->phone(), 'email' => $page->email()]) ?>
 			<?php snippet(
 				'address',
 				[

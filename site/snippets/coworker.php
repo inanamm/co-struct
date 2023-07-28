@@ -12,7 +12,7 @@
     </div>
 </div> -->
 
-<div class="flex flex-col font-sans text-base">
+<div class="flex flex-col font-sans text-base duration-300 transition-all">
     <details>
         <summary class="list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus-visible:ring group-open:-rotate-12">
             <h3 class="flex flex-1">Fabrice Meylan</h3>

@@ -3,46 +3,93 @@ title: About Page
 columns:
 #linke Seite
   main:
-    width: 1/2
+    width: 2/3
     sections:
       fields:
         type: fields
         fields: 
-          Bueroprofil: 
-            type: writer
-          toggle:
-            label: Bewerbungen?
-            type: toggle
-            text: 
-              - "yes"
-              - "no"
-          Jobbeschreibung:
-            type: text
-            when:
-              toggle: false
-          Beschreibung:
-            type: text
-            when: 
-              toggle: true
-          category:
-            label: Category
-            type: select
-            options:
-              keinestelle: Keine Offene Stelle
-              offeneStelle: Wir freuen uns auf ihre Bewerbung
-
-
-
-
-
+          bueroprofil: 
+            label: profile
+            type: textarea
+            buttons: false
+          lineA:
+            type: line
+          email:
+            label: email
+            type: email
+          phone:
+            label: phonenumber
+            type: tel
+          linksA:
+            label: Instagram
+            type: url
+          linksB:
+            label: LinkedIn
+            type: url
+          lineB:
+            type: line
+          coworkers:
+            label: co-workers
+            type: structure
+            fields:
+              name:
+                label: name
+                type: text
+              phone:
+                label: phonenumber
+                type: tel
+              email:
+                label: email
+                type: email
+              description:
+                label: description
+                type: text
+              image:
+                label: portrait
+                type: files
+                query: page.images
+                multiple: false
 
 #rechte Seite
   sidebar:
-    width: 1/2
-    sections:
-      pages:
-        type: pages
-        template: default
-      files:
-        type: files
-
+    width: 1/3
+    fields:
+      addressZH:
+        label: Address Zurich
+        type: object
+        fields:
+          companyName:
+            label: Name
+            type: text
+          description: 
+            label: Beschreibung
+            type: text
+          street:
+            label: Strasse
+            type: text
+          postalCode: 
+            label: PLZ
+            type: text
+          place:
+            label: Ort
+            type: text
+      addressVD:
+        label: Address Vaude
+        type: object
+        fields:
+          companyName:
+            label: Name
+            type: text
+          description: 
+            label: Beschreibung
+            type: text
+          street:
+            label: Strasse
+            type: text
+          postalCode: 
+            label: PLZ
+            type: text
+          place:
+            label: Ort
+            type: text
+  

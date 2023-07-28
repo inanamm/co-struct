@@ -2,11 +2,104 @@ Title: about
 
 ----
 
-Bueroprofil: 
+Bueroprofil: co–struct ist ein inhabergeführtes Büro für Tragwerksplanung in Zürich und Aubonne, gegründet von Fabrice Meylan und Sam Bouten. Das Ziel ist, innovative Tragsysteme von der Entstehung des Projekts an zu planen und dabei ein besonderes Augenmerk auf ästhetische Aspekte zu legen. Die enge Zusammenarbeit mit den verschiedenen Partner:innen, sowie die proaktive Optimierung der erdachten Strukturen liegen co–struct am Herzen. Die Ökologie im Bauwesen regt unsere Kreativität an, um für jedes Bauwerk die am besten geeigneten Materialien zu finden.
 
 ----
 
-Toggle: false
+Email: hello@co-struct.ch
+
+----
+
+Phone: +41 44 506 66 30
+
+----
+
+Linksa: 
+
+----
+
+Linksb: 
+
+----
+
+Coworkers:
+
+- 
+  name: Fabrice Meylan
+  phone: "8392037292010"
+  email: fabrice@co-struct.ch
+  description: >
+    hallo hfds jfklajiroa fjekla fjkdsl
+    aherio ajfe fjkdsl fjkdsl ajgire hfjkla
+    fjdksl jfdklsa öfjdklsaö fjdkls
+    afjklsa ghrioa gjiraö fjds
+  image:
+    - file://knsGsrmtLYKslsHQ
+- 
+  name: guido
+  phone: 492q85439
+  email: g@g.boe
+  description: boeboeboe
+  image:
+    - file://knsGsrmtLYKslsHQ
+
+----
+
+Addresszh:
+
+companyname: co–struct AG
+description: Tragwerksplanung
+street: Förrlibuckstrasse 225
+postalcode: CH—8005
+place: Zürich
+name: fds
+beschreibung: fdsa
+strasse: fdsa
+plz: fdsa
+ort: fdsa
+
+----
+
+Addressvd:
+
+companyname: co–struct AG
+description: Ingénierie structurale
+street: Chemin des Clos 17
+postalcode: CH—1170
+place: Aubonne
+name: co–struct AG
+beschreibung: Ingénierie structurale
+strasse: Chemin des Clos 17
+plz: CH—1170
+ort: Aubonne
+
+----
+
+Links: https://www.instagram.com/co_struct/
+
+----
+
+Adresszh: 
+
+----
+
+Adressvd: 
+
+----
+
+Toggle: 0
+
+----
+
+Jobbeschreibung: 
+
+----
+
+Beschreibung: 
+
+----
+
+Category: 
 
 ----
 
@@ -18,12 +111,28 @@ Beschreibung-costruct:
 
 ----
 
-Myblocksfield: [{"content":{"images":["file://MV4mSPKl2j6YhPrI","file://kxVt5IomW3WJbup0","file://IbIgbQg2xkrCaIuZ","file://O4t7v9lh8s8Jzheb","file://ZMK622Jy6anOtpqL"],"caption":"","ratio":"","crop":"false"},"id":"a08c518f-6af7-4223-bd0a-f63b075169b9","isHidden":false,"type":"gallery"},{"content":{"level":"h2","text":"HELLO"},"id":"415ecdb8-f5e0-4c3a-b767-51789c0dc374","isHidden":false,"type":"heading"}]
+Uuid: FSPXfgSGtgWgnOXL
 
 ----
 
-Uuid: RHGhouQANzmWRVdf
+Adressszh: name: fdsafdsafdsa
 
 ----
 
-Category: C
+Adresssvd: 
+
+----
+
+Contact: photo: [ ]
+
+----
+
+Adresse-zuerich: 
+
+----
+
+Adresse-zh:
+
+name: co–struct AG
+beschreibung: Tragwerksplanung
+strasse: Förrlibuckstrasse 225
