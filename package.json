@@ -6,8 +6,5 @@
   },
   "dependencies": {
     "tailwindcss": "^3.3.2"
-  },
-  "devDependencies": {
-    "daisyui": "^3.1.6"
   }
 }

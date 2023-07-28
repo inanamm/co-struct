@@ -5,7 +5,6 @@
 
 <body>
 	<?php snippet('header') ?>
-	<?php snippet('menu') ?> 
 	<main class="text-csblue">
 		<div class="flex flex-col divide-y divide-csblue last:divide-csblue">
 			<div class="font-sans text-lg px-3 pt-2 pb-5">
