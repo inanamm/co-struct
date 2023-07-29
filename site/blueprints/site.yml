@@ -1,5 +1,111 @@
-title: Site
+title: CO–STRUCT AG
 
-sections:
+tabs:
+#tab1 PAGES
   pages:
-    type: pages
+    icon: text
+    sections:
+      pages:
+        type: pages
+        status: published
+      intro:
+      type: fields
+        f:
+          label: introtext
+          type: text
+
+
+#tab2 PROJECTS
+  projects:
+    icon: dashboard
+    sections:
+
+      drafts:
+        label: Drafted Projects
+        type: pages
+        status: draft
+        layout: cardlets
+        templates: projects
+
+      published:
+        label: Published Projects
+        type: pages
+        status: listed
+        layout: cardlets
+        templates: projects
+
+      gallery:
+        label: Gallery
+        type: files
+        layout: cards
+        cover: true
+        ratio: 1/1
+
+
+#tab3 INFO CO—STRUCT AG
+  Info Co–struct AG:
+    icon: pin
+    columns:
+      main:
+        width: 1/2
+        sections:
+          generalinfo:
+            type: fields
+            fields:
+              addressZH:
+                label: Address Zurich
+                type: object
+                fields:
+                  companyName:
+                    label: Name
+                    type: text
+                  description: 
+                    label: Beschreibung
+                    type: text
+                  street:
+                    label: Strasse
+                    type: text
+                  postalCode: 
+                    label: PLZ
+                    type: text
+                  place:
+                    label: Ort
+                    type: text
+
+             addressVD:
+                label: Address Vaude
+                type: object
+                fields:
+                  companyName:
+                    label: Name
+                    type: text
+                  description: 
+                    label: Beschreibung
+                    type: text
+                  street:
+                    label: Strasse
+                    type: text
+                  postalCode: 
+                    label: PLZ
+                    type: text
+                  place:
+                    label: Ort
+                    type: text
+      sidebar:
+        width: 1/2
+        sections:
+          contact:
+            type: fields
+            fields:
+              email:
+                label: General Email
+                type: email
+              phone:
+                label: General Phonennumber
+                type: tel
+              linksA:
+                label: Instagram Handle
+                type: url
+              linksB:
+                label: LinkedIn Handle
+                type: url

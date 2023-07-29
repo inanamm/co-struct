@@ -590,6 +590,10 @@ video {
   max-height: 0px;
 }
 
+.w-1\/4 {
+  width: 25%;
+}
+
 .w-2\/4 {
   width: 50%;
 }
@@ -608,10 +612,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-1\/4 {
-  width: 25%;
 }
 
 .max-w-full {
