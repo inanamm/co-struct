@@ -8,12 +8,12 @@
 	<main class="text-csblue">
 		<div class="flex flex-col divide-y divide-csblue last:divide-csblue">
 			<div class="font-sans text-lg px-3 pt-2 pb-5">
-				<p class="description">
-					<?= $page->Bueroprofil() ?>
-				</p>
+				<article class="flex flex-col gap-5 description">
+					<?= $page->Bueroprofil()->kt() ?>
+				</article>
 			</div>
 			<div class="flex flex-col gap-4 font-sans text-lg px-3 pt-2 pb-5">
-				<?php if ($address = $page->addressZH()->toObject()) : ?>
+				<?php if ($address = $site->addressZH()->toObject()) : ?>
 					<?php snippet(
 						'address',
 						[
@@ -26,7 +26,7 @@
 					) ?>
 				<?php endif ?>
 
-				<?php if ($address = $page->addressVD()->toObject()) : ?>
+				<?php if ($address = $site->addressVD()->toObject()) : ?>
 					<?php snippet(
 						'address',
 						[
@@ -41,10 +41,15 @@
 
 				<div class="flex flex-col gap-0">
 
-					<?php snippet('contact', ['phone' => $page->phone(), 'email' => $page->email()]) ?>
+					<?php snippet('contact', ['phone' => $site->phone(), 'email' => $site->email()]) ?>
 					<?php snippet('link', [
-						'url' => 'https://www.instagram.com/co_struct/',
+						'url' => $site->instagram(),
 						'description' => 'Instagram',
+						'blank' => true
+					]) ?>
+					<?php snippet('link', [
+						'url' => $site->linkedin(),
+						'description' => 'LinkedIn',
 						'blank' => true
 					]) ?>
 				</div>
@@ -58,13 +63,11 @@
 				<?php endif ?>
 
 			</div>
-			<div class="px-3 pt-2 pb-5">
+			<div class="font-base px-3 pt-2 pb-5">
 				<?php snippet('subtitle', ['subtitle' => 'Ehemalige']) ?>
-				<ul>
-					<li>Mathias Stefan Hürlimanner</li>
-					<li>Alex Hanimann</li>
-				</ul>
+				<?= $page->oldcoworkers() ?>
 			</div>
+
 			<div class="font-sans text-base px-3 pt-2 pb-5">
 				<?php snippet('subtitle', ['subtitle' => 'Bewerbungen']) ?>
 				<p>Momentan haben wir leider keine offenen Stellen.</p>
