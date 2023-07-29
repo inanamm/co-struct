@@ -10,7 +10,7 @@
             class="w-full flex items-center justify-between" 
             @click="selected = !selected; open = !open"
         >    
-            <h3><?= $buttonText ?></h3>
+            <p class="text-base"><?= $buttonText ?></p>
             <svg 
                 class="h-3 w-3 text-csblue" 
                 viewBox="0 0 24 24" 
