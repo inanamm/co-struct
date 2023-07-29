@@ -21,25 +21,14 @@ tabs:
     sections:
 
       drafts:
-        label: Drafted Projects
-        type: pages
-        status: draft
-        layout: cardlets
-        templates: projects
+         extends: sections/projects
+         label: Project Drafts
+         status: draft
 
       published:
-        label: Published Projects
-        type: pages
+        extends: sections/projects
+        label: Project Drafts
         status: listed
-        layout: cardlets
-        templates: projects
-
-      gallery:
-        label: Gallery
-        type: files
-        layout: cards
-        cover: true
-        ratio: 1/1
 
 
 #tab3 INFO CO—STRUCT AG
