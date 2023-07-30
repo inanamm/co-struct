@@ -1,11 +1,41 @@
-# WHAT TO DO
+# Co-Struct Website
 
-## When booting up to work
-1. (in Terminal) composer install –> installs the php packages defined in composer.json
-2. composer start –> to start the local server (localhost:8000)
-3. (separate Terminal) npm install –> installs the node packages defined in package.json
-4. npm run watch –> to listen to tailwind changes and save them as css in style.css
+<a href="https://co-struct.ch">
+  <img src="costruct.png" alt="co-struct">
+</a>
 
-## When creating a new project
-1. git init –> creates a .git folder (where this project lives locally)
-2. gh repo create –> github client to create a remote repository on github
+### Development
+
+1. Install the php packages defined in composer.json
+```bash
+    composer install
+```
+2. Install the node packages defined in package.json
+```bash
+    npm install
+```
+3. Start the dev server
+```bash
+    npm run dev
+```
+4. Open `localhost:8888` in the browser.
+
+### Preview
+
+To preview the built project run:
+```bash
+  npm run preview
+```
+
+### Build
+
+To build the project run:
+```bash
+  npm run build
+```
+
+### Production
+*Being worked on...*
+
+
+Martina Holenstein & Guido Offermans, 2023
