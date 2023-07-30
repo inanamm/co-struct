@@ -5,25 +5,39 @@ status:
   draft: Draft
   listed: Published
 
+
 fields:
-  headline:
+  header:
+    label: Title
     type: text
-    width: 3/4
     required: true
-  year:
-    type: number
-    min: 2000
-    default: 2018
-    required: true
-    width: 1/4
   tags:
     type: tags
-  intro:
-    type: textarea
-    size: small
+  information:
+    lable: Info
+    type: structure
+    fields:
+      projectDetails:
+        label: Project details
+        type: select
+        options:
+          client: Client
+          architecture: Architecture
+          place: Place
+          value: Value
+          timeframe: Timeframe
+      value:
+        label: Value
+        type: text
+  line:
+    type: line
+  textTitle:
+    label: Text title
+    type: text
   text:
     type: textarea
     size: large
+    buttons: false
 
 sidebar:
   cover:
@@ -33,8 +47,8 @@ sidebar:
     info: "{{ file.dimensions }}"
     template: cover
     min: 1
-    max: 3
+    max: 1
+    required: true
   gallery:
     type: files
     label: Gallery
-    template: image

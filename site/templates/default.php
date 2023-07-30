@@ -6,7 +6,7 @@
 <body>
 	<?php snippet('header') ?>
 	<main>
-		hello
+		<!-- hello -->
 	</main>
 	<?php snippet('footer') ?>
 </body>

@@ -1,4 +1,24 @@
 title: Projects
 
 options:
-  read: false
+  changeStatus:
+    admin: true
+    editor: false
+  changeSlug:
+    admin: true
+    editor: false
+  changeTitle:
+    admin: true
+    editor: false
+  sort:
+    admin: false
+    editor: false
+  update:
+    admin: false
+    editor: false
+  duplicate:
+    admin: false
+    editor: false
+  delete:
+    admin: false
+    editor: false
