@@ -57,16 +57,7 @@
 
     <?php snippet('footer') ?>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
-    <script>
-        var swiper = new Swiper(".swiper", {
-            loop: true,
-            slidesOffsetBefore: 30,
-            slidesPerView: 1.1,
-        });
-    </script>
-
+    <?= vite()->js() ?>
 </body>
 
 </html>

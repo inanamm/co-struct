@@ -38,6 +38,8 @@
     <div class="text-csgreen">
         <?php snippet('footer') ?>
     </div>
+
+    <?= vite()->js() ?>
 </body>
 
 </html>

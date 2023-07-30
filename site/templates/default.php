@@ -6,10 +6,11 @@
 <body>
 	<?php snippet('header') ?>
 	<main>
-		<!-- hello -->
+		<h1>Home</h1>
 	</main>
 	<?php snippet('footer') ?>
+	
+	<?= vite()->js() ?>
 </body>
-
 
 </html>

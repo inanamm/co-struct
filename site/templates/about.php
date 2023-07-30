@@ -71,7 +71,7 @@
 			<?php snippet('subtitle', ['subtitle' => 'Bewerbungen']) ?>
 			<p>Momentan haben wir leider keine offenen Stellen.</p>
 		</div>
-		
+
 		<div class="text-xs font-mono px-3 pt-2 pb-5">
 			<?php snippet('copyright') ?>
 		</div>
@@ -79,6 +79,7 @@
 
 	<?php snippet('footer') ?>
 
+	<?= vite()->js() ?>
 </body>
 
 </html>

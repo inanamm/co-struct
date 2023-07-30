@@ -4,15 +4,15 @@
 
 @font-face {
     font-family: "Monospace821BT";
-    src: url("/assets/css/Monospace\ 821\ BT\ Regular.otf");
+    src: url("assets/Monospace821BTRegular.otf");
 }
 
 @font-face {
     font-family: "MacanSemibold";
-    src: url("/assets/css/Macan-Semibold.woff");
+    src: url("assets/Macan-Semibold.woff");
 }
 
 @font-face {
     font-family: "MacanBook";
-    src: url("/assets/css/Macan-Book.woff");
+    src: url("assets/Macan-Book.woff");
 }

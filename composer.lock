@@ -4,8 +4,46 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a748711dcaa543b7494c0cefe0838e2",
+    "content-hash": "5d5e7a007871ee785a5f2cb15f063ef4",
     "packages": [
+        {
+            "name": "arnoson/kirby-vite",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arnoson/kirby-vite.git",
+                "reference": "9bf49d1321ec7dbe3315241b6b97826ad994d361"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arnoson/kirby-vite/zipball/9bf49d1321ec7dbe3315241b6b97826ad994d361",
+                "reference": "9bf49d1321ec7dbe3315241b6b97826ad994d361",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2"
+            },
+            "require-dev": {
+                "getkirby/cms": "^3.8",
+                "phpunit/phpunit": "^10.0"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arno Schlipf"
+                }
+            ],
+            "description": "Vite helper for Kirby CMS",
+            "support": {
+                "issues": "https://github.com/arnoson/kirby-vite/issues",
+                "source": "https://github.com/arnoson/kirby-vite/tree/v3.1.0"
+            },
+            "time": "2023-06-28T12:04:51+00:00"
+        },
         {
             "name": "claviska/simpleimage",
             "version": "4.0.5",
