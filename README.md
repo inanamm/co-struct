@@ -1,4 +1,4 @@
-# Co-Struct Website
+# so-struct Website
 
 <a href="https://co-struct.ch">
   <img src="costruct.png" alt="co-struct">
