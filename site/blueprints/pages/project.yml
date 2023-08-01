@@ -7,24 +7,29 @@ status:
 
 
 fields:
-  header:
-    label: Title
-    type: text
-    required: true
-
-  category:
+  categoryB:
     label: Category
-    type: select
+    type: radio
     required: true
-    translate: true
-    placeholder: !!!
+    translate: false
     width: 1/2
     options:
       choiceone: Research
-      choicetwo: Sonstige/Spezielles/Privates
-      choicethree: Wettbewerb
-      choicefour: Wettbewerb gewonnen
-      choicefive: Direktauftrag
+      choicetwo: Other
+      choicethree: Competition
+      choicefour: Competition won
+      choicefive: Direct Commission
+
+  tag:
+    label: Tag
+    type: radio
+    required: true
+    width: 1/2
+    translate: false
+    options:
+      built: Realized
+      building: Building
+      notbuild: Not realized
 
   information:
     lable: Info

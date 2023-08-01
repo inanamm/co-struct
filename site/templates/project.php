@@ -23,7 +23,7 @@
 
 
         <h1 class="font-sansbold text-lg px-3 pt-2 pb-3">
-            <?= $page->header()->escape() ?>
+            <?= $page->title()->escape() ?>
         </h1>
 
         <div class="font-mono text-sm px-3 pt-2 pb-3">
