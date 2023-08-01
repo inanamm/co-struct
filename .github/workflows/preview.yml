@@ -25,6 +25,7 @@ jobs:
     - run: |
         npm install
         npm run build
+        ls -a
     
     # - name: Sync files
     #   uses: SamKirkland/FTP-Deploy-Action@4.3.3
