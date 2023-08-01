@@ -6,7 +6,8 @@ name: Deploy website on push
 jobs:
   web-deploy:
     name: Deploy
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest]
+
     steps:
     - name: Get latest code
       uses: actions/checkout@v3
@@ -16,7 +17,7 @@ jobs:
       with:
         php_version: "8.1"
         php_extensions: gd ctype curl mbstring
-        version: 2
+        version: 2.x
     
     - name: Install npm dependencies
       uses: actions/setup-node@v2
@@ -25,7 +26,6 @@ jobs:
     - run: |
         npm install
         npm run build
-        ls -a
     
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
