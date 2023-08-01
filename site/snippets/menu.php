@@ -16,7 +16,7 @@
             ?>
                 <ul>
                     <?php foreach ($items as $item) : ?>
-                        <li <?php e($item->title()->value() === 'news', ' class="mt-4"') ?>>
+                        <li <?php e($item->id() === 'news', ' class="mt-4"') ?>>
                             <a<?php e($item->isOpen(), ' class="font-sansbold mt-2"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
 
 
@@ -24,15 +24,17 @@
                                 $subitems = false;
                                 if ($root = $pages->findOpen()) {
                                     // $subitems = $site->find('projects')->children();
+                                    $subitems = [ "Realisiert", "In Bau", "Nicht realisiert"];
                                 }
-                                if ( $subitems and $subitems->isNotEmpty() and $item->title()->value() === 'home') :
+                                // if ($subitems and $subitems->isNotEmpty() and $item->title()->value() === 'home') :
+                                if ($item->id() === 'home') :
 
                                 ?>
                                     <nav>
                                         <ul>
                                             <?php foreach ($subitems as $subitem) : ?>
                                                 <li>
-                                                    <a<?php e($subitem->isOpen(), ' class="active"') ?> href="<?= $subitem->url() ?>"><?= $subitem->title()->html() ?></a>
+                                                    <a><?= $subitem ?></a>
                                                 </li>
                                             <?php endforeach ?>
                                         </ul>
