@@ -11,8 +11,21 @@ fields:
     label: Title
     type: text
     required: true
-  tags:
-    type: tags
+
+  category:
+    label: Category
+    type: select
+    required: true
+    translate: true
+    placeholder: !!!
+    width: 1/2
+    options:
+      choiceone: Research
+      choicetwo: Sonstige/Spezielles/Privates
+      choicethree: Wettbewerb
+      choicefour: Wettbewerb gewonnen
+      choicefive: Direktauftrag
+
   information:
     lable: Info
     type: structure

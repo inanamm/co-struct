@@ -32,7 +32,7 @@ tabs:
 
       published:
         extends: sections/projects
-        label: Project Drafts
+        label: Published Drafts
         status: listed
 
 
