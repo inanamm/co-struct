@@ -1,0 +1,39 @@
+on: 
+  push:
+    branches: main
+name: Deploy website on push
+
+jobs:
+  web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v3
+    
+    - name: Install composer dependencies
+      uses: php-actions/composer@v6
+      with:
+        php_version: "8.1"
+        php_extensions: gd ctype curl mbstring
+        version: 2
+    
+    - name: Install npm dependencies
+      uses: actions/setup-node@v2
+      with:
+        node-version: '18'
+    - run: |
+        npm install
+        npm run build
+    
+    # - name: Sync files
+    #   uses: SamKirkland/FTP-Deploy-Action@4.3.3
+    #   with:
+    #     server: ${{ secrets.previewserver }}
+    #     username: ${{ secrets.previewusername }}
+    #     password: ${{ secrets.previewpassword }}
+    #     exclude: |
+    #       .htaccess
+    #       **/.git*
+    #       **/.git/**
+    #       **/.github/**
