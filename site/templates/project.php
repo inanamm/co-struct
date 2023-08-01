@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html class="bg-cswhite"  lang="de">
 
 <?php snippet('head') ?>
 
