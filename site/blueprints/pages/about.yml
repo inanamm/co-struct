@@ -63,6 +63,5 @@ columns:
             type: list
             label: Old co-workers
             marks: false
-
-            
+            translate: false
 

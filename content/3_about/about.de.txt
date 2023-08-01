@@ -1,0 +1,134 @@
+Title: about
+
+----
+
+Bueroprofil:
+
+DETUSCH co–struct ist ein inhabergeführtes Büro für Tragwerksplanung in Zürich und Aubonne, gegründet von Fabrice Meylan und Sam Bouten. 
+
+Das Ziel ist, innovative Tragsysteme von der Entstehung des Projekts an zu planen und dabei ein besonderes Augenmerk auf ästhetische Aspekte zu legen. Die enge Zusammenarbeit mit den verschiedenen Partner:innen, sowie die proaktive Optimierung der erdachten Strukturen liegen co–struct am Herzen. Die Ökologie im Bauwesen regt unsere Kreativität an, um für jedes Bauwerk die am besten geeigneten Materialien zu finden.
+
+----
+
+Coworkers:
+
+- 
+  name: Fabrice Meylan
+  title: GL
+  phone: "8392037292010"
+  email: fabrice@co-struct.ch
+  description: >
+    hallo hfds jfklajiroa fjekla fjkdsl
+    aherio ajfe fjkdsl fjkdsl ajgire hfjkla
+    fjdksl jfdklsa öfjdklsaö fjdkls
+    afjklsa ghrioa gjiraö fjds
+  image:
+    - file://dG3nsRi9JGPQrXVk
+- 
+  name: guido
+  title: fullstack
+  phone: 492q85439
+  email: g@g.boe
+  description: boeboeboe
+  image:
+    - file://dG3nsRi9JGPQrXVk
+
+----
+
+Oldcoworkers: <ul><li>ei</li><li>zwe</li><li>drü</li><li>vier</li></ul>
+
+----
+
+Uuid: p9ArHwuvoSkhIVUu
+
+----
+
+Type: <ul><li>fdsafds</li><li>fdsfdsa</li><li>kfldasjklö</li><li>jgklaöjksl</li></ul>
+
+----
+
+Email: hello@co-struct.ch
+
+----
+
+Phone: +41 44 506 66 30
+
+----
+
+Linksa: 
+
+----
+
+Linksb: 
+
+----
+
+Addresszh: 
+
+----
+
+Addressvd: 
+
+----
+
+Links: https://www.instagram.com/co_struct/
+
+----
+
+Adresszh: 
+
+----
+
+Adressvd: 
+
+----
+
+Toggle: 0
+
+----
+
+Jobbeschreibung: 
+
+----
+
+Beschreibung: 
+
+----
+
+Category: 
+
+----
+
+Text: fdsfdsaa
+
+----
+
+Beschreibung-costruct: 
+
+----
+
+Adressszh: name: fdsafdsafdsa
+
+----
+
+Adresssvd: 
+
+----
+
+Contact: photo: [ ]
+
+----
+
+Adresse-zuerich: 
+
+----
+
+Adresse-zh:
+
+name: co–struct AG
+beschreibung: Tragwerksplanung
+strasse: Förrlibuckstrasse 225
+
+----
+
+List: <ul><li>hallo</li><li>zwei</li><li>drü</li><li></li></ul>

@@ -8,4 +8,6 @@
 			<img src="/co.svg" class="co" alt="logo">
 		</div>
 	</div>
+
+	<?php snippet('menu') ?>
 </header>

@@ -1,0 +1,44 @@
+
+Title: co–struct AG
+
+----
+
+Intro: co–struct: bureau de conception structurelle à Zurich et Aubonne. Innovants, esthétiques, et partenariats forts. 🏢💡🤝
+
+----
+
+Addresszh:
+
+companyname: co–struct AG
+description: Tragwerksplanung
+street: Förrlibuckstrasse 225
+postalcode: CH—8005
+place: Zürich
+
+----
+
+Addressvd:
+
+companyname: co–struct AG
+description: Ingénierie structurale
+street: Chemin des Clos 17
+postalcode: CH—1170
+place: Aubonne
+
+----
+
+Email: hello@co-struct.ch
+
+----
+
+Phone: +41 44 506 66 30
+
+----
+
+Instagram: https://www.instagram.com/co_struct/
+
+----
+
+Linkedin: https://www.linkedin.com/company/co%E2%80%93struct/
+
+----
