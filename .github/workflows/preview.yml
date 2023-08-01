@@ -39,3 +39,4 @@ jobs:
           **/.git/**
           **/.github/**
           **/src/**
+          **/node_modules/**
