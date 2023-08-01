@@ -27,14 +27,15 @@ jobs:
         npm run build
         ls -a
     
-    # - name: Sync files
-    #   uses: SamKirkland/FTP-Deploy-Action@4.3.3
-    #   with:
-    #     server: ${{ secrets.previewserver }}
-    #     username: ${{ secrets.previewusername }}
-    #     password: ${{ secrets.previewpassword }}
-    #     exclude: |
-    #       .htaccess
-    #       **/.git*
-    #       **/.git/**
-    #       **/.github/**
+    - name: Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: ${{ secrets.previewServerUrl }}
+        username: ${{ secrets.previewusername }}
+        password: ${{ secrets.previewpassword }}
+        exclude: |
+          .htaccess
+          **/.git*
+          **/.git/**
+          **/.github/**
+          **/src/**
