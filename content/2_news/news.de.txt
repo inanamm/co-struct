@@ -2,6 +2,47 @@ Title: News
 
 ----
 
+News:
+
+- 
+  image:
+    - file://AYmfc62LWBslfAQ9
+  date: 2023-08-03
+  title: hello there
+  description: >
+    Lorem ipsum dolor sit amet, consetetur
+    sadipscing elitr, sed diam nonumy eirmod
+    tempor invidunt ut labore et dolore
+    magna aliquyam erat, sed diam voluptua.
+    At vero eos et accusam et justo duo
+    dolores
+- 
+  image:
+    - file://AYmfc62LWBslfAQ9
+  date: 2023-08-17
+  title: hello 1
+  description: >
+    Lorem ipsum dolor sit amet, consetetur
+    sadipscing elitr, sed diam nonumy eirmod
+    tempor invidunt ut labore et dolore
+    magna aliquyam erat, sed diam voluptua.
+    At vero eos et accusam et justo duo
+    dolores
+- 
+  image:
+    - file://AYmfc62LWBslfAQ9
+  date: 2023-08-30
+  title: hello 2
+  description: >
+    Lorem ipsum dolor sit amet, consetetur
+    sadipscing elitr, sed diam nonumy eirmod
+    tempor invidunt ut labore et dolore
+    magna aliquyam erat, sed diam voluptua.
+    At vero eos et accusam et justo duo
+    dolores
+
+----
+
 Coworkers:
 
 - 
