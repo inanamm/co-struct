@@ -1,0 +1,44 @@
+title: News Page
+
+columns:
+  top:
+    width: 3/3
+    sections:
+      fields:
+        type: fields
+        fields: 
+          news:
+            label: Entries
+            type: structure
+            translate: true
+            columns:
+              image:
+                width: 1/5
+              date:
+                width: 1/5
+              title:
+                width: 2/5
+              description:
+                width: 2/5
+            fields:
+              image:
+                label: Portrait
+                type: files
+                query: page.images
+                multiple: false
+                width: 1/2
+              date:
+                required: true
+                label: Date
+                type: date
+                width: 1/2
+              title:
+                required: true
+                label: Title
+                type: text
+              description:
+                required: true
+                label: Content
+                type: textarea
+                buttons: false
+                maxlength: 500

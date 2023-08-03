@@ -33,6 +33,13 @@
                 <?php endslot() ?>
             <?php endsnippet() ?>
 
+
+
+
+        <?php snippet('newsarticle') ?>
+
+
+
         </div>
     </main>
     <div class="text-csgreen">
