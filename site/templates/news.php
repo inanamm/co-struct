@@ -20,12 +20,11 @@
 
                             <div class="flex flex-col gap-2">
                                 <h2 class="text-lg"><?= $newsArticle->title()->toHtml() ?></h2>
-
                                 <div class="font-mono text-sm">
-                                    <p>
-                                        <?= $newsArticle->date()->toDate('d.m.y') ?> —
-                                        <?= $newsArticle->description()->kt() ?>
-                                    </p>
+                                    <?= $newsArticle->date()->toDate('d.m.y') ?>
+                                    <div class="flex flex-col gap-2">
+                                        <?= $newsArticle->description()->text() ?>
+                                    </div>
                                 </div>
                             </div>
                         </div>
