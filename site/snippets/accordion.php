@@ -1,5 +1,5 @@
 <div 
-    class="max-w-full z-0"
+    class="max-w-full z-1"
     x-data="{open:false, selected: false}"
     >
     <div 

@@ -1,0 +1,25 @@
+Title: testdraft
+
+----
+
+Categoryb: choicethree
+
+----
+
+Tag: built
+
+----
+
+Information: 
+
+----
+
+Texttitle: testdraft
+
+----
+
+Text: hallo
+
+----
+
+Uuid: kZqczrj9w7a0LqJn

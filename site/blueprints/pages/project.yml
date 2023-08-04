@@ -60,12 +60,14 @@ fields:
 sidebar:
   cover:
     type: files
-    label: Cover
+    label: Cover 1
     layout: cards
     info: "{{ file.dimensions }}"
     template: cover
+    ratio: 4/5
+    cover: true
     min: 1
-    max: 1
+    max: 3
     required: true
   gallery:
     type: files
