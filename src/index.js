@@ -1,18 +1,16 @@
 import Alpine from 'alpinejs'
-import Swiper from 'swiper';
-
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import Glide from '@glidejs/glide'
 
 import './index.css'
- 
+
 window.Alpine = Alpine;
- 
+
 Alpine.start();
 
-const swiper = new Swiper(".swiper", {
-    loop: true,
-    slidesOffsetBefore: 30,
-    slidesPerView: 1.1,
-});
+new Glide('.glide', {
+    type: 'carousel',
+    startAt: 0,
+    perView: 1.1,
+    focusAt: 'center',
+    gap: 0
+}).mount()

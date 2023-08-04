@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="bg-cswhite"  lang="de">
+<html class="bg-cswhite" lang="de">
 
 <?php snippet('head') ?>
 
@@ -9,16 +9,19 @@
 
     <main class="flex flex-col divide-y divide-csblack border-b border-csblack">
 
-        <div class="swiper w-full h-[400px]">
-            <div class="swiper-wrapper">
-                <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
-                    <div class="swiper-slide h-full w-full flex items-center">
-                        <img src="<?= $image->url() ?>">
-                    </div>
-                <?php endforeach ?>
+        <div class="mt-[100px]">
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
+                            <li class="glide__slide">
+                                <img src="<?= $image->url() ?>" class="aspect-video w-full  object-fill">
+                            </li>
+                        <?php endforeach ?>
 
+                    </ul>
+                </div>
             </div>
-            <div class="swiper-pagination"></div>
         </div>
 
 

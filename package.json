@@ -10,8 +10,8 @@
     "preview": "npm run build && npm run server"
   },
   "dependencies": {
-    "alpinejs": "^3.12.3",
-    "swiper": "^10.0.4"
+    "@glidejs/glide": "^3.6.0",
+    "alpinejs": "^3.12.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
