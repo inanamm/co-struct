@@ -2,11 +2,11 @@ Title: blublubDE
 
 ----
 
-Header: "fdskfjdsa" “fdjkdsaf“ „…“
+Categoryb: choicetwo
 
 ----
 
-Category: choiceone
+Tag: notbuild
 
 ----
 
@@ -19,6 +19,14 @@ Texttitle:
 ----
 
 Text: 
+
+----
+
+Header: "fdskfjdsa" “fdjkdsaf“ „…“
+
+----
+
+Category: choiceone
 
 ----
 

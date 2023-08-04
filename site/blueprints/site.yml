@@ -13,8 +13,9 @@ tabs:
         fields:
           intro:
             label: Introtext
-            type: textarea
-            buttons: false
+            type: writer
+            marks: false
+            nodes: false
             counter: true
             maxlength: 220
             spellcheck: true

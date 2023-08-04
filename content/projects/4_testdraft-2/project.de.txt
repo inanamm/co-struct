@@ -1,0 +1,25 @@
+Title: testdraft 2§
+
+----
+
+Categoryb: choicefour
+
+----
+
+Tag: building
+
+----
+
+Information: 
+
+----
+
+Texttitle: testdraft 3
+
+----
+
+Text: hallo
+
+----
+
+Uuid: y1yqtqCwhxq1yVNo
