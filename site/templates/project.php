@@ -7,23 +7,20 @@
 
     <?php snippet('header') ?>
 
-    <main class="flex flex-col divide-y divide-csblack border-b border-csblack">
+    <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
+                    <li class="glide__slide">
+                        <img src="<?= $image->url() ?>" class="w-full object-fill">
+                    </li>
+                <?php endforeach ?>
 
-        <div class="mt-[100px]">
-            <div class="glide">
-                <div class="glide__track" data-glide-el="track">
-                    <ul class="glide__slides">
-                        <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
-                            <li class="glide__slide">
-                                <img src="<?= $image->url() ?>" class="aspect-video w-full  object-fill">
-                            </li>
-                        <?php endforeach ?>
-
-                    </ul>
-                </div>
-            </div>
+            </ul>
         </div>
+    </div>
 
+    <main class="flex flex-col divide-y divide-csblack border-b border-csblack">
 
         <h1 class="font-sansbold text-lg px-3 pt-2 pb-3">
             <?= $page->title()->escape() ?>
