@@ -13,19 +13,21 @@
                 <?php if ($news = $page->news()->toStructure()) : ?>
                     <?php foreach ($news as $newsArticle) : ?>
 
-                        <div class="flex flex-col gap-1 pb-6 px-3 py-3">
+                        <div class="flex flex-col gap-3 pb-5 px-3 pt-3">
                             <?php foreach ($newsArticle->image()->toFiles() as $image) : ?>
-                                <img src="<?= $image->url() ?>" class="aspect-[16/9] w-full h-auto pt-4">
+                                <img src="<?= $image->url() ?>" class="w-full h-auto">
                             <?php endforeach ?>
 
-                            <div class="mb-1 flex justify-between">
+                            <div class="flex flex-col gap-2">
                                 <h2 class="text-lg"><?= $newsArticle->title()->toHtml() ?></h2>
 
+                                <div class="font-mono text-sm">
+                                    <p>
+                                        <?= $newsArticle->date()->toDate('d.m.y') ?> —
+                                        <?= $newsArticle->description()->kt() ?>
+                                    </p>
+                                </div>
                             </div>
-                            <p class="font-mono text-sm">
-                                <?= $newsArticle->date()->toHtml() ?> —
-                                <?= $newsArticle->description()->toHtml() ?>
-                            </p>
                         </div>
 
                     <?php endforeach ?>

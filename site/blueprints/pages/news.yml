@@ -32,13 +32,21 @@ columns:
                 label: Date
                 type: date
                 width: 1/2
+                display: DD.MM.YYYY
               title:
                 required: true
+                counter: false
                 label: Title
                 type: text
               description:
-                required: true
                 label: Content
-                type: textarea
-                buttons: false
+                type: writer
+                inline: false
+                size: small
+                counter: false
+                translate: true
+                marks: 
+                  - link
+                  - email
+                nodes: false
                 maxlength: 500
