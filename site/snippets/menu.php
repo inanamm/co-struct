@@ -1,4 +1,4 @@
-<div class="relative h-full" x-data="{ menuOpen: false }">
+<div class="relative h-full z-50" x-data="{ menuOpen: false }">
 
     <button @click="menuOpen = !menuOpen" class="fixed bottom-3 right-3 z-30" :aria-expanded="menuOpen" aria-controls="navigation" aria-label="Navigation Menu">
         <svg class="h-5 w-5 text-csorange group-open:rotate-45 transition-transform origin-left" viewBox="0 0 25 25" fill="none" stroke="currentColor" stroke-width="4">
