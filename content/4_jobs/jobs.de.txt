@@ -1,0 +1,40 @@
+Title: Jobs
+
+----
+
+Bueroprofil: co–struct ist als Büro mit einer flachen Hierarchie konzipiert. Wir arbeiten eng als Team und sind auf motivierte und engagierte Mitarbeitende angewiesen. Mit einer flachen Hierarchie kommt auch ein gutes Stück an Verantwortung, welche wir dir gerne anvertrauen.
+
+----
+
+Job: 
+
+----
+
+Jobs:
+
+- 
+  title: 'Projektleiter*in [D/F]'
+  descriptiona: 'Wir suchen einen erfahrenen Projektleiter*in für unser angesehenes Statikingenieurbüro. Als Projektleiterin spielst du eine Schlüsselrolle bei der Umsetzung unserer herausfordernden Projekte im Bereich Statik und Tragwerksplanung. Du wirst ein motiviertes Team von Ingenieurinnen leiten und gleichzeitig als Schnittstelle zwischen Kundinnen, internen Teams und externen Partner*innen agieren.'
+  responsabilities: '<ul><li>Du leitest und koordinierst Statikprojekte von Anfang bis Ende.</li><li>Tragwerksplanungen für unterschiedliche Bauprojekte erstellst du mühelos unter Berücksichtigung der geltenden Normen und Standards.</li><li>Die Qualitätssicherung und die Einhaltung der Zeitpläne liegen in deiner Verantwortung.</li><li>Du arbeitest eng mit Kundinnen, Architektinnen und anderen Fachleuten zusammen, um deren Anforderungen zu verstehen und optimale Lösungen zu finden.</li><li>Du führst und motivierst dein Team von Ingenieur*innen.</li><li>Die stetige Weiterentwicklung unserer internen Prozesse und Methoden liegt ebenfalls in deinen Händen.</li></ul>'
+  profile: '<ul><li>Du hast ein abgeschlossenes Studium im Bereich Bauingenieurwesen, Statik oder einer ähnlichen Fachrichtung.</li><li>Du bringst einige Jahre Erfahrung in der Statik und Tragwerksplanung mit, vorzugsweise inklusive Projektleitung.</li><li>Der Umgang mit relevanten Softwaretools für Tragwerksberechnungen ist dir vertraut.</li><li>Bautechnische Normen und Vorschriften kennst du in- und auswendig.</li><li>Deine Kommunikations- und Teamfähigkeiten sind ausgezeichnet.</li><li>Du denkst lösungsorientiert und bist eine erstklassiger Problemlöser*in.</li><li>Du beherrschst Deutsch fließend in Wort und Schrift.</li></ul>'
+  descriptionb: '<ul><li>Spannende und vielfältige Projekte in einem innovativen Arbeitsumfeld.</li><li>Die Möglichkeit, deine Führungsqualitäten und dein Fachwissen weiterzuentwickeln.</li><li>Ein motiviertes Team von Fachleuten, das gemeinsam an anspruchsvollen Projekten arbeitet.</li><li>Eine wettbewerbsfähige Vergütung und attraktive Sozialleistungen.</li><li>Flexibilität bei deiner Arbeitszeitgestaltung sowie Weiterbildungsmöglichkeiten.</li></ul>'
+  descriptionc: 'Wenn das nach einem passenden Beschrieb für dich klingt, melde dich doch unter (email: hello@co-struct.ch text: hello@co–struct.ch)'
+- 
+  title: 'Projektingenieur*in [D]'
+  descriptiona: 'Wir suchen einen erfahrenen Projektleiter*in für unser angesehenes Statikingenieurbüro. Als Projektleiterin spielst du eine Schlüsselrolle bei der Umsetzung unserer herausfordernden Projekte im Bereich Statik und Tragwerksplanung. Du wirst ein motiviertes Team von Ingenieurinnen leiten und gleichzeitig als Schnittstelle zwischen Kundinnen, internen Teams und externen Partner*innen agieren.'
+  responsabilities: '<ul><li>Du leitest und koordinierst Statikprojekte von Anfang bis Ende.</li><li>Tragwerksplanungen für unterschiedliche Bauprojekte erstellst du mühelos unter Berücksichtigung der geltenden Normen und Standards.</li><li>Die Qualitätssicherung und die Einhaltung der Zeitpläne liegen in deiner Verantwortung.</li><li>Du arbeitest eng mit Kundinnen, Architektinnen und anderen Fachleuten zusammen, um deren Anforderungen zu verstehen und optimale Lösungen zu finden.</li><li>Du führst und motivierst dein Team von Ingenieur*innen.</li><li>Die stetige Weiterentwicklung unserer internen Prozesse und Methoden liegt ebenfalls in deinen Händen.</li></ul>'
+  profile: '<ul><li>Du hast ein abgeschlossenes Studium im Bereich Bauingenieurwesen, Statik oder einer ähnlichen Fachrichtung.</li><li>Du bringst einige Jahre Erfahrung in der Statik und Tragwerksplanung mit, vorzugsweise inklusive Projektleitung.</li><li>Der Umgang mit relevanten Softwaretools für Tragwerksberechnungen ist dir vertraut.</li><li>Bautechnische Normen und Vorschriften kennst du in- und auswendig.</li><li>Deine Kommunikations- und Teamfähigkeiten sind ausgezeichnet.</li><li>Du denkst lösungsorientiert und bist eine erstklassiger Problemlöser*in.</li><li>Du beherrschst Deutsch fließend in Wort und Schrift.</li></ul>'
+  descriptionb: '<ul><li>Spannende und vielfältige Projekte in einem innovativen Arbeitsumfeld.</li><li>Die Möglichkeit, deine Führungsqualitäten und dein Fachwissen weiterzuentwickeln.</li><li>Ein motiviertes Team von Fachleuten, das gemeinsam an anspruchsvollen Projekten arbeitet.</li><li>Eine wettbewerbsfähige Vergütung und attraktive Sozialleistungen.</li><li>Flexibilität bei deiner Arbeitszeitgestaltung sowie Weiterbildungsmöglichkeiten.</li></ul>'
+  descriptionc: 'Wenn das nach einem passenden Beschrieb für dich klingt, melde dich doch unter (email: hello@co-struct.ch text: hello@co–struct.ch)'
+
+----
+
+Coworkers: 
+
+----
+
+Oldcoworkers: 
+
+----
+
+Uuid: fXvoT0B5pERbHe0z

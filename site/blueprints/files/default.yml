@@ -1,0 +1,15 @@
+title: Image
+
+accept:
+  extension: jpg, png
+
+fields:
+  alt:
+    label: Alt Text
+    type: text
+    width: 1/1
+    required: true
+    translate: true
+  credit:
+    label: Credit
+    type: text

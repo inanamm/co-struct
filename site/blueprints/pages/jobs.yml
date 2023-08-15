@@ -1,0 +1,60 @@
+title: Jobs
+
+columns:
+  top:
+    width: 3/3
+    sections:
+      fields:
+        type: fields
+        fields: 
+          bueroprofil: 
+            label: Profile
+            type: textarea
+            buttons: false
+
+          lineA:
+            type: line
+  
+          job:
+            label: Jobs
+            type: structure
+            duplicate: true
+            columns:
+              title:
+                width: 1/5
+              descriptionA:
+                width: 1/5
+              responsabilities:
+                width: 2/5
+              profile:
+                width: 2/5
+              descriptionB:
+                width: 2/5
+              descriptionC:
+                width: 1/5
+            fields:
+              title:
+                label: Title
+                type: text
+              descriptionA:
+                label: Description
+                type: textarea
+                buttons: false
+                spellcheck: true
+              responsabilities:
+                label: Your Responsabilities
+                type: list
+                marks: false
+              profile:
+                label: Your Profile
+                type: list
+                marks: false
+              descriptionB:
+                label: What we offer
+                type: list
+                marks: false
+              descriptionC:
+                label: Additional Info
+                type: textarea
+                buttons: 
+                  - email
