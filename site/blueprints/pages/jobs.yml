@@ -8,6 +8,7 @@ columns:
         type: fields
         fields: 
           bueroprofil: 
+            width: 2/3
             label: Profile
             type: textarea
             buttons: false
