@@ -15,6 +15,16 @@ columns:
           lineA:
             type: line
   
+
+          toggle:
+            label: Open positions?
+            type: toggle
+            width: 1/4
+            help: ["Yes: the Jobs site is visible in the menu. No: alternative text is shown."]
+            text:
+              - "no"
+              - "yes"
+
           coworkers:
             label: Co-workers
             type: structure

@@ -25,10 +25,6 @@ columns:
                 width: 1/5
               descriptionA:
                 width: 1/5
-              responsabilities:
-                width: 2/5
-              profile:
-                width: 2/5
               descriptionB:
                 width: 2/5
               descriptionC:
@@ -38,22 +34,16 @@ columns:
                 label: Title
                 type: text
               descriptionA:
-                label: Description
+                label: What we are looking for
                 type: textarea
                 buttons: false
                 spellcheck: true
-              responsabilities:
-                label: Your Responsabilities
-                type: list
-                marks: false
-              profile:
-                label: Your Profile
-                type: list
-                marks: false
               descriptionB:
-                label: What we offer
-                type: list
-                marks: false
+                label: Description
+                type: textarea
+                buttons: 
+                  - ul
+                  - bold
               descriptionC:
                 label: Additional Info
                 type: textarea

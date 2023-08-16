@@ -10,6 +10,10 @@ Das Ziel ist, innovative Tragsysteme von der Entstehung des Projekts an zu plane
 
 ----
 
+Toggle: false
+
+----
+
 Coworkers:
 
 - 
@@ -80,10 +84,6 @@ Adresszh:
 ----
 
 Adressvd: 
-
-----
-
-Toggle: 0
 
 ----
 
