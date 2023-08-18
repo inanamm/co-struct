@@ -6,6 +6,10 @@ Bueroprofil: DE co–struct ist als Büro mit einer flachen Hierarchie konzipier
 
 ----
 
+Endtext: Wenn das nach einem passenden Beschrieb für dich klingt, melde dich doch gerne per (email: ina@test.com text: Mail) auf eine der oben beschriebenen Stellen.
+
+----
+
 Job:
 
 - 

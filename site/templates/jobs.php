@@ -9,11 +9,11 @@
     <main class="flex flex-col divide-y divide-cswhite border-b border-cswhite">
 
         <article class="flex flex-col gap-5 font-sans text-lg px-3 pt-2 pb-5">
-            <?= $page->Bueroprofil()->kt() ?>
+            <?= $page->bueroprofil()->kt() ?>
         </article>
 
 
-        <div class="font-mono text-sm flex flex-col px-3 pt-2 pb-5">
+        <div class="font-sans text-lg flex flex-col px-3 pt-2 pb-5">
 
             <?php if ($jobs = $page->children()) : ?>
                 <?php foreach ($jobs as $job) : ?>
@@ -24,19 +24,19 @@
                     )
                     ?>
                     <?php slot() ?>
-                    <div class="p-4">
-                        <?= $job->generalDescription()->kt() ?>
+                    <div class="font-mono text-sm pt-2 pb-5">
+                        <?= $job->generalDescription()->escape() ?>
                     </div>
                     <?php foreach ($job->list()->toStructure() as $jobListing) : ?>
-                        <div class="pt-2">
-                            <h3 class="font-sans text-lg mb-2">
+                        <div class="font-mono text-sm pt-2 pb-5">
+                            <h3 class="font-sans text-base mb-1">
                                 <?= $jobListing->title()->escape() ?>
                             </h3>
                             <style>
                                 ul {
                                     display: flex;
                                     flex-direction: column;
-                                    gap: 5px;
+                                    /* gap: 5px; */
                                     list-style-type: none;
                                     padding-left: 0;
                                 }
@@ -62,6 +62,10 @@
             <?php endif ?>
         </div>
 
+        <article class="flex flex-col gap-5 font-mono text-sm px-3 pt-2 pb-5">
+            <?= $page->endtext()->kt() ?>
+        </article>
+        
     </main>
 
     <?php snippet('footer') ?>

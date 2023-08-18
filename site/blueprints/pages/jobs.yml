@@ -1,7 +1,7 @@
 title: Jobs
 
 sections:
-  fields:
+  fieldsA:
     type: fields
     fields: 
       bueroprofil: 
@@ -19,70 +19,19 @@ sections:
     template: job
     type: pages
 
+  fieldsB:
+    type: fields
+    fields:
+      lineB:
+        type: line
+      endtext: 
+        width: 2/3
+        label: To contact
+        type: textarea
+        buttons:
+          - email
+
 options:
   url: false
   status: false
   delete: false
-
-# columns:
-  # top:
-  #   width: 3/3
-  #   sections:
-  #     fields:
-  #       type: fields
-  #       fields: 
-  #         bueroprofil: 
-  #           width: 2/3
-  #           label: Profile
-  #           type: textarea
-  #           buttons: false
-
-  #         lineA:
-  #           type: line
-
-  #         tasksTitle:
-  #           label: Title
-  #           type: text
-  #           required: true
-  #         profileTitle:
-  #           label: Title
-  #           type: text
-  #           required: true
-  #         weOfferTitle:
-  #           label: Title
-  #           type: text
-  #           required: true
-  
-  #         job:
-  #           label: Jobs
-  #           type: structure
-  #           duplicate: true
-  #           columns:
-  #             title:
-  #               width: 1/5
-  #             descriptionA:
-  #               width: 1/5
-  #             descriptionB:
-  #               width: 2/5
-  #             descriptionC:
-  #               width: 1/5
-  #           fields:
-  #             title:
-  #               label: Title
-  #               type: text
-  #             descriptionA:
-  #               label: What we are looking for
-  #               type: textarea
-  #               buttons: false
-  #               spellcheck: true
-  #             descriptionB:
-  #               label: Description
-  #               type: textarea
-  #               buttons: 
-  #                 - ul
-  #                 - bold
-  #             descriptionC:
-  #               label: Additional Info
-  #               type: textarea
-  #               buttons: 
-  #                 - email
