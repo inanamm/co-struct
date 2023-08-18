@@ -18,10 +18,12 @@
 
                 <div class="grid grid-cols-2 px-3 pt-3 pb-5 gap-1 w-full">
                     <?php foreach ($pages->get('projects')->children() as $project) : ?>
-                        <a href="<?= $project->url() ?>" class="pb-5">
-                            <img src="<?= $project->images()->findBy("template", "cover")->url() ?>" />
-                            <p class="font-mono text-xs"><?= $project->title() ?></p>
-                        </a>
+                        <?php if ($project->images()->findBy("template", "cover")) : ?>
+                            <a href="<?= $project->url() ?>" class="pb-5">
+                                <img src="<?= $project->images()->findBy("template", "cover")->url() ?>" />
+                                <p class="font-mono text-xs"><?= $project->title() ?></p>
+                            </a>
+                        <?php endif ?>
                     <?php endforeach ?>
                 </div>
 

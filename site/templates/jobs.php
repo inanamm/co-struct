@@ -12,8 +12,10 @@
             <?= $page->Bueroprofil()->kt() ?>
         </article>
 
-        <div class="font-sans text-xl px-3 pt-2 pb-5">
-            <?php if ($jobs = $page->job()->toStructure()) : ?>
+
+        <div class="font-mono text-sm flex flex-col px-3 pt-2 pb-5">
+
+            <?php if ($jobs = $page->children()) : ?>
                 <?php foreach ($jobs as $job) : ?>
                     <?php snippet(
                         'accordion',
@@ -22,16 +24,40 @@
                     )
                     ?>
                     <?php slot() ?>
-                    <div class="pb-6">
-                        <div class="flex flex-col gap-4 pt-1 font-mono text-sm list-disc">
-                            <?= $job->descriptionA()->kt() ?>
-                            <?= $job->profile()->kt() ?>
-                            <?= $job->descriptionB()->kt()->inline() ?>
-                            <?= $job->descriptionC()->kt() ?>
-                        </div>
+                    <div class="p-4">
+                        <?= $job->generalDescription()->kt() ?>
                     </div>
+                    <?php foreach ($job->list()->toStructure() as $jobListing) : ?>
+                        <div class="pt-2">
+                            <h3 class="font-sans text-lg mb-2">
+                                <?= $jobListing->title()->escape() ?>
+                            </h3>
+                            <style>
+                                ul {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 5px;
+                                    list-style-type: none;
+                                    padding-left: 0;
+                                }
+
+                                ul li {
+                                    padding-left: 25px;
+                                    text-indent: -25px;
+                                }
+
+                                ul li::before {
+                                    content: "—";
+                                    margin-right: 15px;
+                                }
+                            </style>
+
+                            <?= $jobListing->descriptionA()->kt() ?>
+                        </div>
+                    <?php endforeach ?>
                     <?php endslot() ?>
                     <?php endsnippet() ?>
+
                 <?php endforeach ?>
             <?php endif ?>
         </div>

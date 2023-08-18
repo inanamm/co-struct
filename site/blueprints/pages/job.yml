@@ -1,0 +1,96 @@
+title: Job
+
+
+sections:
+
+  general:
+    type: fields
+    fields:
+      generalHeader:
+        label: General
+        type: headline
+      generalDescription:
+        label: General description
+        type: textarea
+        buttons: false
+      lineA:
+        type: line
+
+  # tasks:
+  #   type: fields
+  #   fields:
+  #     tasksHeader:
+  #       label: Tasks
+  #       type: headline
+  #     tasksDescription:
+  #       label: What we are looking for
+  #       type: textarea
+  #       size: large
+  #       # marks: 
+  #       #   - email
+  #       #   - ul
+  #       #   - headlines
+  #       # nodes: 
+  #       #   - bulletList
+  #       #   - paragraph
+
+
+  #       spellcheck: true
+  #     lineB:
+  #       type: line
+     
+  # profile: 
+  #   type: fields
+  #   fields:
+  #     profileHeader:
+  #       label: Profile
+  #       type: headline
+  #     profileTitle:
+  #       label: Profile Title
+  #       type: text
+  #     profileDescription:
+  #       label: What is the profile
+  #       type: textarea
+  #       buttons: false
+  #       spellcheck: true
+  #     lineC:
+  #       type: line
+
+  # offer: 
+  #   type: fields
+  #   fields:
+  #     offerHeader:
+  #       label: We offer
+  #       type: headline
+  #    offerTitle:
+  #       label: We Offer Title
+  #       type: text
+  #     offerDescription:
+  #       label: What is the offer
+  #       type: textarea
+  #       buttons: false
+  #       spellcheck: true
+  #     lineD:
+  #       type: line
+
+  hello:
+    type: fields
+    fields:
+      list:
+        label: Jobs
+        type: structure
+        duplicate: true
+        columns:
+          title:
+            width: 1/5
+          descriptionA:
+            width: 1/5
+        fields:
+          title:
+            label: Title
+            type: text
+          descriptionA:
+            label: What we are looking for
+            type: textarea
+            # buttons: false
+            spellcheck: true

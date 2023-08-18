@@ -70,5 +70,7 @@ sidebar:
     max: 3
     required: true
   gallery:
+    min: 1
+    required: true
     type: files
     label: Gallery
