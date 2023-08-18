@@ -13,8 +13,26 @@
         </article>
 
         <div class="font-sans text-xl px-3 pt-2 pb-5">
-            <?php if ($jobs = $page->jobs()->toStructure() ) : ?>
-                <?php snippet('jobs', ['jobs' => $jobs]) ?>
+            <?php if ($jobs = $page->job()->toStructure()) : ?>
+                <?php foreach ($jobs as $job) : ?>
+                    <?php snippet(
+                        'accordion',
+                        ['buttonText' => $job->title()],
+                        slots: true
+                    )
+                    ?>
+                    <?php slot() ?>
+                    <div class="pb-6">
+                        <div class="flex flex-col gap-4 pt-1 font-mono text-sm list-disc">
+                            <?= $job->descriptionA()->kt() ?>
+                            <?= $job->profile()->kt() ?>
+                            <?= $job->descriptionB()->kt()->inline() ?>
+                            <?= $job->descriptionC()->kt() ?>
+                        </div>
+                    </div>
+                    <?php endslot() ?>
+                    <?php endsnippet() ?>
+                <?php endforeach ?>
             <?php endif ?>
         </div>
 

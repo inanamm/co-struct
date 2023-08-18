@@ -10,7 +10,7 @@
         <div class="flex flex-col gap-1 pt-1 font-mono text-sm">
             <p><?= $job->descriptionA()->kt() ?></p>
             <ul class="">
-                <?php foreach ($job->responsabilities()->list() as $responsability) : ?>
+                <?php foreach ($job->responsabilities() as $responsability) : ?>
                     <li>
                         <?= $responsability ?>
                     </li>
