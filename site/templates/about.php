@@ -68,8 +68,16 @@
 		</div>
 
 		<div class="font-sans text-base px-3 pt-2 pb-5">
-			<?php snippet('subtitle', ['subtitle' => 'Bewerbungen']) ?>
-			<p>Momentan haben wir leider keine offenen Stellen.</p>
+			<?php snippet('subtitle', ['subtitle' => $page->applicationsTitle()->escape()]) ?>
+			<?php if ($pages->get('jobs')->children()->listed()->count() > 0) : ?>
+				<?php snippet('link', [
+					'url' => "/jobs",
+					'description' => $page->OpenPositionsLinkText()->escape(),
+					'blank' => true
+				]) ?>
+			<?php else : ?>
+				<p><?= $page->noOpenPositions()->escape() ?></p>
+			<?php endif ?>
 		</div>
 
 		<div class="text-xs font-mono px-3 pt-2 pb-5">

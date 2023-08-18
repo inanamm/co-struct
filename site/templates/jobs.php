@@ -32,27 +32,28 @@
                             <h3 class="font-sans text-base mb-1">
                                 <?= $jobListing->title()->escape() ?>
                             </h3>
-                            <style>
-                                ul {
+                            <style scoped>
+                                #problematic-div>ul {
                                     display: flex;
                                     flex-direction: column;
-                                    /* gap: 5px; */
+                                    gap: 5px;
                                     list-style-type: none;
                                     padding-left: 0;
                                 }
 
-                                ul li {
+                                #problematic-div>ul li {
                                     padding-left: 25px;
                                     text-indent: -25px;
                                 }
 
-                                ul li::before {
+                                #problematic-div>ul li::before {
                                     content: "—";
                                     margin-right: 15px;
                                 }
                             </style>
-
-                            <?= $jobListing->descriptionA()->kt() ?>
+                            <div id="problematic-div">
+                                <?= $jobListing->descriptionA()->kt() ?>
+                            </div>
                         </div>
                     <?php endforeach ?>
                     <?php endslot() ?>
@@ -65,7 +66,7 @@
         <article class="flex flex-col gap-5 font-mono text-sm px-3 pt-2 pb-5">
             <?= $page->endtext()->kt() ?>
         </article>
-        
+
     </main>
 
     <?php snippet('footer') ?>

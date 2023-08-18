@@ -14,16 +14,25 @@ columns:
 
           lineA:
             type: line
-  
 
-          toggle:
-            label: Open positions?
-            type: toggle
-            width: 1/4
-            help: ["Yes: the Jobs site is visible in the menu. No: alternative text is shown."]
-            text:
-              - "no"
-              - "yes"
+          noOpenPositions:
+            label: No open positions
+            type: text
+            help: |
+              This is the text that will show when there are no open positions.
+          
+          openPositionsLinkText:
+            label: Open positions Link Text
+            type: text
+            help: |
+              This is the text that will show.
+
+
+          applicationsTitle:
+            label: No open positions
+            type: text
+            help: |
+              This is the text that will show when there are no open positions.
 
           coworkers:
             label: Co-workers

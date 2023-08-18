@@ -16,31 +16,35 @@
             ?>
                 <ul>
                     <?php foreach ($items as $item) : ?>
-                        <li <?php e($item->id() === 'news', ' class="mt-4"') ?>>
-                            <a<?php e($item->isOpen(), ' class="font-sansbold mt-2"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
+                        <?php if ($item->id() === "jobs" && $pages->get('jobs')->children()->listed()->count() < 1) : ?>
+                        <?php else : ?>
+
+                            <li <?php e($item->id() === 'news', ' class="mt-4"') ?>>
+                                <a<?php e($item->isOpen(), ' class="font-sansbold mt-2"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
 
 
-                                <?php
-                                $subitems = false;
-                                if ($root = $pages->findOpen()) {
-                                    // $subitems = $site->find('projects')->children();
-                                    $subitems = [ "Realisiert", "In Bau", "Nicht realisiert"];
-                                }
-                                // if ($subitems and $subitems->isNotEmpty() and $item->title()->value() === 'home') :
-                                if ($item->id() === 'home') :
+                                    <?php
+                                    $subitems = false;
+                                    if ($root = $pages->findOpen()) {
+                                        // $subitems = $site->find('projects')->children();
+                                        $subitems = ["Realisiert", "In Bau", "Nicht realisiert"];
+                                    }
+                                    // if ($subitems and $subitems->isNotEmpty() and $item->title()->value() === 'home') :
+                                    if ($item->id() === 'home') :
 
-                                ?>
-                                    <nav>
-                                        <ul>
-                                            <?php foreach ($subitems as $subitem) : ?>
-                                                <li>
-                                                    <a><?= $subitem ?></a>
-                                                </li>
-                                            <?php endforeach ?>
-                                        </ul>
-                                    </nav>
-                                <?php endif ?>
-                        </li>
+                                    ?>
+                                        <nav>
+                                            <ul>
+                                                <?php foreach ($subitems as $subitem) : ?>
+                                                    <li>
+                                                        <a><?= $subitem ?></a>
+                                                    </li>
+                                                <?php endforeach ?>
+                                            </ul>
+                                        </nav>
+                                    <?php endif ?>
+                            </li>
+                        <?php endif ?>
                     <?php endforeach ?>
                 </ul>
             <?php endif ?>
