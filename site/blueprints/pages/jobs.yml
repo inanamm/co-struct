@@ -5,10 +5,16 @@ sections:
     type: fields
     fields: 
       bueroprofil: 
-        width: 2/3
+        width: 1/2
         label: Profile
         type: textarea
         buttons: false
+      endtext: 
+        width: 1/2
+        label: To contact
+        type: textarea
+        buttons:
+          - email
 
       lineA:
         type: line
@@ -18,18 +24,6 @@ sections:
     info: "{{ page.position }}"
     template: job
     type: pages
-
-  fieldsB:
-    type: fields
-    fields:
-      lineB:
-        type: line
-      endtext: 
-        width: 2/3
-        label: To contact
-        type: textarea
-        buttons:
-          - email
 
 options:
   url: false

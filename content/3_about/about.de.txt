@@ -10,15 +10,7 @@ Das Ziel ist, innovative Tragsysteme von der Entstehung des Projekts an zu plane
 
 ----
 
-Noopenpositions: Momentan haben wir leider keine offenen Stellen.
-
-----
-
-Openpositionslinktext: go there
-
-----
-
-Applicationstitle: Bewerbungen
+Coworkerstitle: Mitarbeitende
 
 ----
 
@@ -47,7 +39,31 @@ Coworkers:
 
 ----
 
+Applicationstitle: Bewerbungen
+
+----
+
+Openpositionslinktext: Hier gehts zu unseren offenen Stellen
+
+----
+
+Noopenpositions: Momentan haben wir leider keine offenen Stellen.
+
+----
+
+Oldcoworkerstitle: Ehemalige
+
+----
+
 Oldcoworkers: <ul><li>ei</li><li>zwe</li><li>drü</li><li>vier</li></ul>
+
+----
+
+Applications: Bewerbungen
+
+----
+
+Bewerbungen: Bewerbungen
 
 ----
 

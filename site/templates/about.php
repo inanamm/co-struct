@@ -8,12 +8,12 @@
 
 	<main class="flex flex-col lg:flex-row divide-y divide-csblue lg:divide-none border-b border-csblue">
 
-		<article class="flex flex-col gap-5 font-sans text-lg px-3 pt-2 pb-5 lg:w-1/2">
+		<article class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:w-1/2">
 			<?= $page->Bueroprofil()->kt() ?>
 		</article>
 
 		<div class="lg:w-1/2 lg:divide-none divide-y divide-csblue">
-			<div class="flex flex-col lg:flex-row gap-4 font-sans text-lg px-3 pt-2 pb-5">
+			<div class="flex flex-col lg:flex-row lg:gap-0 gap-4 font-sans text-lg px-3 pt-2 pb-5 lg:pb-6">
 				<div class="flex flex-col gap-4">
 					<?php if ($address = $site->addressZH()->toObject()) : ?>
 						<?php snippet(
@@ -41,7 +41,7 @@
 						) ?>
 					<?php endif ?>
 				</div>
-				<div class="flex flex-col gap-0 lg:order-first">
+				<div class="flex flex-col gap-0 lg:order-first lg:w-[35%]">
 					<?php snippet('contact', ['phone' => $site->phone()->escape(), 'email' => $site->email()->escape()]) ?>
 					<?php snippet('link', [
 						'url' => $site->instagram(),
@@ -56,23 +56,29 @@
 				</div>
 			</div>
 
-			<div class="flex flex-col lg:flex-row lg:gap-5 font-sans text-base px-3 pt-2 pb-5">
-				<?php snippet('subtitle', ['subtitle' => 'Mitarbeitende']) ?>
+			<div class="flex flex-col lg:flex-row font-sans text-base px-3 pt-2 pb-5 lg:pb-6">
+				<div class="flex-none lg:w-[35%]">
+					<?php snippet('subtitle', ['subtitle' => $page->coworkersTitle()->escape()]) ?>
+				</div>
 
-				<div>
+				<div class="flex flex-col">
 					<?php if ($coworkers = $page->coworkers()->toStructure()) : ?>
 						<?php snippet('coworkers', ['coworkers' => $coworkers]) ?>
 					<?php endif ?>
 				</div>
 			</div>
 
-			<div class="font-sans text-base px-3 pt-2 pb-5">
-				<?php snippet('subtitle', ['subtitle' => 'Ehemalige']) ?>
+			<div class="flex flex-col lg:flex-row lg:gap-0 font-sans text-base px-3 pt-2 pb-5 lg:pb-6">
+				<div class="lg:w-[35%]">
+					<?php snippet('subtitle', ['subtitle' => $page->oldcoworkersTitle()->escape()]) ?>
+				</div>
 				<?= $page->oldcoworkers() ?>
 			</div>
 
-			<div class="font-sans text-base px-3 pt-2 pb-5">
-				<?php snippet('subtitle', ['subtitle' => $page->applicationsTitle()->escape()]) ?>
+			<div class="flex flex-col lg:flex-row font-sans text-base px-3 pt-2 pb-5  lg:pb-6">
+				<div class="lg:w-[35%]">
+					<?php snippet('subtitle', ['subtitle' => $page->applicationsTitle()->escape()]) ?>
+				</div>
 				<?php if ($pages->get('jobs')->children()->listed()->count() > 0) : ?>
 					<?php snippet('link', [
 						'url' => "/jobs",
