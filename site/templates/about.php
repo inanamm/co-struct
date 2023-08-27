@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html class="bg-cswhite" lang="de">
+<html class="bg-cswhite h-full" lang="de">
 
 <?php snippet('head') ?>
 
-<body class="text-csblue">
+<body class="text-csblue h-full">
 	<?php snippet('header') ?>
 
-	<main class="flex flex-col lg:flex-row divide-y divide-csblue lg:divide-none border-b border-csblue">
+	<main class="flex flex-col lg:flex-row divide-y divide-csblue lg:divide-none border-b border-csblue mb-auto">
 
 		<article class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:w-1/2">
 			<?= $page->Bueroprofil()->kt() ?>
