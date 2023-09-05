@@ -3,10 +3,10 @@
 
 <?php snippet('head') ?>
 
-<body class="text-csblue h-full">
+<body class="text-csblue flex flex-col h-full">
 	<?php snippet('header') ?>
 
-	<main class="flex flex-col lg:flex-row divide-y divide-csblue lg:divide-none border-b border-csblue mb-auto">
+	<main class="flex flex-col mb-auto lg:flex-row lg:divide-none ">
 
 		<article class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:w-1/2">
 			<?= $page->Bueroprofil()->kt() ?>
@@ -96,7 +96,9 @@
 		</div>
 	</main>
 
-	<?php snippet('footer') ?>
+	<div class="flex border-t border-csblue">
+		<?php snippet('footer') ?>
+	</div>
 
 	<?= vite()->js() ?>
 </body>

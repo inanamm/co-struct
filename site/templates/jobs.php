@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html class="bg-csblue" lang="de">
+<html class="bg-csblue h-full" lang="de">
 
 <?php snippet('head') ?>
 
-<body class="text-cswhite">
+<body class="text-cswhite flex flex-col overflow-y-auto h-full">
     <?php snippet('header') ?>
 
-    <main class="flex flex-col lg:flex-row divide-y lg:divide-none divide-cswhite border-b border-cswhite">
+    <main class="flex flex-col mb-auto divide-y lg:flex-row lg:divide-none divide-cswhite h-full">
 
         <article class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pb-6 lg:w-1/2 ">
             <?= $page->bueroprofil()->kt() ?>
@@ -14,7 +14,7 @@
 
         <div class="lg:w-1/2 lg:divide-none">
 
-            <div class="font-sans text-lg flex flex-col px-3 pt-2 pb-5">
+            <div class="font-sans text-lg flex flex-col px-3 pt-2 pb-5 overflow-y-auto">
 
                 <?php if ($jobs = $page->children()) : ?>
                     <?php foreach ($jobs as $job) : ?>
@@ -71,7 +71,9 @@
 
     </main>
 
-    <?php snippet('footer') ?>
+	<div class="flex border-t border-cswhite">
+		<?php snippet('footer') ?>
+	</div>
 
     <?= vite()->js() ?>
 </body>
