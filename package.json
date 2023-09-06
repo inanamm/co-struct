@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
-    "alpinejs": "^3.12.3"
+    "alpinejs": "^3.12.3",
+    "animejs": "^3.2.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
