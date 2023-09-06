@@ -11,6 +11,4 @@
     <meta name="language" content="Deutsch, Francais">
 
     <?= vite()->css() ?>
-    <?= js('assets/js/anime.min.js'); ?>
-	<?= js('assets/js/index.js'); ?>
 </head>

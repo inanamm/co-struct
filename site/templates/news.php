@@ -55,7 +55,7 @@
             </div>
         </div>
 
-        <div class="hidden lg:grid gap-x-2 grid-cols-2 flex-col lg:flex-wrap lg:w-1/2 divide-y divide-csgreen lg:divide-none overflow-y-scroll">
+        <div class="hidden lg:grid gap-x-2 grid-cols-2 flex-col lg:flex-wrap lg:w-1/2 divide-y divide-csgreen lg:divide-none overflow-y-scroll h-full">
             <?php if ($news = $page->news()->toStructure()->without(0)) : ?>
                 <?php foreach ($news as $newsArticle) : ?>
 
