@@ -7,7 +7,7 @@
     >
         <button 
             type="button" 
-            class="w-full flex items-center justify-between" 
+            class="w-full flex items-center justify-between hover:text-cslightblue" 
             @click="selected = !selected; open = !open"
         >    
             <?= $buttonText ?>

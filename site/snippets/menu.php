@@ -2,7 +2,7 @@
     <!-- there was a h-full in there, is it necessary? still works?-->
 
     <button @click="menuOpen = !menuOpen" class="fixed bottom-3 right-3 z-30" :aria-expanded="menuOpen" aria-controls="navigation" aria-label="Navigation Menu">
-        <svg class="h-5 w-5 lg:h-10 lg:w-10 text-csorange group-open:rotate-45 transition-transform origin-left" viewBox="0 0 25 25" fill="none" stroke="currentColor" stroke-width="4">
+        <svg class="h-5 w-5 lg:h-10 lg:w-10 text-csorange group-open:rotate-45 transition-transform origin-left hover:text-cslightblue" viewBox="0 0 25 25" fill="none" stroke="currentColor" stroke-width="4">
             <line x1="12.5" y1="0" x2="12.5" y2="25" x-show="!menuOpen" />
             <line x1="0" y1="12.5" x2="25" y2="12.5" />
         </svg>
@@ -10,7 +10,7 @@
 
     <div id="navigation" x-show="menuOpen" class="h-auto w-full flex flex-col bg-cswhite border-t border-csorange divide-y divide-csorange text-csorange fixed bottom-0 left-0" x-transition:enter="transition duration-500 ease-in-out" x-transition:enter-start="translate-y-full" x-transition:enter-end="translate-y-0" x-transition:leave="transition ease-in-out duration-300" x-transition:leave-start="translate-y-0" x-transition:leave-end="translate-y-full">
 
-        <nav class="flex justify-between pt-2 pb-5 px-3 font-sans text-xl">
+        <nav class="flex justify-between pt-2 pb-5 px-3 font-sans text-xl ">
             <?php
             $items = $pages->listed();
             if ($items->isNotEmpty()) :
@@ -20,8 +20,8 @@
                         <?php if ($item->id() === "jobs" && $pages->get('jobs')->children()->listed()->count() < 1) : ?>
                         <?php else : ?>
 
-                            <li <?php e($item->id() === 'news', ' class="mt-4"') ?>>
-                                <a<?php e($item->isOpen(), ' class="font-sansbold mt-2"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
+                            <li <?php e($item->id() === 'news', ' class="mt-4 hover:text-cslightblue"') ?>>
+                                <a<?php e($item->isOpen(), ' class="font-sansbold mt-2 hover:text-csyellow"') ?> href="<?= $item->url() ?>" class="hover:text-cslightblue"><?= $item->title()->html() ?></a>
 
 
                                     <?php
@@ -37,7 +37,7 @@
                                         <nav>
                                             <ul>
                                                 <?php foreach ($subitems as $subitem) : ?>
-                                                    <li>
+                                                    <li class="hover:text-cslightblue">
                                                         <a><?= $subitem ?></a>
                                                     </li>
                                                 <?php endforeach ?>
@@ -53,7 +53,7 @@
             <ul>
                 <?php foreach ($kirby->languages() as $language) : ?>
                     <li<?php e($kirby->language() == $language, ' class="font-sansbold"') ?>>
-                        <a href="<?= $page->url($language->code()) ?>" hreflang="<?php echo $language->code() ?>">
+                        <a href="<?= $page->url($language->code()) ?>" hreflang="<?php echo $language->code() ?>" class="hover:text-cslightblue">
                             <?= html($language->name()) ?>
                         </a>
                         </li>
