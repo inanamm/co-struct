@@ -3,10 +3,23 @@
 
 <?php snippet('head') ?>
 
-<body class="text-cswhite flex flex-col overflow-y-auto h-full">
-    <?php snippet('header') ?>
+<body class="text-cswhite flex flex-col overflow-y-auto h-full min-h-screen grow">
+    <?php snippet('header', slots: true) ?>
+		<?php slot('dash')?>
+			<div id="dash" class="w-7 h-[0.40rem] bg-cswhite mt-[0.44rem] self-center " alt="logo"></div>
+		<?php endslot('dash')?>
 
-    <main class="flex flex-col mb-auto divide-y lg:flex-row lg:divide-none divide-cswhite h-full">
+
+		<?php slot('struct') ?>
+			<?= url('struct-cswhite.svg') ?>
+		<?php endslot() ?>
+		<?php slot('co') ?>
+			<?= url('co-cswhite.svg') ?>
+		<?php endslot() ?>
+
+	<?php endsnippet() ?>
+
+    <main class="flex flex-col mb-auto divide-y lg:flex-row lg:divide-none divide-cswhite">
 
         <article class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pb-6 lg:w-1/2 ">
             <?= $page->bueroprofil()->kt() ?>
@@ -71,7 +84,7 @@
 
     </main>
 
-	<div class="flex border-t border-cswhite">
+	<div class="flex border-t border-cswhite mt-auto">
 		<?php snippet('footer') ?>
 	</div>
 

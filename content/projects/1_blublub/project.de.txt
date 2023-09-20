@@ -10,7 +10,17 @@ Tag: notbuild
 
 ----
 
-Information: 
+Information:
+
+- 
+  projectdetails: client
+  value: fdjlafjkdljfdkljfkal
+- 
+  projectdetails: architecture
+  value: shcibliholenstein architekten
+- 
+  projectdetails: value
+  value: 400 mio
 
 ----
 

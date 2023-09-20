@@ -5,7 +5,20 @@
 
 <body class="text-csblack h-full">
 
-    <?php snippet('header') ?>
+    <?php snippet('header', slots: true) ?>
+            <?php slot('dash')?>
+                <div id="dash" class="w-7 h-[0.40rem] bg-csblack mt-[0.44rem] self-center " alt="logo"></div>
+            <?php endslot('dash')?>
+
+
+            <?php slot('struct') ?>
+                <?= url('struct-csblack.svg') ?>
+            <?php endslot() ?>
+            <?php slot('co') ?>
+                <?= url('co-csblack.svg') ?>
+            <?php endslot() ?>
+
+        <?php endsnippet() ?>
 
     <div class="glide">
         <div class="glide__track" data-glide-el="track">

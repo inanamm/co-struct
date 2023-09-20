@@ -34,7 +34,7 @@ News:
   image: [ ]
   date: 2023-08-13
   title: 5 ddumbo
-  description: ""
+  description: '<p>halllodumbo</p><p></p>'
 - 
   image:
     - file://53ysDMOgRJGwGMGa
