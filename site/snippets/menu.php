@@ -1,6 +1,13 @@
 <div class="relative z-50" x-data="{ menuOpen: false }"> 
     <!-- there was a h-full in there, is it necessary? still works?-->
-
+    <div 
+        class="z-1 h-screen w-full bg-csyellow opacity-30 bg-blend-multiply"
+        @click="menuOpen = !menuOpen" 
+        x-show="menuOpen" 
+        :aria-expanded="menuOpen" 
+        >
+    </div>
+    
     <button @click="menuOpen = !menuOpen" class="fixed bottom-3 right-3 z-30" :aria-expanded="menuOpen" aria-controls="navigation" aria-label="Navigation Menu">
         <svg class="h-5 w-5 lg:h-10 lg:w-10 text-csorange group-open:rotate-45 transition-transform origin-left hover:text-cslightblue" viewBox="0 0 25 25" fill="none" stroke="currentColor" stroke-width="4">
             <line x1="12.5" y1="0" x2="12.5" y2="25" x-show="!menuOpen" />
@@ -8,9 +15,18 @@
         </svg>
     </button>
 
-    <div id="navigation" x-show="menuOpen" class="h-auto w-full flex flex-col bg-cswhite border-t border-csorange divide-y divide-csorange text-csorange fixed bottom-0 left-0" x-transition:enter="transition duration-500 ease-in-out" x-transition:enter-start="translate-y-full" x-transition:enter-end="translate-y-0" x-transition:leave="transition ease-in-out duration-300" x-transition:leave-start="translate-y-0" x-transition:leave-end="translate-y-full">
 
-        <nav class="flex justify-between pt-2 pb-5 px-3 font-sans text-xl ">
+    <div 
+        id="navigation" 
+        x-show="menuOpen" 
+        class="h-auto w-full flex flex-col bg-cswhite border-t border-csorange divide-y divide-csorange text-csorange fixed bottom-0 left-0" x-transition:enter="transition duration-500 ease-in-out" 
+        x-transition:enter-start="translate-y-full" 
+        x-transition:enter-end="translate-y-0" 
+        x-transition:leave="transition ease-in-out duration-300" 
+        x-transition:leave-start="translate-y-0" 
+        x-transition:leave-end="translate-y-full">
+
+        <nav class="flex justify-between pt-2 pb-5 px-3 font-sans text-xl">
             <?php
             $items = $pages->listed();
             if ($items->isNotEmpty()) :
@@ -21,7 +37,7 @@
                         <?php else : ?>
 
                             <li <?php e($item->id() === 'news', ' class="mt-4 hover:text-cslightblue"') ?>>
-                                <a<?php e($item->isOpen(), ' class="font-sansbold mt-2 hover:text-csyellow"') ?> href="<?= $item->url() ?>" class="hover:text-cslightblue"><?= $item->title()->html() ?></a>
+                                <a<?php e($item->isOpen(), ' class="font-sansbold mt-2 hover:text-cslightblue"') ?> href="<?= $item->url() ?>" class="hover:text-cslightblue"><?= $item->title()->html() ?></a>
 
 
                                     <?php

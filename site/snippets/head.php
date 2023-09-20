@@ -9,6 +9,6 @@
     <meta name="keywords" content="Tragwerkstatik, ingénierie structurale, structural engineering, schweiz, switzerland, suisse, Zürich, Aubonne, Architektur">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="Deutsch, Francais">
-
+    <?php snippet('menu') ?>
     <?= vite()->css() ?>
 </head>
