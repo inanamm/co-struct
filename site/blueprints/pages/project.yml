@@ -29,7 +29,7 @@ fields:
     options:
       built: Realized
       building: Building
-      notbuild: Not realized
+      notbuilt: Not realized
 
   information:
     lable: Info

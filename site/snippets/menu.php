@@ -1,13 +1,8 @@
-<div class="relative z-50" x-data="{ menuOpen: false }"> 
+<div class="relative z-50" x-data="{ menuOpen: false }">
 
-    <div 
-        class="z-1 h-screen w-full bg-csblack opacity-30 bg-blend-multiply absolute"
-        @click="menuOpen = !menuOpen" 
-        x-show="menuOpen" 
-        :aria-expanded="menuOpen" 
-        >
+    <div class="z-1 h-screen w-full bg-csblack opacity-30 bg-blend-multiply absolute" @click="menuOpen = !menuOpen" x-show="menuOpen" :aria-expanded="menuOpen">
     </div>
-    
+
     <button @click="menuOpen = !menuOpen" class="fixed bottom-3 right-3 z-30" :aria-expanded="menuOpen" aria-controls="navigation" aria-label="Navigation Menu">
         <svg class="h-5 w-5 lg:h-10 lg:w-10 text-csorange group-open:rotate-45 transition-transform origin-left hover:lg:text-cslightblue" viewBox="0 0 25 25" fill="none" stroke="currentColor" stroke-width="4">
             <line x1="12.5" y1="0" x2="12.5" y2="25" x-show="!menuOpen" />
@@ -16,15 +11,7 @@
     </button>
 
 
-    <div 
-        id="navigation" 
-        x-show="menuOpen" 
-        class="h-auto w-full flex flex-col bg-cswhite border-t border-csorange divide-y divide-csorange text-csorange fixed bottom-0 left-0" x-transition:enter="transition duration-500 ease-in-out" 
-        x-transition:enter-start="translate-y-full" 
-        x-transition:enter-end="translate-y-0" 
-        x-transition:leave="transition ease-in-out duration-300" 
-        x-transition:leave-start="translate-y-0" 
-        x-transition:leave-end="translate-y-full">
+    <div id="navigation" x-show="menuOpen" class="h-auto w-full flex flex-col bg-cswhite border-t border-csorange divide-y divide-csorange text-csorange fixed bottom-0 left-0" x-transition:enter="transition duration-500 ease-in-out" x-transition:enter-start="translate-y-full" x-transition:enter-end="translate-y-0" x-transition:leave="transition ease-in-out duration-300" x-transition:leave-start="translate-y-0" x-transition:leave-end="translate-y-full">
 
         <nav class="flex justify-between pt-2 pb-5 px-3 font-sans text-xl">
             <?php
@@ -42,22 +29,48 @@
 
                                     <?php
                                     $subitems = false;
-                                    if ($root = $pages->findOpen()) {
-                                        // $subitems = $site->find('projects')->children();
-                                        $subitems = ["Realisiert", "In Bau", "Nicht realisiert"];
-                                    }
-                                    // if ($subitems and $subitems->isNotEmpty() and $item->title()->value() === 'home') :
                                     if ($item->id() === 'home') :
 
                                     ?>
                                         <nav>
-                                            <ul>
-                                                <?php foreach ($subitems as $subitem) : ?>
-                                                    <li class="hover:text-cslightblue">
-                                                        <a><?= $subitem ?></a>
-                                                    </li>
-                                                <?php endforeach ?>
-                                            </ul>
+                                            <?php if ($kirby->language()->code() === "de") : ?>
+                                                <ul>
+                                                    <?php if ($pages->get('projects')->children()->filterBy('tag', "built")->isNotEmpty()) : ?>
+                                                        <li class="hover:text-cslightblue">
+                                                            <a href="/de/filter:built">Realisiert</a>
+                                                        </li>
+                                                    <?php endif ?>
+                                                    <?php if ($pages->get('projects')->children()->filterBy('tag', "building")->isNotEmpty()) : ?>
+                                                        <li class="hover:text-cslightblue">
+                                                            <a href="/de/filter:building">In Bau</a>
+                                                        </li>
+                                                    <?php endif ?>
+                                                    <?php if ($pages->get('projects')->children()->filterBy('tag', "notbuilt")->isNotEmpty()) : ?>
+                                                        <li class="hover:text-cslightblue">
+                                                            <a href="/de/filter:notbuilt">Nicht realisiert</a>
+                                                        </li>
+                                                    <?php endif ?>
+                                                </ul>
+                                            <?php else : ?>
+                                                <ul>
+                                                    <?php if ($pages->get('projects')->children()->filterBy('tag', "built")->isNotEmpty()) : ?>
+                                                        <li class="hover:text-cslightblue">
+                                                            <a href="/fr/filter:built">Réalisés</a>
+                                                        </li>
+                                                    <?php endif ?>
+                                                    <?php if ($pages->get('projects')->children()->filterBy('tag', "building")->isNotEmpty()) : ?>
+                                                        <li class="hover:text-cslightblue">
+                                                            <a href="/fr/filter:building">En construction</a>
+                                                        </li>
+                                                    <?php endif ?>
+                                                    <?php if ($pages->get('projects')->children()->filterBy('tag', "notbuilt")->isNotEmpty()) : ?>
+                                                        <li class="hover:text-cslightblue">
+                                                            <a href="/fr/filter:notbuilt">Non réalisées</a>
+                                                        </li>
+                                                    <?php endif ?>
+                                                </ul>
+                                            <?php endif ?>
+
                                         </nav>
                                     <?php endif ?>
                             </li>

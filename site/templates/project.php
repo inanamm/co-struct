@@ -5,7 +5,7 @@
 
 <body class="flex text-csblack h-screen">
     <div class="flex flex-col w-full lg:w-1/2 h-screen overflow-y-auto">
-       
+
         <?php snippet('header', slots: true) ?>
         <?php slot('dash') ?>
         <div id="dash" class="w-7 bg-csblack h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center" alt="logo"></div>
