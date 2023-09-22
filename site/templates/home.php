@@ -24,26 +24,7 @@
             </div>
 
             <div class="grid grid-cols-2 px-3 pt-3 pb-5 gap-1 w-full border-y border-csblack lg:hidden">
-                <?php if ($pages->get('projects')->children()->filterBy('tag', param("filter"))->isNotEmpty()) : ?>
-                    <?php foreach ($pages->get('projects')->children()->filterBy('tag', param("filter")) as $project) : ?>
-                        <?php if ($project && $project->images()->findBy("template", "cover")) : ?>
-                            <a href="<?= $project->url() ?>" class="pb-5 hover:text-cslightblue">
-                                <img src="<?= $project->images()->findBy("template", "cover")->url() ?>" class="hover:brightness-105" />
-                                <p class="font-mono text-xs"><?= $project->title() ?></p>
-                            </a>
-                        <?php endif ?>
-                    <?php endforeach ?>
-                <?php else : ?>
-                    <?php foreach ($pages->get('projects')->children() as $project) : ?>
-                        <?php if ($project && $project->images()->findBy("template", "cover")) : ?>
-                            <a href="<?= $project->url() ?>" class="pb-5 hover:text-cslightblue">
-                                <img src="<?= $project->images()->findBy("template", "cover")->url() ?>" class="hover:brightness-105" />
-                                <p class="font-mono text-xs"><?= $project->title() ?></p>
-                            </a>
-                        <?php endif ?>
-                    <?php endforeach ?>
-                <?php endif ?>
-
+                <?php displayProjectImages($pages); ?>
             </div>
 
             <div class="flex text-csblack lg:border-t border-csblack">
@@ -54,25 +35,7 @@
         <div class="hidden divide-y divide-csgreen lg:grid flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-y-scroll h-full">
             <div class="flex flex-col">
                 <div class="grid grid-cols-4 pb-6 gap-1 w-full">
-                    <?php if ($pages->get('projects')->children()->filterBy('tag', param("filter"))->isNotEmpty()) : ?>
-                        <?php foreach ($pages->get('projects')->children()->filterBy('tag', param("filter")) as $project) : ?>
-                            <?php if ($project->images()->findBy("template", "cover")) : ?>
-                                <a href="<?= $project->url() ?>" class="pb-6 hover:text-cslightblue">
-                                    <img src="<?= $project->images()->findBy("template", "cover")->url() ?>" class="hover:brightness-105" />
-                                    <p class="font-mono text-xs"><?= $project->title() ?></p>
-                                </a>
-                            <?php endif ?>
-                        <?php endforeach ?>
-                    <?php else : ?>
-                        <?php foreach ($pages->get('projects')->children() as $project) : ?>
-                            <?php if ($project->images()->findBy("template", "cover")) : ?>
-                                <a href="<?= $project->url() ?>" class="pb-6 hover:text-cslightblue">
-                                    <img src="<?= $project->images()->findBy("template", "cover")->url() ?>" class="hover:brightness-105" />
-                                    <p class="font-mono text-xs"><?= $project->title() ?></p>
-                                </a>
-                            <?php endif ?>
-                        <?php endforeach ?>
-                    <?php endif ?>
+                    <?php displayProjectImages($pages); ?>
                 </div>
             </div>
 
@@ -82,3 +45,34 @@
 </body>
 
 </html>
+
+<?php
+function displayProjectImages($pages)
+{
+    $projects = $pages->get('projects')->children();
+    $filteredProjects = param("filter") ? $projects->filterBy('tag', param("filter")) : $projects;
+
+    $allProjectImagesWithUrl = [];
+    foreach ($filteredProjects as $singleProject) {
+        foreach ($singleProject->images() as $image) {
+            array_push(
+                $allProjectImagesWithUrl,
+                (object)[
+                    'imageUrl' => $image->url(),
+                    'imageAlt' => $image->alt(),
+                    'projectTitle' => $singleProject->title(),
+                    'projectUrl' => $singleProject->url()
+                ]
+            );
+        }
+    }
+    shuffle($allProjectImagesWithUrl);
+
+    foreach ($allProjectImagesWithUrl as $image) : ?>
+        <a href="<?= $image->projectUrl ?>" class="pb-5 hover:text-cslightblue">
+            <img src="<?= $image->imageUrl ?>" alt="<?= $image->imageAlt ?>" class="hover:brightness-105" />
+            <p class="font-mono text-xs"><?= $image->projectTitle ?></p>
+        </a>
+<?php endforeach;
+}
+?>
