@@ -1,4 +1,4 @@
-<header class="px-3 pt-2 pb-7">
+<header class="px-3 pt-2 pb-2 lg:sticky top-0 bg-cswhite z-10">
     <a href="/">
         <div class="logo flex flex-col w-full">
             <div id="logoFirst" class="flex align-baseline">
