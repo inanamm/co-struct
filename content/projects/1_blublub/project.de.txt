@@ -14,21 +14,35 @@ Information:
 
 - 
   projectdetails: client
-  value: fdjlafjkdljfdkljfkal
+  value: Fabrice Meylan
 - 
   projectdetails: architecture
-  value: shcibliholenstein architekten
+  value: schibliholenstein architekten
 - 
   projectdetails: value
   value: 400 mio
+- 
+  projectdetails: place
+  value: Zürich
+- 
+  projectdetails: timeframe
+  value: "2023"
 
 ----
 
-Texttitle: 
+Texttitle: Eine beeindruckende Schokolade
 
 ----
 
-Text: 
+Text:
+
+Was für ein Abenteuer, bis wir die Kakaobutter für unsere White Chocolate Piuro Blanco gefunden und getestet haben. Nun ist sie endlich bei uns in der laflor Manufaktur in Zürich eingetroffen.
+
+Die Kakaobäume der nativen Sorte Piura Blanco wachsen in den beiden Dörfern Puerta Pulache und Paimas in der Region Piura im Norden Perus. Erst 2008 begannen die Initianten von Craft Cacao by Original Beans und die Kooperative Norandino mit dem Anbau des edlen Kakaos. Die 2005 gegründete Kooperative Norandino repräsentiert mehr als 7’000 Familien, die Kakao, Kaffee und Zuckerrohr im Norden von Peru kultivieren. Damit soll den Menschen ein höheres Einkommen und der Zugang zu lokalen und internationalen Märkten ermöglicht werden. Die Norandino Kooperative ist für Peruanische Verhältnisse gross, dabei orientiert sie sich an den Werten Transparenz, Gleichberechtigung, Respekt, Verantwortung, Demokratie und Qualität. Alle Norandino Produzenten sind Bio- und Fairtrade zertifiziert. Weil der Norandino Kakao so viele verschiedene Produzenten aus vielen Regionen repräsentiert, können Chocolatiers | Schokoladenhersteller bei Norandino Single Origin und damit sortenreinen Kakao kaufen.
+
+Für die weisse laflor Schokolade ist die Qualität der Kakaobutter von höchster Bedeutung. Sie entsteht aus Kakaobohnen, die Norandino Bauern in den Dörfern Puerta Pulache und Paimas anbauen. Hier fermentieren die Kakaobohnen in Holzkisten, später trocknen sie überdacht an der Sonne. Danach stellen die Bauern die Kakaomasse her, aus der das Unternehmen Cacao El Rey in Tarapoto die Kakaobutter presst.
+
+Gerade die Genossenschaft in Puerta Pulache zählt viele junge Menschen, die von Reis, Mais oder Obst auf den Kakaoanbau umgestiegen sind. Dank der sogenannten Agroforestry Systeme ist ihr Einkommen ein besseres geworden. Die Jugendgruppe dieser Genossenschaft leitet zudem ein Baumschul-Projekt für native Kakaosorten.
 
 ----
 

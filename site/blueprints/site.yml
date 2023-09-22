@@ -47,6 +47,26 @@ tabs:
           generalinfo:
             type: fields
             fields:
+              addressOffice:
+                label: Address Office
+                type: object
+                fields:
+                  description: 
+                    label: Description
+                    type: text
+                  companyName:
+                    label: Name
+                    type: text
+                  street:
+                    label: Street
+                    type: text
+                  postalCode: 
+                    label: PLZ
+                    type: text
+                  place:
+                    label: Place
+                    type: text
+
               addressZH:
                 label: Address Zurich
                 type: object
@@ -55,19 +75,19 @@ tabs:
                     label: Name
                     type: text
                   description: 
-                    label: Beschreibung
+                    label: Description
                     type: text
                   street:
-                    label: Strasse
+                    label: Street
                     type: text
                   postalCode: 
                     label: PLZ
                     type: text
                   place:
-                    label: Ort
+                    label: Place
                     type: text
 
-             addressVD:
+              addressVD:
                 label: Address Vaude
                 type: object
                 fields:
@@ -75,17 +95,19 @@ tabs:
                     label: Name
                     type: text
                   description: 
-                    label: Beschreibung
+                    label: Description
                     type: text
                   street:
-                    label: Strasse
+                    label: Street
                     type: text
                   postalCode: 
                     label: PLZ
                     type: text
                   place:
-                    label: Ort
+                    label: Place
                     type: text
+
+
                     
       sidebar:
         width: 1/2

@@ -27,7 +27,7 @@
 
         <div class="lg:w-1/2 divide-y divide-cswhite lg:divide-none">
 
-            <div class="font-sans text-lg flex flex-col px-3 pt-2 pb-5 overflow-y-auto">
+            <div class="font-sans text-lg flex flex-col px-3 pt-2 pb-5 overflow-y-auto lg:px-0 lg:pr-3">
 
                 <?php if ($jobs = $page->children()) : ?>
                     <?php foreach ($jobs as $job) : ?>
@@ -77,7 +77,7 @@
                 <?php endif ?>
             </div>
 
-            <article class="flex flex-col gap-5 font-mono text-sm px-3 pt-2 pb-5">
+            <article class="flex flex-col gap-5 font-mono text-sm px-3 pt-2 pb-5 lg:px-0 lg:pr-3">
                 <?= $page->endtext()->kt() ?>
             </article>
         </div>
