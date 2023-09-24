@@ -3,23 +3,23 @@
 
 <?php snippet('head') ?>
 
-<body class="flex text-csblack h-screen">
-    <div class="flex flex-col w-full lg:w-1/2 h-screen overflow-y-auto">
+<body class="flex text-csblack relative h-screen">
+    <div class="flex flex-col w-full relative lg:w-1/2 h-screen overflow-y-auto">
+        <div class="header bg-cswhite pb-5 sticky top-0 z-40">
+            <?php snippet('header', slots: true) ?>
+            <?php slot('dash') ?>
+            <div id="dash" class="w-7 bg-csblack h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center" alt="logo"></div>
+            <?php endslot('dash') ?>
+            <?php slot('struct') ?>
+            <?= url('struct-csblack.svg') ?>
+            <?php endslot() ?>
+            <?php slot('co') ?>
+            <?= url('co-csblack.svg') ?>
+            <?php endslot() ?>
+            <?php endsnippet() ?>
+        </div>
 
-        <?php snippet('header', slots: true) ?>
-        <?php slot('dash') ?>
-        <div id="dash" class="w-7 bg-csblack h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center" alt="logo"></div>
-        <?php endslot('dash') ?>
-
-        <?php slot('struct') ?>
-        <?= url('struct-csblack.svg') ?>
-        <?php endslot() ?>
-        <?php slot('co') ?>
-        <?= url('co-csblack.svg') ?>
-        <?php endslot() ?>
-        <?php endsnippet() ?>
-
-        <div class="glide lg:hidden mt-5">
+        <div class="glide lg:hidden pt-3">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                     <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
@@ -32,7 +32,7 @@
             </div>
         </div>
 
-        <main class="flex flex-col divide-y divide-csblack border-b border-csblack lg:h-full mt-7">
+        <main class="flex flex-col divide-y divide-csblack border-b border-csblack">
 
             <h1 class="font-sansbold text-lg px-3 pt-2 pb-3">
                 <?= $page->title()->escape() ?>
@@ -60,7 +60,7 @@
                 <?php endif ?>
             </div>
 
-            <article class="flex flex-col font-sans text-base px-3 pt-2 pb-5 gap-3">
+            <article class="flex flex-col h-full font-sans text-base px-3 pt-2 pb-5 gap-3">
                 <p><?= $page->textTitle()->escape() ?></p>
                 <?= $page->text()->kt() ?>
             </article>

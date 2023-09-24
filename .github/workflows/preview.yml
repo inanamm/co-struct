@@ -40,4 +40,3 @@ jobs:
           **/.github/**
           **/src/**
           **/node_modules/**
-          **/content/**

@@ -1,9 +1,0 @@
-Uuid: utH72L4MUNXlF8jC
-
-----
-
-Template: cover
-
-----
-
-Sort: 1

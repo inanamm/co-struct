@@ -1,0 +1,55 @@
+Title: SmartCity Mobility
+
+----
+
+Categoryb: choiceone
+
+----
+
+Tag: notbuilt
+
+----
+
+Information:
+
+- 
+  projectdetails: client
+  value: Stadt Zürich
+- 
+  projectdetails: architecture
+  value: Architekten Kollektiv
+- 
+  projectdetails: place
+  value: CH—8002 Zürich
+- 
+  projectdetails: value
+  value: "13'000"
+- 
+  projectdetails: timeframe
+  value: 2022–2023
+
+----
+
+Texttitle: SmartCity Mobility
+
+----
+
+Text:
+
+Unser objektives Ziel im Rahmen des Ingenieurprojekts "SmartCity Mobility" besteht darin, eine zukunftsweisende städtische Verkehrsinfrastruktur zu schaffen, die die Lebensqualität der Bewohner maßgeblich verbessert und gleichzeitig die Umweltbelastung minimiert. Dieses Projekt verfolgt die ehrgeizige Vision, die Stadt in eine nachhaltige und effiziente Umgebung zu verwandeln, in der Mobilität nicht nur reibungsloser, sondern auch umweltfreundlicher gestaltet wird.
+
+Konkret streben wir an, den Verkehrsfluss in der Stadt signifikant zu optimieren, indem wir ein intelligentes Verkehrsmanagementsystem einführen. Wir erwarten, dass dies zu einer Reduzierung von Verkehrsstaus um mindestens 30 % führen wird, was nicht nur die Pendlerzeiten verkürzt, sondern auch den Stress im Verkehr minimiert.
+
+Darüber hinaus setzen wir auf den massiven Ausbau des öffentlichen Nahverkehrs, um die Nutzung von Bussen und Bahnen attraktiver zu gestalten. Durch die Einführung benutzerfreundlicher Ticketing- und Informationssysteme streben wir eine Steigerung der Nutzung um mindestens 20 % an.
+
+Einen weiteren Schwerpunkt legen wir auf die Förderung von Fahrrad- und Fußgängerverkehr. Hierzu werden sichere Rad- und Fußgängerwege geschaffen, um den Anteil dieser umweltfreundlichen Verkehrsmittel am Gesamtverkehrsaufkommen um mindestens 15 % zu erhöhen.
+
+Die Integration von Elektromobilität spielt ebenfalls eine wichtige Rolle in unserem Projekt. Wir planen den Ausbau von Ladestationen für Elektrofahrzeuge an vielen Standorten in der Stadt und die Einführung von Anreizprogrammen, um den Anteil von Elektrofahrzeugen am Straßenverkehr um mindestens 10 % zu steigern.
+
+Schließlich werden grüne Verkehrsinseln in der Stadt geschaffen, die nicht nur zur Verbesserung der Luftqualität beitragen, sondern auch das Stadtbild verschönern und das Wohlbefinden der Bewohner steigern. Unser Projekt zielt darauf ab, mindestens 10 solcher grünen Verkehrsinseln zu etablieren.
+
+Diese umfassenden Ziele sind die Grundlage unseres Engagements, die Stadt in eine nachhaltige und lebenswerte Umgebung zu verwandeln, in der Mobilität nicht länger ein Hindernis, sondern ein wesentlicher Bestandteil des städtischen Lebens ist.
+
+----
+
+Uuid: Ej9NkkNr6lGlnvgA

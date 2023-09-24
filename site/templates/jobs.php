@@ -4,21 +4,20 @@
 <?php snippet('head') ?>
 
 <body class="text-cswhite flex flex-col overflow-y-auto h-full min-h-screen grow">
-    <?php snippet('header', slots: true) ?>
-		<?php slot('dash')?>
-			<div id="dash" class="w-7 bg-cswhite h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center" alt="logo"></div>
-		<?php endslot('dash')?>
+    <div class="header pb-5">
+        <?php snippet('header', slots: true) ?>
+        <?php slot('dash') ?>
+        <div id="dash" class="w-7 bg-cswhite h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center" alt="logo"></div>
+        <?php endslot('dash') ?>
+        <?php slot('struct') ?>
+        <?= url('struct-cswhite.svg') ?>
+        <?php endslot() ?>
+        <?php slot('co') ?>
+        <?= url('co-cswhite.svg') ?>
+        <?php endslot() ?>
 
-
-		<?php slot('struct') ?>
-			<?= url('struct-cswhite.svg') ?>
-		<?php endslot() ?>
-		<?php slot('co') ?>
-			<?= url('co-cswhite.svg') ?>
-		<?php endslot() ?>
-
-	<?php endsnippet() ?>
-
+        <?php endsnippet() ?>
+    </div>
     <main class="flex flex-col mb-auto divide-y lg:flex-row lg:divide-none divide-cswhite">
 
         <article class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pb-6 lg:w-1/2 ">
@@ -84,9 +83,9 @@
 
     </main>
 
-	<div class="flex border-t border-cswhite mt-auto">
-		<?php snippet('footer') ?>
-	</div>
+    <div class="flex border-t border-cswhite mt-auto">
+        <?php snippet('footer') ?>
+    </div>
 
     <?= vite()->js() ?>
 </body>

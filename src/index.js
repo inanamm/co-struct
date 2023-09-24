@@ -23,7 +23,6 @@ const timeLine = anime.timeline()
     }, '-=100')
 
 
-
 if (document.querySelector('.glide')) {
     let glide = new Glide('.glide', {
         type: 'carousel',

@@ -4,7 +4,7 @@ Title: Über uns
 
 Bueroprofil:
 
-DETUSCH co–struct ist ein inhabergeführtes Büro für Tragwerksplanung in Zürich und Aubonne, gegründet von Fabrice Meylan und Sam Bouten. 
+co–struct ist ein inhabergeführtes Büro für Tragwerksplanung in Zürich und Aubonne, gegründet von Fabrice Meylan und Sam Bouten. 
 
 Das Ziel ist, innovative Tragsysteme von der Entstehung des Projekts an zu planen und dabei ein besonderes Augenmerk auf ästhetische Aspekte zu legen. Die enge Zusammenarbeit mit den verschiedenen Partner:innen, sowie die proaktive Optimierung der erdachten Strukturen liegen co–struct am Herzen. Die Ökologie im Bauwesen regt unsere Kreativität an, um für jedes Bauwerk die am besten geeigneten Materialien zu finden.
 
@@ -19,23 +19,27 @@ Coworkers:
 - 
   name: Fabrice Meylan
   title: GL
-  phone: "8392037292010"
+  phone: +41 79 363 29 36
   email: fabrice@co-struct.ch
   description: >
-    hallo hfds jfklajiroa fjekla fjkdsl
-    aherio ajfe fjkdsl fjkdsl ajgire hfjkla
-    fjdksl jfdklsa öfjdklsaö fjdkls
-    afjklsa ghrioa gjiraö fjds
+    Schweizer Architekt und Bauingenieur.
+    Innovativ in Design und Nachhaltigkeit.
+    Beitrag zur Umweltschonung und
+    Gemeindeentwicklung.
   image:
-    - file://dG3nsRi9JGPQrXVk
+    - file://PcmmMs01XyErBm7Q
 - 
-  name: guido
-  title: fullstack
-  phone: 492q85439
-  email: g@g.boe
-  description: boeboeboe
+  name: Sam Bouten
+  title: GL
+  phone: +41 79 305 32 46
+  email: sam@co-struct.ch
+  description: >
+    Geboren 1994 in Arth, Schweiz, Architekt
+    und Ingenieur aus der Schweiz, bekannt
+    für innovative, nachhaltige Projekte.
+    Visionär in Design und Umweltschutz.
   image:
-    - file://dG3nsRi9JGPQrXVk
+    - file://fwrzkZ2mS19dblin
 
 ----
 
@@ -55,7 +59,7 @@ Oldcoworkerstitle: Ehemalige
 
 ----
 
-Oldcoworkers: <ul><li>ei</li><li>zwe</li><li>drü</li><li>vier</li></ul>
+Oldcoworkers: 
 
 ----
 

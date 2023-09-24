@@ -1,0 +1,47 @@
+Title: Rolex Learning Center
+
+----
+
+Categoryb: choicetwo
+
+----
+
+Tag: built
+
+----
+
+Information:
+
+- 
+  projectdetails: client
+  value: Universität Lausanne
+- 
+  projectdetails: architecture
+  value: SANAA (Kazuyo Sejima + Ryue Nishizawa)
+- 
+  projectdetails: place
+  value: CH—1015 Lausanne
+- 
+  projectdetails: value
+  value: 55 Mio
+- 
+  projectdetails: timeframe
+  value: 2009–2010
+
+----
+
+Texttitle: Die Innovationsfabrik
+
+----
+
+Text:
+
+Das Rolex Learning Center auf dem Campus der Universität Lausanne ist ein visionäres Bildungszentrum. Seine organische Form und seine offenen Räume fördern Kreativität und Zusammenarbeit, was es zu einem inspirierenden Ort für Studierende macht.
+
+Die wellenförmige Struktur des Gebäudes schafft fließende Raumübergänge und lädt Studierende dazu ein, verschiedene Bereiche für Forschung und Studium zu erkunden. Die lichtdurchfluteten Innenräume bieten einen angenehmen Lern- und Arbeitsbereich.
+
+Das Rolex Learning Center ist nicht nur ein Ort des Studiums, sondern auch ein Ort des Austauschs und der Innovation. Es hat sich zu einem internationalen Symbol für modernes Bildungswesen und zeitgenössische Architektur entwickelt.
+
+----
+
+Uuid: XaQctFE7Q7aclxog

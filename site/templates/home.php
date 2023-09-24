@@ -7,18 +7,19 @@
 
     <main class="text-csblack h-full flex flex-col lg:flex-row overflow-y-auto">
         <div class="flex flex-col h-full lg:w-1/2">
-            <?php snippet('header', slots: true) ?>
-            <?php slot('dash') ?>
-            <div id="dash" class="w-7 bg-csblack h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center" alt="logo"></div>
-            <?php endslot('dash') ?>
-            <?php slot('struct') ?>
-            <?= url('struct-csblack.svg') ?>
-            <?php endslot() ?>
-            <?php slot('co') ?>
-            <?= url('co-csblack.svg') ?>
-            <?php endslot() ?>
-            <?php endsnippet() ?>
-
+            <div class="header bg-cswhite pb-5">
+                <?php snippet('header', slots: true) ?>
+                <?php slot('dash') ?>
+                <div id="dash" class="w-7 bg-csblack h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center" alt="logo"></div>
+                <?php endslot('dash') ?>
+                <?php slot('struct') ?>
+                <?= url('struct-csblack.svg') ?>
+                <?php endslot() ?>
+                <?php slot('co') ?>
+                <?= url('co-csblack.svg') ?>
+                <?php endslot() ?>
+                <?php endsnippet() ?>
+            </div>
             <div class="flex flex-col gap-4 font-sans text-base px-3 pt-2 pb-5 h-full lg:justify-end lg:text-lg">
                 <?= $site->intro() ?>
             </div>

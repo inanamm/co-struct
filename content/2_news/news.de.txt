@@ -6,47 +6,57 @@ News:
 
 - 
   image:
-    - file://AYmfc62LWBslfAQ9
+    - file://avTymslOiwtXhbgq
+  date: 2023-09-24
+  title: >
+    co–struct erhält renommierten
+    Architekturpreis
+  description: '<p>Das Ingenieur- und Tragwerkstatikbüro Co–Struct wird für seine herausragende Arbeit an einem Wolkenkratzerprojekt mit einem angesehenen Architekturpreis ausgezeichnet.</p>'
+- 
+  image: [ ]
+  date: 2023-09-20
+  title: >
+    co–struct präsentiert innovative
+    Baukonstruktionssoftware
+  description: '<p>co–struct stellt eine innovative Softwarelösung vor, die Baukonstruktionen optimiert und die Kosteneffizienz steigert.</p>'
+- 
+  image: [ ]
+  date: 2023-09-01
+  title: >
+    co–struct expandiert international mit
+    neuen Niederlassungen
+  description: '<p>co–struct eröffnet neue Niederlassungen in Nordamerika, um seine globale Präsenz zu stärken und Kunden weltweit besser zu bedienen.</p>'
+- 
+  image:
+    - file://otSFrEEmd3hj4nvo
+  date: 2023-08-10
+  title: >
+    co–struct revolutioniert den
+    Brückenbau
+  description: '<p>co–struct führt eine nachhaltige Technologie ein, die den Brückenbau revolutioniert und auf Umweltfreundlichkeit und Effizienz setzt.</p>'
+- 
+  image:
+    - file://KVQjmRpFOKblibRw
   date: 2023-08-03
   title: >
-    1 hello there this is a longer title
-    with several lines to it. just to test
-    what is looks like!
-  description: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo <a href="google.com" target="_blank" title="Link" rel="noreferrer">link</a> <a href="mailto:ina@inatest.com" title="Mail">mail</a></p><p>fdsdalfdsklafs</p>'
+    co–struct kooperiert mit führendem
+    Architekturbüro
+  description: '<p>co–struct arbeitet in einer vielversprechenden Partnerschaft mit einem führenden Architekturbüro an wegweisenden Bauprojekten.</p>'
+- 
+  image:
+    - file://juGCKQgWvItlCIue
+  date: 2023-07-21
+  title: >
+    co–struct fördert den
+    Ingenieurnachwuchs
+  description: '<p>co–struct setzt sich aktiv für die Förderung junger Ingenieurtalente ein und bietet Bildungsinitiativen sowie Praktikumsprogramme an.</p>'
 - 
   image: [ ]
-  date: 2023-08-12
-  title: 2 title 1
-  description: '<p>p p p</p>'
-- 
-  image:
-    - file://AYmfc62LWBslfAQ9
-  date: 2023-08-17
-  title: 3 hello 1
-  description: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores</p><p></p><p></p><p>jklö</p>'
-- 
-  image:
-    - file://AYmfc62LWBslfAQ9
-  date: 2023-08-30
-  title: 4 hello 2
-  description: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores</p>'
-- 
-  image: [ ]
-  date: 2023-08-13
-  title: 5 ddumbo
-  description: '<p>halllodumbo</p><p></p>'
-- 
-  image:
-    - file://53ysDMOgRJGwGMGa
-  date: 2023-08-24
-  title: 6 test
-  description: '<p>fjds afjdksla fjkslaöf</p>'
-- 
-  image:
-    - file://ktatfprAgWwoTbvi
-  date: 2023-08-16
-  title: n3 7
-  description: '<p>hallo dumbo</p><p></p>'
+  date: 2023-07-14
+  title: >
+    Expertise für sichere und nachhaltige
+    Infrastrukturen
+  description: '<p>Die Experten von co–struct setzen ihre umfassende Fachkenntnis ein, um Infrastrukturen zu schaffen, die sowohl sicher als auch nachhaltig sind.</p>'
 
 ----
 

@@ -6,21 +6,22 @@
 <body class="h-screen">
     <main class="text-csgreen h-full flex flex-col divide-y divide-csgreen lg:flex-row lg:divide-none overflow-y-auto">
         <div class="flex flex-col h-full lg:w-1/2">
-            <?php snippet('header', slots: true) ?>
-                <?php slot('dash')?>
-                    <div id="dash" class="w-7 bg-csgreen h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center" alt="logo"></div>
-                <?php endslot('dash')?>
+            <div class="header bg-cswhite pb-5">
+                <?php snippet('header', slots: true) ?>
+                <?php slot('dash') ?>
+                <div id="dash" class="w-7 bg-csgreen h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center" alt="logo"></div>
+                <?php endslot('dash') ?>
 
 
                 <?php slot('struct') ?>
-                    <?= url('struct-csgreen.svg') ?>
+                <?= url('struct-csgreen.svg') ?>
                 <?php endslot() ?>
                 <?php slot('co') ?>
-                    <?= url('co-csgreen.svg') ?>
+                <?= url('co-csgreen.svg') ?>
                 <?php endslot() ?>
-
-            <?php endsnippet() ?>
-
+                <?php endsnippet() ?>
+            </div>
+            
             <?php if ($newsArticle = $page->news()->toStructure()->first()) : ?>
                 <div class="hidden lg:flex flex-col gap-1 pb-5 px-3 pt-3 h-full">
                     <?php foreach ($newsArticle->image()->toFiles() as $image) : ?>

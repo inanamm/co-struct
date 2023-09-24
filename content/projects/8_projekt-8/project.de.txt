@@ -1,0 +1,53 @@
+Title: Haus der Kreativität
+
+----
+
+Categoryb: choicefour
+
+----
+
+Tag: building
+
+----
+
+Information:
+
+- 
+  projectdetails: client
+  value: Stadt Hamburg
+- 
+  projectdetails: architecture
+  value: Studio Abraha Achermann
+- 
+  projectdetails: place
+  value: CH—7803 Hinterandelfingen
+- 
+  projectdetails: value
+  value: "10'490"
+- 
+  projectdetails: timeframe
+  value: 2023–2025
+
+----
+
+Texttitle: Das Farbige
+
+----
+
+Text:
+
+Unser Projekt "Das Farbige Haus der Kreativität" ist ein architektonisches Wunderwerk, das sich in die städtische Landschaft einfügt und gleichzeitig heraussticht. Dieses einzigartige Wohngebäude ist nicht nur ein Ort zum Wohnen, sondern ein Kunstwerk in sich.
+
+Die Hauptidee hinter diesem Projekt ist es, eine Verbindung zwischen Architektur und Farbe herzustellen. Das Gebäude zeichnet sich durch seine auffällige und lebendige Farbgebung aus. Jede Seite des Hauses ist in einer anderen kräftigen Farbe gestaltet, die sich harmonisch in die umgebende Umwelt einfügt und gleichzeitig die Aufmerksamkeit auf sich zieht.
+
+Die Fassaden sind mit umweltfreundlichen und langlebigen Farben gestrichen, die auch bei unterschiedlichem Licht ihre lebhaften Nuancen behalten. Das Ergebnis ist ein Gebäude, das je nach Tageszeit und Lichtverhältnissen in verschiedenen Farbtönen erstrahlt und somit stets neue visuelle Eindrücke bietet.
+
+Im Inneren des "Farbigen Hauses der Kreativität" finden sich innovative Wohnkonzepte. Jede Wohnung ist so gestaltet, dass sie von natürlichem Licht durchflutet wird und gleichzeitig einen atemberaubenden Blick auf die umliegende Stadt bietet. Die Inneneinrichtung ist modern und funktional, um den Bedürfnissen der Bewohner gerecht zu werden.
+
+Das Gebäude wird nicht nur als Wohnraum genutzt, sondern auch als Treffpunkt für Künstler, Designer und kreative Köpfe aus der Stadt. Es bietet Galerien, Ateliers und Veranstaltungsräume, um die lokale Kunstszene zu fördern und eine Plattform für kulturellen Austausch und Inspiration zu schaffen.
+
+Unser Ziel mit diesem Projekt ist es, die Stadtlandschaft zu bereichern und ein Symbol der Kreativität und Lebensfreude zu schaffen. "Das Farbige Haus der Kreativität" ist nicht nur ein Ort zum Leben, sondern ein Ort, der die Sinne anspricht, die Vorstellungskraft beflügelt und die Gemeinschaft fördert. Es ist ein Ausdruck der Überzeugung, dass Farbe und Architektur die Lebensqualität in der Stadt steigern können, und ein Ort, an dem die Menschen sich inspiriert fühlen.
+
+----
+
+Uuid: VrhGDMMTIn2pOdK6

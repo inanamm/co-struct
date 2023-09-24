@@ -1,4 +1,4 @@
-<footer class="w-full">
+<footer class="w-full flex">
 	<div class="flex flex-col gap-4 font-mono text-sm lg:flex-row lg:gap-0 lg:text-xs px-3 pt-3 pb-5 grow">
 		<div class="flex flex-col lg:flex-row gap-4 lg:gap-2 w-full">
 			<div class="lg:w-1/2">
