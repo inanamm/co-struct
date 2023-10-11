@@ -12,7 +12,7 @@
         </p>
 
         <?php foreach ($worker->image()->toFiles() as $image) : ?>
-            <img src="<?= $image->crop(400)->url() ?>" class="aspect-[4/5] w-1/4 lg:w-1/2 h-auto">
+            <img src="<?= $image->crop(400, 500)->url() ?>" class="aspect-[4/5] w-1/2 lg:w-1/2 h-auto">
         <?php endforeach ?>
 
         <div class="font-mono text-sm"><?= $worker->description() ?></div>

@@ -2,6 +2,21 @@ Title: Novités
 
 ----
 
+News:
+
+- 
+  image: [ ]
+  date: 2023-08-10
+  title: hello
+  description: hello
+- 
+  image: [ ]
+  date: 2023-10-11
+  title: hallo 2
+  description: '<p>FR fdsalfjdskl jkdsla</p>'
+
+----
+
 Coworkers:
 
 - 
@@ -55,13 +70,3 @@ Text:
 ----
 
 Contact: photo: [ ]
-
-----
-
-News:
-
-- 
-  image: [ ]
-  date: 2023-08-10
-  title: hello
-  description: hello

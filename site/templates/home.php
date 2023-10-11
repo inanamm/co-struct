@@ -20,7 +20,7 @@
                 <?php endslot() ?>
                 <?php endsnippet() ?>
             </div>
-            <div class="flex flex-col gap-4 font-sans text-base px-3 pt-2 pb-5 h-full lg:justify-end lg:text-lg">
+            <div class="flex flex-col gap-4 font-sans text-base px-3 pt-2 pb-5 h-full lg:pr-5 lg:justify-end lg:text-lg">
                 <?= $site->intro() ?>
             </div>
 

@@ -19,7 +19,7 @@
 	</div>
 
 	<main class="flex flex-col lg:flex-row divide-y divide-csblue lg:divide-none">
-		<article class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:w-1/2">
+		<article class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pr-5 lg:w-1/2">
 			<?= $page->Bueroprofil()->kt() ?>
 		</article>
 
@@ -56,7 +56,7 @@
 			</div>
 
 
-			<div class="flex flex-col lg:flex-row gap-4 font-sans text-lg px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
+			<div class="flex flex-col lg:flex-row font-sans text-lg px-3 pt-2 pb-5 lg:gap-4 lg:pb-6 lg:px-0 lg:pr-3">
 				<div class="flex flex-col gap-4">
 					<?php if ($address = $site->addressZH()->toObject()) : ?>
 						<?php snippet(
@@ -101,12 +101,15 @@
 				</div>
 			</div>
 
-			<div class="flex flex-col lg:flex-row lg:gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
-				<div class="lg:w-[35%]">
-					<?php snippet('subtitle', ['subtitle' => $page->oldcoworkersTitle()->escape()]) ?>
+			<?php if ($page->oldcoworkers()->list()->isNotEmpty()) : ?>
+				<div class="flex flex-col lg:flex-row lg:gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
+					<div class="lg:w-[35%]">
+						<?php snippet('subtitle', ['subtitle' => $page->oldcoworkersTitle()->escape()]) ?>
+					</div>
+					<?= $page->oldcoworkers() ?>
+
 				</div>
-				<?= $page->oldcoworkers() ?>
-			</div>
+			<?php endif ?>
 
 			<div class="flex flex-col lg:flex-row lg:gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
 				<div class="lg:w-[35%]">
@@ -123,8 +126,13 @@
 				<?php endif ?>
 			</div>
 
-			<div class="text-xs font-mono px-3 pt-2 pb-5 lg:px-0 lg:pr-3">
+			<div class="flex flex-col gap-2 text-xs font-mono px-3 pt-2 pb-5 lg:px-0 lg:pr-3">
 				<?php snippet('copyright') ?>
+				<?php snippet('link', [
+						'url' => "/privacy",
+						'description' => $page->privacyPolicyTitle()->escape(),
+						'blank' => true
+					]) ?>
 			</div>
 		</div>
 	</main>

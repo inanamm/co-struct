@@ -20,7 +20,7 @@
     </div>
     <main class="flex flex-col mb-auto divide-y lg:flex-row lg:divide-none divide-cswhite">
 
-        <article class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pb-6 lg:w-1/2 ">
+        <article class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pr-5 lg:pb-6 lg:w-1/2 ">
             <?= $page->bueroprofil()->kt() ?>
         </article>
 
