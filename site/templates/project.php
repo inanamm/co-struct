@@ -5,7 +5,7 @@
 
 <body class="flex text-csblack relative h-screen">
     <div class="flex flex-col w-full relative lg:w-1/2 h-screen overflow-y-auto">
-        <div class="header bg-cswhite pb-5 sticky top-0 z-40">
+        <div class="header bg-cswhite pb-5">
             <?php snippet('header', slots: true) ?>
             <?php slot('dash') ?>
             <div id="dash" class="w-7 bg-csblack h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center" alt="logo"></div>
@@ -32,11 +32,18 @@
             </div>
         </div>
 
-        <main class="flex flex-col divide-y divide-csblack border-b border-csblack">
+        <main class="flex flex-col divide-y divide-csblack border-b border-csblack grow">
 
-            <h1 class="font-sansbold text-lg px-3 pt-2 pb-3">
+            <h1 class="flex flex-row font-sansbold text-lg px-3 pt-2 pb-3 lg:justify-between">
                 <?= $page->title()->escape() ?>
+                <div class="hidden lg:flex lg:hover:text-csorange font-mono text-sm self-end">
+                    <?= $page->categoryB()->escape() ?>
+                </div>
             </h1>
+
+            <div class="w-[30%] bg-csblack h-[0.26rem] lg:h-[0.40rem] self-left lg:hover:bg-csorange border-none">
+
+            </div>
 
             <div class="font-mono text-sm px-3 pt-2 pb-3">
                 <?php if ($info = $page->information()->toStructure()) : ?>
@@ -66,7 +73,9 @@
             </article>
 
         </main>
-        <?php snippet('footer') ?>
+        <div class="flex grow-0 flex-col justify-end">
+            <?php snippet('footer') ?>
+        </div>
     </div>
 
     <?= vite()->js() ?>

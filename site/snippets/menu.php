@@ -1,9 +1,9 @@
-<div class="relative z-50" x-data="{ menuOpen: false }">
+<div class="relative z-40" x-data="{ menuOpen: false }">
 
-    <div class="z-1 h-screen w-full bg-csblack opacity-30 bg-blend-multiply absolute" @click="menuOpen = !menuOpen" x-show="menuOpen" :aria-expanded="menuOpen">
+    <div class="h-screen w-full bg-csblack opacity-30 bg-blend-multiply absolute" @click="menuOpen = !menuOpen" x-show="menuOpen" :aria-expanded="menuOpen">
     </div>
 
-    <button @click="menuOpen = !menuOpen" class="fixed bottom-3 right-3 z-30" :aria-expanded="menuOpen" aria-controls="navigation" aria-label="Navigation Menu">
+    <button @click="menuOpen = !menuOpen" class="fixed bottom-3 right-3 z-50" :aria-expanded="menuOpen" aria-controls="navigation" aria-label="Navigation Menu">
         <svg class="h-5 w-5 lg:h-10 lg:w-10 text-csorange group-open:rotate-45 transition-transform origin-left hover:lg:text-cslightblue" viewBox="0 0 25 25" fill="none" stroke="currentColor" stroke-width="4">
             <line x1="12.5" y1="0" x2="12.5" y2="25" x-show="!menuOpen" />
             <line x1="0" y1="12.5" x2="25" y2="12.5" />

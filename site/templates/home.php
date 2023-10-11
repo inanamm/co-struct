@@ -24,6 +24,13 @@
                 <?= $site->intro() ?>
             </div>
 
+            <?php if ($page->url('/filter:building')) : ?>
+                TAG BUILDING
+            <?php else : ?>
+                No TAG
+            <?php endif ?>
+
+
             <div class="grid grid-cols-2 px-3 pt-3 pb-5 gap-1 w-full border-y border-csblack lg:hidden">
                 <?php displayProjectImages($pages); ?>
             </div>
