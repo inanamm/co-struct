@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html class="bg-csyellow" lang="de">
+<html class="bg-csyellow h-sccreen" lang="de">
 
 <?php snippet('head') ?>
 
-<body class="flex flex-col h-screen text-csblack">
+<body class="flex flex-col overflow-y-auto h-full text-csblack">
 	<div class="header pb-5">
 		<?php snippet('header', slots: true) ?>
 		<?php slot('dash') ?>
@@ -17,7 +17,7 @@
 		<?php endslot() ?>
 		<?php endsnippet() ?>
 	</div>
-		<main class="flex flex-col h-full">
+		<main class="flex flex-col grow">
 			<article class="flex flex-col gap-2 font-mono text-sm px-3 pt-2 pb-5 lg:pr-5 lg:w-1/2">
 				<p>Whoops, looks like the page you're looking for doesn't exist!</p>
 				<?php snippet('link', [
@@ -28,7 +28,7 @@
 			</article>
 		</main>
 
-		<div class="flex border-t border-csblack">
+		<div class="flex-none border-t border-csblack">
 			<?php snippet('footer') ?>
 		</div>
 

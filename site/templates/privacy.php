@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html class="bg-csblack h-full" lang="de">
+<html class="bg-csblack h-screen" lang="de">
 
 <?php snippet('head') ?>
 
-<body class="text-cswhite flex flex-col overflow-y-auto h-full min-h-screen grow">
+<body class="text-cswhite flex flex-col h-screen">
     <div class="header pb-5">
         <?php snippet('header', slots: true) ?>
         <?php slot('dash') ?>
@@ -18,7 +18,7 @@
 
         <?php endsnippet() ?>
     </div>
-    <main class="flex flex-col gap-4 font-sans text-base px-3 pt-2 pb-5 h-full lg:pr-5 lg:text-lg">
+    <main class="flex flex-col gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pr-5 lg:text-lg">
         <?= $pages->find('about')->privacyPolicyTitle()->kt() ?>
         <?= $pages->find('about')->privacyPolicy()->kirbytextinline() ?>
     </main>
