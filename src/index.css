@@ -17,6 +17,12 @@
     src: url("assets/Macan-Book.woff");
 }
 
+@supports (-webkit-touch-callout: none) {
+    .h-screen {
+        height: -webkit-fill-available;
+    }
+}
+
 .glide {
     position: relative;
     width: 100%;
