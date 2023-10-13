@@ -5,8 +5,6 @@
             'description' => $email,
             'blank' => false
         ]) ?>
-    <?php endif ?>
-
-    <?= $phone ?>
+    <?php endif ?><?= $phone ?>
 
 </div>

@@ -44,6 +44,7 @@ fields:
           place: Place
           value: Value
           timeframe: Timeframe
+          size: Size
       value:
         label: Value
         type: text

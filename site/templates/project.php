@@ -97,12 +97,12 @@
 <!--RIGHT SIDE-->
 <div class="hidden lg:flex w-1/2 overflow-y-scroll">
     <div>
-        <ul class="">
-            <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
-                <li class="">
-                    <img src="<?= $image->url() ?>" class="w-full object-fill">
-                </li>
-            <?php endforeach ?>
+        <ul>
+        <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
+        <li class="<?= $image->ratio() > 1 ? 'w-full' : 'w-full' ?> pb-0.5 last:p-0">
+            <img src="<?= $image->url() ?>" class="w-full object-fill">
+        </li>
+    <?php endforeach ?>
 
         </ul>
     </div>

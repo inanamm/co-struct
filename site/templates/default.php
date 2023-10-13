@@ -21,7 +21,7 @@
 			<article class="flex flex-col gap-2 font-mono text-sm px-3 pt-2 pb-5 lg:pr-5 lg:w-1/2">
 				<p>Whoops, looks like the page you're looking for doesn't exist!</p>
 				<?php snippet('link', [
-					'url' => "/home",
+					'url' => "<?= site()->url(kirby()->language()->code()) ?>",
 					'description' => 'Go back to the home page',
 					'blank' => false
 				]) ?>

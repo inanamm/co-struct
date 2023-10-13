@@ -14,6 +14,7 @@ return [
         'place' => 'Ort',
         'value' => 'Kosten',
         'timeframe' => 'Termine',
+        'size' => 'Grösse',
 
         'choiceone' => 'Recherche',
         'choicetwo' => 'Anderes',

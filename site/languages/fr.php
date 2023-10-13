@@ -9,11 +9,12 @@ return [
     ],
     'name' => 'FR',
     'translations' => [
-        'client' => 'Commanditaire',
+        'client' => 'Maître de d’ouvrage',
         'architecture' => 'Architecture',
         'place' => 'Lieu',
-        'value' => 'Coûts',
-        'timeframe' => 'Délais',
+        'value' => 'Coûts estimés',
+        'timeframe' => 'Période de l’étude',
+        'size' => 'Portée',
 
         'choiceone' => 'Recherche',
         'choicetwo' => 'Autre',

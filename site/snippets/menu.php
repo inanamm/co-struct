@@ -13,7 +13,7 @@
 
     <div id="navigation" x-show="menuOpen" class="h-auto w-full flex flex-col bg-cswhite border-t border-csorange divide-y divide-csorange text-csorange fixed bottom-0 left-0" x-transition:enter="transition duration-500 ease-in-out" x-transition:enter-start="translate-y-full" x-transition:enter-end="translate-y-0" x-transition:leave="transition ease-in-out duration-300" x-transition:leave-start="translate-y-0" x-transition:leave-end="translate-y-full">
 
-        <nav class="flex justify-between pt-2 pb-5 px-3 font-sans text-xl">
+        <nav class="flex justify-between pt-2 pb-5 px-3 font-sans text-lg">
             <?php
             $items = $pages->listed();
             if ($items->isNotEmpty()) :

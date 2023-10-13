@@ -27,6 +27,9 @@ Information:
 - 
   projectdetails: timeframe
   value: 2009–2010
+- 
+  projectdetails: size
+  value: 09876m
 
 ----
 
