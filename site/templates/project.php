@@ -4,6 +4,8 @@
 <?php snippet('head') ?>
 
 <body class="flex text-csblack relative h-screen">
+
+    <!--LEFT SIDE-->
     <div class="flex flex-col w-full relative lg:w-1/2 h-screen overflow-y-auto">
         <div class="header bg-cswhite pb-5">
             <?php snippet('header', slots: true) ?>
@@ -19,6 +21,7 @@
             <?php endsnippet() ?>
         </div>
 
+        <!--GLIDER MOBILE -->
         <div class="glide lg:hidden pt-3">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
@@ -32,6 +35,7 @@
             </div>
         </div>
 
+        <!--TEXT PROJECT-->
         <main class="flex flex-col divide-y divide-csblack border-b border-csblack grow">
 
             <!-- <h1 class="flex flex-row font-sansbold text-lg px-3 pt-2 pb-3 lg:justify-between">
@@ -40,7 +44,6 @@
                     <?= $page->categoryB()->escape() ?>
                 </div>
             </h1>
-
             <div class="w-[30%] bg-csblack h-[0.26rem] lg:h-[0.40rem] self-left lg:hover:bg-csorange border-none">
             </div> -->
 
@@ -53,7 +56,6 @@
 
             <div class="w-[30%] bg-csblack h-[0.26rem] lg:hover:bg-csorange border-none lg:h-[0.40rem] self-left bar relative" onmouseover="document.querySelector('.category').style.color='#ff9900'; document.querySelector('.category').style.visibility='visible';" onmouseout="document.querySelector('.category').style.color='csblack'; document.querySelector('.category').style.visibility='hidden';">
             </div>
-
 
             <div class="font-mono text-sm px-3 pt-2 pb-3">
                 <?php if ($info = $page->information()->toStructure()) : ?>
@@ -83,6 +85,7 @@
             </article>
 
         </main>
+
         <div class="flex grow-0 flex-col justify-end">
             <?php snippet('footer') ?>
         </div>
@@ -91,6 +94,7 @@
     <?= vite()->js() ?>
 </body>
 
+<!--RIGHT SIDE-->
 <div class="hidden lg:flex w-1/2 overflow-y-scroll">
     <div>
         <ul class="">

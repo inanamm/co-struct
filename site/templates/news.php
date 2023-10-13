@@ -4,8 +4,8 @@
 <?php snippet('head') ?>
 
 <body class="h-screen">
-    <main class="text-csgreen h-full flex flex-col divide-y divide-csgreen lg:flex-row lg:divide-none overflow-y-auto">
-        <div class="flex flex-col h-full lg:w-1/2">
+    <main class="text-csgreen h-screen flex flex-col divide-y divide-csgreen lg:flex-row lg:divide-none ">
+        <div class="flex flex-col h-sreeen lg:w-1/2 overflow-auto">
             <div class="header bg-cswhite pb-5">
                 <?php snippet('header', slots: true) ?>
                 <?php slot('dash') ?>
@@ -23,7 +23,7 @@
             </div>
             
             <?php if ($newsArticle = $page->news()->toStructure()->first()) : ?>
-                <div class="hidden lg:flex flex-col gap-1 pb-5 px-3 pt-3 h-full">
+                <div class="hidden lg:flex flex-col gap-1 pb-5 px-3 pt-3 h-sreen">
                     <?php foreach ($newsArticle->image()->toFiles() as $image) : ?>
                         <img src="<?= $image->url() ?>" class="w-full h-auto">
                     <?php endforeach ?>
@@ -40,7 +40,7 @@
                 </div>
             <?php endif ?>
 
-            <div class="divide-y divide-csgreen">
+            <div class="divide-y divide-csgreen grow">
                 <?php if ($news = $page->news()->toStructure()) : ?>
                     <?php foreach ($news as $newsArticle) : ?>
 
@@ -72,7 +72,7 @@
             </div>
         </div>
 
-        <div class="hidden divide-y divide-csgreen lg:grid gap-x-2 grid-cols-2 flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-y-scroll h-full">
+        <div class="hidden divide-y divide-csgreen lg:grid gap-x-2 grid-cols-2 flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-auto h-screen">
             <?php if ($news = $page->news()->toStructure()->without(0)) : ?>
                 <?php foreach ($news as $newsArticle) : ?>
 
