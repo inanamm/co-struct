@@ -5,8 +5,8 @@
 
 <body class="h-screen">
 
-    <main class="text-csblack h-full flex flex-col lg:flex-row overflow-y-auto">
-        <div class="flex flex-col h-full lg:w-1/2">
+    <main class="text-csblack h-full flex flex-col lg:flex-row">
+        <div class="flex flex-col lg:w-1/2 h-screen overflow-auto">
             <div class="header bg-cswhite pb-5">
                 <?php snippet('header', slots: true) ?>
                 <?php slot('dash') ?>
@@ -40,7 +40,7 @@
             </div>
         </div>
 
-        <div class="hidden divide-y divide-csgreen lg:grid flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-y-scroll h-full">
+        <div class="hidden divide-y divide-csgreen lg:grid flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-y-auto h-full">
             <div class="flex flex-col">
                 <div class="grid grid-cols-4 pb-6 gap-1 w-full">
                     <?php displayProjectImages($pages); ?>
