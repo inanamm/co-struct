@@ -2,15 +2,14 @@ Title: blublubFR
 
 ----
 
-Header: "fdskfjdsa" “fdjkdsaf“ „…“
+Information:
 
-----
-
-Category: choicefour
-
-----
-
-Information: 
+- 
+  projectdetails: Photography
+  value: fdsa
+- 
+  projectdetails: Design
+  value: fdsafdsa
 
 ----
 
@@ -19,3 +18,11 @@ Texttitle:
 ----
 
 Text: 
+
+----
+
+Header: "fdskfjdsa" “fdjkdsaf“ „…“
+
+----
+
+Category: choicefour

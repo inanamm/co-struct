@@ -9,6 +9,17 @@ return [
     ],
     'name' => 'FR',
     'translations' => [
+        'client' => 'Commanditaire',
+        'architecture' => 'Architecture',
+        'place' => 'Lieu',
+        'value' => 'Coûts',
+        'timeframe' => 'Délais',
+
+        'choiceone' => 'Recherche',
+        'choicetwo' => 'Autre',
+        'choicethree' => 'Concours',
+        'choicefour' => 'Gagné concours',
+        'choicefive' => 'Commande directe',
 
     ],
     'url' => NULL,

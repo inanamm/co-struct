@@ -9,7 +9,17 @@ return [
     ],
     'name' => 'DE',
     'translations' => [
+        'client' => 'Auftraggeber:in',
+        'architecture' => 'Architektur',
+        'place' => 'Ort',
+        'value' => 'Kosten',
+        'timeframe' => 'Termine',
 
+        'choiceone' => 'Recherche',
+        'choicetwo' => 'Anderes',
+        'choicethree' => 'Wettbewerb',
+        'choicefour' => 'Wettbewerb gewonnen',
+        'choicefive' => 'Direktauftrag',
     ],
     'url' => NULL,
 

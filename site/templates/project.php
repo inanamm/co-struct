@@ -34,7 +34,7 @@
 
         <main class="flex flex-col divide-y divide-csblack border-b border-csblack grow">
 
-            <h1 class="flex flex-row font-sansbold text-lg px-3 pt-2 pb-3 lg:justify-between">
+            <!-- <h1 class="flex flex-row font-sansbold text-lg px-3 pt-2 pb-3 lg:justify-between">
                 <?= $page->title()->escape() ?>
                 <div class="hidden lg:flex lg:hover:text-csorange font-mono text-sm self-end">
                     <?= $page->categoryB()->escape() ?>
@@ -42,14 +42,24 @@
             </h1>
 
             <div class="w-[30%] bg-csblack h-[0.26rem] lg:h-[0.40rem] self-left lg:hover:bg-csorange border-none">
+            </div> -->
 
+            <div class="flex flex-row font-sansbold text-lg px-3 pt-2 pb-3 lg:justify-between hover-container relative">
+                <?= $page->title()->escape() ?>
+                <div class="hidden lg:flex font-mono text-sm self-end category absolute right-3" style="color: csblack; visibility: hidden;">
+                    <?= t($page->categoryB()->escape()) ?>
+                </div>
             </div>
+
+            <div class="w-[30%] bg-csblack h-[0.26rem] lg:hover:bg-csorange border-none lg:h-[0.40rem] self-left bar relative" onmouseover="document.querySelector('.category').style.color='#ff9900'; document.querySelector('.category').style.visibility='visible';" onmouseout="document.querySelector('.category').style.color='csblack'; document.querySelector('.category').style.visibility='hidden';">
+            </div>
+
 
             <div class="font-mono text-sm px-3 pt-2 pb-3">
                 <?php if ($info = $page->information()->toStructure()) : ?>
                     <?php snippet(
                         'accordion',
-                        ['buttonText' => 'Info'],
+                        ['buttonText' => 'Information'],
                         slots: true
                     )
                     ?>
@@ -57,7 +67,7 @@
                     <div class="flex flex-col gap-3 mt-3">
                         <?php foreach ($info as $detail) : ?>
                             <div class="flex flex-col">
-                                <p class=><?= $detail->projectDetails()->escape() ?></p>
+                                <p><?= t($detail->projectDetails()->escape()) ?></p>
                                 <p><?= $detail->value()->escape() ?></p>
                             </div>
                         <?php endforeach ?>
