@@ -86,7 +86,7 @@
 
         </main>
 
-        <div class="flex grow-0 flex-col justify-end">
+        <div class="flex grow-0 justify-end">
             <?php snippet('footer') ?>
         </div>
     </div>
