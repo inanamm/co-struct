@@ -5,6 +5,8 @@
             'description' => $email,
             'blank' => false
         ]) ?>
-    <?php endif ?><?= $phone ?>
-
+    <?php endif ?>
+    <a href="tel:<?= $phone ?>" class="underline-none hover:text-cslightblue">
+        <?= $phone ?>
+    </a>
 </div>
