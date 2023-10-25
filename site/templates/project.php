@@ -3,7 +3,7 @@
 
 <?php snippet('head') ?>
 
-<body class="flex text-csblack relative h-screen">
+<body class="flex text-csblack relative h-screen no-scrollbar">
 
     <!--LEFT SIDE-->
     <div class="flex flex-col w-full relative lg:w-1/2 h-screen overflow-y-auto">
@@ -95,7 +95,7 @@
 </body>
 
 <!--RIGHT SIDE-->
-<div class="hidden lg:flex w-1/2 overflow-y-scroll">
+<div class="hidden lg:flex w-1/2 overflow-y-scroll no-scrollbar">
     <div>
         <ul>
         <?php foreach ($page->images()->sortBy("sort") as $image) : ?>

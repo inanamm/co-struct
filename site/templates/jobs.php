@@ -3,7 +3,7 @@
 
 <?php snippet('head') ?>
 
-<body class="text-cswhite flex flex-col overflow-y-auto h-full">
+<body class="text-cswhite flex flex-col overflow-y-auto h-full no-scrollbar">
     <div class="header pb-5">
         <?php snippet('header', slots: true) ?>
         <?php slot('dash') ?>

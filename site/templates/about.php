@@ -3,7 +3,7 @@
 
 <?php snippet('head') ?>
 
-<body class="text-csblue flex flex-col h-full overflow-y-auto">
+<body class="text-csblue flex flex-col h-full overflow-y-auto no-scrollbar">
 	<div class="header bg-cswhite pb-5">
 		<?php snippet('header', slots: true) ?>
 		<?php slot('dash') ?>
@@ -18,12 +18,12 @@
 		<?php endsnippet() ?>
 	</div>
 
-	<main class="flex flex-col lg:flex-row divide-y divide-csblue lg:divide-none">
+	<main class="flex flex-col lg:flex-row divide-y divide-csblue lg:divide-none no-scrollbar">
 		<article class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pr-5 lg:w-1/2">
 			<?= $page->Bueroprofil()->kt() ?>
 		</article>
 
-		<div class="lg:w-1/2 lg:divide-none divide-y divide-csblue">
+		<div class="lg:w-1/2 lg:divide-none divide-y divide-csblue no-scrollbar">
 			<div class="flex flex-col lg:flex-row gap-4 font-sans text-lg px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
 				<div class="flex flex-col gap-4">
 					<?php if ($address = $site->addressOffice()->toObject()) : ?>

@@ -4,8 +4,8 @@
 <?php snippet('head') ?>
 
 <body class="h-screen">
-    <main class="text-csgreen h-screen flex flex-col divide-y divide-csgreen lg:flex-row lg:divide-none ">
-        <div class="flex flex-col h-sreeen lg:w-1/2 overflow-auto">
+    <main class="text-csgreen h-screen flex flex-col divide-y divide-csgreen lg:flex-row lg:divide-none">
+        <div class="flex flex-col h-sreeen lg:w-1/2 overflow-auto no-scrollbar">
             <div class="header bg-cswhite pb-5">
                 <?php snippet('header', slots: true) ?>
                 <?php slot('dash') ?>
@@ -72,7 +72,7 @@
             </div>
         </div>
 
-        <div class="hidden divide-y divide-csgreen lg:grid gap-x-2 grid-cols-2 flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-auto h-screen">
+        <div class="hidden divide-y divide-csgreen lg:grid gap-x-2 grid-cols-2 flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-auto h-screen no-scrollbar">
             <?php if ($news = $page->news()->toStructure()->without(0)) : ?>
                 <?php foreach ($news as $newsArticle) : ?>
 
