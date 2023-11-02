@@ -45,7 +45,7 @@
                 </div>
             </h1>
             <div class="w-[30%] bg-csblack h-[0.26rem] lg:h-[0.40rem] self-left lg:hover:bg-csorange border-none">
-            </div> -->
+            </div> --> 
 
             <div class="flex flex-row font-sansbold text-lg px-3 pt-2 pb-3 lg:justify-between hover-container relative">
                 <?= $page->title()->escape() ?>
