@@ -3,7 +3,7 @@
 
 <?php snippet('head') ?>
 
-<body class="h-screen">
+<body class="h-screen no-scrollbar">
     <main class="text-csgreen h-screen flex flex-col divide-y divide-csgreen lg:flex-row lg:divide-none">
         <div class="flex flex-col h-sreeen lg:w-1/2 overflow-auto no-scrollbar">
             <div class="header bg-cswhite pb-5">

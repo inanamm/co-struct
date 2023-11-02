@@ -6,7 +6,8 @@
 <body class="flex text-csblack relative h-screen no-scrollbar">
 
     <!--LEFT SIDE-->
-    <div class="flex flex-col w-full relative lg:w-1/2 h-screen overflow-y-auto">
+    <div class="flex flex-col w-full relative lg:w-1/2 h-screen overflow-y-auto no-scrollbar">
+        
         <div class="header bg-cswhite pb-5">
             <?php snippet('header', slots: true) ?>
             <?php slot('dash') ?>
