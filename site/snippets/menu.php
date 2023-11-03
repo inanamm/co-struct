@@ -28,6 +28,7 @@
 
 
                                     <?php
+                                    $filter = param("filter");
                                     $subitems = false;
                                     if ($item->id() === 'home') :
 
@@ -36,17 +37,17 @@
                                             <?php if ($kirby->language()->code() === "de") : ?>
                                                 <ul>
                                                     <?php if ($pages->get('projects')->children()->filterBy('tag', "built")->isNotEmpty()) : ?>
-                                                        <li class="hover:text-cslightblue">
+                                                        <li class="hover:text-cslightblue <?= e($filter === "built", 'underline') ?>">
                                                             <a href="/de/filter:built">Realisiert</a>
                                                         </li>
                                                     <?php endif ?>
                                                     <?php if ($pages->get('projects')->children()->filterBy('tag', "building")->isNotEmpty()) : ?>
-                                                        <li class="hover:text-cslightblue">
+                                                        <li class="hover:text-cslightblue <?= e($filter === "building", 'underline') ?>">
                                                             <a href="/de/filter:building">In Bau</a>
                                                         </li>
                                                     <?php endif ?>
                                                     <?php if ($pages->get('projects')->children()->filterBy('tag', "notbuilt")->isNotEmpty()) : ?>
-                                                        <li class="hover:text-cslightblue">
+                                                        <li class="hover:text-cslightblue <?= e($filter === "notbuilt", 'underline') ?>">
                                                             <a href="/de/filter:notbuilt">Nicht realisiert</a>
                                                         </li>
                                                     <?php endif ?>
@@ -54,17 +55,17 @@
                                             <?php else : ?>
                                                 <ul>
                                                     <?php if ($pages->get('projects')->children()->filterBy('tag', "built")->isNotEmpty()) : ?>
-                                                        <li class="hover:text-cslightblue">
+                                                        <li class="hover:text-cslightblue <?= e($filter === "built", 'underline') ?>">
                                                             <a href="/fr/filter:built">Réalisés</a>
                                                         </li>
                                                     <?php endif ?>
                                                     <?php if ($pages->get('projects')->children()->filterBy('tag', "building")->isNotEmpty()) : ?>
-                                                        <li class="hover:text-cslightblue">
+                                                        <li class="hover:text-cslightblue <?= e($filter === "building", 'underline') ?>">
                                                             <a href="/fr/filter:building">En construction</a>
                                                         </li>
                                                     <?php endif ?>
                                                     <?php if ($pages->get('projects')->children()->filterBy('tag', "notbuilt")->isNotEmpty()) : ?>
-                                                        <li class="hover:text-cslightblue">
+                                                        <li class="hover:text-cslightblue <?= e($filter === "notbuilt", 'underline') ?>">
                                                             <a href="/fr/filter:notbuilt">Non réalisées</a>
                                                         </li>
                                                     <?php endif ?>
