@@ -1,6 +1,6 @@
 <div class="relative z-40" x-data="{ menuOpen: false }">
 
-    <div class="h-screen w-full bg-csblack opacity-30 bg-blend-multiply absolute" @click="menuOpen = !menuOpen" x-show="menuOpen" :aria-expanded="menuOpen">
+    <div class="h-screen w-full bg-csblack opacity-30 bg-blend-multiply fixed" @click="menuOpen = !menuOpen" x-show="menuOpen" :aria-expanded="menuOpen">
     </div>
 
     <button @click="menuOpen = !menuOpen" class="fixed bottom-3 right-3 z-50" :aria-expanded="menuOpen" aria-controls="navigation" aria-label="Navigation Menu">
