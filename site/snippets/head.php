@@ -10,5 +10,5 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="Deutsch, Francais">
     <?php snippet('menu') ?>
-    <?= vite()->css() ?>
+    <?= vite()->css('index.css') ?>
 </head>

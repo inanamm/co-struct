@@ -141,7 +141,7 @@
 		<?php snippet('footer') ?>
 	</div>
 
-	<?= vite()->js() ?>
+	<?= vite()->js('index.js') ?>
 </body>
 
 </html>

@@ -92,7 +92,7 @@
         </div>
     </div>
 
-    <?= vite()->js() ?>
+     <?= vite()->js('index.js') ?>
 </body>
 
 <!--RIGHT SIDE-->

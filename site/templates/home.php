@@ -23,7 +23,7 @@
             <div class="flex flex-col gap-4 font-sans text-base px-3 pt-2 pb-5 h-full lg:pr-5 lg:justify-end lg:text-lg">
                 <?= $site->intro() ?>
             </div>
-            
+
             <nav class="hidden lg:flex justify-between pt-2 pb-5 px-3 font-sans text-lg border-t border-csblack">
                 <?php
                 $items = $pages->listed();
@@ -106,7 +106,7 @@
 
         </div>
     </main>
-    <?= vite()->js() ?>
+     <?= vite()->js('index.js') ?>
 </body>
 
 </html>

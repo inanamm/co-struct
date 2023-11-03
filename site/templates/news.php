@@ -101,7 +101,7 @@
 
     </main>
 
-    <?= vite()->js() ?>
+     <?= vite()->js('index.js') ?>
 </body>
 
 </html>
