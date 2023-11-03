@@ -7,7 +7,7 @@
 
     <!--LEFT SIDE-->
     <div class="flex flex-col w-full relative lg:w-1/2 h-screen overflow-y-auto no-scrollbar">
-        
+
         <div class="header bg-cswhite pb-5">
             <?php snippet('header', slots: true) ?>
             <?php slot('dash') ?>
@@ -46,7 +46,7 @@
                 </div>
             </h1>
             <div class="w-[30%] bg-csblack h-[0.26rem] lg:h-[0.40rem] self-left lg:hover:bg-csorange border-none">
-            </div> --> 
+            </div> -->
 
             <div class="flex flex-row font-sansbold text-lg px-3 pt-2 pb-3 lg:justify-between hover-container relative">
                 <?= $page->title()->escape() ?>
@@ -55,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="w-[30%] bg-csblack h-[0.26rem] lg:hover:bg-csorange border-none lg:h-[0.40rem] self-left bar relative" onmouseover="document.querySelector('.category').style.color='#ff9900'; document.querySelector('.category').style.visibility='visible';" onmouseout="document.querySelector('.category').style.color='csblack'; document.querySelector('.category').style.visibility='hidden';">
+            <div style="<?= calculateBarLength($page->categoryB()->escape()) ?>" class="bg-csblack h-[0.26rem] lg:hover:bg-csorange border-none lg:h-[0.40rem] self-left bar relative" onmouseover="document.querySelector('.category').style.color='#ff9900'; document.querySelector('.category').style.visibility='visible';" onmouseout="document.querySelector('.category').style.color='csblack'; document.querySelector('.category').style.visibility='hidden';">
             </div>
 
             <div class="font-mono text-sm px-3 pt-2 pb-3">
@@ -92,21 +92,50 @@
         </div>
     </div>
 
-     <?= vite()->js('index.js') ?>
+    <?= vite()->js('index.js') ?>
 </body>
 
 <!--RIGHT SIDE-->
 <div class="hidden lg:flex w-1/2 overflow-y-scroll no-scrollbar">
     <div>
         <ul>
-        <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
-        <li class="<?= $image->ratio() > 1 ? 'w-full' : 'w-full' ?> pb-0.5 last:p-0">
-            <img src="<?= $image->url() ?>" class="w-full object-fill">
-        </li>
-    <?php endforeach ?>
+            <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
+                <li class="<?= $image->ratio() > 1 ? 'w-full' : 'w-full' ?> pb-0.5 last:p-0">
+                    <img src="<?= $image->url() ?>" class="w-full object-fill">
+                </li>
+            <?php endforeach ?>
 
         </ul>
     </div>
 </div>
 
 </html>
+
+
+<?php
+function calculateBarLength($choice)
+{
+    $length = 0;
+
+    switch ($choice) {
+        case "choiceone":
+            $length = 17;
+            break;
+        case "choicetwo":
+            $length = 34;
+            break;
+        case "choicethree":
+            $length = 51;
+            break;
+        case "choicefour":
+            $length = 68;
+            break;
+        case "choicefive":
+            $length = 85;
+            break;
+        default:
+            $length = 100;
+    }
+    return "width:" . $length . "%";
+}
+?>
