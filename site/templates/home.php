@@ -127,7 +127,7 @@ function displayProjectImages($pages)
             array_push(
                 $allProjectImagesWithUrl,
                 (object)[
-                    'imageX'=> $image,
+                    'imageX' => $image,
                     'imageUrl' => $image->url(),
                     'imageAlt' => $image->alt(),
                     'projectTitle' => $singleProject->title(),
@@ -143,7 +143,8 @@ function displayProjectImages($pages)
             <!-- <img src="<?= $image->imageUrl ?>" alt="<?= $image->imageAlt ?>" class="hover:brightness-105" /> -->
             <?php echo $image->imageX->thumb([
                 'quality' => 60,
-                'format'  => 'webp',
+                'lazy' => true,
+                'format' => 'webp',
             ])->html(); ?>
             <p class="font-mono text-xs"><?= $image->projectTitle ?></p>
         </a>
