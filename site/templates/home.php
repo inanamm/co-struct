@@ -142,7 +142,7 @@ function displayProjectImages($pages)
         <a href="<?= $image->projectUrl ?>" class="pb-5 hover:text-cslightblue hover:brightness-105">
             <!-- <img src="<?= $image->imageUrl ?>" alt="<?= $image->imageAlt ?>" class="hover:brightness-105" /> -->
             <?php echo $image->imageX->thumb([
-                'quality' => 10,
+                'quality' => 25,
                 'format'  => 'webp',
             ])->html(); ?>
             <p class="font-mono text-xs"><?= $image->projectTitle ?></p>
