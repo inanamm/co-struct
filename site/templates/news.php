@@ -21,10 +21,14 @@
                 <?php endslot() ?>
                 <?php endsnippet() ?>
             </div>
-            
+
             <?php if ($newsArticle = $page->news()->toStructure()->first()) : ?>
                 <div class="hidden lg:flex flex-col gap-1 pb-5 px-3 pt-3 h-sreen">
                     <?php foreach ($newsArticle->image()->toFiles() as $image) : ?>
+                        <?php echo $image->thumb([
+                            'quality' => 60,
+                            'format'  => 'webp',
+                        ])->html(); ?>
                         <img src="<?= $image->url() ?>" class="w-full h-auto">
                     <?php endforeach ?>
 
@@ -101,7 +105,7 @@
 
     </main>
 
-     <?= vite()->js('index.js') ?>
+    <?= vite()->js('index.js') ?>
 </body>
 
 </html>

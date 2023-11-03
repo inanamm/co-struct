@@ -127,6 +127,7 @@ function displayProjectImages($pages)
             array_push(
                 $allProjectImagesWithUrl,
                 (object)[
+                    'imageX'=> $image,
                     'imageUrl' => $image->url(),
                     'imageAlt' => $image->alt(),
                     'projectTitle' => $singleProject->title(),
@@ -138,8 +139,12 @@ function displayProjectImages($pages)
     shuffle($allProjectImagesWithUrl);
 
     foreach ($allProjectImagesWithUrl as $image) : ?>
-        <a href="<?= $image->projectUrl ?>" class="pb-5 hover:text-cslightblue">
-            <img src="<?= $image->imageUrl ?>" alt="<?= $image->imageAlt ?>" class="hover:brightness-105" />
+        <a href="<?= $image->projectUrl ?>" class="pb-5 hover:text-cslightblue hover:brightness-105">
+            <!-- <img src="<?= $image->imageUrl ?>" alt="<?= $image->imageAlt ?>" class="hover:brightness-105" /> -->
+            <?php echo $image->imageX->thumb([
+                'quality' => 10,
+                'format'  => 'webp',
+            ])->html(); ?>
             <p class="font-mono text-xs"><?= $image->projectTitle ?></p>
         </a>
 <?php endforeach;
