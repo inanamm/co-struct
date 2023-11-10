@@ -1,5 +1,12 @@
 title: Projects
 
+fields:
+  info:
+    label: Info
+    type: info
+    text: |
+      Oops! You can't edit anything on this page. Please go back to the panel homepage to the tab "projects".
+
 options:
   changeSlug:
     editor: false
@@ -15,8 +22,6 @@ options:
     editor: false
   duplicate:
     editor: false
-  # preview:
-  #   editor: true
   read:
     admin: true
     editor: true
@@ -24,4 +29,3 @@ options:
     editor: false
   update:
     editor: true
-

@@ -94,7 +94,7 @@
             <?php snippet('footer') ?>
         </div>
     </div>
-
+    <?php snippet('seo/schemas'); ?>
     <?= vite()->js('index.js') ?>
 </body>
 

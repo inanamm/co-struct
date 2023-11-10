@@ -74,6 +74,7 @@
 
         </div>
     </main>
+    <?php snippet('seo/schemas'); ?>
     <?= vite()->js('index.js') ?>
     <?= vite()->js('homepageImages.js') ?>
 </body>

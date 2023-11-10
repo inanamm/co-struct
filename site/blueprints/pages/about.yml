@@ -93,15 +93,3 @@ columns:
             width: 2/3
             marks: false
             translate: false
-
-          lineD:
-            type: line
-          
-          privacyPolicyTitle:
-            type: text
-            label: Title
-            width: 1/3
-          privacyPolicy:
-            label: Privacy Policy
-            type: textarea
-            buttons: false

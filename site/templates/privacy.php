@@ -19,14 +19,14 @@
         <?php endsnippet() ?>
     </div>
     <main class="flex flex-col gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pr-5 lg:text-lg">
-        <?= $pages->find('about')->privacyPolicyTitle()->kt() ?>
-        <?= $pages->find('about')->privacyPolicy()->kirbytextinline() ?>
+        <?= $page->privacyPolicyTitle()->kt() ?>
+        <?= $page->privacyPolicy()->kirbytextinline() ?>
     </main>
 
     <div class="flex border-t border-cswhite mt-auto">
         <?php snippet('footer') ?>
     </div>
-
+    <?php snippet('seo/schemas'); ?>
      <?= vite()->js('index.js') ?>
 </body>
 

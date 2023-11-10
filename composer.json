@@ -25,7 +25,7 @@
     "php": ">=8.0.0 <8.3.0",
     "getkirby/cms": "^3.9",
     "arnoson/kirby-vite": "^4.0.9",
-    "diesdasdigital/kirby-meta-knight": "^1.2"
+    "tobimori/kirby-seo": "^0.3.4"
   },
   "config": {
     "allow-plugins": {

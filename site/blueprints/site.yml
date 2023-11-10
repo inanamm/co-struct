@@ -128,4 +128,4 @@ tabs:
                 label: LinkedIn Handle
                 type: url
                 
-  seotab: seo
+  seo: seo/site

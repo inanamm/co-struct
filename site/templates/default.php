@@ -17,22 +17,23 @@
 		<?php endslot() ?>
 		<?php endsnippet() ?>
 	</div>
-		<main class="flex flex-col h-screen">
-			<article class="flex flex-col gap-2 font-mono text-sm px-3 pt-2 pb-5 lg:pr-5 lg:w-1/2">
-				<p>Whoops, looks like the page you're looking for doesn't exist!</p>
-				<?php snippet('link', [
-					'url' => $site->url($kirby->language()->code()),
-					'description' => 'Go back to the home page',
-					'blank' => false
-				]) ?>
-			</article>
-		</main>
+	<main class="flex flex-col h-screen">
+		<article class="flex flex-col gap-2 font-mono text-sm px-3 pt-2 pb-5 lg:pr-5 lg:w-1/2">
+			<p>Whoops, looks like the page you're looking for doesn't exist!</p>
+			<?php snippet('link', [
+				'url' => $site->url($kirby->language()->code()),
+				'description' => 'Go back to the home page',
+				'blank' => false
+			]) ?>
+		</article>
+	</main>
 
-		<div class="flex flex-col border-t border-csblack">
-			<?php snippet('footer') ?>
-		</div>
+	<div class="flex flex-col border-t border-csblack">
+		<?php snippet('footer') ?>
+	</div>
 
-	 <?= vite()->js('index.js') ?>
+	<?php snippet('seo/schemas'); ?>
+	<?= vite()->js('index.js') ?>
 </body>
 
 </html>
