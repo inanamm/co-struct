@@ -75,3 +75,7 @@ sidebar:
     required: true
     type: files
     label: Gallery
+
+options:
+  delete:
+    editor: true
