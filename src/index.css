@@ -10,17 +10,17 @@
 
 @font-face {
     font-family: "Monospace821BT";
-    src: url("assets/Monospace821BTRegular.otf");
+    src: url("assets/Monospace821BTRegular.otf") format('otf');
 }
 
 @font-face {
     font-family: "MacanSemibold";
-    src: url("assets/Macan-Semibold.woff");
+    src: url("assets/Macan-Semibold.woff") format('woff');
 }
 
 @font-face {
     font-family: "MacanBook";
-    src: url("assets/Macan-Book.woff");
+    src: url("assets/Macan-Book.woff") format('woff');
 }
 
 @supports (-webkit-touch-callout: none) {

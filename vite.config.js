@@ -8,7 +8,9 @@ export default ({ mode }) => ({
   build: {
     outDir: resolve(process.cwd(), 'public/dist'),
     emptyOutDir: true,
-    rollupOptions: { input: resolve(process.cwd(), 'src/index.js') }
+    rollupOptions: {
+      input: ['main.js', 'homepageImages', 'main.css']
+    }
   },
 
   plugins: [kirby()]
