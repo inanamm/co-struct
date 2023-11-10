@@ -49,24 +49,24 @@ if (document.querySelector('.glide')) {
     });
 }
 
-const swup = new Swup({
-    plugins: [
-      new SwupJsPlugin({ animations: [ {
-        from: '(.*)',
-        to: '(.*)',
-        out: (done) => {
-          const container = document.querySelector('#swup');
-          container.style.opacity = 1;
-          anime({ targets: container, opacity: 0, duration: 500, complete: done });
-        },
-        in: (done) => {
-          const container = document.querySelector('#swup');
-          container.style.opacity = 0;
-          anime({ targets: container, opacity: 1, duration: 500, complete: done });
-        }
-      } ] })
-    ]
-  });
+// const swup = new Swup({
+//     plugins: [
+//       new SwupJsPlugin({ animations: [ {
+//         from: '(.*)',
+//         to: '(.*)',
+//         out: (done) => {
+//           const container = document.querySelector('#swup');
+//           container.style.opacity = 1;
+//           anime({ targets: container, opacity: 0, duration: 500, complete: done });
+//         },
+//         in: (done) => {
+//           const container = document.querySelector('#swup');
+//           container.style.opacity = 0;
+//           anime({ targets: container, opacity: 1, duration: 500, complete: done });
+//         }
+//       } ] })
+//     ]
+//   });
 
 
 
