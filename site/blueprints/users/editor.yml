@@ -20,7 +20,7 @@ permissions:
     delete: false
   pages:
     changeSlug: false
-    changeStatus: true
+    changeStatus: false
     changeTemplate: false
     changeTitle: true
     create: true

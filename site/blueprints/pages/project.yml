@@ -79,3 +79,5 @@ sidebar:
 options:
   delete:
     editor: true
+  changeStatus:
+    editor: true
