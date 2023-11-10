@@ -1,9 +1,0 @@
-Uuid: nNUwSnAYXDeNK4VL
-
-----
-
-Template: cover
-
-----
-
-Sort: 1

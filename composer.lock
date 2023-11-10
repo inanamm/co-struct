@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf4cdc959d350037935021d6bd6545c7",
+    "content-hash": "89ed7f4700dd5ef0d52a8f2a569f6803",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -173,6 +173,58 @@
                 }
             ],
             "time": "2023-08-31T09:50:34+00:00"
+        },
+        {
+            "name": "czproject/git-php",
+            "version": "v4.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/czproject/git-php.git",
+                "reference": "e257f2c3b43fe8fef19ddb5727b604416b423107"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/czproject/git-php/zipball/e257f2c3b43fe8fef19ddb5727b604416b423107",
+                "reference": "e257f2c3b43fe8fef19ddb5727b604416b423107",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "nette/tester": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Pecha",
+                    "email": "janpecha@email.cz"
+                }
+            ],
+            "description": "Library for work with Git repository in PHP.",
+            "keywords": [
+                "git"
+            ],
+            "support": {
+                "issues": "https://github.com/czproject/git-php/issues",
+                "source": "https://github.com/czproject/git-php/tree/v4.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.janpecha.cz/donate/git-php/",
+                    "type": "other"
+                }
+            ],
+            "time": "2023-07-12T09:14:30+00:00"
         },
         {
             "name": "filp/whoops",
@@ -1252,6 +1304,58 @@
             "time": "2023-04-23T19:33:36+00:00"
         },
         {
+            "name": "thathoff/kirby-git-content",
+            "version": "5.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thathoff/kirby-git-content.git",
+                "reference": "443223a70de523b00b23dc92568d21f4cb139426"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thathoff/kirby-git-content/zipball/443223a70de523b00b23dc92568d21f4cb139426",
+                "reference": "443223a70de523b00b23dc92568d21f4cb139426",
+                "shasum": ""
+            },
+            "require": {
+                "czproject/git-php": "^4.0.1",
+                "getkirby/composer-installer": "^1.1"
+            },
+            "require-dev": {
+                "getkirby/cms": "^3.6.0"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "git-content",
+                "kirby-cms-path": false
+            },
+            "autoload": {
+                "psr-4": {
+                    "Thathoff\\GitContent\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Markus Denhoff",
+                    "email": "markus@denhoff.com"
+                },
+                {
+                    "name": "reinorange GmbH",
+                    "email": "info@reinorange.com"
+                }
+            ],
+            "description": "Plugin to track changes to content in a git repository.",
+            "support": {
+                "issues": "https://github.com/thathoff/kirby-git-content/issues",
+                "source": "https://github.com/thathoff/kirby-git-content"
+            },
+            "time": "2023-10-16T08:23:06+00:00"
+        },
+        {
             "name": "tobimori/kirby-seo",
             "version": "0.3.4",
             "source": {
@@ -1317,5 +1421,5 @@
         "php": ">=8.0.0 <8.3.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }

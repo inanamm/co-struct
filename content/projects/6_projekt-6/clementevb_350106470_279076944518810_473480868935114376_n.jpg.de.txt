@@ -1,9 +1,0 @@
-Uuid: t5gUc2TefrpYIWAG
-
-----
-
-Template: cover
-
-----
-
-Sort: 1
