@@ -23,6 +23,24 @@ const timeLine = anime.timeline()
         duration: 3000,
         easing: 'easeInOutCubic'
     }, '-=100')
+    .add({
+        targets: [ '#second'],
+        opacity: '100%',
+        duration: 400,
+        easing: 'easeInOutCubic'
+    }, '-=1200')
+    .add({
+        targets: [ '#third'],
+        opacity: '100%',
+        duration: 400,
+        easing: 'easeInOutCubic'
+    }, '-=800')
+    .add({
+        targets: ['#gallery', 'footer'],
+        opacity: '100%',
+        duration: 400,
+        easing: 'easeInOutCubic'
+    }, '-=400')
 
 
 if (document.querySelector('.glide')) {
