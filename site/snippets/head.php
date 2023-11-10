@@ -5,7 +5,7 @@
 
     <?php snippet('meta_information'); ?>
     <?php snippet('robots'); ?>
-    <?php header("Cache-Control: max-age=3600") ?>;
+    <?php header("Cache-Control: max-age=3600"); ?>
 
     <meta name="keywords" content="Tragwerkstatik, ingénierie structurale, structural engineering, schweiz, switzerland, suisse, Zürich, Aubonne, Architektur">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
