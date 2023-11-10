@@ -22,11 +22,78 @@ Text:
 
 ----
 
-Cover: - file://3cEc7jY17RsF7TMR
+Gallery:
+
+- file://dXBj8JFQcfZ8PZnc
+- file://3cEc7jY17RsF7TMR
 
 ----
 
-Gallery: - file://3cEc7jY17RsF7TMR
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: 
+
+----
+
+Robotsfollow: 
+
+----
+
+Robotsarchive: 
+
+----
+
+Robotsimageindex: 
+
+----
+
+Robotssnippet: 
+
+----
+
+Metainherit: 
+
+----
+
+Cover: - file://3cEc7jY17RsF7TMR
 
 ----
 

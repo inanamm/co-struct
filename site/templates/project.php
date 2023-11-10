@@ -41,16 +41,6 @@
 
         <!--TEXT PROJECT-->
         <main class="flex flex-col divide-y divide-csblack border-b border-csblack grow">
-
-            <!-- <h1 class="flex flex-row font-sansbold text-lg px-3 pt-2 pb-3 lg:justify-between">
-                <?= $page->title()->escape() ?>
-                <div class="hidden lg:flex lg:hover:text-csorange font-mono text-sm self-end">
-                    <?= $page->categoryB()->escape() ?>
-                </div>
-            </h1>
-            <div class="w-[30%] bg-csblack h-[0.26rem] lg:h-[0.40rem] self-left lg:hover:bg-csorange border-none">
-            </div> -->
-
             <div class="flex flex-row font-sansbold text-lg px-3 pt-2 pb-3 lg:justify-between hover-container relative">
                 <?= $page->title()->escape() ?>
                 <div class="hidden lg:flex font-mono text-sm self-end category absolute right-3" style="color: csblack; visibility: hidden;">

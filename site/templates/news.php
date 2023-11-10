@@ -29,7 +29,7 @@
                             'quality' => 60,
                             'format'  => 'webp',
                         ])->html(); ?>
-                        <img src="<?= $image->url() ?>" class="w-full h-auto">
+                        <!-- <img src="<?= $image->url() ?>" class="w-full h-auto"> -->
                     <?php endforeach ?>
 
                     <div class="flex flex-col gap-2">
