@@ -5,7 +5,7 @@
 
 <body class="h-screen">
 
-    <main class="text-csblack h-screen flex flex-col lg:flex-row">
+    <main class="text-csblack h-screen flex flex-col lg:flex-row" id="swup">
         <div class="flex flex-col lg:w-1/2 h-screen overflow-auto no-scrollbar">
             <div class="header bg-cswhite pb-5">
                 <?php snippet('header', slots: true) ?>

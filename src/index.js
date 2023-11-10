@@ -1,6 +1,8 @@
 import Alpine from 'alpinejs'
 import Glide from '@glidejs/glide'
 import anime from 'animejs/lib/anime.es.js';
+import Swup from 'swup';
+import SwupJsPlugin from '@swup/js-plugin';
 
 import './index.css'
 
@@ -46,5 +48,25 @@ if (document.querySelector('.glide')) {
         });
     });
 }
+
+const swup = new Swup({
+    plugins: [
+      new SwupJsPlugin({ animations: [ {
+        from: '(.*)',
+        to: '(.*)',
+        out: (done) => {
+          const container = document.querySelector('#swup');
+          container.style.opacity = 1;
+          anime({ targets: container, opacity: 0, duration: 500, complete: done });
+        },
+        in: (done) => {
+          const container = document.querySelector('#swup');
+          container.style.opacity = 0;
+          anime({ targets: container, opacity: 1, duration: 500, complete: done });
+        }
+      } ] })
+    ]
+  });
+
 
 
