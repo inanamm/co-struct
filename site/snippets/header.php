@@ -1,6 +1,6 @@
 <header class="px-3 pt-2 pb-2">
     <a href="<?= site()->url(kirby()->language()->code()) ?>">
-        <div class="logo flex flex-col w-full">
+        <div class="logo flex flex-col w-full h-full">
             <div id="logoFirst" class="flex align-baseline">
                 <?= $slots->dash() ?>
                 <!-- <img src="<?= url('dash.svg') ?>" /> -->

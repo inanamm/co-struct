@@ -3,7 +3,7 @@
 
 <?php snippet('head') ?>
 
-<body class="h-screen">
+<body class="h-screen w-full">
 
     <main class="text-csblack h-screen flex flex-col lg:flex-row" id="swup">
         <div class="flex flex-col lg:w-1/2 h-screen overflow-auto no-scrollbar">
