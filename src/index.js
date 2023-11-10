@@ -57,12 +57,12 @@ const swup = new Swup({
         out: (done) => {
           const container = document.querySelector('#swup');
           container.style.opacity = 1;
-          anime({ targets: container, opacity: 0.2, duration: 500, complete: done });
+          anime({ targets: container, opacity: 0, duration: 300, complete: done });
         },
         in: (done) => {
           const container = document.querySelector('#swup');
           container.style.opacity = 0;
-          anime({ targets: container, opacity: 1, duration: 500, complete: done });
+          anime({ targets: container, opacity: 1, duration: 300, complete: done });
         }
       } ] })
     ]
