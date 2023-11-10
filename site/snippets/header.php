@@ -12,5 +12,5 @@
             </div>
         </div>
     </a>
-
+    <?php snippet('menu') ?>
 </header>
