@@ -52,6 +52,58 @@ Linkedin: https://www.linkedin.com/company/co%E2%80%93struct/
 
 ----
 
+Metatemplate: 
+
+----
+
+Metadescription: Ingenieurbüro
+
+----
+
+Ogtemplate: 
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: summary
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Socialmediaaccounts: 
+
+----
+
 Meta-title: test
 
 ----

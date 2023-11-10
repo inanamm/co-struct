@@ -86,7 +86,7 @@
     <div class="flex border-t border-cswhite mt-auto">
         <?php snippet('footer') ?>
     </div>
-
+    <?php snippet('seo/schemas'); ?>
      <?= vite()->js('index.js') ?>
 </body>
 

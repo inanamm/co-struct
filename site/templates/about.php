@@ -141,6 +141,7 @@
 		<?php snippet('footer') ?>
 	</div>
 
+	<?php snippet('seo/schemas'); ?>
 	<?= vite()->js('index.js') ?>
 </body>
 

@@ -86,6 +86,8 @@ tabs:
                 type: files
                 label: Gallery
 
+  seo: seo/page
+
 options:
   delete:
     editor: true
