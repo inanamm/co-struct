@@ -103,14 +103,14 @@ function displayProjectImages($pages)
     shuffle($allProjectImagesWithUrl);
 
     foreach ($allProjectImagesWithUrl as $image) : ?>
-        <a href="<?= $image->projectUrl ?>" class="pb-5 hover:text-cslightblue hover:brightness-105">
+        <a href="<?= $image->projectUrl ?>" class="pb-5 hover:text-cslightblue hover:brightness-105 w-full h-full">
             <!-- <img src="<?= $image->imageUrl ?>" alt="<?= $image->imageAlt ?>" class="hover:brightness-105" /> -->
             <?php echo $image->imageX->thumb([
                 'quality' => 60,
                 'lazy' => true,
                 'format' => 'webp',
             ])->html(); ?>
-            <p class="font-mono text-xs"><?= $image->projectTitle ?></p>
+            <p class="font-mono text-xs w-full"><?= $image->projectTitle ?></p>
         </a>
 <?php endforeach;
 }
