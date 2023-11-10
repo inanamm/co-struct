@@ -10,7 +10,7 @@ options:
   changeTitle:
     editor: false
   create:
-    editor: false
+    editor: true
   delete:
     editor: false
   duplicate:
@@ -18,9 +18,10 @@ options:
   # preview:
   #   editor: true
   read:
+    admin: true
     editor: false
   sort:
     editor: false
   update:
-    editor: false
+    editor: true
 
