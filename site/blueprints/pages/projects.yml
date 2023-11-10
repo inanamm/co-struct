@@ -1,1 +1,26 @@
 title: Projects
+
+options:
+  changeSlug:
+    editor: false
+  changeStatus:
+    editor: false
+  changeTemplate:
+    editor: false
+  changeTitle:
+    editor: false
+  create:
+    editor: false
+  delete:
+    editor: false
+  duplicate:
+    editor: false
+  # preview:
+  #   editor: true
+  read:
+    editor: false
+  sort:
+    editor: false
+  update:
+    editor: false
+
