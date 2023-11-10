@@ -1,36 +1,24 @@
 title: Projects
 
 options:
-  changeSlug:
-    admin: true
-    editor: false
   changeStatus:
     admin: true
-    editor: true
-  changeTemplate:
+    editor: false
+  changeSlug:
     admin: true
     editor: false
   changeTitle:
     admin: true
-    editor: true
-  create:
-    admin: true
     editor: false
-  delete:
-    admin: true
-    editor: false
-  duplicate:
-    admin: true
-    editor: false
-  preview:
-    admin: true
-    editor: true
-  read:
-    admin: true
-    editor: true
   sort:
-    admin: true
+    admin: false
     editor: false
   update:
-    admin: true
-    editor: true
+    admin: false
+    editor: false
+  duplicate:
+    admin: false
+    editor: false
+  delete:
+    admin: false
+    editor: false
