@@ -19,7 +19,7 @@ options:
   #   editor: true
   read:
     admin: true
-    editor: false
+    editor: true
   sort:
     editor: false
   update:
