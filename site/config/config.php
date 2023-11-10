@@ -7,6 +7,11 @@ return [
   'panel' => [
     'install' => true
   ],
+  'cache' => [
+    'pages' => [
+      'active' => true
+    ]
+  ],
   'routes' => [
     [
       'pattern' => 'sitemap.xml',

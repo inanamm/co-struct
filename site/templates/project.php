@@ -28,7 +28,10 @@
                 <ul class="glide__slides">
                     <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
                         <li class="glide__slide">
-                            <img src="<?= $image->url() ?>" class="w-full object-fill">
+                            <?php echo $image->thumb([
+                                'quality' => 80,
+                                'format'  => 'webp',
+                            ])->html(); ?>
                         </li>
                     <?php endforeach ?>
 
