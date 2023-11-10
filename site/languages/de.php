@@ -15,6 +15,9 @@ return [
         'value' => 'Kosten',
         'timeframe' => 'Termine',
         'size' => 'Grösse',
+        'built' => 'Realisiert',
+        'building' => 'In Bau',
+        'notbuilt' => 'Nicht realisiert',
 
         'choiceone' => 'Recherche',
         'choicetwo' => 'Anderes',

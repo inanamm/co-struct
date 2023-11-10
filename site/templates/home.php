@@ -27,78 +27,42 @@
             <nav class="hidden lg:flex justify-between pt-2 pb-5 px-3 font-sans text-lg border-t border-csblack">
                 <?php
                 $items = $pages->listed();
-                if ($items->isNotEmpty()) :
-                ?>
+                if ($items->isNotEmpty()) : ?>
                     <ul>
                         <?php foreach ($items as $item) : ?>
-                            <?php if ($item->id() === "jobs" && $pages->get('jobs')->children()->listed()->count() < 1) : ?>
-                            <?php else : ?>
-
-                                <li <?php e($item->id() === 'news', ' class="mt-4 hover:text-cslightblue"') ?>>
-                                    <a<?php e($item->isOpen(), ' class="font-sansbold mt-2 hover:text-cslightblue"') ?> href="<?= $item->url() ?>" class="hover:text-cslightblue"><?= $item->title()->html() ?></a>
-
-
-                                        <?php
-                                        $filter = param("filter");
-                                        $subitems = false;
-                                        if ($item->id() === 'home') :
-
-                                        ?>
-                                            <nav>
-                                                <?php if ($kirby->language()->code() === "de") : ?>
-                                                    <ul>
-                                                        <?php if ($pages->get('projects')->children()->filterBy('tag', "built")->isNotEmpty()) : ?>
-                                                            <li class="hover:text-cslightblue <?= e($filter === "built", 'pl-3 text-cslightblue') ?>">
-                                                                <a href="/de/filter:built">Realisiert</a>
-                                                            </li>
-                                                        <?php endif ?>
-                                                        <?php if ($pages->get('projects')->children()->filterBy('tag', "building")->isNotEmpty()) : ?>
-                                                            <li class="hover:text-cslightblue <?= e($filter === "building", 'pl-3 text-cslightblue') ?>">
-                                                                <a href="/de/filter:building">In Bau</a>
-                                                            </li>
-                                                        <?php endif ?>
-                                                        <?php if ($pages->get('projects')->children()->filterBy('tag', "notbuilt")->isNotEmpty()) : ?>
-                                                            <li class="hover:text-cslightblue <?= e($filter === "notbuilt", 'pl-3 text-cslightblue') ?>">
-                                                                <a href="/de/filter:notbuilt">Nicht realisiert</a>
-                                                            </li>
-                                                        <?php endif ?>
-                                                    </ul>
-                                                <?php else : ?>
-                                                    <ul>
-                                                        <?php if ($pages->get('projects')->children()->filterBy('tag', "built")->isNotEmpty()) : ?>
-                                                            <li class="hover:text-cslightblue <?= e($filter === "built", 'pl-3 text-cslightblue') ?>">
-                                                                <a href="/fr/filter:built">Réalisés</a>
-                                                            </li>
-                                                        <?php endif ?>
-                                                        <?php if ($pages->get('projects')->children()->filterBy('tag', "building")->isNotEmpty()) : ?>
-                                                            <li class="hover:text-cslightblue <?= e($filter === "building", 'pl-3 text-cslightblue') ?>">
-                                                                <a href="/fr/filter:building">En construction</a>
-                                                            </li>
-                                                        <?php endif ?>
-                                                        <?php if ($pages->get('projects')->children()->filterBy('tag', "notbuilt")->isNotEmpty()) : ?>
-                                                            <li class="hover:text-cslightblue <?= e($filter === "notbuilt", 'pl-3 text-cslightblue') ?>">
-                                                                <a href="/fr/filter:notbuilt">Non réalisées</a>
-                                                            </li>
-                                                        <?php endif ?>
-                                                    </ul>
-                                                <?php endif ?>
-
-                                            </nav>
-                                        <?php endif ?>
+                            <?php if (!($item->id() === "jobs" && $pages->get('jobs')->children()->listed()->count() < 1)) : ?>
+                                <li <?= e($item->id() === 'news', 'class="mt-4 hover:text-cslightblue"') ?>>
+                                    <a <?= e($item->isOpen(), 'class="font-sansbold mt-2 hover:text-cslightblue"') ?> href="<?= $item->url() ?>" class="hover:text-cslightblue"><?= $item->title()->html() ?></a>
+                                    <?php if ($item->id() === 'home') : ?>
+                                        <nav>
+                                            <?php
+                                            $filter = param("filter");
+                                            $languageCode = $kirby->language()->code();
+                                            $projectPage = $pages->get('projects');
+                                            $tags = ['built', 'building', 'notbuilt'];
+                                            foreach ($tags as $tag) :
+                                                if ($projectPage->children()->filterBy('tag', $tag)->isNotEmpty()) : ?>
+                                <li class="hover:text-cslightblue <?= e($filter === $tag, 'pl-3 text-cslightblue') ?>">
+                                    <a href="<?= url($languageCode . '/filter:' . $tag) ?>"><?= t($tag) ?></a>
                                 </li>
-                            <?php endif ?>
-                        <?php endforeach ?>
-                    </ul>
-                <?php endif ?>
+                        <?php endif;
+                                            endforeach; ?>
             </nav>
+        <?php endif; ?>
+        </li>
+    <?php endif; ?>
+<?php endforeach; ?>
+</ul>
+<?php endif; ?>
+</nav>
 
-            <div class="grid grid-cols-2 px-3 pt-3 pb-5 gap-1 w-full border-y border-csblack lg:hidden">
-                <?php displayProjectImages($pages); ?>
-            </div>
+<div class="grid grid-cols-2 px-3 pt-3 pb-5 gap-1 w-full border-y border-csblack lg:hidden">
+    <?php displayProjectImages($pages); ?>
+</div>
 
-            <div class="flex text-csblack lg:border-t border-csblack">
-                <?php snippet('footer') ?>
-            </div>
+<div class="flex text-csblack lg:border-t border-csblack">
+    <?php snippet('footer') ?>
+</div>
         </div>
 
         <div class="hidden divide-y divide-csgreen lg:grid flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-y-auto h-full no-scrollbar">

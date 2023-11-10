@@ -15,6 +15,9 @@ return [
         'value' => 'Coûts estimés',
         'timeframe' => 'Période de l’étude',
         'size' => 'Portée',
+        'built' => 'Réalisés',
+        'building' => 'En construction',
+        'notbuilt' => 'Non réalisées',
 
         'choiceone' => 'Recherche',
         'choicetwo' => 'Autre',
