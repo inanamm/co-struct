@@ -14,6 +14,46 @@ return [
   ],
   'routes' => [
     [
+      'pattern' => 'ajax/projects',
+      'method' => 'GET',
+      'action'  => function () {
+        $filter = get('filter');
+        $data = [];
+
+        // Fetch projects based on the filter
+        $projects = site()->page('projects')->children()->listed();
+        if ($filter) {
+          $projects = $projects->filterBy('tag', $filter);
+        }
+
+        // Prepare data to be returned
+        foreach ($projects as $project) {
+          $thumbsData = [];
+          foreach ($project->images() as $image) {
+            $thumb = $image->thumb([
+              'quality' => 60,
+              'lazy' => true,
+              'format' => 'webp',
+            ])->html();
+            $thumbsData[] = $thumb;
+          }
+
+          $data[] = [
+            'title' => $project->title()->value(),
+            'url' => $project->url(),
+            'thumbs' => $thumbsData,
+          ];
+        }
+
+        return [
+          'statusCode' => 200,
+          'body' => json_encode($data),
+          'headers' => ['Content-Type' => 'application/json']
+        ];
+      }
+    ],
+
+    [
       'pattern' => 'sitemap.xml',
       'action'  => function () {
         $pages = site()->pages()->index();

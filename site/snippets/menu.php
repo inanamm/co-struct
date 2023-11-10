@@ -31,7 +31,7 @@
                                         foreach ($tags as $tag) :
                                             if ($projectPage->children()->filterBy('tag', $tag)->isNotEmpty()) : ?>
                             <li class="hover:text-cslightblue <?= e($filter === $tag, 'pl-3 text-cslightblue') ?>">
-                                <a href="<?= url($languageCode . '/filter:' . $tag) ?>"><?= t($tag) ?></a>
+                                <a href="<?= url($languageCode . '/filter:' . $tag) ?>" class="filter-btn" data-filter="<?= $tag ?>"><?= t($tag) ?></a>
                             </li>
                     <?php endif;
                                         endforeach; ?>

@@ -5,7 +5,7 @@
 
 <body class="h-screen w-full">
 
-    <main class="text-csblack h-screen flex flex-col lg:flex-row" id="swup">
+    <main class="text-csblack h-screen flex flex-col lg:flex-row">
         <div class="flex flex-col lg:w-1/2 h-screen overflow-auto no-scrollbar">
             <div class="header bg-cswhite pb-5">
                 <?php snippet('header', slots: true) ?>
@@ -43,7 +43,7 @@
                                             foreach ($tags as $tag) :
                                                 if ($projectPage->children()->filterBy('tag', $tag)->isNotEmpty()) : ?>
                                 <li class="hover:text-cslightblue <?= e($filter === $tag, 'pl-3 text-cslightblue') ?>">
-                                    <a href="<?= url($languageCode . '/filter:' . $tag) ?>"><?= t($tag) ?></a>
+                                    <button class="filter-btn" data-filter="<?= $tag ?>"><?= t($tag) ?></button>
                                 </li>
                         <?php endif;
                                             endforeach; ?>
@@ -65,16 +65,17 @@
 </div>
         </div>
 
-        <div class="hidden divide-y divide-csgreen lg:grid flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-y-auto h-full no-scrollbar">
-            <div class="flex flex-col">
-                <div class="grid grid-cols-4 pb-6 gap-1 w-full">
-                    <?php displayProjectImages($pages); ?>
-                </div>
+        <div class="hidden divide-y divide-csgreen lg:grid flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-y-auto h-full no-scrollbar"">
+            <div class=" flex flex-col">
+            <div class="grid grid-cols-4 pb-6 gap-1 w-full" id="project-container">
+                <?php displayProjectImages($pages); ?>
             </div>
+        </div>
 
         </div>
     </main>
     <?= vite()->js('index.js') ?>
+    <?= vite()->js('homepageImages.js') ?>
 </body>
 
 </html>
@@ -104,7 +105,6 @@ function displayProjectImages($pages)
 
     foreach ($allProjectImagesWithUrl as $image) : ?>
         <a href="<?= $image->projectUrl ?>" class="pb-5 hover:text-cslightblue hover:brightness-105 w-full h-full">
-            <!-- <img src="<?= $image->imageUrl ?>" alt="<?= $image->imageAlt ?>" class="hover:brightness-105" /> -->
             <?php echo $image->imageX->thumb([
                 'quality' => 60,
                 'lazy' => true,
