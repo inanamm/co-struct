@@ -1,0 +1,16 @@
+title: About Page
+
+columns:
+  top:
+    sections:
+      fields:
+        type: fields
+        fields: 
+          privacyPolicyTitle:
+            type: text
+            label: Title
+            width: 1/3
+          privacyPolicy:
+            label: Privacy Policy
+            type: textarea
+            buttons: false

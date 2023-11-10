@@ -1,0 +1,9 @@
+title: User
+home: /panel/home
+
+fields:
+  info:
+    label: Info
+    type: info
+    text: |
+      To change name, email, password or language, click on "settings"
