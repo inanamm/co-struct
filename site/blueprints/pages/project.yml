@@ -1,84 +1,95 @@
 title: Project
-preset: page
 
 status:
   draft: Draft
   listed: Published
 
+tabs:
+  content:
+    label: Content
+    icon: text
+    columns:
+      main:
+        width: 2/3
+        fields:
+          categoryB:
+            label: Category
+            type: radio
+            required: true
+            translate: false
+            width: 1/2
+            options:
+              choiceone: Research
+              choicetwo: Other
+              choicethree: Competition
+              choicefour: Competition won
+              choicefive: Direct Commission
 
-fields:
-  categoryB:
-    label: Category
-    type: radio
-    required: true
-    translate: false
-    width: 1/2
-    options:
-      choiceone: Research
-      choicetwo: Other
-      choicethree: Competition
-      choicefour: Competition won
-      choicefive: Direct Commission
+          tag:
+            label: Tag
+            type: radio
+            required: true
+            width: 1/2
+            translate: false
+            options:
+              built: Realized
+              building: Building
+              notbuilt: Not realized
 
-  tag:
-    label: Tag
-    type: radio
-    required: true
-    width: 1/2
-    translate: false
-    options:
-      built: Realized
-      building: Building
-      notbuilt: Not realized
+          information:
+            lable: Info
+            type: structure
+            fields:
+              projectDetails:
+                label: Project details
+                type: select
+                options:
+                  client: Client
+                  architecture: Architecture
+                  place: Place
+                  value: Value
+                  timeframe: Timeframe
+                  size: Size
+              value:
+                label: Value
+                type: text
+          line:
+            type: line
+          textTitle:
+            label: Text title
+            type: text
+          text:
+            type: textarea
+            size: large
+            buttons: false
 
-  information:
-    lable: Info
-    type: structure
-    fields:
-      projectDetails:
-        label: Project details
-        type: select
-        options:
-          client: Client
-          architecture: Architecture
-          place: Place
-          value: Value
-          timeframe: Timeframe
-          size: Size
-      value:
-        label: Value
-        type: text
-  line:
-    type: line
-  textTitle:
-    label: Text title
-    type: text
-  text:
-    type: textarea
-    size: large
-    buttons: false
-
-sidebar:
-  cover:
-    type: files
-    label: Cover 1
-    layout: cards
-    info: "{{ file.dimensions }}"
-    template: cover
-    ratio: 4/5
-    cover: true
-    min: 1
-    max: 3
-    required: true
-  gallery:
-    min: 1
-    required: true
-    type: files
-    label: Gallery
+      sidebar:
+        width: 1/3
+        sections:
+          images:
+            type: fields
+            fields:
+              cover:
+                type: files
+                label: Cover 1
+                layout: cards
+                info: "{{ file.dimensions }}"
+                template: cover
+                ratio: 4/5
+                cover: true
+                min: 1
+                max: 3
+                required: true
+              gallery:
+                min: 1
+                required: true
+                type: files
+                label: Gallery
 
 options:
   delete:
     editor: true
+    admin: true
   changeStatus:
     editor: true
-
+    admin: true

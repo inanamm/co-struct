@@ -1,0 +1,37 @@
+Title: test4
+
+----
+
+Categoryb: choicethree
+
+----
+
+Tag: building
+
+----
+
+Information:
+
+- 
+  projectdetails: place
+  value: fda
+
+----
+
+Texttitle: fdsa
+
+----
+
+Text: fdsa
+
+----
+
+Cover: - file://ubk6tNUAW0z5eZqo
+
+----
+
+Gallery: - file://ubk6tNUAW0z5eZqo
+
+----
+
+Uuid: dhh3F1cWiKGyfhDZ
