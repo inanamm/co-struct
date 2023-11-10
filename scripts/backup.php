@@ -48,4 +48,5 @@ $backupFolder = '/path/to/backup/folder_' . date('Y-m-d_H-i-s');
 // backupFolder($sourceFolder, $backupFolder);
 // deleteOldBackups($sourceFolder);
 
-echo "Backup of '$sourceFolder' completed to '$backupFolder'";
+echo "Backup of '$sourceFolder' completed to '$backupFolder' \n\n";
+
