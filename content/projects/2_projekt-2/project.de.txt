@@ -1,0 +1,190 @@
+Title: Rolex Learning Center
+
+----
+
+Categoryb: choicetwo
+
+----
+
+Tag: built
+
+----
+
+Information:
+
+- 
+  projectdetails: client
+  value: Universität Lausanne
+- 
+  projectdetails: architecture
+  value: SANAA (Kazuyo Sejima + Ryue Nishizawa)
+- 
+  projectdetails: place
+  value: CH—1015 Lausanne
+- 
+  projectdetails: value
+  value: 55 Mio
+- 
+  projectdetails: timeframe
+  value: 2009–2010
+- 
+  projectdetails: size
+  value: 09876m
+
+----
+
+Texttitle: Die Innovationsfabrik
+
+----
+
+Text:
+
+Das Rolex Learning Center auf dem Campus der Universität Lausanne ist ein visionäres Bildungszentrum. Seine organische Form und seine offenen Räume fördern Kreativität und Zusammenarbeit, was es zu einem inspirierenden Ort für Studierende macht.
+
+Die wellenförmige Struktur des Gebäudes schafft fließende Raumübergänge und lädt Studierende dazu ein, verschiedene Bereiche für Forschung und Studium zu erkunden. Die lichtdurchfluteten Innenräume bieten einen angenehmen Lern- und Arbeitsbereich.
+
+Das Rolex Learning Center ist nicht nur ein Ort des Studiums, sondern auch ein Ort des Austauschs und der Innovation. Es hat sich zu einem internationalen Symbol für modernes Bildungswesen und zeitgenössische Architektur entwickelt.
+
+----
+
+Cover: - file://B2SnQD92jcLk1tVu
+
+----
+
+Gallery:
+
+- file://FKdqRfv3MMebHDgO
+- file://B2SnQD92jcLk1tVu
+- file://OfOKNu9SYuiS1SbP
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: 
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: enabled
+
+----
+
+Robots-nofollow: 
+
+----
+
+Robots-noarchive: 
+
+----
+
+Robots-noimageindex: 
+
+----
+
+Robots-nosnippet: 
+
+----
+
+Uuid: XaQctFE7Q7aclxog

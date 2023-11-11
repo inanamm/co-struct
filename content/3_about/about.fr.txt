@@ -1,0 +1,204 @@
+Title: À propos de Nous
+
+----
+
+Bueroprofil:
+
+FRENCH co–struct ist ein inhabergeführtes Büro für Tragwerksplanung in Zürich und Aubonne, gegründet von Fabrice Meylan und Sam Bouten. 
+
+Das Ziel ist, innovative Tragsysteme von der Entstehung des Projekts an zu planen und dabei ein besonderes Augenmerk auf ästhetische Aspekte zu legen. Die enge Zusammenarbeit mit den verschiedenen Partner:innen, sowie die proaktive Optimierung der erdachten Strukturen liegen co–struct am Herzen. Die Ökologie im Bauwesen regt unsere Kreativität an, um für jedes Bauwerk die am besten geeigneten Materialien zu finden.
+
+----
+
+Coworkerstitle: Co-wörköör
+
+----
+
+Coworkers:
+
+- 
+  name: Fabrice Meylan
+  title: GL
+  phone: +41 79 363 29 36
+  email: fabrice@co-struct.ch
+  description: >
+    FR Schweizer Architekt und Bauingenieur.
+    Innovativ in Design und Nachhaltigkeit.
+    Beitrag zur Umweltschonung und
+    Gemeindeentwicklung.
+  image:
+    - file://PcmmMs01XyErBm7Q
+- 
+  name: Sam Bouten
+  title: GL
+  phone: +41 79 363 29 36
+  email: sam@co-struct.ch
+  description: >
+    FR Geboren 1994 in Arth, Schweiz,
+    Architekt und Ingenieur aus der Schweiz,
+    bekannt für innovative, nachhaltige
+    Projekte. Visionär in Design und
+    Umweltschutz.
+  image:
+    - file://fwrzkZ2mS19dblin
+- 
+  name: ina
+  title: hacker
+  phone: +41 79 363 29 36
+  email: ina@co-struct.ch
+  description: >
+    FR ina hallihhallo martina macht sachen
+    schön. oder zumindest manchmal.
+  image: [ ]
+
+----
+
+Applicationstitle: Applications
+
+----
+
+Openpositionslinktext: Ici pour les jobs
+
+----
+
+Noopenpositions: Au moment nous n'avons pas des jobs ouverts
+
+----
+
+Oldcoworkerstitle: vieux co-wörkörs
+
+----
+
+Privacypolicytitle: FR Datenschutzerklärung
+
+----
+
+Privacypolicy:
+
+Herzlich willkommen auf unserer Webseite [Name der Webseite] (die "Webseite"). Wir legen großen Wert auf den Schutz Ihrer persönlichen Daten und beachten alle einschlägigen Datenschutzbestimmungen. Nachfolgend möchten wir Sie darüber informieren, welche Arten von Daten wir während Ihres Besuchs auf unserer Webseite erfassen und wie wir diese Daten nutzen.
+
+1. Welche Daten wir sammeln
+Wir sammeln verschiedene Arten von Informationen, um die Nutzung unserer Webseite zu verbessern und Ihnen eine personalisierte Erfahrung bieten zu können. Zu den gesammelten Daten gehören:
+
+Personenbezogene Daten: Name, E-Mail-Adresse, Telefonnummer (wird nur mit Ihrer Zustimmung gesammelt).
+Automatisch gesammelte Informationen: IP-Adresse, Browser-Typ, Betriebssystem, besuchte Seiten, Datum und Uhrzeit des Zugriffs.
+
+2. Wie wir Ihre Daten verwenden
+Die gesammelten Daten werden für folgende Zwecke verwendet:
+
+Bereitstellung und Personalisierung unserer Dienstleistungen.
+Verbesserung der Benutzererfahrung auf unserer Webseite.
+Kommunikation mit Ihnen, um Anfragen zu beantworten und Informationen bereitzustellen.
+Erfüllung rechtlicher Verpflichtungen.
+
+3. Cookies und Tracking-Technologien
+Wir verwenden Cookies und ähnliche Tracking-Technologien, um die Nutzung unserer Webseite zu analysieren und Ihnen eine verbesserte Erfahrung zu bieten. Durch die Nutzung unserer Webseite stimmen Sie der Verwendung von Cookies gemäß unserer Cookie-Richtlinie zu.
+
+4. Datensicherheit
+Wir setzen angemessene Sicherheitsmaßnahmen ein, um Ihre persönlichen Daten zu schützen und unbefugten Zugriff, Nutzung oder Offenlegung zu verhindern.
+
+5. Ihre Rechte
+Sie haben das Recht, auf Ihre persönlichen Daten zuzugreifen, diese zu korrigieren oder zu löschen. Wenn Sie Fragen zu unseren Datenschutzpraktiken haben oder Ihre Rechte ausüben möchten, kontaktieren Sie uns bitte unter [Kontaktinformationen].
+
+6. Änderungen an der Datenschutzerklärung
+Wir behalten uns das Recht vor, diese Datenschutzerklärung jederzeit zu ändern. Über wesentliche Änderungen werden wir Sie per E-Mail oder durch einen deutlich sichtbaren Hinweis auf unserer Webseite informieren.
+
+----
+
+Applications: Bewerbungen
+
+----
+
+Bewerbungen: Bewerbungen
+
+----
+
+Toggle: 0
+
+----
+
+Type: <ul><li>fdsafds</li><li>fdsfdsa</li><li>kfldasjklö</li><li>jgklaöjksl</li></ul>
+
+----
+
+Email: hello@co-struct.ch
+
+----
+
+Phone: +41 44 506 66 30
+
+----
+
+Linksa: 
+
+----
+
+Linksb: 
+
+----
+
+Addresszh: 
+
+----
+
+Addressvd: 
+
+----
+
+Links: https://www.instagram.com/co_struct/
+
+----
+
+Adresszh: 
+
+----
+
+Adressvd: 
+
+----
+
+Jobbeschreibung: 
+
+----
+
+Beschreibung: 
+
+----
+
+Category: 
+
+----
+
+Text: fdsfdsaa
+
+----
+
+Beschreibung-costruct: 
+
+----
+
+Adressszh: name: fdsafdsafdsa
+
+----
+
+Adresssvd: 
+
+----
+
+Contact: photo: [ ]
+
+----
+
+Adresse-zuerich: 
+
+----
+
+Adresse-zh:
+
+name: co–struct AG
+beschreibung: Tragwerksplanung
+strasse: Förrlibuckstrasse 225
+
+----
+
+List: <ul><li>hallo</li><li>zwei</li><li>drü</li><li></li></ul>

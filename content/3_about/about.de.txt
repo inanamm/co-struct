@@ -1,0 +1,185 @@
+Title: Über uns
+
+----
+
+Bueroprofil:
+
+co–struct ist ein inhabergeführtes Büro für Tragwerksplanung in Zürich und Aubonne, gegründet von Fabrice Meylan und Sam Bouten. 
+
+Das Ziel ist, innovative Tragsysteme von der Entstehung des Projekts an zu planen und dabei ein besonderes Augenmerk auf ästhetische Aspekte zu legen. Die enge Zusammenarbeit mit den verschiedenen Partner:innen, sowie die proaktive Optimierung der erdachten Strukturen liegen co–struct am Herzen. Die Ökologie im Bauwesen regt unsere Kreativität an, um für jedes Bauwerk die am besten geeigneten Materialien zu finden.
+
+----
+
+Coworkerstitle: Mitarbeitende
+
+----
+
+Coworkers:
+
+- 
+  name: Fabrice Meylan
+  title: GL
+  phone: +41 79 363 29 36
+  email: fabrice@co-struct.ch
+  description: >
+    DE Schweizer Architekt und Bauingenieur.
+    Innovativ in Design und Nachhaltigkeit.
+    Beitrag zur Umweltschonung und
+    Gemeindeentwicklung.
+  image:
+    - file://PcmmMs01XyErBm7Q
+- 
+  name: Sam Bouten
+  title: GL
+  phone: +41 79 305 32 46
+  email: sam@co-struct.ch
+  description: >
+    DE Geboren 1994 in Arth, Schweiz,
+    Architekt und Ingenieur aus der Schweiz,
+    bekannt für innovative, nachhaltige
+    Projekte. Visionär in Design und
+    Umweltschutz.
+  image:
+    - file://fwrzkZ2mS19dblin
+- 
+  name: martina
+  title: hacker
+  phone: "12345678"
+  email: ina@inatest.com
+  description: >
+    DE ina hallihhallo martina macht sachen
+    schön. oder zumindest manchmal.
+  image:
+    - file://aiYVvtZDAgSYHc6u
+
+----
+
+Applicationstitle: Bewerbungen
+
+----
+
+Openpositionslinktext: Hier gehts zu unseren offenen Stellen
+
+----
+
+Noopenpositions: Momentan haben wir leider keine offenen Stellen.
+
+----
+
+Oldcoworkerstitle: Ehemalige
+
+----
+
+Oldcoworkers: <ul><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li></ul>
+
+----
+
+Privacypolicytitle: 
+
+----
+
+Privacypolicy: 
+
+----
+
+Applications: Bewerbungen
+
+----
+
+Bewerbungen: Bewerbungen
+
+----
+
+Toggle: false
+
+----
+
+Uuid: p9ArHwuvoSkhIVUu
+
+----
+
+Type: <ul><li>fdsafds</li><li>fdsfdsa</li><li>kfldasjklö</li><li>jgklaöjksl</li></ul>
+
+----
+
+Email: hello@co-struct.ch
+
+----
+
+Phone: +41 44 506 66 30
+
+----
+
+Linksa: 
+
+----
+
+Linksb: 
+
+----
+
+Addresszh: 
+
+----
+
+Addressvd: 
+
+----
+
+Links: https://www.instagram.com/co_struct/
+
+----
+
+Adresszh: 
+
+----
+
+Adressvd: 
+
+----
+
+Jobbeschreibung: 
+
+----
+
+Beschreibung: 
+
+----
+
+Category: 
+
+----
+
+Text: fdsfdsaa
+
+----
+
+Beschreibung-costruct: 
+
+----
+
+Adressszh: name: fdsafdsafdsa
+
+----
+
+Adresssvd: 
+
+----
+
+Contact: photo: [ ]
+
+----
+
+Adresse-zuerich: 
+
+----
+
+Adresse-zh:
+
+name: co–struct AG
+beschreibung: Tragwerksplanung
+strasse: Förrlibuckstrasse 225
+
+----
+
+List: <ul><li>hallo</li><li>zwei</li><li>drü</li><li></li></ul>

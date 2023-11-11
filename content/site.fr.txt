@@ -1,0 +1,231 @@
+Title: co–struct AG
+
+----
+
+Intro: co–struct: bureau de conception structurelle à Zurich et Aubonne. Innovants, esthétiques, et partenariats forts. 🏢💡🤝
+
+----
+
+Addressoffice:
+
+description: Büroadresse
+companyname: co–struct AG
+street: Badenerstrasse 370
+postalcode: CH—8004
+place: Zürich
+
+----
+
+Addresszh:
+
+companyname: co–struct AG
+description: Tragwerksplanung
+street: Förrlibuckstrasse 225
+postalcode: CH—8005
+place: Zürich
+
+----
+
+Addressvd:
+
+companyname: co–struct AG
+description: Ingénierie structurale
+street: Chemin des Clos 17
+postalcode: CH—1170
+place: Aubonne
+
+----
+
+Email: hello@co-struct.ch
+
+----
+
+Phone: +41 44 506 66 30
+
+----
+
+Instagram: https://www.instagram.com/co_struct/
+
+----
+
+Linkedin: https://www.linkedin.com/company/co%E2%80%93struct/
+
+----
+
+Metatemplate: 
+
+----
+
+Metadescription: Ingénierie BLUB
+
+----
+
+Ogtemplate: 
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: summary
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Socialmediaaccounts: 
+
+----
+
+Meta-title: test
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: 
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: enabled
+
+----
+
+Robots-nofollow: enabled
+
+----
+
+Robots-noarchive: enabled
+
+----
+
+Robots-noimageindex: enabled
+
+----
+
+Robots-nosnippet: enabled

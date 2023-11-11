@@ -1,0 +1,59 @@
+Title: Projektleiter*in [D/F]
+
+----
+
+Generaldescription: Wir suchen einen erfahrenen Projektleiter*in für unser angesehenes Statikingenieurbüro. Als Projektleiterin spielst du eine Schlüsselrolle bei der Umsetzung unserer herausfordernden Projekte im Bereich Statik und Tragwerksplanung. Du wirst ein motiviertes Team von Ingenieurinnen leiten und gleichzeitig als Schnittstelle zwischen Kundinnen, internen Teams und externen Partner*innen agieren.
+
+----
+
+List:
+
+- 
+  title: 'Deine Aufgaben:'
+  descriptiona: |
+    - Du leitest und koordinierst Statikprojekte von Anfang bis Ende.
+    - Tragwerksplanungen für unterschiedliche Bauprojekte erstellst du mühelos unter Berücksichtigung der geltenden Normen und Standards.
+    - Die Qualitätssicherung und die Einhaltung der Zeitpläne liegen in deiner Verantwortung.
+    - Du arbeitest eng mit Kundinnen, Architektinnen und anderen Fachleuten zusammen, um deren Anforderungen zu verstehen und optimale Lösungen zu finden.
+    - Du führst und motivierst dein Team von Ingenieur*innen.
+    - Die stetige Weiterentwicklung unserer internen Prozesse und Methoden liegt ebenfalls in deinen Händen.
+- 
+  title: 'Dein Profil:'
+  descriptiona: |
+    - Du hast ein abgeschlossenes Studium im Bereich Bauingenieurwesen, Statik oder einer ähnlichen Fachrichtung.
+    - Du bringst einige Jahre Erfahrung in der Statik und Tragwerksplanung mit, vorzugsweise inklusive Projektleitung.
+    - Der Umgang mit relevanten Softwaretools für Tragwerksberechnungen ist dir vertraut.
+    - Bautechnische Normen und Vorschriften kennst du in- und auswendig.
+    - Deine Kommunikations- und Teamfähigkeiten sind ausgezeichnet.
+    - Du denkst lösungsorientiert und bist eine erstklassiger Problemlöser*in.
+    - Du beherrschst Deutsch fließend in Wort und Schrift.
+- 
+  title: 'Wir bieten dir:'
+  descriptiona: |
+    - Spannende und vielfältige Projekte in einem innovativen Arbeitsumfeld.
+    - Die Möglichkeit, deine Führungsqualitäten und dein Fachwissen weiterzuentwickeln.
+    - Ein motiviertes Team von Fachleuten, das gemeinsam an anspruchsvollen Projekten arbeitet.
+    - Eine wettbewerbsfähige Vergütung und attraktive Sozialleistungen.
+    - Flexibilität bei deiner Arbeitszeitgestaltung sowie Weiterbildungsmöglichkeiten.
+    - Spannende und vielfältige Projekte in einem innovativen Arbeitsumfeld.
+    - Die Möglichkeit, deine Führungsqualitäten und dein Fachwissen weiterzuentwickeln.
+    - Ein motiviertes Team von Fachleuten, das gemeinsam an anspruchsvollen Projekten arbeitet.
+    - Eine wettbewerbsfähige Vergütung und attraktive Sozialleistungen.
+    - Flexibilität bei deiner Arbeitszeitgestaltung sowie Weiterbildungsmöglichkeiten.
+    - Spannende und vielfältige Projekte in einem innovativen Arbeitsumfeld.
+    - Die Möglichkeit, deine Führungsqualitäten und dein Fachwissen weiterzuentwickeln.
+    - Ein motiviertes Team von Fachleuten, das gemeinsam an anspruchsvollen Projekten arbeitet.
+    - Eine wettbewerbsfähige Vergütung und attraktive Sozialleistungen.
+    - Flexibilität bei deiner Arbeitszeitgestaltung sowie Weiterbildungsmöglichkeiten.
+
+----
+
+Tasksdescription:
+
+hello there! 
+
+### hello
+
+----
+
+Uuid: yF2ZzXgtrMDGA46D

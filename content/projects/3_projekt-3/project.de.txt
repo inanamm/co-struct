@@ -1,0 +1,63 @@
+Title: KKL Luzern (Kultur- und Kongresszentrum Luzern)
+
+----
+
+Categoryb: choicethree
+
+----
+
+Tag: built
+
+----
+
+Information:
+
+- 
+  projectdetails: client
+  value: Stadt Luzern
+- 
+  projectdetails: architecture
+  value: Jean Nouvel
+- 
+  projectdetails: place
+  value: CH—6005 Luzern
+- 
+  projectdetails: value
+  value: 220 Mio
+- 
+  projectdetails: timeframe
+  value: 1995—2000
+
+----
+
+Texttitle: Das Moderne Kulturzentrum
+
+----
+
+Text:
+
+Das KKL Luzern ist ein herausragendes Beispiel für zeitgenössische Architektur und ein kulturelles Zentrum in der Stadt Luzern. Entworfen von dem weltberühmten Architekten Jean Nouvel, ist dieses Gebäude ein Ort der Begegnung, Kunst und Musik.
+
+Das KKL Luzern zeichnet sich durch seine markante Glasfassade und sein futuristisches Design aus. Es bietet Konzertsäle, Tagungsräume und Ausstellungsbereiche, die für ihre akustische Exzellenz und architektonische Pracht bekannt sind.
+
+Als Veranstaltungsort für Konzerte, Konferenzen und kulturelle Veranstaltungen hat das KKL Luzern die künstlerische Szene in Luzern und der Schweiz bereichert. Es ist ein Ort, der die Moderne und Kultur vereint und ein lebendiges kreatives Zentrum darstellt.
+
+----
+
+Cover: - file://yNUSJONH5kHJgrbY
+
+----
+
+Gallery:
+
+- file://i0H7kW11int8PxNI
+- file://yNUSJONH5kHJgrbY
+- file://KjLB9BerMAgDHYBU
+- file://hWerFADybuBgtBAy
+- file://hx7HLDCJiTMkN65h
+- file://7AFT1pmwC7fSmrvE
+- file://gHMfpsGL8smEy5Jv
+
+----
+
+Uuid: kZqczrj9w7a0LqJn

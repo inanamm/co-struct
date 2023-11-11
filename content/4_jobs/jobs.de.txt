@@ -1,0 +1,46 @@
+Title: Jobs
+
+----
+
+Bueroprofil: DE co–struct ist als Büro mit einer flachen Hierarchie konzipiert. Wir arbeiten eng als Team und sind auf motivierte und engagierte Mitarbeitende angewiesen. Mit einer flachen Hierarchie kommt auch ein gutes Stück an Verantwortung, welche wir dir gerne anvertrauen.
+
+----
+
+Endtext: Wenn das nach einem passenden Beschrieb für dich klingt, melde dich doch gerne per (email: ina@test.com text: Mail) auf eine der oben beschriebenen Stellen.
+
+----
+
+Job:
+
+- 
+  title: fdsafdsaffdsaf
+  descriptiona: fdsafdfdsafds
+  descriptionb: |
+    fdsafds
+    fdsfdsa
+    - fdsfdsafds
+    - fdsafdsa
+    - fdsfds
+  descriptionc: ""
+  responsabilities: ""
+  profile: ""
+- 
+  title: rtzui
+  descriptiona: ""
+  descriptionb: |
+    **jklhkjl**
+    - njklhnjkl
+    - jöjo
+  descriptionc: |
+    **jklhkjl**
+    - njklhnjkl
+    - jöjo
+- 
+  title: r
+  descriptiona: ""
+  descriptionb: ""
+  descriptionc: ""
+
+----
+
+Uuid: TjLTXlNBA02Tjnnz

@@ -1,0 +1,49 @@
+Title: EPFL Rolex Learning Center
+
+----
+
+Categoryb: choicethree
+
+----
+
+Tag: building
+
+----
+
+Information:
+
+- 
+  projectdetails: client
+  value: >
+    École polytechnique fédérale de
+    Lausanne (EPFL)
+- 
+  projectdetails: architecture
+  value: SANAA (Kazuyo Sejima + Ryue Nishizawa)
+- 
+  projectdetails: place
+  value: CH—1015 Lausanne
+- 
+  projectdetails: value
+  value: 80 Mio
+- 
+  projectdetails: timeframe
+  value: 2007–2010
+
+----
+
+Texttitle: Die Futuristische Hochschule
+
+----
+
+Text:
+
+Das Rolex Learning Center auf dem Campus der École polytechnique fédérale de Lausanne (EPFL) ist nicht nur ein architektonisches Meisterwerk, sondern auch ein Ort des Lernens und der Kreativität. Dieses außergewöhnliche Gebäude wurde von dem renommierten Architektenenduo SANAA entworfen und beeindruckt durch seine innovative Form und Funktion.
+
+Die wellenförmige Struktur des Gebäudes erstreckt sich über den Campus und schafft eine offene und einladende Atmosphäre für Studierende und Forscher. Die Innenräume sind lichtdurchflutet und flexibel gestaltet, was die Interaktion und Zusammenarbeit fördert.
+
+Das Rolex Learning Center ist nicht nur ein Ort des Studiums, sondern auch ein Ort des Austauschs und der Innovation. Es hat sich zu einem internationalen Symbol für modernes Bildungswesen und zeitgenössische Architektur entwickelt.
+
+----
+
+Uuid: OqM5RyniXekD2ErD

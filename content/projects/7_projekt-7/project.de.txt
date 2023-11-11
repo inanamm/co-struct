@@ -1,0 +1,49 @@
+Title: Farbige Stadt
+
+----
+
+Categoryb: choiceone
+
+----
+
+Tag: building
+
+----
+
+Information:
+
+- 
+  projectdetails: client
+  value: Stadt Zürich
+- 
+  projectdetails: architecture
+  value: 'Herzog & De Meuron'
+- 
+  projectdetails: place
+  value: CH—8004 Zürich
+- 
+  projectdetails: value
+  value: 25 Mio
+- 
+  projectdetails: timeframe
+  value: 2015–2019
+
+----
+
+Texttitle: Ein Symbol für modernes Stadtdesign
+
+----
+
+Text:
+
+Der Prime Tower, ein atemberaubendes architektonisches Meisterwerk, thront majestätisch über der Skyline von Zürich und ist zu einem unverkennbaren Wahrzeichen der Stadt geworden. Dieses imposante Hochhaus, entworfen von den renommierten Architekten Gigon/Guyer, wurde 2011 fertiggestellt und hat die Art und Weise, wie die Welt auf Zürich als moderne Metropole schaut, grundlegend verändert.
+
+Mit einer Höhe von 126 Metern und 36 Stockwerken ist der Prime Tower das höchste Gebäude der Schweiz und ein beeindruckendes Beispiel für zeitgenössische Architektur und nachhaltiges Bauen. Die Glasfassade des Turms spiegelt den Himmel wider und fügt sich nahtlos in die Umgebung ein, während sie gleichzeitig einen Kontrast zur umliegenden Bebauung bildet.
+
+Eine der herausragenden Eigenschaften des Prime Towers ist sein multifunktionales Konzept. Neben erstklassigen Büroflächen beherbergt das Gebäude auch eine Vielzahl von Restaurants, Kunstgalerien und Geschäften, die eine lebendige und dynamische Atmosphäre schaffen. Dies macht den Prime Tower zu einem beliebten Treffpunkt für Einheimische und Besucher gleichermaßen.
+
+Die Aussichtsplattform in den oberen Stockwerken bietet einen spektakulären Panoramablick auf die Stadt und die Alpen und ist ein beliebter Ort für Touristen und Fotografen. Der Prime Tower ist nicht nur ein Ort des Arbeitens und Genießens, sondern auch ein Ort des Staunens und Bewunderns. Er verkörpert die Modernität und Weltoffenheit von Zürich und bleibt ein architektonisches Juwel inmitten dieser dynamischen Stadt.
+
+----
+
+Uuid: w9NtgBtTH8SLvuiO

@@ -1,0 +1,146 @@
+Title: News
+
+----
+
+News:
+
+- 
+  image:
+    - file://avTymslOiwtXhbgq
+  date: 2023-09-24
+  title: >
+    co–struct erhält renommierten
+    Architekturpreis
+  description: '<p>Das Ingenieur- und Tragwerkstatikbüro Co–Struct wird für seine herausragende Arbeit an einem Wolkenkratzerprojekt mit einem angesehenen Architekturpreis ausgezeichnet.</p>'
+- 
+  image: [ ]
+  date: 2023-09-20
+  title: >
+    co–struct präsentiert innovative
+    Baukonstruktionssoftware
+  description: '<p>co–struct stellt eine innovative Softwarelösung vor, die Baukonstruktionen optimiert und die Kosteneffizienz steigert.</p>'
+- 
+  image: [ ]
+  date: 2023-09-01
+  title: >
+    co–struct expandiert international mit
+    neuen Niederlassungen
+  description: '<p>co–struct eröffnet neue Niederlassungen in Nordamerika, um seine globale Präsenz zu stärken und Kunden weltweit besser zu bedienen.</p>'
+- 
+  image:
+    - file://otSFrEEmd3hj4nvo
+  date: 2023-08-10
+  title: >
+    co–struct revolutioniert den
+    Brückenbau
+  description: '<p>co–struct führt eine nachhaltige Technologie ein, die den Brückenbau revolutioniert und auf Umweltfreundlichkeit und Effizienz setzt.</p>'
+- 
+  image:
+    - file://KVQjmRpFOKblibRw
+  date: 2023-08-03
+  title: >
+    co–struct kooperiert mit führendem
+    Architekturbüro
+  description: '<p>co–struct arbeitet in einer vielversprechenden Partnerschaft mit einem führenden Architekturbüro an wegweisenden Bauprojekten.</p>'
+- 
+  image:
+    - file://juGCKQgWvItlCIue
+  date: 2023-07-21
+  title: >
+    co–struct fördert den
+    Ingenieurnachwuchs
+  description: '<p>co–struct setzt sich aktiv für die Förderung junger Ingenieurtalente ein und bietet Bildungsinitiativen sowie Praktikumsprogramme an.</p>'
+- 
+  image: [ ]
+  date: 2023-07-14
+  title: >
+    Expertise für sichere und nachhaltige
+    Infrastrukturen
+  description: '<p>Die Experten von co–struct setzen ihre umfassende Fachkenntnis ein, um Infrastrukturen zu schaffen, die sowohl sicher als auch nachhaltig sind.</p>'
+
+----
+
+Coworkers:
+
+- 
+  image:
+    - file://53ysDMOgRJGwGMGa
+  date: 2023-08-02
+  title: This is the first news entry
+  description: >
+    hello you dumbo hello you dumbo hello
+    you dumbo hello you dumbo hello you
+    dumbo hello you dumbo hello you dumbo
+    hello you dumbo hello you dumbo hello
+    you dumbo hello you dumbo hello you
+    dumbo hello you dumbo hello you dumbo
+    hello you dumbo hello you dumbo hello
+    you dumbo hello you dumbo hello you
+    dumbo hello you dumbo hello you dumbo
+    hello you dumbo hello you dumbo hello
+    you dumbo hello you dumbo hello you
+    dumbo hello you dumbo hello you dumbo
+    hello you dumbo hello you dumbo hello
+    you dumbo hi!
+- 
+  image:
+    - file://AYmfc62LWBslfAQ9
+  date: 2023-08-11
+  title: Hide The Pain
+  description: "yes do that dumbo. it isn't that bad."
+- 
+  image: [ ]
+  date: 2023-08-31
+  title: number 3
+  description: dumbo
+- 
+  image:
+    - file://AYmfc62LWBslfAQ9
+  date: 2023-08-19
+  title: "4"
+  description: "4"
+- 
+  image:
+    - file://FD9ZwKFg2MgcGjhS
+  date: 2023-08-01
+  title: "5"
+  description: "5"
+
+----
+
+Uuid: uFuDQAgOpKbki9e4
+
+----
+
+Text:
+
+- 
+  content:
+    level: h2
+    text: ""
+  id: 0f258abd-0102-4ead-a9a9-35427c508911
+  isHidden: false
+  type: heading
+- 
+  content:
+    text: ""
+  id: 815795bd-2364-43d3-bdf7-4602d9079623
+  isHidden: false
+  type: text
+- 
+  content:
+    location: kirby
+    image: [ ]
+    src: ""
+    alt: ""
+    caption: ""
+    link: ""
+    ratio: ""
+    crop: false
+  id: d02cbed0-f229-49ce-bb01-4adc55da407d
+  isHidden: false
+  type: image
+
+----
+
+Contact: photo: [ ]

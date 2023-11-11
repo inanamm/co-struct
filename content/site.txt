@@ -1,0 +1,169 @@
+Title: co–struct AG
+
+----
+
+Intro: co–struct ist ein inhabergeführtes Büro für Tragwerksplanung in Zürich und Aubonne. Innovative Tragsysteme, ein besonderes Augenmerk für Ästhetik und enge Zusammenarbeit mit unseren Partner:innen, das ist unser Credo.
+
+----
+
+Addresszh:
+
+companyname: co–struct AG
+description: Tragwerksplanung
+street: Förrlibuckstrasse 225
+postalcode: CH—8005
+place: Zürich
+
+----
+
+Addressvd:
+
+companyname: co–struct AG
+description: Ingénierie structurale
+street: Chemin des Clos 17
+postalcode: CH—1170
+place: Aubonne
+
+----
+
+Email: hello@co-struct.ch
+
+----
+
+Phone: +41 44 506 66 30
+
+----
+
+Instagram: https://www.instagram.com/co_struct/
+
+----
+
+Linkedin: https://www.linkedin.com/company/co%E2%80%93struct/
+
+----
+
+Meta-title: co–struct AG Tragwerksplanung, ingénierie structurale
+
+----
+
+Meta-description: description" content="co–struct ist ein junges Tragwerkstatik Büro in Zürich und in Aubonne, Schweiz. Die Zusammenarbeit und das Detail stehen bei uns im Vordergrund.
+
+----
+
+Meta-canonical-url: https://co-struct.ch
+
+----
+
+Meta-author: co–struct, Fabrice Meylan
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: 
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: disabled
+
+----
+
+Robots-nofollow: disabled
+
+----
+
+Robots-noarchive: disabled
+
+----
+
+Robots-noimageindex: disabled
+
+----
+
+Robots-nosnippet: disabled

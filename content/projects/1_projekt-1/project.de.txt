@@ -1,0 +1,49 @@
+Title: Therme Vals
+
+----
+
+Categoryb: choicefive
+
+----
+
+Tag: notbuilt
+
+----
+
+Information:
+
+- 
+  projectdetails: client
+  value: Gemeinde Vals
+- 
+  projectdetails: architecture
+  value: Peter Zumthor
+- 
+  projectdetails: place
+  value: CH—7132 Vals
+- 
+  projectdetails: value
+  value: 6 Mio
+- 
+  projectdetails: timeframe
+  value: 1993–1996
+
+----
+
+Texttitle: Die Alpine Schönheit
+
+----
+
+Text: Die Therme Vals ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.
+
+----
+
+Header: "fdskfjdsa" “fdjkdsaf“ „…“
+
+----
+
+Category: choiceone
+
+----
+
+Uuid: hUfBnccjuwIv1kjn
