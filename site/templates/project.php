@@ -29,7 +29,7 @@
                     <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
                         <li class="glide__slide">
                             <?php echo $image->thumb([
-                                'quality' => 80,
+                                'quality' => 5,
                                 'format'  => 'webp',
                             ])->html(); ?>
                         </li>
