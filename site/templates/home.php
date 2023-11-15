@@ -107,7 +107,7 @@ function displayProjectImages($pages)
     foreach ($allProjectImagesWithUrl as $image) : ?>
         <a href="<?= $image->projectUrl ?>" class="pb-5 hover:text-cslightblue hover:brightness-105 w-full h-full">
             <?php echo $image->imageX->thumb([
-                'quality' => 30,
+                'quality' => 10,
                 'lazy' => true,
                 'format' => 'webp',
             ])->html(); ?>
