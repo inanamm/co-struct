@@ -14,7 +14,7 @@ const timeLine = anime.timeline()
     .add({
         targets: '#logo',
         opacity: '100%',
-        duration: 800,
+        duration: 600,
         easing: 'easeInOutCubic'
     })
     .add({
@@ -23,6 +23,24 @@ const timeLine = anime.timeline()
         duration: 3000,
         easing: 'easeInOutCubic'
     }, '-=100')
+    .add({
+        targets: '#second',
+        opacity: '100%',
+        duration: 600,
+        easing: 'easeInOutCubic'
+    }, '-=2000')
+    .add({
+        targets: '#third',
+        opacity: '100%',
+        duration: 1000,
+        easing: 'easeInOutCubic'
+    }, '-=2800')
+    .add({
+        targets: '#four',
+        opacity: '100%',
+        duration: 400,
+        easing: 'easeInOutCubic'
+    }, '-=3000')
 
 
 if (document.querySelector('.glide')) {

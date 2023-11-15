@@ -18,7 +18,7 @@
 
         <?php endsnippet() ?>
     </div>
-    <main class="flex flex-col gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pr-5 lg:text-lg">
+    <main id="third" class="flex flex-col gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pr-5 lg:text-lg">
         <?= $page->privacyPolicyTitle()->kt() ?>
         <?= $page->privacyPolicy()->kirbytextinline() ?>
     </main>

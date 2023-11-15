@@ -20,11 +20,11 @@
     </div>
     <main class="flex flex-col mb-auto divide-y lg:flex-row lg:divide-none divide-cswhite">
 
-        <article class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pr-5 lg:pb-6 lg:w-1/2 ">
+        <article id="four" class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pr-5 lg:pb-6 lg:w-1/2 ">
             <?= $page->bueroprofil()->kt() ?>
         </article>
 
-        <div class="lg:w-1/2 divide-y divide-cswhite lg:divide-none">
+        <div id="four" class="lg:w-1/2 divide-y divide-cswhite lg:divide-none">
 
             <div class="font-sans text-lg flex flex-col px-3 pt-2 pb-5 overflow-y-auto lg:px-0 lg:pr-3">
 
