@@ -38,12 +38,12 @@
                         ?>
                         <?php slot() ?>
                         <div class="font-mono text-sm pt-2 pb-5">
-                            <?= $job->generalDescription()->escape() ?>
+                            <?= $job->generalDescription()->smartypants()->escape() ?>
                         </div>
                         <?php foreach ($job->list()->toStructure() as $jobListing) : ?>
                             <div class="font-mono text-sm pt-2 pb-5">
                                 <h3 class="font-sans text-base mb-1">
-                                    <?= $jobListing->title()->escape() ?>
+                                    <?= $jobListing->title()->smartypants()->escape() ?>
                                 </h3>
                                 <style scoped>
                                     #problematic-div>ul {

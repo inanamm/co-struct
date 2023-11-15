@@ -29,7 +29,32 @@ return [
     'url' => NULL,
 
     'smartypants' => [
-        'doublequote.open'  => '&#8220;',
-        'doublequote.close' => '&#8221;',
-    ]
+        'attr'                       => 1,
+        'doublequote.open'           => '&#171;', // «
+        'doublequote.close'          => '&#187;', // »
+        'doublequote.low'            => '&#139;', // ‹
+        'singlequote.open'           => '&#139;', // ‹
+        'singlequote.close'          => '&#155;', // ›
+        'backtick.doublequote.open'  => '&#171;', // «
+        'backtick.doublequote.close' => '&#187;', // »
+        'backtick.singlequote.open'  => '&#139;', // ‹
+        'backtick.singlequote.close' => '&#155;', // ›
+        'emdash'                     => '&#8212;', // —
+        'endash'                     => '&#8211;', // –
+        'ellipsis'                   => '&#8230;', // …
+        'space'                      => '(?: | |&nbsp;|&#0*160;|&#x0*[aA]0;)',
+        'space.emdash'               => ' ',
+        'space.endash'               => ' ',
+        'space.colon'                => '&#160;',
+        'space.semicolon'            => '&#160;',
+        'space.marks'                => '&#160;',
+        'space.frenchquote'          => '&#160;',
+        'space.thousand'             => '&#160;',
+        'space.unit'                 => '&#160;',
+        'guillemet.leftpointing'     => '&#171;', // «
+        'guillemet.rightpointing'    => '&#187;', // »
+        'geresh'                     => '&#1523;',
+        'gershayim'                  => '&#1524;',
+        'skip'                       => 'pre|code|kbd|script|style|math',
+    ],
 ];

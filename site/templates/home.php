@@ -21,7 +21,7 @@
                 <?php endsnippet() ?>
             </div>
             <div id="second" class="flex flex-col gap-4 font-sans text-base px-3 pt-2 pb-5 h-full lg:pr-5 lg:justify-end lg:text-lg">
-                <?= $site->intro() ?>
+                <?= $site->intro()->kt() ?>
             </div>
 
             <nav id="second" class="hidden lg:flex justify-between pt-2 pb-5 px-3 font-sans text-lg border-t border-csblack">

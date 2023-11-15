@@ -23,7 +23,7 @@
 
         <?php endforeach ?>
 
-        <div class="font-mono text-sm"><?= $worker->description() ?></div>
+        <div class="font-mono text-sm"><?= $worker->description()->kt() ?></div>
     </div>
     <?php endslot() ?>
     <?php endsnippet() ?>

@@ -32,11 +32,11 @@
                     <?php endforeach ?>
 
                     <div class="flex flex-col gap-2">
-                        <h2 class="text-lg mt-2"><?= $newsArticle->title()->toHtml() ?></h2>
+                        <h2 class="text-lg mt-2"><?= $newsArticle->title()->smartypants()->toHtml() ?></h2>
                         <div class="font-mono text-sm">
                             <?= $newsArticle->date()->toDate('d.m.y') ?>
                             <div class="flex flex-col gap-2">
-                                <?= $newsArticle->description()->text() ?>
+                                <?= $newsArticle->description()->text()->smartypants() ?>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
             <?php endif ?>
 
             <div class="divide-y divide-csgreen grow">
-                <?php if ($news = $page->news()->toStructure()) : ?>
+                <?php if ($news = $page->news()->smartypants()->toStructure()) : ?>
                     <?php foreach ($news as $newsArticle) : ?>
 
                         <div class="flex lg:hidden pb-5 px-3 pt-3 lg:px-0 lg:pb-6 lg:pt-0">
@@ -57,11 +57,11 @@
                                 <?php endforeach ?>
 
                                 <div class="flex flex-col gap-2">
-                                    <h2 class="text-lg mt-2"><?= $newsArticle->title()->toHtml() ?></h2>
+                                    <h2 class="text-lg mt-2"><?= $newsArticle->title()->smartypants()->toHtml() ?></h2>
                                     <div class="font-mono text-sm">
                                         <?= $newsArticle->date()->toDate('d.m.y') ?>
                                         <div class="flex flex-col gap-2">
-                                            <?= $newsArticle->description()->text() ?>
+                                            <?= $newsArticle->description()->text()->smartypants() ?>
                                         </div>
                                     </div>
                                 </div>
@@ -92,11 +92,11 @@
                             <?php endforeach ?>
 
                             <div class="flex flex-col gap-2">
-                                <h2 class="text-lg mt-2"><?= $newsArticle->title()->toHtml() ?></h2>
+                                <h2 class="text-lg mt-2"><?= $newsArticle->title()->smartypants()->toHtml() ?></h2>
                                 <div class="font-mono text-sm">
                                     <?= $newsArticle->date()->toDate('d.m.y') ?>
                                     <div class="flex flex-col gap-2">
-                                        <?= $newsArticle->description()->text() ?>
+                                        <?= $newsArticle->description()->text()->smartypants() ?>
                                     </div>
                                 </div>
                             </div>
