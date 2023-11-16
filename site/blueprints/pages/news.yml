@@ -1,53 +1,59 @@
 title: News Page
 
-columns:
-  top:
-    width: 3/3
-    sections:
-      fields:
-        type: fields
-        fields: 
-          news:
-            label: Entries
-            type: structure
-            translate: true
-            sortBy: date
-            columns:
-              image:
-                width: 1/5
-              date:
-                width: 1/5
-              title:
-                width: 2/5
-              description:
-                width: 2/5
-            fields:
-              image:
-                label: Portrait
-                type: files
-                query: page.images
-                multiple: false
-                width: 1/2
-              date:
-                required: true
-                label: Date
-                type: date
-                width: 1/2
-                display: DD.MM.YYYY
-              title:
-                required: true
-                counter: false
-                label: Title
-                type: text
-              description:
-                label: Content
-                type: writer
-                inline: false
-                size: small
-                counter: false
+tabs:
+  content:
+    label: Content
+    icon: text
+    columns:
+      top:
+        width: 3/3
+        sections:
+          fields:
+            type: fields
+            fields: 
+              news:
+                label: Entries
+                type: structure
                 translate: true
-                marks: 
-                  - link
-                  - email
-                nodes: false
-                maxlength: 500
+                sortBy: date
+                columns:
+                  image:
+                    width: 1/5
+                  date:
+                    width: 1/5
+                  title:
+                    width: 2/5
+                  description:
+                    width: 2/5
+                fields:
+                  image:
+                    label: Portrait
+                    type: files
+                    query: page.images
+                    multiple: false
+                    width: 1/2
+                  date:
+                    required: true
+                    label: Date
+                    type: date
+                    width: 1/2
+                    display: DD.MM.YYYY
+                  title:
+                    required: true
+                    counter: false
+                    label: Title
+                    type: text
+                  description:
+                    label: Content
+                    type: writer
+                    inline: false
+                    size: small
+                    counter: false
+                    translate: true
+                    marks: 
+                      - link
+                      - email
+                    nodes: false
+                    maxlength: 500
+                    
+  seo: seo/page

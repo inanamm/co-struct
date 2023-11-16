@@ -42,7 +42,7 @@
         <!--TEXT PROJECT-->
         <main id="four" class="flex flex-col divide-y divide-csblack border-b border-csblack grow">
             <div class="flex flex-row font-sansbold text-lg px-3 pt-2 pb-3 lg:justify-between hover-container relative">
-                <?= $page->title()->smartypants()->escape() ?>
+                <h1><?= $page->title()->smartypants()->escape() ?></h1>
                 <div class="hidden lg:flex font-mono text-sm self-end category absolute right-3" style="color: csblack; visibility: hidden;">
                     <?= t($page->categoryB()->smartypants()->escape()) ?>
                 </div>
@@ -74,7 +74,7 @@
             </div>
 
             <article class="flex flex-col h-full font-sans text-base px-3 pt-2 pb-5 gap-3">
-                <p><?= $page->textTitle()->smartypants()->escape() ?></p>
+                <h2><?= $page->textTitle()->smartypants()->escape() ?></h2>
                 <?= $page->text()->kt() ?>
             </article>
 

@@ -1,95 +1,106 @@
 title: About Page
 
-columns:
-  top:
-    width: 3/3
-    sections:
-      fields:
-        type: fields
-        fields: 
-          bueroprofil: 
-            label: Profile
-            type: textarea
-            buttons: false
-
-          lineA:
-            type: line
-
-          coworkersTitle:
-            label: Title Co-workers
-            type: text
-            width: 1/3
-          coworkers:
-            label: Co-workers
-            type: structure
-            translate: true
-            columns:
-              name:
-                width: 1/5
-              title:
-                width: 1/10
-              phone:
-                width: 1/5
-              email:
-                width: 1/5
-              description:
-                width: 2/5
-              image:
-                width: 1/5
-
-            fields:
-              name:
-                label: name
+tabs:
+  content:
+    label: Content
+    icon: text
+    columns:
+      top:
+        width: 3/3
+        sections:
+          fields:
+            type: fields
+            fields: 
+              sitetitle:
+                label: Site title
                 type: text
-              title:
-                label: Title
-                type: text
-              phone:
-                label: Phone Number
-                type: tel
-              email:
-                label: Email
-                type: email
-              description:
-                label: Bio
+                buttons: false
+                width: 1/3
+              bueroprofil: 
+                label: Profile
                 type: textarea
                 buttons: false
-                maxlength: 400
-                spellcheck: true
-              image:
-                label: Portrait
-                type: files
-                query: page.images
-                multiple: false
 
-          lineB:
-            type: line
+              lineA:
+                type: line
 
-          applicationsTitle:
-            label: Title Applications
-            type: text
-            width: 1/3
-          openPositionsLinkText:
-            label: Open positions Link Text
-            type: text
-            help: |
-              This is the text that will show.
-          noOpenPositions:
-            label: No open positions
-            type: text
-            help: |
-              This is the text that will show when there are no open positions.
+              coworkersTitle:
+                label: Title Co-workers
+                type: text
+                width: 1/3
+              coworkers:
+                label: Co-workers
+                type: structure
+                translate: true
+                columns:
+                  name:
+                    width: 1/5
+                  title:
+                    width: 1/10
+                  phone:
+                    width: 1/5
+                  email:
+                    width: 1/5
+                  description:
+                    width: 2/5
+                  image:
+                    width: 1/5
 
-          lineC:
-            type: line
-          
-          oldcoworkersTitle:
-            label: Old Co-Workers
-            type: text
-            width: 1/3
-          oldcoworkers: 
-            type: list
-            label: Names
-            width: 2/3
-            marks: false
-            translate: false
+                fields:
+                  name:
+                    label: name
+                    type: text
+                  title:
+                    label: Title
+                    type: text
+                  phone:
+                    label: Phone Number
+                    type: tel
+                  email:
+                    label: Email
+                    type: email
+                  description:
+                    label: Bio
+                    type: textarea
+                    buttons: false
+                    maxlength: 400
+                    spellcheck: true
+                  image:
+                    label: Portrait
+                    type: files
+                    query: page.images
+                    multiple: false
+
+              lineB:
+                type: line
+
+              applicationsTitle:
+                label: Title Applications
+                type: text
+                width: 1/3
+              openPositionsLinkText:
+                label: Open positions Link Text
+                type: text
+                help: |
+                  This is the text that will show.
+              noOpenPositions:
+                label: No open positions
+                type: text
+                help: |
+                  This is the text that will show when there are no open positions.
+
+              lineC:
+                type: line
+              
+              oldcoworkersTitle:
+                label: Old Co-Workers
+                type: text
+                width: 1/3
+              oldcoworkers: 
+                type: list
+                label: Names
+                width: 2/3
+                marks: false
+                translate: false
+
+  seo: seo/page

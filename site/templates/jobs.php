@@ -27,7 +27,7 @@
         <div id="four" class="lg:w-1/2 divide-y divide-cswhite lg:divide-none">
 
             <div class="font-sans text-lg flex flex-col px-3 pt-2 pb-5 overflow-y-auto lg:px-0 lg:pr-3">
-
+                <h1><?= $page->sitetitle()->smartypants()->escape() ?></h1>
                 <?php if ($jobs = $page->children()) : ?>
                     <?php foreach ($jobs as $job) : ?>
                         <?php snippet(
@@ -87,7 +87,7 @@
         <?php snippet('footer') ?>
     </div>
     <?php snippet('seo/schemas'); ?>
-     <?= vite()->js('index.js') ?>
+    <?= vite()->js('index.js') ?>
 </body>
 
 </html>

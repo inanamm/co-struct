@@ -20,6 +20,7 @@
 
 	<main class="flex flex-col lg:flex-row divide-y divide-csblue lg:divide-none no-scrollbar">
 		<article id="four" class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pr-5 lg:w-1/2">
+			<h1><?= $page->sitetitle()->smartypants()->escape() ?></h1>
 			<?= $page->Bueroprofil()->kt() ?>
 		</article>
 
