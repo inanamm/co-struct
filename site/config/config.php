@@ -7,6 +7,22 @@ return [
   'panel' => [
     'install' => true
   ],
+  'panel' => [
+    'favicon' => [
+      'apple-touch-icon' => [
+        'type' => 'image/png',
+        'url'  =>  'assets/apple-touch-icon.png',
+      ],
+      'shortcut icon' => [
+        'type' => 'image/svg+xml',
+        'url'  => 'assets/favicon.svg',
+      ],
+      'alternate icon' => [
+        'type' => 'image/png',
+        'url'  => 'assets/favicon.png',
+      ]
+    ]
+  ],
   'cache' => [
     'pages' => [
       'active' => true
