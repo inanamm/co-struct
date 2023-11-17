@@ -11,5 +11,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="Deutsch, Francais">
 
+    <!-- hreflang -->
+    <link rel="alternate" hreflang="de-CH" href="https://co-struct.ch/de-CH/">
+    <link rel="alternate" hreflang="fr-CH" href="https://co-struct.ch/fr-CH/">
+    <link rel="canonical" href="https://co-struct.ch/de-CH">
+
     <?= vite()->css('index.css') ?>
 </head>

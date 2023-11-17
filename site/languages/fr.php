@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'code' => 'fr',
+    'code' => 'fr-CH',
     'default' => false,
     'direction' => 'ltr',
     'locale' => [
-        'LC_ALL' => 'fr_FR'
+        'LC_ALL' => 'fr_CH.utf-8'
     ],
     'name' => 'FR',
     'translations' => [

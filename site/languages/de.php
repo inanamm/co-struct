@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'code' => 'de',
+    'code' => 'de-CH',
     'default' => true,
     'direction' => 'ltr',
     'locale' => [
-        'LC_ALL' => 'de_DE'
+        'LC_ALL' => 'de_CH.utf-8'
     ],
     'name' => 'DE',
     'smartypants' => [
