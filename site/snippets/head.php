@@ -6,7 +6,7 @@
     <?php snippet('seo/head'); ?>
     <?php header("Cache-Control: max-age=3600"); ?>
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="Deutsch, Francais">

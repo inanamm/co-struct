@@ -11,15 +11,15 @@ return [
     'favicon' => [
       'apple-touch-icon' => [
         'type' => 'image/png',
-        'url'  =>  'assets/apple-touch-icon.png',
+        'url'  =>  '/apple-touch-icon.png',
       ],
       'shortcut icon' => [
         'type' => 'image/svg+xml',
-        'url'  => 'assets/favicon.svg',
+        'url'  => '/favicon.svg',
       ],
       'alternate icon' => [
         'type' => 'image/png',
-        'url'  => 'assets/favicon.png',
+        'url'  => '/favicon.png',
       ]
     ]
   ],
