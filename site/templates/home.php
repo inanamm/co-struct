@@ -60,7 +60,7 @@
     <?php displayProjectImages($pages); ?>
 </div>
 
-<div id="second" class="flex text-csblack lg:border-t border-csblack">
+<div id="first" class="flex text-csblack lg:border-t border-csblack">
     <?php snippet('footer') ?>
 </div>
         </div>
