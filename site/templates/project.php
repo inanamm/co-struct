@@ -40,7 +40,7 @@
         </div>
 
         <!--TEXT PROJECT-->
-        <main id="four" class="flex flex-col divide-y divide-csblack border-b border-csblack grow">
+        <main id="four" class="flex flex-col divide-y divide-csblack grow">
             <div class="flex flex-row font-sansbold text-lg px-3 pt-2 pb-3 lg:justify-between hover-container relative">
                 <h1><?= $page->title()->smartypants()->escape() ?></h1>
                 <div class="hidden lg:flex font-mono text-sm self-end category absolute right-3" style="color: csblack; visibility: hidden;">
@@ -80,7 +80,7 @@
 
         </main>
 
-        <div class="flex grow-0 justify-end">
+        <div class="flex grow-0 justify-end border-t border-csblack">
             <?php snippet('footer') ?>
         </div>
     </div>
