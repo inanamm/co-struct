@@ -23,13 +23,13 @@
         </div>
 
         <!--GLIDER MOBILE -->
-        <div class="glide lg:hidden pt-3">
+        <div id="four" class="glide lg:hidden pt-3">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                     <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
                         <li class="glide__slide">
                             <?php echo $image->thumb([
-                                'quality' => 80,
+                                'quality' => 50,
                                 'format'  => 'webp',
                             ])->html(); ?>
                         </li>
@@ -40,11 +40,11 @@
         </div>
 
         <!--TEXT PROJECT-->
-        <main class="flex flex-col divide-y divide-csblack border-b border-csblack grow">
+        <main id="four" class="flex flex-col divide-y divide-csblack border-b border-csblack grow">
             <div class="flex flex-row font-sansbold text-lg px-3 pt-2 pb-3 lg:justify-between hover-container relative">
-                <?= $page->title()->escape() ?>
+                <h1><?= $page->title()->smartypants()->escape() ?></h1>
                 <div class="hidden lg:flex font-mono text-sm self-end category absolute right-3" style="color: csblack; visibility: hidden;">
-                    <?= t($page->categoryB()->escape()) ?>
+                    <?= t($page->categoryB()->smartypants()->escape()) ?>
                 </div>
             </div>
 
@@ -52,7 +52,7 @@
             </div>
 
             <div class="font-mono text-sm px-3 pt-2 pb-3">
-                <?php if ($info = $page->information()->toStructure()) : ?>
+                <?php if ($info = $page->information()->smartypants()->toStructure()) : ?>
                     <?php snippet(
                         'accordion',
                         ['buttonText' => 'Information'],
@@ -63,8 +63,8 @@
                     <div class="flex flex-col gap-3 mt-3">
                         <?php foreach ($info as $detail) : ?>
                             <div class="flex flex-col">
-                                <p><?= t($detail->projectDetails()->escape()) ?></p>
-                                <p><?= $detail->value()->escape() ?></p>
+                                <p><?= t($detail->projectDetails()->smartypants()->escape()) ?></p>
+                                <p><?= $detail->value()->smartypants()->escape() ?></p>
                             </div>
                         <?php endforeach ?>
                     </div>
@@ -74,7 +74,7 @@
             </div>
 
             <article class="flex flex-col h-full font-sans text-base px-3 pt-2 pb-5 gap-3">
-                <p><?= $page->textTitle()->escape() ?></p>
+                <h2><?= $page->textTitle()->smartypants()->escape() ?></h2>
                 <?= $page->text()->kt() ?>
             </article>
 
@@ -89,12 +89,15 @@
 </body>
 
 <!--RIGHT SIDE-->
-<div class="hidden lg:flex w-1/2 overflow-y-scroll no-scrollbar">
+<div id="four" class="hidden lg:flex w-1/2 overflow-y-scroll no-scrollbar">
     <div>
         <ul>
             <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
                 <li class="<?= $image->ratio() > 1 ? 'w-full' : 'w-full' ?> pb-0.5 last:p-0">
-                    <img src="<?= $image->url() ?>" class="w-full object-fill">
+                    <?php echo $image->thumb([
+                        'quality' => 90,
+                        'format'  => 'webp',
+                    ])->html(); ?>
                 </li>
             <?php endforeach ?>
 

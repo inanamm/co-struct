@@ -1,31 +1,40 @@
 title: Jobs
 
-sections:
-  fieldsA:
-    type: fields
-    fields: 
-      bueroprofil: 
-        width: 1/2
-        label: Profile
-        type: textarea
-        buttons: false
-      endtext: 
-        width: 1/2
-        label: To contact
-        type: textarea
-        buttons:
-          - email
+tabs:
+  content:
+    label: Content
+    icon: text
+    sections:
+      fieldsA:
+        type: fields
+        fields: 
+          sitetitle:
+            label: Site title
+            type: text
+            buttons: false
+            width: 1/3
+          bueroprofil: 
+            label: Profile
+            type: textarea
+            buttons: false
+          endtext: 
+            label: To contact
+            type: textarea
+            buttons:
+              - email
 
-      lineA:
-        type: line
+          lineA:
+            type: line
 
-  drafts:
-    label: Jobs
-    info: "{{ page.position }}"
-    template: job
-    type: pages
+      drafts:
+        label: Jobs
+        info: "{{ page.position }}"
+        template: job
+        type: pages
 
-options:
-  url: false
-  status: false
-  delete: false
+    options:
+      url: false
+      status: false
+      delete: false
+
+  seo: seo/page

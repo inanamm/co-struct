@@ -10,7 +10,7 @@
             class="w-full flex items-center justify-between lg:hover:text-cslightblue" 
             @click="selected = !selected; open = !open"
         >    
-            <?= $buttonText ?>
+            <h2><?= $buttonText ?></h2>
             <svg 
                 class="h-3 w-3" 
                 viewBox="0 0 24 24" 

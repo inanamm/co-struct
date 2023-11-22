@@ -12,10 +12,18 @@
         </p>
 
         <?php foreach ($worker->image()->toFiles() as $image) : ?>
-            <img src="<?= $image->crop(400, 500)->url() ?>" class="aspect-[4/5] w-1/2 lg:w-1/2 h-auto">
+            <div class="w-1/2 lg:w-1/2"><?php echo $image->thumb([
+                                            'quality' => 80,
+                                            'crop' => true,
+                                            'width' => 400,
+                                            'height' => 500,
+                                            'format'  => 'webp',
+                                        ])->html(); ?>
+            </div>
+
         <?php endforeach ?>
 
-        <div class="font-mono text-sm"><?= $worker->description() ?></div>
+        <div class="font-mono text-sm"><?= $worker->description()->kt() ?></div>
     </div>
     <?php endslot() ?>
     <?php endsnippet() ?>

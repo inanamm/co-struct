@@ -20,11 +20,11 @@
                 <?php endslot() ?>
                 <?php endsnippet() ?>
             </div>
-            <div class="flex flex-col gap-4 font-sans text-base px-3 pt-2 pb-5 h-full lg:pr-5 lg:justify-end lg:text-lg">
-                <?= $site->intro() ?>
+            <div id="second" class="flex flex-col gap-4 font-sans text-base px-3 pt-2 pb-5 h-full lg:pr-5 lg:justify-end lg:text-lg">
+                <?= $site->intro()->kt() ?>
             </div>
 
-            <nav class="hidden lg:flex justify-between pt-2 pb-5 px-3 font-sans text-lg border-t border-csblack">
+            <nav id="second" class="hidden lg:flex justify-between pt-2 pb-5 px-3 font-sans text-lg border-t border-csblack">
                 <?php
                 $items = $pages->listed();
                 if ($items->isNotEmpty()) : ?>
@@ -56,16 +56,16 @@
 <?php endif; ?>
 </nav>
 
-<div class="grid grid-cols-2 px-3 pt-3 pb-5 gap-1 w-full border-y border-csblack lg:hidden">
+<div id="second" class="grid grid-cols-2 px-3 pt-3 pb-5 gap-1 w-full border-y border-csblack lg:hidden">
     <?php displayProjectImages($pages); ?>
 </div>
 
-<div class="flex text-csblack lg:border-t border-csblack">
+<div id="second" class="flex text-csblack lg:border-t border-csblack">
     <?php snippet('footer') ?>
 </div>
         </div>
 
-        <div class="hidden divide-y divide-csgreen lg:grid flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-y-auto h-full no-scrollbar"">
+        <div id="third" class="hidden divide-y divide-csgreen lg:grid flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-y-auto h-full no-scrollbar">
             <div class=" flex flex-col">
             <div class="grid grid-cols-4 pb-6 gap-1 w-full" id="project-container">
                 <?php displayProjectImages($pages); ?>
@@ -107,7 +107,7 @@ function displayProjectImages($pages)
     foreach ($allProjectImagesWithUrl as $image) : ?>
         <a href="<?= $image->projectUrl ?>" class="pb-5 hover:text-cslightblue hover:brightness-105 w-full h-full">
             <?php echo $image->imageX->thumb([
-                'quality' => 60,
+                'quality' => 30,
                 'lazy' => true,
                 'format' => 'webp',
             ])->html(); ?>
