@@ -27,7 +27,7 @@ permissions:
     create: false
     delete: false
   pages:
-    changeSlug: false
+    changeSlug: true
     changeStatus: false
     changeTemplate: false
     changeTitle: true

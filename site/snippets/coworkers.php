@@ -7,7 +7,9 @@
     ?>
     <?php slot() ?>
     <div class="flex flex-col gap-1 pb-6">
-        <p class="mb-1"><?= $worker->phone() ?><br>
+        <p class="mb-1">
+            <?= $worker->title() ?><br>
+            <?= $worker->phone() ?><br>
             <a href="mailto:<?= $worker->email() ?>" class="underline underline-offset-2 hover:text-cslightblue "><?= $worker->email() ?></a>
         </p>
 

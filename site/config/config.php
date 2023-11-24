@@ -15,7 +15,7 @@ return [
       ],
       'shortcut icon' => [
         'type' => 'image/svg+xml',
-        'url'  => '/favicon.svg',
+        'url'  => 'git/favicon.svg',
       ],
       'alternate icon' => [
         'type' => 'image/png',
