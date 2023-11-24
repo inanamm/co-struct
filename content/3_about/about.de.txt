@@ -22,7 +22,7 @@ Coworkers:
 
 - 
   name: Fabrice Meylan
-  title: GL
+  title: Geschäftsleitung | Co–Founder
   phone: +41 79 363 29 36
   email: fabrice@co-struct.ch
   description: >
@@ -75,6 +75,70 @@ Oldcoworkerstitle: Ehemalige
 ----
 
 Oldcoworkers: <ul><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li></ul>
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
 
 ----
 
