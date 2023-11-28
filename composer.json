@@ -2,11 +2,7 @@
   "name": "getkirby/plainkit",
   "description": "Kirby Plainkit",
   "type": "project",
-  "keywords": [
-    "kirby",
-    "cms",
-    "starterkit"
-  ],
+  "keywords": ["kirby", "cms", "starterkit"],
   "authors": [
     {
       "name": "Bastian Allgeier",
@@ -22,10 +18,10 @@
     "source": "https://github.com/getkirby/starterkit"
   },
   "require": {
-    "php": ">=8.0.0 <8.3.0",
-    "getkirby/cms": "^3.9",
-    "arnoson/kirby-vite": "^4.0.9",
-    "tobimori/kirby-seo": "^0.3.4"
+    "php": ">=8.0.0 <=8.3.0",
+    "getkirby/cms": "^4.0",
+    "arnoson/kirby-vite": "^5.1.0",
+    "tobimori/kirby-seo": "^0.4.0"
   },
   "config": {
     "allow-plugins": {
