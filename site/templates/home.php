@@ -102,7 +102,7 @@ function displayProjectImages($pages)
             );
         }
     }
-    shuffle($allProjectImagesWithUrl);
+    // shuffle($allProjectImagesWithUrl);
 
     foreach ($allProjectImagesWithUrl as $image) : ?>
         <a href="<?= $image->projectUrl ?>" class="pb-5 hover:text-cslightblue hover:brightness-105 w-full h-full">
