@@ -17,7 +17,7 @@ tabs:
             marks: false
             nodes: false
             counter: true
-            maxlength: 220
+            maxlength: 500
             spellcheck: true
 
 

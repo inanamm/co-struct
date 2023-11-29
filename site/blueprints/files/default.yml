@@ -10,6 +10,3 @@ fields:
     width: 1/1
     required: true
     translate: true
-  credit:
-    label: Credit
-    type: text

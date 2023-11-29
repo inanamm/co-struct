@@ -74,6 +74,15 @@ tabs:
                 required: true
                 type: files
                 label: Gallery
+          fields:
+            type: fields
+            fields:
+              credit:
+                translate: true
+                label: Photocredit
+                type: textarea
+                buttons: 
+                  - link
 
   seo: seo/page
 

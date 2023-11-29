@@ -100,7 +100,11 @@
                     ])->html(); ?>
                 </li>
             <?php endforeach ?>
-
+            <?php if ($page->credit()->kti()->isNotEmpty()) : ?>
+                <li class="font-mono text-xs pb-0.5 last:p-0">
+                    <?= $page->credit()->kti() ?>
+                </li>
+            <?php endif ?>
         </ul>
     </div>
 </div>

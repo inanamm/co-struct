@@ -38,6 +38,86 @@ Text: Die Therme Vals ist ein Meisterwerk der minimalistischen Architektur und e
 
 ----
 
+Gallery:
+
+- file://FWghciT64BgfE5bn
+- file://pFDQpSUTuBSSzB1i
+- file://TtZmHhLW0G8livQy
+- file://WNmC96JpqbUlEF9Q
+- file://5YAKpSVpRM05VT95
+- file://ADSFP052cIFTGTpj
+- file://D3mjNqEL6eE0CQjF
+
+----
+
+Credit: Fotografie: (link: https://www.google.com/ text: Robert), (link: https://www.google.com/ text: Robert) und (link: https://www.google.com/ text: Robert)
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
+
+----
+
 Header: "fdskfjdsa" “fdjkdsaf“ „…“
 
 ----
