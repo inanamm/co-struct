@@ -73,7 +73,7 @@
                 <?php endif ?>
             </div>
 
-            <article class="flex flex-col h-full font-sans text-base px-3 pt-2 pb-5 gap-3">
+            <article class="flex flex-col h-full font-sans text-base px-3 pt-2 pb-5 gap-3 text_with_link">
                 <h2><?= $page->textTitle()->smartypants()->escape() ?></h2>
                 <?= $page->text()->kt() ?>
             </article>
