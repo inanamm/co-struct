@@ -23,6 +23,9 @@ return [
       ]
     ]
   ],
+  'thumbs' => [
+    'autoOrient' => true,
+  ],
   'cache' => [
     'pages' => [
       'active' => true
