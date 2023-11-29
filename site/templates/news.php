@@ -22,7 +22,7 @@
                 <?php endsnippet() ?>
             </div>
 
-            <?php if ($newsArticle = $page->news()->toStructure()->first()) : ?>
+            <?php if ($newsArticle = $page->news()->toStructure()->sortby('date', 'desc')->first()) : ?>
                 <div  id="four" class="hidden lg:flex flex-col gap-1 pb-5 px-3 pt-3 h-sreen">
                     <?php foreach ($newsArticle->image()->toFiles() as $image) : ?>
                         <?php echo $image->thumb([
