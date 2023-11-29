@@ -10,12 +10,12 @@ tabs:
         sections:
           fields:
             type: fields
-            fields: 
+            fields:
               news:
                 label: Entries
                 type: structure
                 translate: true
-                sortBy: date
+                sortBy: date desc
                 columns:
                   image:
                     width: 1/5
@@ -50,10 +50,10 @@ tabs:
                     size: small
                     counter: false
                     translate: true
-                    marks: 
+                    marks:
                       - link
                       - email
                     nodes: false
                     maxlength: 500
-                    
+
   seo: seo/page
