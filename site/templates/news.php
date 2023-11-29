@@ -44,7 +44,7 @@
             <?php endif ?>
 
             <div class="divide-y divide-csgreen grow">
-                <?php if ($news = $page->news()->toStructure()) : ?>
+                <?php if ($news = $page->news()->toStructure()->sortby('date', 'desc')) : ?>
                     <?php foreach ($news as $newsArticle) : ?>
 
                         <div class="flex lg:hidden pb-5 px-3 pt-3 lg:px-0 lg:pb-6 lg:pt-0">
@@ -79,7 +79,7 @@
         </div>
 
         <div id="four" class="hidden divide-y divide-csgreen lg:grid gap-x-2 grid-cols-2 flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-auto h-screen no-scrollbar">
-            <?php if ($news = $page->news()->toStructure()->without(0)) : ?>
+            <?php if ($news = $page->news()->toStructure()->without(0)->sortby('date', 'desc')) : ?>
                 <?php foreach ($news as $newsArticle) : ?>
 
                     <div class="pb-5 px-3 pt-3 lg:px-0 lg:pb-6 lg:pt-0">
@@ -90,7 +90,7 @@
                                         'format'  => 'webp',
                                     ])->html(); ?>
                             <?php endforeach ?>
-                            
+
                             <div class="flex flex-col gap-2">
                                 <h2 class="text-lg mt-2"><?= $newsArticle->title()->smartypants()->toHtml() ?></h2>
                                 <div class="font-mono text-sm">
