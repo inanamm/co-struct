@@ -61,7 +61,8 @@ tabs:
           text:
             type: textarea
             size: large
-            buttons: false
+            buttons: 
+              - link
 
       sidebar:
         width: 1/3

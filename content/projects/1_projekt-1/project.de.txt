@@ -34,7 +34,7 @@ Texttitle: Die Alpine Schönheit
 
 ----
 
-Text: Die Therme Vals ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.
+Text: Die (link: https://www.google.com/ text: Therme Vals) ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.
 
 ----
 
