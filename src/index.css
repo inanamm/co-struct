@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Monospace821BT";
-  src: url("assets/Monospace821BTRegular.otf") format("otf");
+  src: url("assets/Monospace821BTRegular.otf") format("opentype");
 }
 
 @font-face {
