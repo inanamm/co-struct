@@ -48,7 +48,7 @@ return [
         // Prepare data to be returned
         foreach ($projects as $project) {
           $thumbsData = [];
-          foreach ($project->images() as $image) {
+          foreach ($project->gallery()->toFiles() as $image) {
             $thumb = $image->thumb([
               'quality' => 60,
               'lazy' => true,

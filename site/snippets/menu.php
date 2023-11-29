@@ -1,15 +1,15 @@
 <div class="relative z-40" x-data="{ menuOpen: false }">
 
-    <div 
-        class="h-screen w-full bg-csblack opacity-30 bg-blend-multiply fixed inset-0" 
-        @click="menuOpen = false" 
-        x-show="menuOpen" 
-        :aria-expanded="menuOpen.toString()" 
-        style="display: none;" 
-        x-transition:enter="transition duration-500 ease-in-out" 
-        x-transition:enter-start="opacity-0" 
-        x-transition:enter-end="opacity-30" 
-        x-transition:leave="transition ease-in-out duration-100" 
+    <div
+        class="h-screen w-full bg-csblack opacity-30 bg-blend-multiply fixed inset-0"
+        @click="menuOpen = false"
+        x-show="menuOpen"
+        :aria-expanded="menuOpen.toString()"
+        style="display: none;"
+        x-transition:enter="transition duration-500 ease-in-out"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-30"
+        x-transition:leave="transition ease-in-out duration-100"
         x-transition:leave-start="opacity-30"
         x-transition:leave-end="opacity-0">
     </div>

@@ -89,7 +89,7 @@ function displayProjectImages($pages)
 
     $allProjectImagesWithUrl = [];
     foreach ($filteredProjects as $singleProject) {
-        foreach ($singleProject->images() as $image) {
+        foreach ($singleProject->gallery()->toFiles() as $image) {
             array_push(
                 $allProjectImagesWithUrl,
                 (object)[

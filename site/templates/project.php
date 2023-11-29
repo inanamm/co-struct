@@ -26,7 +26,7 @@
         <div id="four" class="glide lg:hidden pt-3">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
-                    <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
+                    <?php foreach ($page->gallery()->toFiles() as $image) : ?>
                         <li class="glide__slide">
                             <?php echo $image->thumb([
                                 'quality' => 50,
@@ -92,7 +92,7 @@
 <div id="four" class="hidden lg:flex w-1/2 overflow-y-scroll no-scrollbar">
     <div>
         <ul>
-            <?php foreach ($page->images()->sortBy("sort") as $image) : ?>
+            <?php foreach ($page->gallery()->toFiles() as $image) : ?>
                 <li class="<?= $image->ratio() > 1 ? 'w-full' : 'w-full' ?> pb-0.5 last:p-0">
                     <?php echo $image->thumb([
                         'quality' => 90,
