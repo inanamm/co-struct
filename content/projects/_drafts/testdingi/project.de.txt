@@ -1,20 +1,24 @@
-Title: ghjgk
+Title: testdingi
 
 ----
 
-Categoryb: choicefour
+Categoryb: choicetwo
 
 ----
 
-Tag: built
+Tag: building
 
 ----
 
-Information: 
+Information:
+
+- 
+  projectdetails: size
+  value: l
 
 ----
 
-Texttitle: fdsa
+Texttitle: 
 
 ----
 
@@ -22,11 +26,11 @@ Text:
 
 ----
 
-Gallery: - file://3cEc7jY17RsF7TMR
+Gallery: 
 
 ----
 
-Credit: Blabla
+Credit: 
 
 ----
 
@@ -70,23 +74,23 @@ Twitterauthor:
 
 ----
 
-Robotsindex: 
+Robotsindex: default
 
 ----
 
-Robotsfollow: 
+Robotsfollow: default
 
 ----
 
-Robotsarchive: 
+Robotsarchive: default
 
 ----
 
-Robotsimageindex: 
+Robotsimageindex: default
 
 ----
 
-Robotssnippet: 
+Robotssnippet: default
 
 ----
 
@@ -94,8 +98,4 @@ Metainherit:
 
 ----
 
-Cover: - file://3cEc7jY17RsF7TMR
-
-----
-
-Uuid: eOQ0jck7nKWZAIaW
+Uuid: bQyY50rcwN4P8eOT

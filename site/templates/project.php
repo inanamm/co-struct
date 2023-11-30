@@ -34,7 +34,6 @@
                             ])->html(); ?>
                         </li>
                     <?php endforeach ?>
-
                 </ul>
             </div>
         </div>
@@ -77,6 +76,11 @@
                 <h2><?= $page->textTitle()->smartypants()->escape() ?></h2>
                 <?= $page->text()->kt() ?>
             </article>
+            <?php if ($page->credit()->kti()->isNotEmpty()) : ?>
+                <div class="flex flex-wrap text_with_link font-mono text-xs px-3 pt-2 pb-3">
+                    <?= $page->credit()->kt() ?>
+                </div>
+            <?php endif ?>
 
         </main>
 
@@ -100,11 +104,6 @@
                     ])->html(); ?>
                 </li>
             <?php endforeach ?>
-            <?php if ($page->credit()->kti()->isNotEmpty()) : ?>
-                <li class="font-mono text-xs pb-0.5 last:p-0">
-                    <?= $page->credit()->kti() ?>
-                </li>
-            <?php endif ?>
         </ul>
     </div>
 </div>
