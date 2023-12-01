@@ -40,4 +40,80 @@ Das Basler Münster ist nicht nur ein Ort der Anbetung, sondern auch ein Ort der
 
 ----
 
+Gallery:
+
+- file://ayItfMQGMApl9R8v
+- file://2aqP07haXNgpH4tY
+- file://dKYylfINnKC4a1g0
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
+
+----
+
 Uuid: y1yqtqCwhxq1yVNo
