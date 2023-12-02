@@ -38,15 +38,7 @@ Text: Die (link: https://www.google.com/ text: Therme Vals) ist ein Meisterwerk 
 
 ----
 
-Gallery:
-
-- file://FWghciT64BgfE5bn
-- file://pFDQpSUTuBSSzB1i
-- file://TtZmHhLW0G8livQy
-- file://WNmC96JpqbUlEF9Q
-- file://5YAKpSVpRM05VT95
-- file://ADSFP052cIFTGTpj
-- file://D3mjNqEL6eE0CQjF
+Gallery: - file://93hMl9v5IM5o4szu
 
 ----
 
