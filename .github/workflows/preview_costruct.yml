@@ -33,6 +33,7 @@ jobs:
         server: ${{ secrets.previewcostructserverurl }}
         username: ${{ secrets.previewcostructusername }}
         password: ${{ secrets.previewcostructpassword }}
+        server-dir: ${{ secrets.previewcostructserverdirectory }}
         exclude: |
           .htaccess
           **/.git*
