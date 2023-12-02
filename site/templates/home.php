@@ -20,6 +20,7 @@
 				<?php endslot() ?>
 				<?php endsnippet() ?>
 			</div>
+			<div class="sr-only"><h1>co–struct AG</h1></div>
 			<div id="second" class="flex flex-col gap-4 font-sans text-base px-3 pt-2 pb-5 h-full lg:pr-5 lg:justify-end lg:text-lg">
 				<?= $site->intro()->kt() ?>
 			</div>
