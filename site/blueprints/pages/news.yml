@@ -29,7 +29,7 @@ tabs:
                   image:
                     label: Portrait
                     type: files
-                    query: page.images
+                    query: site.images
                     multiple: false
                     width: 1/2
                   date:

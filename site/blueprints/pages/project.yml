@@ -61,7 +61,7 @@ tabs:
           text:
             type: textarea
             size: large
-            buttons: 
+            buttons:
               - link
 
       sidebar:
@@ -75,6 +75,9 @@ tabs:
                 required: true
                 type: files
                 label: Gallery
+                query: site.images
+                uploads:
+                  parent: site
           fields:
             type: fields
             fields:
@@ -82,7 +85,7 @@ tabs:
                 translate: true
                 label: Photocredit
                 type: textarea
-                buttons: 
+                buttons:
                   - link
 
   seo: seo/page

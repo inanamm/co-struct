@@ -10,13 +10,13 @@ tabs:
         sections:
           fields:
             type: fields
-            fields: 
+            fields:
               sitetitle:
                 label: Site title
                 type: text
                 buttons: false
                 width: 1/3
-              bueroprofil: 
+              bueroprofil:
                 label: Profile
                 type: textarea
                 buttons: false
@@ -68,7 +68,7 @@ tabs:
                   image:
                     label: Portrait
                     type: files
-                    query: page.images
+                    query: site.images
                     multiple: false
 
               lineB:
@@ -91,12 +91,12 @@ tabs:
 
               lineC:
                 type: line
-              
+
               oldcoworkersTitle:
                 label: Old Co-Workers
                 type: text
                 width: 1/3
-              oldcoworkers: 
+              oldcoworkers:
                 type: list
                 label: Names
                 width: 2/3

@@ -1,7 +1,7 @@
 title: CO–STRUCT AG
 
 tabs:
-#tab1 PAGES
+  #tab1 PAGES
   pages:
     icon: text
     sections:
@@ -20,24 +20,21 @@ tabs:
             maxlength: 500
             spellcheck: true
 
-
-#tab2 PROJECTS
+  #tab2 PROJECTS
   projects:
     icon: dashboard
     sections:
-
       drafts:
-         extends: sections/projects
-         label: Project Drafts
-         status: draft
+        extends: sections/projects
+        label: Project Drafts
+        status: draft
 
       published:
         extends: sections/projects
         label: Published Drafts
         status: listed
 
-
-#tab3 INFO CO—STRUCT AG
+  #tab3 INFO CO—STRUCT AG
   Info Co–struct AG:
     icon: pin
     columns:
@@ -51,7 +48,7 @@ tabs:
                 label: Address Office
                 type: object
                 fields:
-                  description: 
+                  description:
                     label: Description
                     type: text
                   companyName:
@@ -60,7 +57,7 @@ tabs:
                   street:
                     label: Street
                     type: text
-                  postalCode: 
+                  postalCode:
                     label: PLZ
                     type: text
                   place:
@@ -74,13 +71,13 @@ tabs:
                   companyName:
                     label: Name
                     type: text
-                  description: 
+                  description:
                     label: Description
                     type: text
                   street:
                     label: Street
                     type: text
-                  postalCode: 
+                  postalCode:
                     label: PLZ
                     type: text
                   place:
@@ -94,21 +91,19 @@ tabs:
                   companyName:
                     label: Name
                     type: text
-                  description: 
+                  description:
                     label: Description
                     type: text
                   street:
                     label: Street
                     type: text
-                  postalCode: 
+                  postalCode:
                     label: PLZ
                     type: text
                   place:
                     label: Place
                     type: text
 
-
-                    
       sidebar:
         width: 1/2
         sections:
@@ -127,5 +122,19 @@ tabs:
               linkedin:
                 label: LinkedIn Handle
                 type: url
-                
+
   seo: seo/site
+
+  media:
+    icon: images
+    sections:
+      gallery:
+        type: files
+        label: Gallery
+        layout: cards
+        size: small
+        limit: 50
+        info: "{{ file.dimensions }}"
+        image:
+          cover: true
+          ratio: 1/1
