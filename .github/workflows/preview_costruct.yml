@@ -1,7 +1,7 @@
 on:
   push:
     branches: main
-name: Deploy website on push
+name: PREVIEW Deploy website on push
 
 jobs:
   web-deploy:
@@ -30,9 +30,10 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ${{ secrets.previewServerUrl }}
-        username: ${{ secrets.previewusername }}
-        password: ${{ secrets.previewpassword }}
+        server: ${{ secrets.previewcostructserverurl }}
+        username: ${{ secrets.previewcostructusername }}
+        password: ${{ secrets.previewcostructpassword }}
+        server-dir: ${{ secrets.previewcostructserverdirectory }}
         exclude: |
           .htaccess
           **/.git*
