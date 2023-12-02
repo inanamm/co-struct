@@ -50,4 +50,81 @@ Unser Ziel mit diesem Projekt ist es, die Stadtlandschaft zu bereichern und ein 
 
 ----
 
+Gallery:
+
+- file://nDxjjnENuLEwqLZC
+- file://zSq5jNRMtVwXKSfK
+- file://1MglYlsI4tICPetI
+- file://w9nCjU73UnVOVr7P
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
+
+----
+
 Uuid: VrhGDMMTIn2pOdK6

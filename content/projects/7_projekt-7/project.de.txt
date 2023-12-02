@@ -46,4 +46,80 @@ Die Aussichtsplattform in den oberen Stockwerken bietet einen spektakulären Pan
 
 ----
 
+Gallery:
+
+- file://yGC966oz4Xxp2Hj9
+- file://SC3DA9D5XRdRJMqn
+- file://JtXyk8ErAGIbVBZL
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
+
+----
+
 Uuid: w9NtgBtTH8SLvuiO

@@ -56,7 +56,7 @@
 <?php endif; ?>
 </nav>
 
-<div id="second" class="grid grid-cols-2 px-3 pt-3 pb-5 gap-1 w-full border-y border-csblack lg:hidden" id="project-container">
+<div id="second" class="grid grid-cols-2 px-3 pt-3 pb-5 gap-1 w-full border-y border-csblack lg:hidden project-container">
 	<?php displayProjectImages($pages); ?>
 </div>
 
@@ -67,7 +67,7 @@
 
 		<div id="third" class="hidden divide-y divide-csgreen lg:grid flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-y-auto h-full no-scrollbar">
 			<div class=" flex flex-col">
-				<div class="grid grid-cols-4 pb-6 gap-1 w-full" id="project-container">
+				<div class="grid grid-cols-4 pb-6 gap-1 w-full project-container">
 					<?php displayProjectImages($pages); ?>
 				</div>
 			</div>

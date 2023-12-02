@@ -47,15 +47,86 @@ Das Rolex Learning Center ist nicht nur ein Ort des Studiums, sondern auch ein O
 
 ----
 
-Cover: - file://B2SnQD92jcLk1tVu
+Gallery:
+
+- file://swXe0XVfBxoP9PFx
+- file://M4EjqZYOuoOVWS20
+- file://7EViGWU236wOro9g
+- file://Fydqg2xiSVBPCVBT
+- file://ogU9yLYIuCKb2cCE
+- file://vLHAfNzKd2Z5o8E3
 
 ----
 
-Gallery:
+Credit: 
 
-- file://FKdqRfv3MMebHDgO
-- file://B2SnQD92jcLk1tVu
-- file://OfOKNu9SYuiS1SbP
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
+
+----
+
+Cover: - file://B2SnQD92jcLk1tVu
 
 ----
 

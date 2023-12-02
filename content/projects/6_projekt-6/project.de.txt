@@ -44,4 +44,81 @@ Die Tonhalle Maag ist nicht nur ein Ort für klassische Musik, sondern auch für
 
 ----
 
+Gallery:
+
+- file://vLHAfNzKd2Z5o8E3
+- file://SbuK8ZDMdUNoK5RV
+- file://dASKm58VXC1TGCLM
+- file://XqTHnLM3UIHnTArG
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
+
+----
+
 Uuid: SlD4zLTtl5Qharwx

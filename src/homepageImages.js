@@ -6,60 +6,62 @@ function shuffleArray(array) {
   return array;
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("DOM loaded");
+function setupFilterButtons() {
   const filterButtons = document.querySelectorAll(".filter-btn");
-  fetchProjects();
-
   filterButtons.forEach((button) => {
-    button.addEventListener("click", function () {
-      filterButtons.forEach((btn) => btn.parentNode.classList.remove("pl-3"));
-      filterButtons.forEach((btn) =>
-        btn.parentNode.classList.remove("text-cslightblue"),
-      );
+    button.addEventListener("click", () => applyFilter(button));
+  });
+}
 
-      filterButtons.forEach((btn) => {
-        if (btn.dataset.filter === this.dataset.filter) {
-          btn.parentElement.classList.add("text-cslightblue");
-          btn.parentElement.classList.add("pl-3");
-        }
-      });
-
-      const filter = this.getAttribute("data-filter");
-      fetchProjects(filter);
-    });
+function applyFilter(button) {
+  const filterButtons = document.querySelectorAll(".filter-btn");
+  filterButtons.forEach((btn) => {
+    btn.parentNode.classList.remove("pl-3", "text-cslightblue");
+    if (btn.dataset.filter === button.dataset.filter) {
+      btn.parentElement.classList.add("text-cslightblue", "pl-3");
+    }
   });
 
-  function fetchProjects(filter) {
-    fetch(`/ajax/projects${filter ? "?filter=" + filter : ""}`)
-      .then((response) => response.json())
-      .then((data) => updateProjects(JSON.parse(data.body)))
-      .catch((error) => console.error("Error:", error));
-  }
+  const filter = button.getAttribute("data-filter");
+  fetchProjects(filter);
+}
 
-  function updateProjects(projects) {
-    const container = document.getElementById("project-container");
+function fetchProjects(filter = "") {
+  fetch(`/ajax/projects${filter ? "?filter=" + filter : ""}`)
+    .then((response) => response.json())
+    .then((data) => updateProjects(JSON.parse(data.body)))
+    .catch((error) => console.error("Error:", error));
+}
+
+function updateProjects(projects) {
+  const containers = document.querySelectorAll(".project-container");
+  containers.forEach((container) => {
     container.innerHTML = "";
+    let thumbnails = projects.flatMap((project) =>
+      project.thumbs.map((thumb) => ({
+        url: project.url,
+        thumbnail: thumb,
+        title: project.title,
+      })),
+    );
 
-    let thumbnailWithProjectDetails = [];
-    projects.forEach((project) => {
-      project.thumbs.forEach((thumb) => {
-        thumbnailWithProjectDetails.push({
-          url: project.url,
-          thumbnail: thumb,
-          title: project.title,
-        });
-      });
+    shuffleArray(thumbnails).forEach((thumb) => {
+      container.appendChild(createProjectElement(thumb));
     });
+  });
+}
 
-    thumbnailWithProjectDetails = shuffleArray(thumbnailWithProjectDetails);
+function createProjectElement(thumb) {
+  const projectElement = document.createElement("a");
+  projectElement.href = thumb.url;
+  projectElement.className =
+    "pb-5 hover:text-cslightblue hover:brightness-105 w-full h-full";
+  projectElement.innerHTML = `${thumb.thumbnail} <p class="font-mono text-xs w-full">${thumb.title}</p>`;
+  return projectElement;
+}
 
-    thumbnailWithProjectDetails.forEach((thumb) => {
-      const projectElement = document.createElement("a");
-      projectElement.href = thumb.url;
-      projectElement.className = `pb-5 hover:text-cslightblue hover:brightness-105 w-full h-full`;
-      projectElement.innerHTML = `${thumb.thumbnail} <p class="font-mono text-xs w-full">${thumb.title}</p>`;
-      container.appendChild(projectElement);
-    });
-  }
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("DOM loaded");
+  setupFilterButtons();
+  fetchProjects();
 });

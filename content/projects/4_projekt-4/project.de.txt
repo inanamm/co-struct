@@ -42,9 +42,11 @@ Das Basler Münster ist nicht nur ein Ort der Anbetung, sondern auch ein Ort der
 
 Gallery:
 
-- file://ayItfMQGMApl9R8v
-- file://2aqP07haXNgpH4tY
-- file://dKYylfINnKC4a1g0
+- file://gNpkTFSNieEBwuiN
+- file://Z6ZWFOySuTVVr6SU
+- file://MKkSVR1yw2pEvRr8
+- file://0Eje026kXGPOfbZp
+- file://l0DpAUCkwPJ4bzzO
 
 ----
 

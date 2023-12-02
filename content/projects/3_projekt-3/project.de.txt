@@ -44,19 +44,86 @@ Als Veranstaltungsort für Konzerte, Konferenzen und kulturelle Veranstaltungen 
 
 ----
 
-Cover: - file://yNUSJONH5kHJgrbY
+Gallery:
+
+- file://SbuK8ZDMdUNoK5RV
+- file://dASKm58VXC1TGCLM
+- file://XqTHnLM3UIHnTArG
+- file://DUHKrQp0YFJLgYpP
+- file://0ZdwJnOy5slULeUE
+- file://u4WfKhB9C95WPleC
 
 ----
 
-Gallery:
+Credit: 
 
-- file://i0H7kW11int8PxNI
-- file://yNUSJONH5kHJgrbY
-- file://KjLB9BerMAgDHYBU
-- file://hWerFADybuBgtBAy
-- file://hx7HLDCJiTMkN65h
-- file://7AFT1pmwC7fSmrvE
-- file://gHMfpsGL8smEy5Jv
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
+
+----
+
+Cover: - file://yNUSJONH5kHJgrbY
 
 ----
 
