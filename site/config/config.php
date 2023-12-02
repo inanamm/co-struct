@@ -5,9 +5,7 @@ return [
   'languages.detect' => true,
   'smartypants' => true,
   'panel' => [
-    'install' => true
-  ],
-  'panel' => [
+    'install' => true,
     'favicon' => [
       'apple-touch-icon' => [
         'type' => 'image/png',
