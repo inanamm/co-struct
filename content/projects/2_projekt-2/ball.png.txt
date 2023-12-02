@@ -1,9 +1,0 @@
-Sort: 3
-
-----
-
-Uuid: OvKADgu46SpZNQ9X
-
-----
-
-Template: cover
