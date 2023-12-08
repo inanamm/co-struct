@@ -18,10 +18,12 @@
     "source": "https://github.com/getkirby/starterkit"
   },
   "require": {
-    "php": ">=8.0.0 <=8.3.0",
+    "php": ">=8.0.0 <8.3.0",
     "getkirby/cms": "^4.0",
     "arnoson/kirby-vite": "^5.1.0",
-    "tobimori/kirby-seo": "^0.4.0"
+    "tobimori/kirby-seo": "^0.4.0",
+    "getkirby/cli": "^1.1",
+    "bnomei/kirby3-janitor": "^4.0"
   },
   "config": {
     "allow-plugins": {
