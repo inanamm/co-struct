@@ -2,14 +2,6 @@ Title: KKL Luzern (Kultur- und Kongresszentrum Luzern)
 
 ----
 
-Categoryb: choicethree
-
-----
-
-Tag: built
-
-----
-
 Information:
 
 - 
@@ -120,7 +112,3 @@ Robotssnippet: false
 ----
 
 Metainherit: 
-
-----
-
-Uuid: kZqczrj9w7a0LqJn

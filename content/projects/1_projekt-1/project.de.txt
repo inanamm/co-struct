@@ -118,12 +118,4 @@ Metainherit:
 
 ----
 
-Header: "fdskfjdsa" “fdjkdsaf“ „…“
-
-----
-
-Category: choiceone
-
-----
-
 Uuid: hUfBnccjuwIv1kjn
