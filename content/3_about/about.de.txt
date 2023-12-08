@@ -25,36 +25,15 @@ Coworkers:
   title: Geschäftsleitung | Co–Founder
   phone: +41 79 363 29 36
   email: fabrice@co-struct.ch
-  description: >
-    DE Schweizer Architekt und Bauingenieur.
-    Innovativ in Design und Nachhaltigkeit.
-    Beitrag zur Umweltschonung und
-    Gemeindeentwicklung.
-  image:
-    - file://PcmmMs01XyErBm7Q
+  description: Bio
+  image: [ ]
 - 
   name: Sam Bouten
   title: GL
   phone: +41 79 305 32 46
   email: sam@co-struct.ch
-  description: >
-    DE Geboren 1994 in Arth, Schweiz,
-    Architekt und Ingenieur aus der Schweiz,
-    bekannt für innovative, nachhaltige
-    Projekte. Visionär in Design und
-    Umweltschutz.
-  image:
-    - file://fwrzkZ2mS19dblin
-- 
-  name: martina
-  title: hacker
-  phone: "12345678"
-  email: ina@inatest.com
-  description: >
-    DE ina hallihhallo martina macht sachen
-    schön. oder zumindest manchmal.
-  image:
-    - file://aiYVvtZDAgSYHc6u
+  description: Bio
+  image: [ ]
 
 ----
 

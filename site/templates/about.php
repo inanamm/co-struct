@@ -95,7 +95,7 @@
 					<?php snippet('subtitle', ['subtitle' => $page->coworkersTitle()->escape()]) ?>
 				</div>
 
-				<div class="flex flex-col">
+				<div class="flex flex-col w-full">
 					<?php if ($coworkers = $page->coworkers()->toStructure()) : ?>
 						<?php snippet('coworkers', ['coworkers' => $coworkers]) ?>
 					<?php endif ?>
