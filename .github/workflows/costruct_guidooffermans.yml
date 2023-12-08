@@ -15,7 +15,7 @@ jobs:
     - name: Install composer dependencies
       uses: php-actions/composer@v6
       with:
-        php_version: "8.3"
+        php_version: "8.2"
         php_extensions: gd ctype curl mbstring
         version: 2.x
 
