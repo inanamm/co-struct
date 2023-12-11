@@ -7,7 +7,8 @@
 	<div class="header bg-cswhite pb-5">
 		<?php snippet('header', slots: true) ?>
 		<?php slot('dash') ?>
-		<div id="dash" class="w-7 bg-csblue h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center" alt="logo"></div>
+		<div id="dash" class="w-7 bg-csblue h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center"
+			alt="logo"></div>
 		<?php endslot('dash') ?>
 		<?php slot('struct') ?>
 		<?= url('struct-csblue.svg') ?>
@@ -19,15 +20,17 @@
 	</div>
 
 	<main class="flex flex-col lg:flex-row divide-y divide-csblue lg:divide-none no-scrollbar">
+		<div class="sr-only">
+			<h1>About</h1>
+		</div>
 		<article id="four" class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pr-5 lg:w-1/2">
-			<h1><?= $page->sitetitle()->smartypants()->escape() ?></h1>
 			<?= $page->Bueroprofil()->kt() ?>
 		</article>
 
 		<div id="four" class="lg:w-1/2 lg:divide-none divide-y divide-csblue no-scrollbar">
 			<div class="flex flex-col lg:flex-row gap-4 font-sans text-lg px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
 				<div class="flex flex-col gap-4">
-					<?php if ($address = $site->addressOffice()->toObject()) : ?>
+					<?php if ($address = $site->addressOffice()->toObject()): ?>
 						<?php snippet(
 							'address',
 							[
@@ -59,7 +62,7 @@
 
 			<div class="flex flex-col lg:flex-row font-sans text-lg px-3 pt-2 pb-5 lg:gap-4 lg:pb-6 lg:px-0 lg:pr-3">
 				<div class="flex flex-col gap-4">
-					<?php if ($address = $site->addressZH()->toObject()) : ?>
+					<?php if ($address = $site->addressZH()->toObject()): ?>
 						<?php snippet(
 							'address',
 							[
@@ -72,7 +75,7 @@
 						) ?>
 					<?php endif ?>
 
-					<?php if ($address = $site->addressVD()->toObject()) : ?>
+					<?php if ($address = $site->addressVD()->toObject()): ?>
 						<?php snippet(
 							'address',
 							[
@@ -96,13 +99,13 @@
 				</div>
 
 				<div class="flex flex-col w-full">
-					<?php if ($coworkers = $page->coworkers()->toStructure()) : ?>
+					<?php if ($coworkers = $page->coworkers()->toStructure()): ?>
 						<?php snippet('coworkers', ['coworkers' => $coworkers]) ?>
 					<?php endif ?>
 				</div>
 			</div>
 
-			<?php if ($page->oldcoworkers()->list()->isNotEmpty()) : ?>
+			<?php if ($page->oldcoworkers()->list()->isNotEmpty()): ?>
 				<div class="flex flex-col lg:flex-row lg:gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
 					<div class="lg:w-[35%]">
 						<?php snippet('subtitle', ['subtitle' => $page->oldcoworkersTitle()->escape()]) ?>
@@ -116,24 +119,26 @@
 				<div class="lg:w-[35%]">
 					<?php snippet('subtitle', ['subtitle' => $page->applicationsTitle()->escape()]) ?>
 				</div>
-				<?php if ($pages->get('jobs')->children()->listed()->count() > 0) : ?>
+				<?php if ($pages->get('jobs')->children()->listed()->count() > 0): ?>
 					<?php snippet('link', [
 						'url' => "/jobs",
 						'description' => $page->OpenPositionsLinkText()->escape(),
 						'blank' => false
 					]) ?>
-				<?php else : ?>
-					<p><?= $page->noOpenPositions()->escape() ?></p>
+				<?php else: ?>
+					<p>
+						<?= $page->noOpenPositions()->escape() ?>
+					</p>
 				<?php endif ?>
 			</div>
 
 			<div class="flex flex-col gap-2 text-xs font-mono px-3 pt-2 pb-5 lg:px-0 lg:pr-3">
 				<?php snippet('copyright') ?>
 				<?php snippet('link', [
-						'url' => "/privacy",
-						'description' => $pages->find('privacy')->privacyPolicyTitle()->escape(),
-						'blank' => true
-					]) ?>
+					'url' => "/privacy",
+					'description' => $pages->find('privacy')->privacyPolicyTitle()->escape(),
+					'blank' => true
+				]) ?>
 			</div>
 		</div>
 	</main>
