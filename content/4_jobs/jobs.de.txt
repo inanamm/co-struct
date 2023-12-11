@@ -78,37 +78,4 @@ Metainherit:
 
 ----
 
-Job:
-
-- 
-  title: fdsafdsaffdsaf
-  descriptiona: fdsafdfdsafds
-  descriptionb: |
-    fdsafds
-    fdsfdsa
-    - fdsfdsafds
-    - fdsafdsa
-    - fdsfds
-  descriptionc: ""
-  responsabilities: ""
-  profile: ""
-- 
-  title: rtzui
-  descriptiona: ""
-  descriptionb: |
-    **jklhkjl**
-    - njklhnjkl
-    - jöjo
-  descriptionc: |
-    **jklhkjl**
-    - njklhnjkl
-    - jöjo
-- 
-  title: r
-  descriptiona: ""
-  descriptionb: ""
-  descriptionc: ""
-
-----
-
 Uuid: TjLTXlNBA02Tjnnz

@@ -45,7 +45,3 @@ List:
     - Ein motiviertes Team von Fachleuten, das gemeinsam an anspruchsvollen Projekten arbeitet.
     - Eine wettbewerbsfähige Vergütung und attraktive Sozialleistungen.
     - Flexibilität bei deiner Arbeitszeitgestaltung sowie Weiterbildungsmöglichkeiten.
-
-----
-
-Uuid: yF2ZzXgtrMDGA46D

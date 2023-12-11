@@ -21,15 +21,7 @@ Text:
 
 ----
 
-Gallery:
-
-- file://FWghciT64BgfE5bn
-- file://pFDQpSUTuBSSzB1i
-- file://TtZmHhLW0G8livQy
-- file://WNmC96JpqbUlEF9Q
-- file://5YAKpSVpRM05VT95
-- file://ADSFP052cIFTGTpj
-- file://D3mjNqEL6eE0CQjF
+Gallery: 
 
 ----
 
@@ -98,11 +90,3 @@ Robotssnippet: false
 ----
 
 Metainherit: 
-
-----
-
-Header: "fdskfjdsa" “fdjkdsaf“ „…“
-
-----
-
-Category: choicefour

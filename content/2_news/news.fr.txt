@@ -10,70 +10,76 @@ News:
   title: hello
   description: hello
 - 
-  image:
-    - file://juGCKQgWvItlCIue
+  image: [ ]
   date: 2023-10-11
   title: hallo 2
   description: '<p>FR fdsalfjdskl jkdsla</p>'
 - 
-  image:
-    - file://53ysDMOgRJGwGMGa
+  image: [ ]
   date: 2023-11-09
   title: fdsa
   description: '<p>fda</p>'
 
 ----
 
-Coworkers:
-
-- 
-  image:
-    - file://53ysDMOgRJGwGMGa
-  date: 2023-08-02
-  title: This is the first news entry
-  description: >
-    hello you dumbo hello you dumbo hello
-    you dumbo hello you dumbo hello you
-    dumbo hello you dumbo hello you dumbo
-    hello you dumbo hello you dumbo hello
-    you dumbo hello you dumbo hello you
-    dumbo hello you dumbo hello you dumbo
-    hello you dumbo hello you dumbo hello
-    you dumbo hello you dumbo hello you
-    dumbo hello you dumbo hello you dumbo
-    hello you dumbo hello you dumbo hello
-    you dumbo hello you dumbo hello you
-    dumbo hello you dumbo hello you dumbo
-    hello you dumbo hello you dumbo hello
-    you dumbo hi!
-- 
-  image:
-    - file://AYmfc62LWBslfAQ9
-  date: 2023-08-11
-  title: Hide The Pain
-  description: "yes do that dumbo. it isn't that bad."
-- 
-  image: [ ]
-  date: 2023-08-31
-  title: number 3
-  description: dumbo
-- 
-  image:
-    - file://AYmfc62LWBslfAQ9
-  date: 2023-08-19
-  title: "4"
-  description: "4"
-- 
-  image:
-    - file://FD9ZwKFg2MgcGjhS
-  date: 2023-08-01
-  title: "5"
-  description: "5"
+Metatitle: 
 
 ----
 
-Text: 
+Metatemplate: 
 
 ----
 
-Contact: photo: [ ]
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: 
+
+----
+
+Robotsfollow: 
+
+----
+
+Robotsarchive: 
+
+----
+
+Robotsimageindex: 
+
+----
+
+Robotssnippet: 
+
+----
+
+Metainherit: 
