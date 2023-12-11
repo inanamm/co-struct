@@ -59,10 +59,11 @@ tabs:
             label: Text title
             type: text
           text:
-            type: textarea
+            type: writer
             size: large
-            buttons:
+            marks:
               - link
+            nodes: false
 
       sidebar:
         width: 1/3
@@ -84,9 +85,10 @@ tabs:
               credit:
                 translate: true
                 label: Photocredit
-                type: textarea
-                buttons:
+                type: writer
+                marks:
                   - link
+                nodes: false
 
   seo: seo/page
 

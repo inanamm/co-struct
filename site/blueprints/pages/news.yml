@@ -42,7 +42,10 @@ tabs:
                     required: true
                     counter: false
                     label: Title
-                    type: text
+                    type: writer
+                    marks: 
+                      - link
+                    nodes: false
                   description:
                     label: Content
                     type: writer

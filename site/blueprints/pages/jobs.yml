@@ -19,9 +19,10 @@ tabs:
             buttons: false
           endtext: 
             label: To contact
-            type: textarea
-            buttons:
-              - email
+            type: writer
+            marks:
+              - link
+            nodes: false
 
           lineA:
             type: line

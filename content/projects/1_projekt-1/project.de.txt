@@ -34,7 +34,7 @@ Texttitle: Die Alpine Schönheit
 
 ----
 
-Text: Die (link: https://www.google.com/ text: Therme Vals) ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.
+Text: <p>Die <a href="https://www.google.com/" target="_blank">Therme Vals</a> ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.</p><p>Die <a href="https://www.google.com/" target="_blank">Therme Vals</a> ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.</p><p>Die <a href="https://www.google.com/" target="_blank">Therme Vals</a> ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.</p><p>Die <a href="https://www.google.com/" target="_blank">Therme Vals</a> ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.</p>
 
 ----
 
@@ -50,7 +50,7 @@ Gallery:
 
 ----
 
-Credit: Fotografie: (link: https://www.google.com/ text: Robert), (link: https://www.google.com/ text: Ruben), (link: https://www.google.com/ text: Rudolf) und (link: https://www.google.com/ text: Röbi)
+Credit: <p><a href="https://www.google.com/" target="_blank">Robert</a>, <a href="https://www.google.com/" target="_blank" title="hallo">Röbi</a> und <a href="https://www.google.com/" target="_blank">Rolf</a></p>
 
 ----
 

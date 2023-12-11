@@ -8,33 +8,105 @@ Privacypolicytitle: Datenschutzerklärung
 
 Privacypolicy:
 
-Herzlich willkommen auf unserer Webseite [Name der Webseite] (die "Webseite"). Wir legen großen Wert auf den Schutz Ihrer persönlichen Daten und beachten alle einschlägigen Datenschutzbestimmungen. Nachfolgend möchten wir Sie darüber informieren, welche Arten von Daten wir während Ihres Besuchs auf unserer Webseite erfassen und wie wir diese Daten nutzen.
+co–struct AG
+Förrlibuckstrasse 225
+Zürich 8005
+Schweiz
+E-Mail: hello@co-struct.ch
 
-1. Welche Daten wir sammeln
-Wir sammeln verschiedene Arten von Informationen, um die Nutzung unserer Webseite zu verbessern und Ihnen eine personalisierte Erfahrung bieten zu können. Zu den gesammelten Daten gehören:
+Vertretungsberechtigte Personen
+Fabrice Meylan
 
-Personenbezogene Daten: Name, E-Mail-Adresse, Telefonnummer (wird nur mit Ihrer Zustimmung gesammelt).
-Automatisch gesammelte Informationen: IP-Adresse, Browser-Typ, Betriebssystem, besuchte Seiten, Datum und Uhrzeit des Zugriffs.
+Name des Unternehmens: co–struct AG
 
-2. Wie wir Ihre Daten verwenden
-Die gesammelten Daten werden für folgende Zwecke verwendet:
+Datenschutzbeauftragte Person:
+Fabrice Meylan
++41 44 506 66 30
+fabrice@co-struct.ch
 
-Bereitstellung und Personalisierung unserer Dienstleistungen.
-Verbesserung der Benutzererfahrung auf unserer Webseite.
-Kommunikation mit Ihnen, um Anfragen zu beantworten und Informationen bereitzustellen.
-Erfüllung rechtlicher Verpflichtungen.
+Allgemeines / Einleitung
+Gestützt auf Artikel 13 der Schweizerischen Bundesverfassung und die datenschutzrechtlichen Bestimmungen des Bundes (Datenschutzgesetz, DSG) hat jede Person Anspruch auf Schutz ihrer Privatsphäre sowie auf Schutz vor Missbrauch ihrer persönlichen Daten. Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
 
-3. Cookies und Tracking-Technologien
-Wir verwenden Cookies und ähnliche Tracking-Technologien, um die Nutzung unserer Webseite zu analysieren und Ihnen eine verbesserte Erfahrung zu bieten. Durch die Nutzung unserer Webseite stimmen Sie der Verwendung von Cookies gemäß unserer Cookie-Richtlinie zu.
+In Zusammenarbeit mit unseren Hosting-Providern bemühen wir uns, die Datenbanken so gut wie möglich vor unberechtigtem Zugriff, Verlust, Missbrauch oder Verfälschung zu schützen.
 
-4. Datensicherheit
-Wir setzen angemessene Sicherheitsmaßnahmen ein, um Ihre persönlichen Daten zu schützen und unbefugten Zugriff, Nutzung oder Offenlegung zu verhindern.
+Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
 
-5. Ihre Rechte
-Sie haben das Recht, auf Ihre persönlichen Daten zuzugreifen, diese zu korrigieren oder zu löschen. Wenn Sie Fragen zu unseren Datenschutzpraktiken haben oder Ihre Rechte ausüben möchten, kontaktieren Sie uns bitte unter [Kontaktinformationen].
+Durch die Nutzung dieser Website erklären Sie sich mit der Erhebung, Verarbeitung und Nutzung von Daten gemäss der nachfolgenden Beschreibung einverstanden. Diese Website kann grundsätzlich ohne Registrierung besucht werden. Daten wie aufgerufene Seiten oder Namen von aufgerufenen Dateien, Datum und Uhrzeit werden zu statistischen Zwecken auf dem Server gespeichert, ohne dass diese Daten unmittelbar auf Ihre Person bezogen werden. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
 
-6. Änderungen an der Datenschutzerklärung
-Wir behalten uns das Recht vor, diese Datenschutzerklärung jederzeit zu ändern. Über wesentliche Änderungen werden wir Sie per E-Mail oder durch einen deutlich sichtbaren Hinweis auf unserer Webseite informieren.
+Verarbeitung personenbezogener Daten
+Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen. Eine betroffene Person ist eine Person, über die personenbezogene Daten verarbeitet werden. Die Verarbeitung umfasst jeden Umgang mit personenbezogenen Daten, unabhängig von den verwendeten Mitteln und Verfahren, insbesondere die Speicherung, Weitergabe, Beschaffung, Löschung, Aufbewahrung, Veränderung, Vernichtung und Verwendung personenbezogener Daten.
+
+Wir verarbeiten personenbezogene Daten in Übereinstimmung mit dem Schweizer Datenschutzrecht. Sofern und soweit die EU-DSGVO anwendbar ist, verarbeiten wir personenbezogene Daten darüber hinaus auf folgenden Rechtsgrundlagen in Verbindung mit Art. 6 (1) GDPR:
+lit. a) Verarbeitung personenbezogener Daten mit Einwilligung der betroffenen Person.
+lit. b) Verarbeitung personenbezogener Daten zur Erfüllung eines Vertrages mit der betroffenen Person sowie zur Durchführung entsprechender vorvertraglicher Massnahmen.
+lit. c) Verarbeitung personenbezogener Daten zur Erfüllung einer rechtlichen Verpflichtung, der wir nach geltendem Recht der EU oder nach geltendem Recht eines Landes, in dem die GDPR ganz oder teilweise anwendbar ist, unterliegen.
+lit. d) Verarbeitung personenbezogener Daten zur Wahrung lebenswichtiger Interessen der betroffenen Person oder einer anderen natürlichen Person.
+lit. f) Verarbeitung personenbezogener Daten zur Wahrung der berechtigten Interessen von uns oder von Dritten, sofern nicht die Grundfreiheiten und Rechte und Interessen der betroffenen Person überwiegen. Zu den berechtigten Interessen gehören insbesondere unser geschäftliches Interesse, unsere Website bereitstellen zu können, die Informationssicherheit, die Durchsetzung eigener Rechtsansprüche und die Einhaltung des schweizerischen Rechts.
+
+Wir verarbeiten personenbezogene Daten für die Dauer, die für den jeweiligen Zweck oder die jeweiligen Zwecke erforderlich ist. Bei längerfristigen Aufbewahrungspflichten aufgrund gesetzlicher und anderer Verpflichtungen, denen wir unterliegen, schränken wir die Bearbeitung entsprechend ein.
+
+Cookies
+Diese Website verwendet Cookies. Dabei handelt es sich um kleine Textdateien, die es ermöglichen, spezifische, auf den Nutzer bezogene Informationen auf dem Endgerät des Nutzers zu speichern, während der Nutzer die Website nutzt. Cookies ermöglichen es insbesondere, die Nutzungshäufigkeit und die Anzahl der Nutzer der Seiten zu ermitteln, Verhaltensmuster der Seitennutzung zu analysieren, aber auch, unser Angebot kundenfreundlicher zu gestalten. Cookies bleiben über das Ende einer Browser-Sitzung hinaus gespeichert und können bei einem erneuten Besuch der Seite wieder abgerufen werden. Wenn Sie dies nicht wünschen, sollten Sie Ihren Internet-Browser so einstellen, dass er die Annahme von Cookies verweigert.
+
+Ein genereller Widerspruch gegen die Verwendung von Cookies zu Online-Marketing-Zwecken kann für eine Vielzahl der Dienste, insbesondere beim Tracking, über die US-Seite http://www.aboutads.info/choices/ oder die EU-Seite http://www.youronlinechoices.com/ erklärt werden. Darüber hinaus kann die Speicherung von Cookies durch Deaktivierung in den Browsereinstellungen erreicht werden. Bitte beachten Sie, dass in diesem Fall nicht alle Funktionen dieses Online-Angebots genutzt werden können.
+
+Mit SSL/TLS-Verschlüsselung
+Diese Website verwendet aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie z.B. Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL/TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von "http://" auf "https://" wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.
+
+Wenn die SSL- oder TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten gelesen werden.
+
+Server-Log-Dateien
+Der Provider dieser Website erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:
+Browsertyp und Browserversion
+Verwendetes Betriebssystem
+Referrer URL
+Hostname des zugreifenden Rechners
+Zeitpunkt der Serveranfrage
+
+Diese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden.
+
+Urheberrechte
+Das Urheberrecht und alle anderen Rechte an den Inhalten, Bildern, Fotos oder sonstigen Dateien auf der Website gehören ausschliesslich dem Betreiber dieser Website oder den namentlich genannten Rechteinhabern. Für die Vervielfältigung sämtlicher Dateien muss vorab die schriftliche Zustimmung der Urheberrechtsinhaber eingeholt werden.
+Wer ohne Zustimmung der jeweiligen Urheberrechtsinhaber eine Urheberrechtsverletzung begeht, kann sich strafbar machen und unter Umständen Schadenersatzansprüche geltend machen.
+
+Haftungsausschluss
+Alle Angaben auf unserer Website wurden sorgfältig geprüft. Wir sind bemüht, dafür Sorge zu tragen, dass die von uns bereitgestellten Informationen aktuell, richtig und vollständig sind. Dennoch ist das Auftreten von Fehlern nicht völlig auszuschliessen, so dass wir für die Vollständigkeit, Richtigkeit und Aktualität der Informationen, auch journalistisch-redaktioneller Art, keine Gewähr übernehmen können. Haftungsansprüche, die sich auf Schäden materieller oder ideeller Art beziehen, welche durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden, sind grundsätzlich ausgeschlossen.
+Der Herausgeber kann Texte nach eigenem Ermessen und ohne vorherige Ankündigung ändern oder löschen und ist nicht dazu verpflichtet, die Inhalte dieser Website zu aktualisieren. Die Nutzung dieser Website bzw. der Zugang zu ihr erfolgt auf eigenes Risiko des Besuchers. Der Herausgeber, seine Kunden oder Partner sind nicht verantwortlich für Schäden, wie z.B. direkte, indirekte, zufällige oder Folgeschäden, die angeblich durch den Besuch dieser Website verursacht wurden und übernehmen folglich keine Haftung für solche Schäden.
+Der Herausgeber übernimmt auch keine Verantwortung oder Haftung für den Inhalt und die Verfügbarkeit von Websites Dritter, die über externe Links von dieser Website aus erreicht werden können. Für den Inhalt der verlinkten Seiten sind ausschliesslich deren Betreiber verantwortlich. Der Herausgeber distanziert sich daher ausdrücklich von allen fremden Inhalten, die möglicherweise straf- oder haftungsrechtlich relevant sind oder gegen die guten Sitten verstossen.
+
+Google Analytics
+Diese Website benutzt Google Analytics, einen Webanalysedienst, der von Google Ireland Limited bereitgestellt wird. Befindet sich der für die Datenverarbeitung auf dieser Website Verantwortliche ausserhalb des Europäischen Wirtschaftsraums oder der Schweiz, so wird die Datenverarbeitung von Google Analytics von Google LLC durchgeführt. Google LLC und Google Ireland Limited werden im Folgenden als "Google" bezeichnet.
+Die gewonnenen Statistiken ermöglichen es uns, unser Angebot zu verbessern und für Sie als Nutzer interessanter zu gestalten. Diese Website verwendet Google Analytics auch für eine geräteübergreifende Analyse der Besucherströme, die über eine Benutzerkennung erfolgt. Wenn Sie über ein Google-Benutzerkonto verfügen, können Sie die geräteübergreifende Analyse Ihrer Nutzung in den dortigen Einstellungen unter "Meine Daten", "Persönliche Daten" deaktivieren.
+Die Rechtsgrundlage für den Einsatz von Google Analytics ist Art. 6 Abs. 1 S. 1 lit. f DS-GVO. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Wir weisen Sie darauf hin, dass auf dieser Website Google Analytics um den Code "_anonymizeIp();" erweitert wurde, um eine anonymisierte Erfassung von IP-Adressen zu gewährleisten. Das bedeutet, dass IP-Adressen in gekürzter Form verarbeitet werden, so dass sie nicht mit einer bestimmten Person in Verbindung gebracht werden können. Sollten die über Sie erhobenen Daten einer Person zugeordnet werden können, wird dies sofort ausgeschlossen und die personenbezogenen Daten werden umgehend gelöscht.
+ur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Für die Ausnahmefälle, in denen personenbezogene Daten in die USA übertragen werden, hat sich Google dem EU-US Privacy Shield unterworfen, https://www.privacyshield.gov/EU-US-Framework.
+Google Analytics verwendet Cookies. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: Google Analytics deaktivieren.
+Darüber hinaus können Sie auch die Nutzung von Google Analytics verhindern, indem Sie auf diesen Link klicken: Google Analytics deaktivieren. Dadurch wird ein sog. Opt-Out-Cookie auf Ihrem Datenträger gespeichert, der die Verarbeitung personenbezogener Daten durch Google Analytics verhindert. Bitte beachten Sie, dass beim Löschen aller Cookies auf Ihrem Endgerät auch diese Opt-Out-Cookies gelöscht werden, d.h. Sie müssen die Opt-Out-Cookies erneut setzen, wenn Sie diese Form der Datenerhebung weiterhin verhindern wollen. Die Opt-Out-Cookies werden pro Browser und Computer/Endgerät gesetzt und müssen daher für jeden Browser, Computer oder jedes andere Endgerät separat aktiviert werden.
+
+Instagram
+Auf unserer Website sind Funktionen des Dienstes Instagram eingebunden. Diese Funktionen werden angeboten durch die Instagram Inc., 1601 Willow Road, Menlo Park, CA, 94025, USA. Wenn Sie in Ihrem Instagram-Account eingeloggt sind, können Sie die Inhalte unserer Seiten auf Ihrem Instagram-Profil verlinken, indem Sie den Instagram-Button anklicken. Dadurch kann Instagram den Besuch unserer Seiten Ihrem Benutzerkonto zuordnen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Instagram erhalten. Weitere Informationen finden Sie in den Datenschutzbestimmungen von Instagram: http://instagram.com/about/legal/privacy/
+
+LinkedIn
+Wir nutzen innerhalb unseres Onlineangebotes die Marketingdienste des sozialen Netzwerkes LinkedIn der LinkedIn Ireland Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2, Irland ("LinkedIn").
+Diese verwenden Cookies, also Textdateien, die auf Ihrem Computer gespeichert werden. Dies ermöglicht es uns, Ihre Nutzung der Website zu analysieren. So können wir z.B. den Erfolg unserer Werbung messen und den Nutzern Produkte anzeigen, für die sie sich zuvor interessiert haben.
+So werden z.B. Informationen über das Betriebssystem, den Browser, die zuvor besuchte Webseite (Referrer URL), die besuchten Webseiten, die angeklickten Angebote sowie das Datum und die Uhrzeit Ihres Besuchs auf unserer Webseite erhoben.
+Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Webseite werden in pseudonymer Form an einen Server von LinkedIn in den USA übertragen und dort gespeichert. LinkedIn speichert also nicht den Namen oder die E-Mail-Adresse des jeweiligen Nutzers. Vielmehr werden die vorgenannten Daten nur der Person zugeordnet, für die das Cookie erzeugt wurde. Dies gilt nicht, wenn der Nutzer LinkedIn die Verarbeitung ohne Pseudonymisierung erlaubt hat oder über ein LinkedIn-Konto verfügt.
+Sie können die Verwendung von Cookies durch eine entsprechende Einstellung Ihres Browsers ablehnen, beachten Sie aber bitte, dass Sie dann möglicherweise nicht alle Funktionen dieser Website nutzen können. Sie können der Nutzung Ihrer Daten auch direkt bei LinkedIn widersprechen: https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out.
+Wir verwenden LinkedIn Analytics, um die Nutzung unserer Website zu analysieren und regelmässig zu verbessern. Die gewonnenen Statistiken ermöglichen es uns, unser Angebot zu verbessern und es für Sie als Nutzer interessanter zu gestalten. Alle LinkedIn-Unternehmen haben die Standardvertragsklauseln übernommen, um sicherzustellen, dass der Datenverkehr in die USA und nach Singapur, der für die Entwicklung, Implementierung und Wartung der Dienste erforderlich ist, auf rechtmässige Weise erfolgt. Wenn wir Nutzer um eine Einwilligung bitten, ist die Rechtsgrundlage für die Verarbeitung Art. 6 (1) lit. a DSGVO. Ansonsten ist die Rechtsgrundlage für den Einsatz von LinkedIn Analytics Art. 6 Abs.. 1 S. 1 lit. f DSGVO.
+Die Informationen des Drittanbieters: LinkedIn Ireland Unlimited Company Wilton Place, Dublin 2 Irland; Nutzungsvereinbarung und Datenschutzrichtlinie.
+
+Leistungen nach Statuten
+Wir verarbeiten die Daten unserer Mitglieder, Förderer, Interessenten, Kunden oder sonstiger Personen gemäss den datenschutzrechtlichen Bestimmungen der Schweizerischen Eidgenossenschaft (Bundesgesetz über den Datenschutz, DSG), soweit wir ihnen gegenüber vertragliche Leistungen anbieten oder im Rahmen bestehender Geschäftsbeziehungen, z.B. gegenüber Mitgliedern, tätig werden oder selbst Empfänger von Leistungen und Diensten sind. Die in diesem Zusammenhang verarbeiteten Daten, Art, Umfang und Zweck sowie die Erforderlichkeit ihrer Verarbeitung ergeben sich aus dem zugrunde liegenden Vertragsverhältnis. Dazu gehören grundsätzlich Bestands- und Stammdaten von Personen (z.B. Name, Anschrift etc.) sowie Kontaktdaten (z.B. E-Mail-Adresse, Telefon etc.), Vertragsdaten (z.B. in Anspruch genommene Leistungen, Inhalte und bereitgestellte Informationen, Namen von Ansprechpartnern) und, sofern wir kostenpflichtige Leistungen oder Produkte anbieten, Zahlungsdaten (z.B. Bankverbindung, Zahlungsverhalten etc.).
+
+Änderungen
+Wir können diese Datenschutzrichtlinie jederzeit ohne vorherige Ankündigung ändern. Es gilt die jeweils aktuelle, auf unserer Website veröffentlichte Fassung. Soweit die Datenschutzerklärung Teil einer Vereinbarung mit Ihnen ist, werden wir Sie im Falle einer Aktualisierung per E-Mail oder auf andere geeignete Weise über die Änderung informieren.
+
+Haftungsausschluss
+Der Autor übernimmt keine Gewähr für die Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit der Informationen.
+Haftungsansprüche gegen den Autor wegen Schäden materieller oder immaterieller Art, die aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der Verbindung oder durch technische Störungen entstanden sind, werden ausgeschlossen.
+
+Alle Angebote sind freibleibend. Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.
+
+Quelle: BrainBox Solutions
 
 ----
 

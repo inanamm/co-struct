@@ -2,7 +2,7 @@ Title: co–struct AG
 
 ----
 
-Intro: <p>co–struct ist ist ein inhabergeführtes Büro für Tragwerksplanung in Zürich und Aubonne. Innovative Tragsysteme, ein besonderes Augenmerk für Ästhetik und enge Zusammenarbeit mit unseren Partner:innen, das ist unser Credo. Maximal 500 Zeichen sollen hier stehen. Wenns mehr sind, kannst du nicht speichern.</p>
+Intro: co–struct ist ist ein inhabergeführtes Büro für Tragwerksplanung in Zürich und Aubonne. Innovative Tragsysteme, ein besonderes Augenmerk für Ästhetik und enge Zusammenarbeit mit unseren Partner:innen, das ist unser Credo. Maximal 500 Zeichen sollen hier stehen. Wenns mehr sind, kannst du nicht speichern.
 
 ----
 
@@ -229,3 +229,7 @@ Robots-noimageindex: enabled
 ----
 
 Robots-nosnippet: enabled
+
+----
+
+Text: 

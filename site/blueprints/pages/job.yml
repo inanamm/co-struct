@@ -8,8 +8,10 @@ sections:
     fields:
       generalDescription:
         label: General description
-        type: textarea
-        buttons: false
+        type: writer
+        marks:
+          - link
+        nodes: false
       lineA:
         type: line
 
@@ -33,6 +35,6 @@ sections:
             label: What we are looking for
             type: textarea
             buttons:
-              - email
+              - link
               - ul
             spellcheck: true

@@ -5,8 +5,7 @@ Title: News
 News:
 
 - 
-  image:
-    - file://avTymslOiwtXhbgq
+  image: [ ]
   date: 2023-09-24
   title: >
     co–struct erhält renommierten
@@ -27,24 +26,21 @@ News:
     neuen Niederlassungen
   description: '<p>co–struct eröffnet neue Niederlassungen in Nordamerika, um seine globale Präsenz zu stärken und Kunden weltweit besser zu bedienen.</p>'
 - 
-  image:
-    - file://otSFrEEmd3hj4nvo
+  image: [ ]
   date: 2023-08-10
   title: >
     co–struct revolutioniert den
     Brückenbau
   description: '<p>co–struct führt eine nachhaltige Technologie ein, die den Brückenbau revolutioniert und auf Umweltfreundlichkeit und Effizienz setzt.</p>'
 - 
-  image:
-    - file://KVQjmRpFOKblibRw
+  image: [ ]
   date: 2023-08-03
   title: >
     co–struct kooperiert mit führendem
     Architekturbüro
   description: '<p>co–struct arbeitet in einer vielversprechenden Partnerschaft mit einem führenden Architekturbüro an wegweisenden Bauprojekten.</p>'
 - 
-  image:
-    - file://juGCKQgWvItlCIue
+  image: [ ]
   date: 2023-07-21
   title: >
     co–struct fördert den
@@ -57,6 +53,70 @@ News:
     Expertise für sichere und nachhaltige
     Infrastrukturen
   description: '<p>Die Experten von co–struct setzen ihre umfassende Fachkenntnis ein, um Infrastrukturen zu schaffen, die sowohl sicher als auch nachhaltig sind.</p>'
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
 
 ----
 

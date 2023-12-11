@@ -18,8 +18,10 @@ tabs:
                 width: 1/3
               bueroprofil:
                 label: Profile
-                type: textarea
-                buttons: false
+                type: writer
+                marks: 
+                  - link
+                nodes: false
 
               lineA:
                 type: line
@@ -100,7 +102,8 @@ tabs:
                 type: list
                 label: Names
                 width: 2/3
-                marks: false
+                marks: 
+                  - link
                 translate: false
 
   seo: seo/page
