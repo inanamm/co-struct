@@ -5,27 +5,33 @@ Title: blublubFR
 Information:
 
 - 
-  projectdetails: ""
-  value: fdsa
+  projectdetails: client
+  value: '<p><a href="https://www.google.com/" target="_blank">Hallo</a></p>'
 - 
-  projectdetails: ""
-  value: fdsafdsa
+  projectdetails: architecture
+  value: '<p>2023</p>'
+- 
+  projectdetails: place
+  value: '<p>&amp;</p>'
 
 ----
 
-Texttitle: 
+Texttitle: Yverdon ?
 
 ----
 
-Text: 
+Text: <p>in "Meisterwerk ?"</p>
 
 ----
 
-Gallery: 
+Gallery:
+
+- file://swXe0XVfBxoP9PFx
+- file://ogU9yLYIuCKb2cCE
 
 ----
 
-Credit: Photo: (link: https://www.google.com/ text: Robert), (link: https://www.google.com/ text: Robert) und (link: https://www.google.com/ text: Robert)
+Credit: <p>Photo: (link: https://www.google.com/ text: Robert), (link: https://www.google.com/ text: Robert) und (link: https://www.google.com/ text: Robert)</p>
 
 ----
 

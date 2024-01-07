@@ -2,10 +2,6 @@ Title: Über uns
 
 ----
 
-Sitetitle: Wer wir sind
-
-----
-
 Bueroprofil:
 
 co–struct ist ein inhabergeführtes Büro für Tragwerksplanung in Zürich und Aubonne, gegründet von Fabrice Meylan und Sam Bouten. 
@@ -37,7 +33,7 @@ Coworkers:
 
 ----
 
-Applicationstitle: Bewerbungen
+Applicationstitle: Bewerbungen zu unserem tollen Team
 
 ----
 
@@ -45,7 +41,7 @@ Openpositionslinktext: Hier gehts zu unseren offenen Stellen
 
 ----
 
-Noopenpositions: Momentan haben wir leider keine offenen Stellen.
+Noopenpositions: Momentan haben wir leider keine offenen Stellen. Momentan haben wir leider keine offenen Stellen. Momentan haben wir leider keine offenen Stellen. Momentan haben wir leider keine offenen Stellen. Momentan haben wir leider keine offenen Stellen. Momentan haben wir leider keine offenen Stellen. Momentan haben wir leider keine offenen Stellen.
 
 ----
 
@@ -118,6 +114,10 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Sitetitle: Wer wir sind
 
 ----
 

@@ -43,8 +43,8 @@ return [
         'endash'                     => '&#8211;', // –
         'ellipsis'                   => '&#8230;', // …
         'space'                      => '(?: | |&nbsp;|&#0*160;|&#x0*[aA]0;)',
-        'space.emdash'               => ' ',
-        'space.endash'               => ' ',
+        'space.emdash'               => '—',
+        'space.endash'               => '-',
         'space.colon'                => '&#160;',
         'space.semicolon'            => '&#160;',
         'space.marks'                => '&#160;',

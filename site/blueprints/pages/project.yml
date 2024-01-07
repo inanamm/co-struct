@@ -52,7 +52,12 @@ tabs:
                   size: Size
               value:
                 label: Value
-                type: text
+                type: writer
+                marks:
+                  - link
+                  - sub
+                  - sup
+                nodes: false
           line:
             type: line
           textTitle:
@@ -63,6 +68,8 @@ tabs:
             size: large
             marks:
               - link
+              - sub
+              - sup
             nodes: false
 
       sidebar:
@@ -88,6 +95,8 @@ tabs:
                 type: writer
                 marks:
                   - link
+                  - sub
+                  - sup
                 nodes: false
 
   seo: seo/page

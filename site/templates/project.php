@@ -50,8 +50,8 @@
             <div style="<?= calculateBarLength($page->categoryB()->escape()) ?>" class="bg-csblack h-[0.26rem] lg:hover:bg-csorange border-none lg:h-[0.40rem] self-left bar relative" onmouseover="document.querySelector('.category').style.color='#ff9900'; document.querySelector('.category').style.visibility='visible';" onmouseout="document.querySelector('.category').style.color='csblack'; document.querySelector('.category').style.visibility='hidden';">
             </div>
 
-            <div class="font-mono text-sm px-3 pt-2 pb-3">
-                <?php if ($info = $page->information()->smartypants()->toStructure()) : ?>
+            <div class="font-mono text-sm px-3 pt-2 pb-3 text_with_link">
+                <?php if ($info = $page->information()->toStructure()) : ?>
                     <?php snippet(
                         'accordion',
                         ['buttonText' => 'Information'],
@@ -62,8 +62,8 @@
                     <div class="flex flex-col gap-3 mt-3">
                         <?php foreach ($info as $detail) : ?>
                             <div class="flex flex-col">
-                                <p><?= t($detail->projectDetails()->smartypants()->escape()) ?></p>
-                                <p><?= $detail->value()->smartypants()->escape() ?></p>
+                                <p><?= t($detail->projectDetails()->smartypants()) ?></p>
+                                <p><?= $detail->value()->smartypants() ?></p>
                             </div>
                         <?php endforeach ?>
                     </div>
@@ -73,8 +73,8 @@
             </div>
 
             <article class="flex flex-col h-full font-sans text-base px-3 pt-2 pb-5 gap-3 text_with_link">
-                <h2><?= $page->textTitle()->smartypants()->escape() ?></h2>
-                <?= $page->text()->kt() ?>
+                <h2><?= $page->textTitle()->kt()->smartypants() ?></h2>
+                <?= $page->text()->kt()->smartypants() ?>
             </article>
             <?php if ($page->credit()->kti()->isNotEmpty()) : ?>
                 <div class="flex flex-wrap text_with_link font-mono text-xs px-3 pt-2 pb-3">

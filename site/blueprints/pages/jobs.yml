@@ -22,6 +22,8 @@ tabs:
             type: writer
             marks:
               - link
+              - sub
+              - sup
             nodes: false
 
           lineA:

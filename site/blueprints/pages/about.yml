@@ -16,6 +16,8 @@ tabs:
                 type: writer
                 marks: 
                   - link
+                  - sub
+                  - sup
                 nodes: false
 
               lineA:
@@ -99,6 +101,8 @@ tabs:
                 width: 2/3
                 marks: 
                   - link
+                  - sub
+                  - sup                  
                 translate: false
 
   seo: seo/page

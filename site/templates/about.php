@@ -119,17 +119,20 @@
 				<div class="lg:w-[35%]">
 					<?php snippet('subtitle', ['subtitle' => $page->applicationsTitle()->escape()]) ?>
 				</div>
-				<?php if ($pages->get('jobs')->children()->listed()->count() > 0): ?>
-					<?php snippet('link', [
-						'url' => "/jobs",
-						'description' => $page->OpenPositionsLinkText()->escape(),
-						'blank' => false
-					]) ?>
+				<div class="lg:w-[65%]">
+					
+					<?php if ($pages->get('jobs')->children()->listed()->count() > 0): ?>
+						<?php snippet('link', [
+							'url' => "/jobs",
+							'description' => $page->OpenPositionsLinkText()->escape(),
+							'blank' => false
+							]) ?>
 				<?php else: ?>
 					<p>
 						<?= $page->noOpenPositions()->escape() ?>
 					</p>
-				<?php endif ?>
+					<?php endif ?>
+				</div>
 			</div>
 
 			<div class="flex flex-col gap-2 text-xs font-mono px-3 pt-2 pb-5 lg:px-0 lg:pr-3">

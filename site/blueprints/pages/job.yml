@@ -11,6 +11,8 @@ sections:
         type: writer
         marks:
           - link
+          - sub
+          - sup 
         nodes: false
       lineA:
         type: line
@@ -38,3 +40,4 @@ sections:
               - link
               - ul
             spellcheck: true
+

@@ -13,9 +13,11 @@ tabs:
         fields:
           intro:
             label: Introtext
-            type: textarea
-            buttons: 
+            type: writer
+            marks: 
               - link
+              - sub
+              - sup
             nodes: false
             counter: true
             maxlength: 500

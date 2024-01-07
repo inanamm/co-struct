@@ -11,7 +11,7 @@ List:
 - 
   title: 'Deine Aufgaben:'
   descriptiona: |
-    - Du leitest und koordinierst Statikprojekte von Anfang bis Ende.
+    - Du 2 leitest und koordinierst Statikprojekte von Anfang bis Ende.
     - Tragwerksplanungen für unterschiedliche Bauprojekte erstellst du mühelos unter Berücksichtigung der geltenden Normen und Standards.
     - Die Qualitätssicherung und die Einhaltung der Zeitpläne liegen in deiner Verantwortung.
     - Du arbeitest eng mit Kundinnen, Architektinnen und anderen Fachleuten zusammen, um deren Anforderungen zu verstehen und optimale Lösungen zu finden.

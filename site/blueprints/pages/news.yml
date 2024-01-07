@@ -45,6 +45,8 @@ tabs:
                     type: writer
                     marks: 
                       - link
+                      - sub
+                      - sup
                     nodes: false
                   description:
                     label: Content
@@ -56,7 +58,8 @@ tabs:
                     marks:
                       - link
                       - email
+                      - sub
+                      - sup
                     nodes: false
-                    maxlength: 500
-
+                    
   seo: seo/page
