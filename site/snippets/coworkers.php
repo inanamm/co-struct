@@ -25,7 +25,7 @@
 
         <?php endforeach ?>
 
-        <div class="font-mono text-sm"><?= $worker->description()->kt() ?></div>
+        <div class="font-mono text-sm"><?= $worker->description()->kt()->smartypants() ?></div>
     </div>
     <?php endslot() ?>
     <?php endsnippet() ?>

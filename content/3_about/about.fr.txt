@@ -2,19 +2,11 @@ Title: À propos de Nous
 
 ----
 
-Sitetitle: Notre bureau
+Bueroprofil: <p>FRENCH co–struct ist ein "inhabergeführtes" Büro für ”hallo“</p><p>"Tragwerksplanung"  </p><p>in Zürich und Aubonne, gegründet von «Fabrice» Meylan und Sam Bouten. Das Ziel ist, innovative "Tragsysteme" von der Entstehung des Projekts an zu planen und dabei ein besonderes Augenmerk auf ästhetische Aspekte zu legen. Die enge Zusammenarbeit mit den verschiedenen Partner:innen, sowie die proaktive Optimierung der erdachten Strukturen liegen co–struct am Herzen. Die Ökologie im Bauwesen regt unsere Kreativität an, um für jedes Bauwerk die am besten geeigneten Materialien zu finden ?</p>
 
 ----
 
-Bueroprofil:
-
-FRENCH co–struct ist ein inhabergeführtes Büro für Tragwerksplanung in Zürich und Aubonne, gegründet von Fabrice Meylan und Sam Bouten. 
-
-Das Ziel ist, innovative Tragsysteme von der Entstehung des Projekts an zu planen und dabei ein besonderes Augenmerk auf ästhetische Aspekte zu legen. Die enge Zusammenarbeit mit den verschiedenen Partner:innen, sowie die proaktive Optimierung der erdachten Strukturen liegen co–struct am Herzen. Die Ökologie im Bauwesen regt unsere Kreativität an, um für jedes Bauwerk die am besten geeigneten Materialien zu finden.
-
-----
-
-Coworkerstitle: Co-wörköör
+Coworkerstitle: L'équipe
 
 ----
 
@@ -63,7 +55,7 @@ Openpositionslinktext: Ici pour les jobs
 
 ----
 
-Noopenpositions: Au moment nous n'avons pas des jobs ouverts
+Noopenpositions: "Au moment nous n'avons pas des jobs ouverts" ?
 
 ----
 
@@ -132,3 +124,7 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Sitetitle: Notre bureau

@@ -13,25 +13,26 @@ return [
         'architecture' => 'Architecture',
         'place' => 'Lieu',
         'value' => 'Coûts estimés',
-        'timeframe' => 'Période de l’étude',
+        'timeframe' => 'Période',
         'size' => 'Portée',
         'built' => 'Réalisés',
         'building' => 'En construction',
         'notbuilt' => 'Non réalisées',
 
         'choiceone' => 'Recherche',
-        'choicetwo' => 'Autre',
+        'choicetwo' => 'Divers',
         'choicethree' => 'Concours',
-        'choicefour' => 'Gagné concours',
-        'choicefive' => 'Commande directe',
+        'choicefour' => 'Concours gagné',
+        'choicefive' => 'Mandat direct',
 
     ],
     'url' => NULL,
 
     'smartypants' => [
         'attr'                       => 1,
-        'doublequote.open'           => '&#171;', // «
-        'doublequote.close'          => '&#187;', // »
+        'doublequote.open'           => '&#171;&#x2006;', // «
+        'doublequote.close'          => '&#x2006;&#187;', // »
+        'space.marks'                => '&#160;',
         'emdash'                     => '&#8212;', // —
         'endash'                     => '&#8211;', // –
         'ellipsis'                   => '&#8230;', // …

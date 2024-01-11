@@ -24,7 +24,7 @@
 			<h1>About</h1>
 		</div>
 		<article id="four" class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pr-5 lg:w-1/2">
-			<?= $page->Bueroprofil()->kt() ?>
+			<?= $page->Bueroprofil()->kt()->smartypants() ?>
 		</article>
 
 		<div id="four" class="lg:w-1/2 lg:divide-none divide-y divide-csblue no-scrollbar">
@@ -95,7 +95,7 @@
 
 			<div class="flex flex-col lg:flex-row lg:gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
 				<div class="flex-none lg:w-[35%]">
-					<?php snippet('subtitle', ['subtitle' => $page->coworkersTitle()->escape()]) ?>
+					<?php snippet('subtitle', ['subtitle' => $page->coworkersTitle()->smartypants()]) ?>
 				</div>
 
 				<div class="flex flex-col w-full">
@@ -108,7 +108,7 @@
 			<?php if ($page->oldcoworkers()->list()->isNotEmpty()): ?>
 				<div class="flex flex-col lg:flex-row lg:gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
 					<div class="lg:w-[35%]">
-						<?php snippet('subtitle', ['subtitle' => $page->oldcoworkersTitle()->escape()]) ?>
+						<?php snippet('subtitle', ['subtitle' => $page->oldcoworkersTitle()->smartypants()]) ?>
 					</div>
 					<?= $page->oldcoworkers() ?>
 
@@ -117,19 +117,19 @@
 
 			<div class="flex flex-col lg:flex-row lg:gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
 				<div class="lg:w-[35%]">
-					<?php snippet('subtitle', ['subtitle' => $page->applicationsTitle()->escape()]) ?>
+					<?php snippet('subtitle', ['subtitle' => $page->applicationsTitle()->smartypants()]) ?>
 				</div>
 				<div class="lg:w-[65%]">
 					
 					<?php if ($pages->get('jobs')->children()->listed()->count() > 0): ?>
 						<?php snippet('link', [
 							'url' => "/jobs",
-							'description' => $page->OpenPositionsLinkText()->escape(),
+							'description' => $page->OpenPositionsLinkText()->smartypants(),
 							'blank' => false
 							]) ?>
 				<?php else: ?>
 					<p>
-						<?= $page->noOpenPositions()->escape() ?>
+						<?= $page->noOpenPositions()->smartypants() ?>
 					</p>
 					<?php endif ?>
 				</div>
