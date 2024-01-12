@@ -18,8 +18,10 @@ return [
         'endash'                        => '–',
         'ellipsis'                      => '…',
         'space'                         => '(?: | |&nbsp;|&#0*160;|&#x0*[aA]0;)',
-        'skip'                          => 'pre|code|kbd|script|style|math'
+        'skip'                          => 'pre|code|kbd|script|style|math',
+        'apostrophe'                    => '&rsquo;', // or 'apostrophe' => '&#8217;'
     ],
+
     'translations' => [
         'client' => 'Auftraggeber:in',
         'architecture' => 'Architektur',
@@ -30,6 +32,7 @@ return [
         'built' => 'Realisiert',
         'building' => 'In Bau',
         'notbuilt' => 'Nicht realisiert',
+
         'choiceone' => 'Recherche',
         'choicetwo' => 'Anderes',
         'choicethree' => 'Wettbewerb',
