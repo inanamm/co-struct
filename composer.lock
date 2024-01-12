@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "516a1a50d04a8c35ce1c0d9fc9a76345",
+    "content-hash": "bfe1cf64f22aa86d5f6f6bf3a75ed70f",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -2184,16 +2184,16 @@
         },
         {
             "name": "tobimori/kirby-seo",
-            "version": "0.4.0",
+            "version": "1.0.0-beta.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tobimori/kirby-seo.git",
-                "reference": "0966d4a627f037b38a5e79dbfe6448d433ea6650"
+                "reference": "99213bfd10273401378ee7bc3794df85efe3402c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/0966d4a627f037b38a5e79dbfe6448d433ea6650",
-                "reference": "0966d4a627f037b38a5e79dbfe6448d433ea6650",
+                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/99213bfd10273401378ee7bc3794df85efe3402c",
+                "reference": "99213bfd10273401378ee7bc3794df85efe3402c",
                 "shasum": ""
             },
             "require": {
@@ -2202,8 +2202,8 @@
                 "spatie/schema-org": "^3.14"
             },
             "require-dev": {
-                "getkirby/cli": "^1.1",
-                "getkirby/cms": "^4.0-beta.1"
+                "getkirby/cli": "^1.2",
+                "getkirby/cms": "^4.0"
             },
             "type": "kirby-plugin",
             "extra": {
@@ -2228,7 +2228,7 @@
             "homepage": "https://github.com/tobimori/kirby-seo#readme",
             "support": {
                 "issues": "https://github.com/tobimori/kirby-seo/issues",
-                "source": "https://github.com/tobimori/kirby-seo/tree/0.4.0"
+                "source": "https://github.com/tobimori/kirby-seo/tree/1.0.0-beta.2"
             },
             "funding": [
                 {
@@ -2236,13 +2236,15 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-09-08T20:56:41+00:00"
+            "time": "2024-01-02T16:49:16+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "tobimori/kirby-seo": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
