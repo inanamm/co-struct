@@ -23,21 +23,21 @@ return [
     ],
 
     'translations' => [
-        'client' => 'Auftraggeber:in',
-        'architecture' => 'Architektur',
-        'place' => 'Ort',
-        'value' => 'Kosten',
-        'timeframe' => 'Termine',
-        'size' => 'Grösse',
-        'built' => 'Realisiert',
-        'building' => 'In Bau',
-        'notbuilt' => 'Nicht realisiert',
+        'client'        => 'Auftraggeber:in',
+        'architecture'  => 'Architektur',
+        'place'         => 'Ort',
+        'value'         => 'Kosten',
+        'timeframe'     => 'Termine',
+        'size'          => 'Grösse',
+        'built'         => 'Realisiert',
+        'building'      => 'In Bau',
+        'notbuilt'      => 'Nicht realisiert',
 
-        'choiceone' => 'Recherche',
-        'choicetwo' => 'Anderes',
-        'choicethree' => 'Wettbewerb',
-        'choicefour' => 'Wettbewerb gewonnen',
-        'choicefive' => 'Direktauftrag'
+        'choiceone'     => 'Recherche',
+        'choicetwo'     => 'Anderes',
+        'choicethree'   => 'Wettbewerb',
+        'choicefour'    => 'Wettbewerb gewonnen',
+        'choicefive'    => 'Direktauftrag'
     ],
     'url' => NULL
 ];
