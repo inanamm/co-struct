@@ -12,8 +12,6 @@ return [
         'attr'                          => 1,
         'doublequote.open'              => '„',
         'doublequote.close'             => '“',
-        'singlequote.open'              => '‚',
-        'singlequote.close'             => '‘',
         'emdash'                        => '—',
         'endash'                        => '–',
         'ellipsis'                      => '…',
