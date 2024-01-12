@@ -229,3 +229,7 @@ Robots-noimageindex: enabled
 ----
 
 Robots-nosnippet: enabled
+
+----
+
+Text: 

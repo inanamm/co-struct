@@ -27,9 +27,19 @@ function applyFilter(button) {
 }
 
 function fetchProjects(filter = "") {
-  fetch(`/ajax/projects${filter ? "?filter=" + filter : ""}`)
+  const pathname = window.location.pathname;
+  const segments = pathname.split('/');
+  const language = segments[1];
+  const urlFilter = segments[segments.length - 1];
+  if (!filter && urlFilter) {
+
+    filter = urlFilter.split(':')[1];
+  }
+  fetch(`/ajax/projects${filter ? "?filter=" + filter : "?filter="}${language ? "&language=" + language : ""}`)
     .then((response) => response.json())
-    .then((data) => updateProjects(JSON.parse(data.body)))
+    .then((data) => {
+      return updateProjects(JSON.parse(data.body))
+    })
     .catch((error) => console.error("Error:", error));
 }
 
@@ -41,7 +51,7 @@ function updateProjects(projects) {
       project.thumbs.map((thumb) => ({
         url: project.url,
         thumbnail: thumb,
-        title: project.title,
+        title: project.content.title,
       })),
     );
 
@@ -61,7 +71,6 @@ function createProjectElement(thumb) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  console.log("DOM loaded");
   setupFilterButtons();
   fetchProjects();
 });

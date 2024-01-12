@@ -40,6 +40,7 @@ return [
 			'method' => 'GET',
 			'action'  => function () {
 				$filter = get('filter');
+				$language = get('language');
 				$data = [];
 
 				// Fetch projects based on the filter
@@ -60,9 +61,10 @@ return [
 						$thumbsData[] = $thumb;
 					}
 
+					
 					$data[] = [
-						'title' => $project->title()->value(),
-						'url' => $project->url(),
+						'content' => $project->translation($language)->content(),
+						'url' => $project->url($language),
 						'thumbs' => $thumbsData,
 					];
 				}
