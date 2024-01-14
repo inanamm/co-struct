@@ -40,7 +40,7 @@
                         <h2 class="text-lg mt-2">
                             <?= $newsArticle->title()->smartypants()->toHtml() ?>
                         </h2>
-                        <div class="font-mono text-sm">
+                        <div class="font-mono text-sm text_with_link">
                             <?= $newsArticle->date()->toDate('d.m.y') ?>
                             <div class="flex flex-col gap-2">
                                 <?= $newsArticle->description()->text()->smartypants() ?>
@@ -64,10 +64,10 @@
                                 <?php endforeach ?>
 
                                 <div class="flex flex-col gap-2">
-                                    <h2 class="text-lg mt-2">
+                                    <h2 class="text-lg mt-2 text_with_link">
                                         <?= $newsArticle->title()->smartypants()->toHtml() ?>
                                     </h2>
-                                    <div class="font-mono text-sm">
+                                    <div class="font-mono text-sm text_with_link">
                                         <?= $newsArticle->date()->toDate('d.m.y') ?>
                                         <div class="flex flex-col gap-2">
                                             <?= $newsArticle->description()->text()->smartypants() ?>
@@ -102,10 +102,10 @@
                             <?php endforeach ?>
 
                             <div class="flex flex-col gap-2">
-                                <h2 class="text-lg mt-2">
+                                <h2 class="text-lg mt-2 text_with_link">
                                     <?= $newsArticle->title()->smartypants()->toHtml() ?>
                                 </h2>
-                                <div class="font-mono text-sm">
+                                <div class="font-mono text-sm text_with_link">
                                     <?= $newsArticle->date()->toDate('d.m.y') ?>
                                     <div class="flex flex-col gap-2">
                                         <?= $newsArticle->description()->kt()->smartypants() ?>

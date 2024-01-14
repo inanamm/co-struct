@@ -10,13 +10,11 @@ News:
   title: >
     co–struct erhält renommierten
     Architekturpreis
-  description: '<p>Das Ingenieur- und Tragwerkstatikbüro Co–Struct wird für seine herausragende Arbeit an einem Wolkenkratzerprojekt mit einem angesehenen Architekturpreis ausgezeichnet ?</p>'
+  description: '<p>Das Ingenieur- und Tragwerkstatikbüro<a href="https://www.google.com/"> Co–Struct </a>wird für seine herausragende Arbeit an einem Wolkenkratzerprojekt mit einem angesehenen Architekturpreis ausgezeichnet ?</p>'
 - 
   image: [ ]
   date: 2023-09-20
-  title: >
-    co–struct präsentiert innovative
-    Baukonstruktionssoftware
+  title: '<p>co–struct präsentiert innovative <a href="https://www.google.com">Baukonstruktionssoftware</a></p>'
   description: '<p>co–struct stellt eine innovative Softwarelösung vor, die Baukonstruktionen optimiert und die Kosteneffizienz steigert.</p>'
 - 
   image: [ ]
@@ -24,7 +22,7 @@ News:
   title: >
     co–struct expandiert international mit
     neuen Niederlassungen
-  description: '<p>co–struct eröffnet neue Niederlassungen in Nordamerika, um seine globale Präsenz zu stärken und Kunden weltweit besser zu bedienen.</p>'
+  description: '<p>co–struct eröffnet neue Niederlassungen in Nordamerika, um seine globale Präsenz zu stärken und Kunden weltweit besser zu <a href="https://www.google.com">Baukonstruktionssoftware</a> bedienen.</p>'
 - 
   image: [ ]
   date: 2023-08-10
