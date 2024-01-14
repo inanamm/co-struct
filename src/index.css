@@ -30,7 +30,7 @@
 }
 
 .text_with_link a {
-  @apply underline hover:text-cslightblue;
+  @apply underline hover:text-cslightblue underline-offset-2;
 }
 
 .glide {
