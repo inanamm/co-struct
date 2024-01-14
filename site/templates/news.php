@@ -4,7 +4,7 @@
 <?php snippet('head') ?>
 
 <body class="h-screen no-scrollbar">
-    <main class="text-csgreen h-screen flex flex-col divide-y divide-csgreen lg:flex-row lg:divide-none">
+    <main class="text-csgreen h-screen flex flex-col divide-y divide-csgreen first:divide-none lg:flex-row lg:divide-none">
         <div class="sr-only">
             <h1>News</h1>
         </div>
