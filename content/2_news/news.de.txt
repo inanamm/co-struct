@@ -10,7 +10,7 @@ News:
   title: >
     co–struct erhält renommierten
     Architekturpreis
-  description: '<p>Das Ingenieur- und Tragwerkstatikbüro<a href="https://www.google.com/"> Co–Struct </a>wird für seine herausragende Arbeit an einem Wolkenkratzerprojekt mit einem angesehenen Architekturpreis ausgezeichnet ?</p>'
+  description: '<p>Das Ingenieur- und Tragwerkstatikbüro<a href="https://www.google.com/"> Co–Struct </a>wird für seine herausragende Arbeit an einem <a href="/@/page/hUfBnccjuwIv1kjn">Wolkenkratzerprojekt</a> mit einem angesehenen Architekturpreis ausgezeichnet ?</p>'
 - 
   image: [ ]
   date: 2023-09-20

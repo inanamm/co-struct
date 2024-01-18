@@ -19,17 +19,20 @@ Information:
   projectdetails: architecture
   value: Peter Zumthor
 - 
-  projectdetails: value
+  projectdetails: location
   value: 6 Mio
 - 
   projectdetails: timeframe
   value: 1993–1996
 - 
-  projectdetails: size
+  projectdetails: span
   value: 340m²
 - 
-  projectdetails: place
+  projectdetails: electro
   value: '<p>CH—9765 Vals</p>'
+- 
+  projectdetails: mobility
+  value: '<p>fjdksla</p>'
 
 ----
 

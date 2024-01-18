@@ -46,10 +46,38 @@ tabs:
                 options:
                   client: Client
                   architecture: Architecture
-                  place: Place
-                  value: Value
+                  location: Location
+                  construction costs: Construction Costs
                   timeframe: Timeframe
-                  size: Size
+                  planification period: Planification Period
+                  construction period: Construction Period
+                  SIA volume: SIA Volume
+                  span: Span
+                  competition result: Competition Result
+                  project phase: Project Phase
+                  status: Status
+                  construction management: Construction Management
+                  general planification: General Planification
+                  general contractor: General Contractor
+                  total contractor: Total Contractor
+                  landscape architecture: Landscape Architecture
+                  timber engineer: Timber Engineer
+                  building services: Building Services
+                  electro: Electro
+                  building physics: Building Physics
+                  collaboration: Collaboration
+                  environment: Environment
+                  fire protection: Fire Protection
+                  facade: Facade
+                  light planification: Light Planification
+                  mobility: Mobility
+                  steel construction: Steel Construction
+                  concrete construction: Concrete Construction
+                  timber construction: Timber Construction
+                  natural stone: Natural Stone
+                  excavation: Excavation
+                  publication: Publication
+
               value:
                 label: Value
                 type: writer
