@@ -42,3 +42,13 @@ jobs:
           **/src/**
           **/node_modules/**
           **/content/**
+
+    - name: SSH into the server and remove cache folder
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.costructserverurl }}
+        username: ${{ secrets.costructusername }}
+        password: ${{ secrets.costructpassword }}
+        script: | 
+          cd .${{ secrets.costructserverdirectory }}/storage/cache/
+          rm -rf ./co-struct.ch

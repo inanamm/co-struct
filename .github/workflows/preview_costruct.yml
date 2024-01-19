@@ -43,7 +43,7 @@ jobs:
           **/node_modules/**
           **/content/**
 
-    - name: SSH into the server
+    - name: SSH into the server and remove cache folder
       uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ secrets.previewcostructserverurl }}
