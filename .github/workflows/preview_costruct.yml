@@ -44,6 +44,9 @@ jobs:
           **/content/**
 
     - name: SSH into the server
-      run: |
-        ssh ${{ secrets.previewcostructusername }}@${{ secrets.previewcostructserverurl }}
-        ls -la 
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.previewcostructserverurl }}
+        username: ${{ secrets.previewcostructusername }}
+        password: ${{ secrets.previewcostructpassword }}
+        script: whoami
