@@ -51,4 +51,4 @@ jobs:
         password: ${{ secrets.previewcostructpassword }}
         script: | 
           cd .${{ secrets.previewcostructserverdirectory }}/storage/cache/
-          ls -la
+          rm -rf ./preview.costruct.ch
