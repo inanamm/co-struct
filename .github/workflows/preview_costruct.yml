@@ -50,5 +50,5 @@ jobs:
         username: ${{ secrets.previewcostructusername }}
         password: ${{ secrets.previewcostructpassword }}
         script: | 
-          cd .${{ secrets.previewcostructserverdirectory }}
+          cd .${{ secrets.previewcostructserverdirectory }}/storage/cache/
           ls -la
