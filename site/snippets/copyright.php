@@ -6,6 +6,7 @@
         Impressum<br>
         Inhalte: <?php snippet('co-structAG') ?> und Kollaborator:innen<br>
         Design: Martina Holenstein<br>
-        Code: Martina Holenstein & Guido Offermans
+        Code: Martina Holenstein & Guido Offermans<br>
+        Built with <a href="https://getkirby.com/">Kirby CMS</a>
     </p>
 </div>
