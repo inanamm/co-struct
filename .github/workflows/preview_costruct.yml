@@ -49,4 +49,6 @@ jobs:
         host: ${{ secrets.previewcostructserverurl }}
         username: ${{ secrets.previewcostructusername }}
         password: ${{ secrets.previewcostructpassword }}
-        script: whoami
+        script: | 
+          cd ${{ secrets.previewcostructserverdirectory }}
+          ls -la
