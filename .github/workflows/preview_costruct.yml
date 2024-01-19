@@ -42,3 +42,8 @@ jobs:
           **/src/**
           **/node_modules/**
           **/content/**
+
+    - name: SSH into the server
+      run: |
+        ssh ${{ secrets.previewcostructusername }}@${{ secrets.previewcostructserverurl }}
+        ls -la 
