@@ -23,7 +23,7 @@ return [
 	],
 	'auth' => [
 		'methods' => [
-			'password' => ['2fa' => true]
+			'password' => ['2fa' => false]
 		]
 	],
 	'thumbs' => [
