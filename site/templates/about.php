@@ -26,21 +26,29 @@
 		<article id="four" class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pr-5 lg:w-1/2">
 			<?= $page->Bueroprofil()->kt()->smartypants() ?>
 			<div class="flex flex-col text_with_link font-mono text-sm">
-				<h3><?php var_dump($pages->get('about')->worklist()->label()) ?></h3></br>
-				<h3><?php echo $pages->get('about')->worklist()->title() ?></h3>			
+				<h3>
+					<?php var_dump($pages->get('about')->worklist()->label()) ?>
+				</h3></br>
+				<h3>
+					<?= $pages->get('about')->worklist()->title() ?>
+				</h3>
 				<?php
 				$projectsPage = $pages->get('projects');
-				$projects = $projectsPage->children();
+				$projects = $projectsPage->children(); ?>
 
-				foreach ($projects as $project) {
+				<?php foreach ($projects as $project): ?>
+					<?php
 					$title = $project->listTitle();
 					$url = $project->url();
-					echo "<a href=\"$url\">$title</a>";
-				}
-				?>
+					?>
+					<a href=><?= $title ?></a>
+
+				<?php endforeach ?>
 			</div>
 			<div class="flex flex-col text_with_link font-mono text-sm">
-				<h3><?php echo $page->competitionList() ?></h3>			
+				<h3>
+					<?= $page->competitionList() ?>
+				</h3>
 				<?php
 				?>
 			</div>
