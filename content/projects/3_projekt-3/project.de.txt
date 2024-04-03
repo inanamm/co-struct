@@ -10,6 +10,10 @@ Tag: built
 
 ----
 
+Listtitle: <p>2020 Basler Münster</p>
+
+----
+
 Information:
 
 - 
@@ -19,10 +23,10 @@ Information:
   projectdetails: architecture
   value: Jean Nouvel
 - 
-  projectdetails: place
+  projectdetails: ""
   value: CH—6005 Luzern
 - 
-  projectdetails: value
+  projectdetails: ""
   value: 220 Mio
 - 
   projectdetails: timeframe

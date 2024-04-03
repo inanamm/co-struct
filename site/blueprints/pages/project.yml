@@ -3,6 +3,7 @@ title: Project
 status:
   draft: Draft
   listed: Published
+  unlisted: Privately Published
 
 tabs:
   content:
@@ -36,8 +37,18 @@ tabs:
               building: Building
               notbuilt: Not realized
 
+          listTitle:
+            type: writer
+            label: List Title
+            translate: true
+            marks:
+              - link
+              - sub
+              - sup
+            nodes: false
+
           information:
-            lable: Info
+            label: Info
             type: structure
             fields:
               projectDetails:

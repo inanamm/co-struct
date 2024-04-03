@@ -25,7 +25,27 @@
 		</div>
 		<article id="four" class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pr-5 lg:w-1/2">
 			<?= $page->Bueroprofil()->kt()->smartypants() ?>
+			<div class="flex flex-col text_with_link font-mono text-sm">
+				<h3><?php var_dump($pages->get('about')->worklist()->label()) ?></h3></br>
+				<h3><?php echo $pages->get('about')->worklist()->title() ?></h3>			
+				<?php
+				$projectsPage = $pages->get('projects');
+				$projects = $projectsPage->children();
+
+				foreach ($projects as $project) {
+					$title = $project->listTitle();
+					$url = $project->url();
+					echo "<a href=\"$url\">$title</a>";
+				}
+				?>
+			</div>
+			<div class="flex flex-col text_with_link font-mono text-sm">
+				<h3><?php echo $page->competitionList() ?></h3>			
+				<?php
+				?>
+			</div>
 		</article>
+
 
 		<div id="four" class="lg:w-1/2 lg:divide-none divide-y divide-csblue no-scrollbar">
 			<div class="flex flex-col lg:flex-row gap-4 font-sans text-lg px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
@@ -120,22 +140,22 @@
 					<?php snippet('subtitle', ['subtitle' => $page->applicationsTitle()->smartypants()]) ?>
 				</div>
 				<div class="lg:w-[65%]">
-					
+
 					<?php if ($pages->get('jobs')->children()->listed()->count() > 0): ?>
 						<?php snippet('link', [
 							'url' => "/jobs",
 							'description' => $page->OpenPositionsLinkText()->smartypants(),
 							'blank' => false
-							]) ?>
-				<?php else: ?>
-					<p>
-						<?= $page->noOpenPositions()->smartypants() ?>
-					</p>
+						]) ?>
+					<?php else: ?>
+						<p>
+							<?= $page->noOpenPositions()->smartypants() ?>
+						</p>
 					<?php endif ?>
 				</div>
 			</div>
 
-			<div class="flex flex-col gap-2 text-xs font-mono px-3 pt-2 pb-5 lg:px-0 lg:pr-3">
+			<div class="flex flex-col text_with_link gap-2 text-xs font-mono px-3 pt-2 pb-5 lg:px-0 lg:pr-3">
 				<?php snippet('copyright') ?>
 				<?php snippet('link', [
 					'url' => "/privacy",

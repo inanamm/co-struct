@@ -105,4 +105,17 @@ tabs:
                   - sup                  
                 translate: false
 
+              lineD:
+                type: line
+
+              worklist:
+                label: Works
+                type: list
+                width: 1/2
+
+              competitionlist:
+                label: Competitons
+                type: list
+                width: 1/2
+
   seo: seo/page

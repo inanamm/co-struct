@@ -10,6 +10,10 @@ Tag: built
 
 ----
 
+Listtitle: <p>2023 Rolex</p>
+
+----
+
 Information:
 
 - 
@@ -19,16 +23,16 @@ Information:
   projectdetails: architecture
   value: SANAA (Kazuyo Sejima + Ryue Nishizawa)
 - 
-  projectdetails: place
+  projectdetails: ""
   value: CH—1015 Lausanne
 - 
-  projectdetails: value
+  projectdetails: ""
   value: 55 Mio
 - 
   projectdetails: timeframe
   value: 2009–2010
 - 
-  projectdetails: size
+  projectdetails: ""
   value: 09876m
 
 ----

@@ -63,7 +63,10 @@ return [
         'choicetwo'     => 'Anderes',
         'choicethree'   => 'Wettbewerb',
         'choicefour'    => 'Wettbewerb gewonnen',
-        'choicefive'    => 'Direktauftrag'
+        'choicefive'    => 'Direktauftrag',
+
+        'worklist'          => 'Werkliste',
+
     ],
     'url' => NULL
 ];
