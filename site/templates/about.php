@@ -25,36 +25,9 @@
 		</div>
 		<article id="four" class="flex flex-col gap-5 font-sans text-lg lg:text-base px-3 pt-2 pb-5 lg:pr-5 lg:w-1/2">
 			<?= $page->Bueroprofil()->kt()->smartypants() ?>
-			<div class="flex flex-col text_with_link font-mono text-sm">
-				<h3>
-					<?php var_dump($pages->get('about')->worklist()->label()) ?>
-				</h3></br>
-				<h3>
-					<?= $pages->get('about')->worklist()->title() ?>
-				</h3>
-				<?php
-				$projectsPage = $pages->get('projects');
-				$projects = $projectsPage->children(); ?>
-
-				<?php foreach ($projects as $project): ?>
-					<?php
-					$title = $project->listTitle();
-					$url = $project->url();
-					?>
-					<a href=><?= $title ?></a>
-
-				<?php endforeach ?>
-			</div>
-			<div class="flex flex-col text_with_link font-mono text-sm">
-				<h3>
-					<?= $page->competitionList() ?>
-				</h3>
-				<?php
-				?>
-			</div>
 		</article>
 
-
+		<!-- RECHTS -->
 		<div id="four" class="lg:w-1/2 lg:divide-none divide-y divide-csblue no-scrollbar">
 			<div class="flex flex-col lg:flex-row gap-4 font-sans text-lg px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
 				<div class="flex flex-col gap-4">
@@ -87,7 +60,7 @@
 				</div>
 			</div>
 
-
+			<!-- ADRESSEN -->
 			<div class="flex flex-col lg:flex-row font-sans text-lg px-3 pt-2 pb-5 lg:gap-4 lg:pb-6 lg:px-0 lg:pr-3">
 				<div class="flex flex-col gap-4">
 					<?php if ($address = $site->addressZH()->toObject()): ?>
@@ -120,7 +93,7 @@
 			</div>
 
 
-
+			<!-- MITARBEITENDE -->
 			<div class="flex flex-col lg:flex-row lg:gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
 				<div class="flex-none lg:w-[35%]">
 					<?php snippet('subtitle', ['subtitle' => $page->coworkersTitle()->smartypants()]) ?>
@@ -143,12 +116,12 @@
 				</div>
 			<?php endif ?>
 
+			<!-- JOBS -->
 			<div class="flex flex-col lg:flex-row lg:gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
-				<div class="lg:w-[35%]">
+				<div class="flex-none lg:w-[35%]">
 					<?php snippet('subtitle', ['subtitle' => $page->applicationsTitle()->smartypants()]) ?>
 				</div>
-				<div class="lg:w-[65%]">
-
+				<div class="lg:w-full">
 					<?php if ($pages->get('jobs')->children()->listed()->count() > 0): ?>
 						<?php snippet('link', [
 							'url' => "/jobs",
@@ -163,6 +136,38 @@
 				</div>
 			</div>
 
+			<!-- WERKLISTE -->
+			<div class="flex flex-col lg:flex-row lg:gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
+				<div class="flex-none lg:w-[35%]">
+					<?php snippet('subtitle', ['subtitle' => $page->worklistTitle()->smartypants()]) ?>
+						<!-- <?php var_dump($pages->get('projects')->content()->timeframe()) ?> -->
+				</div>
+				<div class="flex flex-col text_with_link font-mono text-sm lg:text-base lg:pr-5">
+
+					<?php
+					$projectsPage = $pages->get('projects');
+					$projects = $projectsPage->children(); ?>
+
+					<?php foreach ($projects as $project): ?>
+						<?php
+						$title = $project->listTitle();
+						$timeframe = $project->information()->projectDetails()->timeframe()->value();
+						$url = $project->url();
+						?>
+						<a href=><?= $title ?></a>
+						<?= $timeframe ?>
+					<?php endforeach ?>
+					<!-- <div class="flex flex-col text_with_link font-mono text-sm lg:text-base pt-5 pb-5 lg:pr-5">
+						<h3>
+							<?= $page->competitionList() ?>
+						</h3>
+						<?php
+						?>
+					</div> -->
+				</div>
+			</div>
+
+			<!-- IMPRESSUM -->
 			<div class="flex flex-col text_with_link gap-2 text-xs font-mono px-3 pt-2 pb-5 lg:px-0 lg:pr-3">
 				<?php snippet('copyright') ?>
 				<?php snippet('link', [

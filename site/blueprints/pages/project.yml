@@ -41,10 +41,7 @@ tabs:
             type: writer
             label: List Title
             translate: true
-            marks:
-              - link
-              - sub
-              - sup
+            marks: false
             nodes: false
 
           information:

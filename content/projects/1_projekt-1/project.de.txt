@@ -10,7 +10,7 @@ Tag: notbuilt
 
 ----
 
-Listtitle: <p>2024 Therme Vals</p>
+Listtitle: <p>Therme Vals</p>
 
 ----
 

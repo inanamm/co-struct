@@ -10,6 +10,10 @@ Tag: building
 
 ----
 
+Listtitle: <p>Haus der Kreativität</p>
+
+----
+
 Information:
 
 - 
@@ -19,10 +23,10 @@ Information:
   projectdetails: architecture
   value: Studio Abraha Achermann
 - 
-  projectdetails: place
+  projectdetails: ""
   value: CH—7803 Hinterandelfingen
 - 
-  projectdetails: value
+  projectdetails: ""
   value: "10'490"
 - 
   projectdetails: timeframe

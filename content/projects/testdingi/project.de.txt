@@ -10,7 +10,7 @@ Tag: building
 
 ----
 
-Listtitle: <p>Testdingi</p>
+Listtitle: <p>1 Testdingi </p>
 
 ----
 
@@ -93,10 +93,6 @@ Twitterauthor:
 
 ----
 
-Metainherit: 
-
-----
-
 Robotsindex: default
 
 ----
@@ -114,6 +110,10 @@ Robotsimageindex: default
 ----
 
 Robotssnippet: default
+
+----
+
+Metainherit: 
 
 ----
 

@@ -10,7 +10,7 @@ Tag: building
 
 ----
 
-Listtitle: <p>2020 Basler Münster</p>
+Listtitle: <p>Basler Münster</p>
 
 ----
 

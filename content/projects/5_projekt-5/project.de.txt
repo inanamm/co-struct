@@ -10,6 +10,10 @@ Tag: building
 
 ----
 
+Listtitle: <p>EPFL Learning Center</p>
+
+----
+
 Information:
 
 - 
@@ -21,10 +25,10 @@ Information:
   projectdetails: architecture
   value: SANAA (Kazuyo Sejima + Ryue Nishizawa)
 - 
-  projectdetails: place
+  projectdetails: ""
   value: CH—1015 Lausanne
 - 
-  projectdetails: value
+  projectdetails: ""
   value: 80 Mio
 - 
   projectdetails: timeframe
