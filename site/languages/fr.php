@@ -53,8 +53,6 @@ return [
         'choicefour'        => 'Concours gagné',
         'choicefive'        => 'Mandat direct',
 
-        'worklist'          => 'Wörklist',
-
     ],
     'url' => NULL,
 

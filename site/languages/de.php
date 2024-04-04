@@ -65,8 +65,6 @@ return [
         'choicefour'    => 'Wettbewerb gewonnen',
         'choicefive'    => 'Direktauftrag',
 
-        'worklist'          => 'Werkliste',
-
     ],
     'url' => NULL
 ];
