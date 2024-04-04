@@ -2,6 +2,10 @@ Title: FR Basler Münster
 
 ----
 
+Listtitle: <p>FR Basler Münster</p>
+
+----
+
 Information:
 
 - 
@@ -13,7 +17,7 @@ Information:
     Verschiedene Architekten über
     Jahrhunderte
 - 
-  projectdetails: place
+  projectdetails: ""
   value: CH—4051 Basel
 
 ----

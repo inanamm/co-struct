@@ -2,6 +2,10 @@ Title: FR blublubFR ?
 
 ----
 
+Listtitle: <p>FR Therme Vals</p>
+
+----
+
 Information:
 
 - 
@@ -11,7 +15,7 @@ Information:
   projectdetails: architecture
   value: '<p>2023</p>'
 - 
-  projectdetails: place
+  projectdetails: ""
   value: '<p>&amp;</p>'
 
 ----

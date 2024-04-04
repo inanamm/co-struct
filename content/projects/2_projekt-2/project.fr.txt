@@ -2,6 +2,10 @@ Title: FR Rolex Learning Center
 
 ----
 
+Listtitle: <p>fr Rolex</p>
+
+----
+
 Information:
 
 - 
@@ -11,16 +15,16 @@ Information:
   projectdetails: architecture
   value: SANAA (Kazuyo Sejima + Ryue Nishizawa)
 - 
-  projectdetails: place
+  projectdetails: ""
   value: CH—1015 Lausanne
 - 
-  projectdetails: value
+  projectdetails: ""
   value: "<p>55'000 Mio</p>"
 - 
   projectdetails: timeframe
   value: 2009–2010
 - 
-  projectdetails: size
+  projectdetails: ""
   value: '<p>09876m<sup>2</sup></p>'
 
 ----

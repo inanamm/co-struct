@@ -2,6 +2,10 @@ Title: Farbige Stadt
 
 ----
 
+Listtitle: <p>FFR arbige Stadt</p>
+
+----
+
 Information:
 
 - 
@@ -9,12 +13,12 @@ Information:
   value: Stadt Zürich
 - 
   projectdetails: architecture
-  value: 'Herzog & De Meuron'
+  value: 'Herzog &amp; De Meuron'
 - 
-  projectdetails: place
+  projectdetails: ""
   value: CH—8004 Zürich
 - 
-  projectdetails: value
+  projectdetails: ""
   value: 25 Mio
 - 
   projectdetails: timeframe

@@ -2,6 +2,10 @@ Title: Tonhalle Maag
 
 ----
 
+Listtitle: <p>FR Tonhalle Maag</p>
+
+----
+
 Information:
 
 - 
@@ -11,10 +15,10 @@ Information:
   projectdetails: architecture
   value: Annette Gigon / Mike Guyer Architekten
 - 
-  projectdetails: place
+  projectdetails: ""
   value: CH—8005 Zürich
 - 
-  projectdetails: value
+  projectdetails: ""
   value: 100 Mio
 - 
   projectdetails: timeframe

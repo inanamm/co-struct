@@ -1,0 +1,108 @@
+Title: FRtestdingi
+
+----
+
+Listtitle: <p>FRTestdingi </p>
+
+----
+
+Information:
+
+- 
+  projectdetails: client
+  value: '<p>Nummer 1</p>'
+- 
+  projectdetails: architecture
+  value: '<p><a href="https://schibliholenstein.ch">schibliholenstein</a></p>'
+- 
+  projectdetails: ""
+  value: '<p>10Mio.</p>'
+- 
+  projectdetails: ""
+  value: '<p>10 Mio</p>'
+- 
+  projectdetails: timeframe
+  value: '<p>2019–2022</p>'
+- 
+  projectdetails: ""
+  value: '<p>38m<sup>3</sup></p>'
+
+----
+
+Texttitle: 
+
+----
+
+Text: 
+
+----
+
+Gallery: - file://x9iePdl6MQNWlAcY
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 

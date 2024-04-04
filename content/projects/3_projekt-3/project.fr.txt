@@ -2,6 +2,10 @@ Title: FR KKL Luzern (Kultur- und Kongresszentrum Luzern)
 
 ----
 
+Listtitle: <p>FR Basler Münster</p>
+
+----
+
 Information:
 
 - 
@@ -11,10 +15,10 @@ Information:
   projectdetails: architecture
   value: Jean Nouvel
 - 
-  projectdetails: place
+  projectdetails: ""
   value: CH—6005 Luzern
 - 
-  projectdetails: value
+  projectdetails: ""
   value: 220 Mio
 - 
   projectdetails: timeframe
