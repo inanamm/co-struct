@@ -5,7 +5,7 @@
 				<?php snippet('contact', ['phone' => $site->phone(), 'email' => $site->email()]) ?>
 			</div>
 			<div class="lg:w-1/4">
-				<?php if ($address = $site->addressZH()->toObject()) : ?>
+				<?php if ($address = $site->addressOffice()->toObject()) : ?>
 					<?php snippet(
 						'address',
 						[
