@@ -10,10 +10,6 @@ Tag: built
 
 ----
 
-Listtitle: <p>Rolex</p>
-
-----
-
 Information:
 
 - 
@@ -23,17 +19,17 @@ Information:
   projectdetails: architecture
   value: SANAA (Kazuyo Sejima + Ryue Nishizawa)
 - 
-  projectdetails: ""
+  projectdetails: location
   value: CH—1015 Lausanne
 - 
-  projectdetails: ""
+  projectdetails: construction costs
   value: 55 Mio
 - 
   projectdetails: timeframe
   value: 2009–2010
 - 
-  projectdetails: ""
-  value: 09876m
+  projectdetails: collaboration
+  value: '<p>Markus Holenstein</p>'
 
 ----
 
@@ -48,6 +44,10 @@ Das Rolex Learning Center auf dem Campus der Universität Lausanne ist ein visio
 Die wellenförmige Struktur des Gebäudes schafft fließende Raumübergänge und lädt Studierende dazu ein, verschiedene Bereiche für Forschung und Studium zu erkunden. Die lichtdurchfluteten Innenräume bieten einen angenehmen Lern- und Arbeitsbereich.
 
 Das Rolex Learning Center ist nicht nur ein Ort des Studiums, sondern auch ein Ort des Austauschs und der Innovation. Es hat sich zu einem internationalen Symbol für modernes Bildungswesen und zeitgenössische Architektur entwickelt.
+
+----
+
+Listtitle: <p>Rolex</p>
 
 ----
 

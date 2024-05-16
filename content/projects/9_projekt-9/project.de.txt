@@ -10,10 +10,6 @@ Tag: notbuilt
 
 ----
 
-Listtitle: <p>SmartCity Mobility</p>
-
-----
-
 Information:
 
 - 
@@ -53,6 +49,10 @@ Die Integration von Elektromobilität spielt ebenfalls eine wichtige Rolle in un
 Schließlich werden grüne Verkehrsinseln in der Stadt geschaffen, die nicht nur zur Verbesserung der Luftqualität beitragen, sondern auch das Stadtbild verschönern und das Wohlbefinden der Bewohner steigern. Unser Projekt zielt darauf ab, mindestens 10 solcher grünen Verkehrsinseln zu etablieren.
 
 Diese umfassenden Ziele sind die Grundlage unseres Engagements, die Stadt in eine nachhaltige und lebenswerte Umgebung zu verwandeln, in der Mobilität nicht länger ein Hindernis, sondern ein wesentlicher Bestandteil des städtischen Lebens ist.
+
+----
+
+Listtitle: <p>SmartCity</p>
 
 ----
 

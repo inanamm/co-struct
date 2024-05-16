@@ -136,38 +136,6 @@
 				</div>
 			</div>
 
-			<!-- WERKLISTE -->
-			<div class="flex flex-col lg:flex-row lg:gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
-				<div class="flex-none lg:w-[35%]">
-					<?php snippet('subtitle', ['subtitle' => $page->worklistTitle()->smartypants()]) ?>
-					<!-- <?php var_dump($pages->get('projects')->content()->timeframe()) ?> -->
-				</div>
-				<div class="flex flex-col text_with_link font-mono text-sm lg:text-base lg:pr-5">
-					<div class="flex flex-col">
-
-						<?php
-						$projectsPage = $pages->get('projects');
-						$projects = $projectsPage->children(); ?>
-
-						<?php foreach ($projects as $project): ?>
-							<?php
-							$title = $project->listTitle();
-							$url = $project->url();
-							?>
-
-							<?php foreach ($project->information()->toStructure() as $projectDetail): ?>
-								<?php if ($projectDetail->projectDetails()->value() == "timeframe"): ?>
-
-									<div class="flex flex-row gap-3">
-										<?= $projectDetail->value() ?><a href=<?= $url ?>><?= $title ?></a>
-									</div>
-								<?php endif ?>
-							<?php endforeach ?>
-						<?php endforeach ?>
-					</div>
-				</div>
-			</div>
-
 			<!-- IMPRESSUM -->
 			<div class="flex flex-col text_with_link gap-2 text-xs font-mono px-3 pt-2 pb-5 lg:px-0 lg:pr-3">
 				<?php snippet('copyright') ?>

@@ -10,10 +10,6 @@ Tag: built
 
 ----
 
-Listtitle: <p>Tonhalle Maag</p>
-
-----
-
 Information:
 
 - 
@@ -45,6 +41,10 @@ Die Tonhalle Maag ist ein beeindruckendes architektonisches Juwel im Herzen von 
 Die Architektur von Annette Gigon und Mike Guyer zeichnet sich durch klare Linien und moderne Formen aus. Die Konzertsaal-Fassade ist mit einer reflektierenden Glasfront gestaltet, die das Gebäude in der Umgebung lebendig erscheinen lässt. Das Innere des Saals wurde sorgfältig gestaltet, um eine optimale Klangqualität zu gewährleisten, was es zu einem beliebten Ziel für erstklassige musikalische Aufführungen macht.
 
 Die Tonhalle Maag ist nicht nur ein Ort für klassische Musik, sondern auch für eine Vielzahl von musikalischen Genres und kulturellen Veranstaltungen. Sie hat sich zu einem wichtigen kulturellen Zentrum in Zürich entwickelt, das die Vielfalt der musikalischen Welt feiert und ein breites Publikum anspricht.
+
+----
+
+Listtitle: <p>Maaghalle</p>
 
 ----
 

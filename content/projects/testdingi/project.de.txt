@@ -10,10 +10,6 @@ Tag: building
 
 ----
 
-Listtitle: <p>1 Testdingi </p>
-
-----
-
 Information:
 
 - 
@@ -42,6 +38,10 @@ Texttitle:
 ----
 
 Text: 
+
+----
+
+Listtitle: <p>Testprojekt Privat Published</p>
 
 ----
 

@@ -1,4 +1,4 @@
-Title: Therme Vals? ?
+Title: Die Fachwerk-Sheds
 
 ----
 
@@ -7,10 +7,6 @@ Categoryb: choicefive
 ----
 
 Tag: notbuilt
-
-----
-
-Listtitle: <p>Therme Vals</p>
 
 ----
 
@@ -37,6 +33,9 @@ Information:
 - 
   projectdetails: mobility
   value: '<p>fjdksla</p>'
+- 
+  projectdetails: collaboration
+  value: '<p>Martina Holenstein</p>'
 
 ----
 
@@ -45,6 +44,10 @@ Texttitle: Die Alpine Schönheit ?
 ----
 
 Text: <p>in "Meisterwerk ?" l'école "hallo, ich bin ein 'künstler', was bist du ?"  1/2 ``hallo`` ^ ` '  ? “ # Ç [ ] |  { } ≠ ¿ ´  \`künstler\` </p><p>Die <a href="https://www.google.com/" target="_blank">Therme Vals</a> ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.</p><p>Die <a href="https://www.google.com/" target="_blank">Therme Vals</a> ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.</p><p>Die <a href="https://www.google.com/" target="_blank">Therme Vals</a> ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.</p>
+
+----
+
+Listtitle: <p>Schule Eglisau</p>
 
 ----
 
@@ -125,6 +128,10 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Name: Schule Eglisau
 
 ----
 

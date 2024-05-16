@@ -10,10 +10,6 @@ Tag: building
 
 ----
 
-Listtitle: <p>Basler Münster</p>
-
-----
-
 Information:
 
 - 
@@ -25,8 +21,11 @@ Information:
     Verschiedene Architekten über
     Jahrhunderte
 - 
-  projectdetails: ""
+  projectdetails: location
   value: CH—4051 Basel
+- 
+  projectdetails: timeframe
+  value: '<p>2014</p>'
 
 ----
 
@@ -41,6 +40,10 @@ Das Basler Münster ist ein zeitloses und architektonisch faszinierendes Bauwerk
 Die gotische Architektur des Münsters mit ihren filigranen Türmen und kunstvollen Verzierungen fasziniert Besucher aus aller Welt. Das Innere des Münsters ist ebenso beeindruckend, mit prachtvollen Fresken, glänzenden Glasfenstern und einer Aura der Spiritualität.
 
 Das Basler Münster ist nicht nur ein Ort der Anbetung, sondern auch ein Ort der Geschichte und Kultur. Es spiegelt die eindrucksvolle Handwerkskunst vergangener Epochen wider und bleibt ein stolzes Symbol für die Stadt Basel und die Schweizer Architekturgeschichte.
+
+----
+
+Listtitle: <p></p><p>Münster</p>
 
 ----
 

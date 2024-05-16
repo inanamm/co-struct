@@ -10,10 +10,6 @@ Tag: building
 
 ----
 
-Listtitle: <p>Farbige Stadt</p>
-
-----
-
 Information:
 
 - 
@@ -47,6 +43,10 @@ Mit einer Höhe von 126 Metern und 36 Stockwerken ist der Prime Tower das höchs
 Eine der herausragenden Eigenschaften des Prime Towers ist sein multifunktionales Konzept. Neben erstklassigen Büroflächen beherbergt das Gebäude auch eine Vielzahl von Restaurants, Kunstgalerien und Geschäften, die eine lebendige und dynamische Atmosphäre schaffen. Dies macht den Prime Tower zu einem beliebten Treffpunkt für Einheimische und Besucher gleichermaßen.
 
 Die Aussichtsplattform in den oberen Stockwerken bietet einen spektakulären Panoramablick auf die Stadt und die Alpen und ist ein beliebter Ort für Touristen und Fotografen. Der Prime Tower ist nicht nur ein Ort des Arbeitens und Genießens, sondern auch ein Ort des Staunens und Bewunderns. Er verkörpert die Modernität und Weltoffenheit von Zürich und bleibt ein architektonisches Juwel inmitten dieser dynamischen Stadt.
+
+----
+
+Listtitle: <p>Farbstadt</p>
 
 ----
 
