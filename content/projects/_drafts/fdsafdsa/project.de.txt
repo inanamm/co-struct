@@ -1,0 +1,84 @@
+Title: fdsafdsa
+
+----
+
+Categoryb: choicethree
+
+----
+
+Tag: building
+
+----
+
+Listtitle: 
+
+----
+
+Information: 
+
+----
+
+Texttitle: 
+
+----
+
+Text: 
+
+----
+
+Gallery:
+
+- file://x9iePdl6MQNWlAcY
+- file://0ZdwJnOy5slULeUE
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: kPcr3U1zz2rKKP7L

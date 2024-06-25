@@ -2,6 +2,10 @@ Title: SmartCity Mobility
 
 ----
 
+Listtitle: <p>FR SmartCity Mobility</p>
+
+----
+
 Information:
 
 - 
@@ -11,10 +15,10 @@ Information:
   projectdetails: architecture
   value: Architekten Kollektiv
 - 
-  projectdetails: place
+  projectdetails: ""
   value: CH—8002 Zürich
 - 
-  projectdetails: value
+  projectdetails: ""
   value: "13'000"
 - 
   projectdetails: timeframe

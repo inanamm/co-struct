@@ -9,7 +9,7 @@
 		<?php slot('dash') ?>
 		<div id="dash" class="w-7 bg-csblue h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center"
 			alt="logo"></div>
-		<?php endslot('dash') ?>
+		<?php endslot() ?>
 		<?php slot('struct') ?>
 		<?= url('struct-csblue.svg') ?>
 		<?php endslot() ?>
@@ -27,6 +27,7 @@
 			<?= $page->Bueroprofil()->kt()->smartypants() ?>
 		</article>
 
+		<!-- RECHTS -->
 		<div id="four" class="lg:w-1/2 lg:divide-none divide-y divide-csblue no-scrollbar">
 			<div class="flex flex-col lg:flex-row gap-4 font-sans text-lg px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
 				<div class="flex flex-col gap-4">
@@ -59,7 +60,7 @@
 				</div>
 			</div>
 
-
+			<!-- ADRESSEN -->
 			<div class="flex flex-col lg:flex-row font-sans text-lg px-3 pt-2 pb-5 lg:gap-4 lg:pb-6 lg:px-0 lg:pr-3">
 				<div class="flex flex-col gap-4">
 					<?php if ($address = $site->addressZH()->toObject()): ?>
@@ -92,7 +93,7 @@
 			</div>
 
 
-
+			<!-- MITARBEITENDE -->
 			<div class="flex flex-col lg:flex-row lg:gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
 				<div class="flex-none lg:w-[35%]">
 					<?php snippet('subtitle', ['subtitle' => $page->coworkersTitle()->smartypants()]) ?>
@@ -115,27 +116,28 @@
 				</div>
 			<?php endif ?>
 
+			<!-- JOBS -->
 			<div class="flex flex-col lg:flex-row lg:gap-4 font-sans text-base px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
-				<div class="lg:w-[35%]">
+				<div class="flex-none lg:w-[35%]">
 					<?php snippet('subtitle', ['subtitle' => $page->applicationsTitle()->smartypants()]) ?>
 				</div>
-				<div class="lg:w-[65%]">
-					
+				<div class="lg:w-full">
 					<?php if ($pages->get('jobs')->children()->listed()->count() > 0): ?>
 						<?php snippet('link', [
 							'url' => "/jobs",
 							'description' => $page->OpenPositionsLinkText()->smartypants(),
 							'blank' => false
-							]) ?>
-				<?php else: ?>
-					<p>
-						<?= $page->noOpenPositions()->smartypants() ?>
-					</p>
+						]) ?>
+					<?php else: ?>
+						<p>
+							<?= $page->noOpenPositions()->smartypants() ?>
+						</p>
 					<?php endif ?>
 				</div>
 			</div>
 
-			<div class="flex flex-col gap-2 text-xs font-mono px-3 pt-2 pb-5 lg:px-0 lg:pr-3">
+			<!-- IMPRESSUM -->
+			<div class="flex flex-col text_with_link gap-2 text-xs font-mono px-3 pt-2 pb-5 lg:px-0 lg:pr-3">
 				<?php snippet('copyright') ?>
 				<?php snippet('link', [
 					'url' => "/privacy",

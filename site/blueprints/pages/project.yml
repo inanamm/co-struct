@@ -3,6 +3,7 @@ title: Project
 status:
   draft: Draft
   listed: Published
+  unlisted: Privately Published
 
 tabs:
   content:
@@ -37,7 +38,7 @@ tabs:
               notbuilt: Not realized
 
           information:
-            lable: Info
+            label: Info
             type: structure
             fields:
               projectDetails:
@@ -102,7 +103,19 @@ tabs:
 
       sidebar:
         width: 1/3
+        sticky: true
         sections:
+          fieldsA:
+            type: fields
+            fields:
+              listTitle:
+                type: writer
+                label: Worklist Name
+                translate: true
+                marks: false
+                nodes: false
+              lineB:
+                type: line
           images:
             type: fields
             fields:
@@ -114,9 +127,6 @@ tabs:
                 query: site.images
                 uploads:
                   parent: site
-          fields:
-            type: fields
-            fields:
               credit:
                 translate: true
                 label: Photocredit
@@ -126,6 +136,8 @@ tabs:
                   - sub
                   - sup
                 nodes: false
+
+
 
   seo: seo/page
 

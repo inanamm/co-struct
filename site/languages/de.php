@@ -5,7 +5,7 @@ return [
     'default' => true,
     'direction' => 'ltr',
     'locale' => [
-        'LC_ALL' => 'de_DE'
+        'LC_ALL' => 'de_CH'
     ],
     'name' => 'DE',
     'smartypants' => [
@@ -63,7 +63,8 @@ return [
         'choicetwo'     => 'Anderes',
         'choicethree'   => 'Wettbewerb',
         'choicefour'    => 'Wettbewerb gewonnen',
-        'choicefive'    => 'Direktauftrag'
+        'choicefive'    => 'Direktauftrag',
+
     ],
     'url' => NULL
 ];

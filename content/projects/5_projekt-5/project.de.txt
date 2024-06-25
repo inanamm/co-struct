@@ -21,10 +21,10 @@ Information:
   projectdetails: architecture
   value: SANAA (Kazuyo Sejima + Ryue Nishizawa)
 - 
-  projectdetails: place
+  projectdetails: ""
   value: CH—1015 Lausanne
 - 
-  projectdetails: value
+  projectdetails: ""
   value: 80 Mio
 - 
   projectdetails: timeframe
@@ -43,6 +43,10 @@ Das Rolex Learning Center auf dem Campus der École polytechnique fédérale de 
 Die wellenförmige Struktur des Gebäudes erstreckt sich über den Campus und schafft eine offene und einladende Atmosphäre für Studierende und Forscher. Die Innenräume sind lichtdurchflutet und flexibel gestaltet, was die Interaktion und Zusammenarbeit fördert.
 
 Das Rolex Learning Center ist nicht nur ein Ort des Studiums, sondern auch ein Ort des Austauschs und der Innovation. Es hat sich zu einem internationalen Symbol für modernes Bildungswesen und zeitgenössische Architektur entwickelt.
+
+----
+
+Listtitle: <p>EPFL </p>
 
 ----
 

@@ -105,4 +105,12 @@ tabs:
                   - sup                  
                 translate: false
 
+              lineD:
+                type: line
+
+              worklistTitle:
+                label: Title Worklist
+                type: text
+                width: 1/3
+
   seo: seo/page

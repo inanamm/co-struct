@@ -63,6 +63,10 @@ Oldcoworkerstitle: vieux co-wörkörs
 
 ----
 
+Worklisttitle: Wörkliste
+
+----
+
 Metatitle: 
 
 ----
@@ -124,6 +128,14 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Competitionlist: <ul><li>fdsafdsaf</li><li>fdsfdsfdsa</li><li>fdsfdsfdsa</li><li>fdsfdfdsa</li><li>fdsdsa</li></ul>
+
+----
+
+Worklist: 
 
 ----
 
