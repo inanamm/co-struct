@@ -8,7 +8,7 @@
 		<?php snippet('header', slots: true) ?>
 		<?php slot('dash') ?>
 		<div id="dash" class="w-7 bg-csblack h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center" alt="logo"></div>
-		<?php endslot('dash') ?>
+		<?php endslot() ?>
 		<?php slot('struct') ?>
 		<?= url('struct-csblack.svg') ?>
 		<?php endslot() ?>

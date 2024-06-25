@@ -15,7 +15,7 @@
                 <div id="dash"
                     class="w-7 bg-csgreen h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center"
                     alt="logo"></div>
-                <?php endslot('dash') ?>
+                <?php endslot() ?>
 
 
                 <?php slot('struct') ?>
