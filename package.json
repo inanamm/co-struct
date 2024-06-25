@@ -11,15 +11,15 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
-    "alpinejs": "^3.12.3",
-    "animejs": "^3.2.1"
+    "alpinejs": "^3.13.10",
+    "animejs": "^3.2.2"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "concurrently": "^8.2.0",
-    "postcss": "^8.4.27",
-    "tailwindcss": "^3.3.3",
-    "vite": "^5.0.3",
-    "vite-plugin-kirby": "^5.1.0"
+    "autoprefixer": "^10.4.19",
+    "concurrently": "^8.2.2",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.10",
+    "vite-plugin-kirby": "^5.3.1"
   }
 }

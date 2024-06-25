@@ -1,0 +1,4 @@
+options:
+  list: 
+    admin: true
+    editor: false

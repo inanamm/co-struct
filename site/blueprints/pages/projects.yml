@@ -1,11 +1,26 @@
 title: Projects
 
-fields:
-  info:
-    label: Info
-    type: info
-    text: |
-      Oops! You can't edit anything on this page. Please go back to the panel homepage to the tab "projects".
+tabs:
+  #tab2 PROJECTS
+  projects:
+    icon: dashboard
+    sections:
+      drafts:
+        extends: sections/projects
+        label: Project Drafts
+        status: draft
+
+      published:
+        extends: sections/projects
+        label: Published Drafts
+        status: listed
+
+# fields:
+#   info:
+#     label: Info
+#     type: info
+#     text: |
+#       WOops! You can't edit anything on this page. Please go back to the panel homepage to the tab "projects".
 
 options:
   changeSlug:
@@ -29,3 +44,7 @@ options:
     editor: false
   update:
     editor: true
+  list: 
+    admin: true
+    editor: false
+    
