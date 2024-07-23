@@ -36,15 +36,18 @@
         <h2 class="font-sans px-3 pt-6">
             PROJEKTLISTE 
         </h2>
-        
-        <!-- WERKLISTE -->
+
+        <!-- PROJEKTLISTE -->
         <div class="flex flex-col font-sans text-base pt-2 lg:px-0">
             <div class="flex flex-col">
 
                 <?php
                 $projectsPage = $pages->get('projects');
-                $projects = $projectsPage->children() ?>
-
+                $projects = $projectsPage->children();
+                $filteredProjects = $projects->filter(function ($project) {
+                    return $project->categoryB()->value() !== 'choicethree' && $project->categoryB()->value() !== 'choicefour';
+                }); ?>
+                
                 <div class="font-mono text-xs grid grid-cols-12 px-3 gap-3 pb-1">
                     <p class="col-span-4"><?= t("projecttitle") ?></p>
                     <p class="col-span-4"><?= t("project") ?></p>
@@ -52,7 +55,7 @@
                     <p class="col-span-1"><?= t("timeframe") ?></p>
                 </div>
 
-                <?php foreach ($projects as $project): ?>
+                <?php foreach ($filteredProjects as $project): ?>
                     <?php
                     $name = $project->title();
                     $title = $project->listTitle();
@@ -94,7 +97,10 @@
 
                 <?php
                 $projectsPage = $pages->get('projects');
-                $projects = $projectsPage->children() ?>
+                $projects = $projectsPage->children();
+                $filteredProjects = $projects->filter(function ($project) {
+                    return $project->categoryB()->value() === 'choicethree' || $project->categoryB()->value() === 'choicefour';
+                }); ?>
 
                 <div class="font-mono text-xs grid grid-cols-12 px-3 gap-3 pb-1">
                     <p class="col-span-4"><?= t("project") ?></p>
@@ -103,7 +109,7 @@
                     <p class="col-span-1"><?= t("timeframe") ?></p>
                 </div>
 
-                <?php foreach ($projects as $project): ?>
+                <?php foreach ($filteredProjects as $project): ?>
                     <?php
                     $name = $project->title();
                     $title = $project->listTitle();
