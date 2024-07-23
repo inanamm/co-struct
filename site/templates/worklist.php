@@ -119,8 +119,13 @@
                     <a href=<?= $url ?>
                         class="grid grid-cols-12 px-3 py-1 border-t border-csblack last:border-b gap-3 hover:text-cslightblue">
                         <div class="col-span-4"><?= $name->kt() ?></div>
-                        <div class="col-span-4"><?= $title ?></div>
 
+                        <div class="col-span-4"><?php foreach ($project->information()->toStructure() as $projectDetail): ?>
+                                <?php if ($projectDetail->projectDetails()->value() == "competition result"): ?>
+                                    <?= $projectDetail->value() ?>
+                                <?php endif ?>
+                            <?php endforeach ?>
+                        </div>
                         <div class="col-span-3"><?php foreach ($project->information()->toStructure() as $projectDetail): ?>
                                 <?php if ($projectDetail->projectDetails()->value() == "collaboration"): ?>
                                     <?= $projectDetail->value() ?>

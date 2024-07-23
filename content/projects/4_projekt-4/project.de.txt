@@ -29,6 +29,9 @@ Information:
 - 
   projectdetails: collaboration
   value: '<p>Test</p>'
+- 
+  projectdetails: competition result
+  value: '<p>3. Preis</p>'
 
 ----
 

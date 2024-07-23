@@ -36,6 +36,9 @@ Information:
 - 
   projectdetails: collaboration
   value: '<p>Martina Holenstein</p>'
+- 
+  projectdetails: competition result
+  value: '<p>1. Preis</p>'
 
 ----
 

@@ -19,8 +19,8 @@ Information:
   projectdetails: architecture
   value: Jean Nouvel
 - 
-  projectdetails: ""
-  value: CH—6005 Luzern
+  projectdetails: competition result
+  value: '<p>2. Preis</p>'
 - 
   projectdetails: ""
   value: 220 Mio
