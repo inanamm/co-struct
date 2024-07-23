@@ -43,6 +43,9 @@ return [
         'excavation'                => 'Excavation',
         'publication'               => 'Publication',
 
+        'projecttitle'              => 'Nom',
+        'project'                   => 'Projet',
+
         'built'             => 'Réalisés',
         'building'          => 'En construction',
         'notbuilt'          => 'Non réalisées',

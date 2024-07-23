@@ -26,6 +26,9 @@ Information:
 - 
   projectdetails: timeframe
   value: '<p>2014</p>'
+- 
+  projectdetails: collaboration
+  value: '<p>Test</p>'
 
 ----
 
@@ -43,7 +46,7 @@ Das Basler Münster ist nicht nur ein Ort der Anbetung, sondern auch ein Ort der
 
 ----
 
-Listtitle: <p></p><p>Münster</p>
+Listtitle: <p>Münster</p>
 
 ----
 

@@ -42,7 +42,7 @@ return [
         'building services'         => 'HLKS',
         'electro'                   => 'Elektro',
         'building physics'          => 'Bauphysik',
-        'collaboration'             => 'Zusammenarbeit',
+        'collaboration'             => 'Zusammenarbeit mit',
         'environment'               => 'Nachhaltigkeit',
         'fire protection'           => 'Brandschutz',
         'facade'                    => 'Fassadenplanung',
@@ -54,6 +54,9 @@ return [
         'natural stone'             => 'Naturstein',
         'excavation'                => 'Baugrube',
         'publication'               => 'Publikation',
+
+        'projecttitle'              => 'Name',
+        'project'                   => 'Projekt',
 
         'built'         => 'Realisiert',
         'building'      => 'In Bau',

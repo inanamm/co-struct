@@ -63,7 +63,7 @@ Oldcoworkerstitle: vieux co-wörkörs
 
 ----
 
-Worklisttitle: Wörkliste
+Worklisttitle: Liste de projets
 
 ----
 

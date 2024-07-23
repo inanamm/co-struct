@@ -110,7 +110,8 @@ tabs:
             fields:
               listTitle:
                 type: writer
-                label: Worklist Name
+                label: List Name
+                help: Projectname in the index
                 translate: true
                 marks: false
                 nodes: false
