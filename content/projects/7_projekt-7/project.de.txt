@@ -23,7 +23,7 @@ Information:
   value: CH—8004 Zürich
 - 
   projectdetails: competition result
-  value: 25 Mio
+  value: '<p>2. Preis</p>'
 - 
   projectdetails: timeframe
   value: 2015–2019

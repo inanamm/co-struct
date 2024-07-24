@@ -22,8 +22,8 @@ Information:
   projectdetails: ""
   value: '<p>10Mio.</p>'
 - 
-  projectdetails: ""
-  value: '<p>10 Mio</p>'
+  projectdetails: competition result
+  value: '<p>3. Preis</p>'
 - 
   projectdetails: timeframe
   value: '<p>2019–2022</p>'

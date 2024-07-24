@@ -19,11 +19,11 @@ Information:
   projectdetails: architecture
   value: Studio Abraha Achermann
 - 
-  projectdetails: ""
-  value: CH—7803 Hinterandelfingen
+  projectdetails: collaboration
+  value: '<p>martina</p>'
 - 
-  projectdetails: ""
-  value: "10'490"
+  projectdetails: competition result
+  value: '<p>1. preis</p>'
 - 
   projectdetails: timeframe
   value: 2023–2025
