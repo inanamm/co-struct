@@ -121,6 +121,7 @@
                         $name = $project->title();
                         $title = $project->listTitle();
                         $url = $project->url();
+                        $info = $project->information()->toStructure();
                         ?>
 
                         <a href=<?= $url ?>
@@ -132,28 +133,24 @@
                             </div>
 
                             <div class="lg:col-span-4">
-                                <?php foreach ($project->information()->toStructure() as $projectDetail): ?>
-                                    <?php if ($projectDetail->projectDetails()->value() == "competition result"): ?>
-                                        <?= $projectDetail->value() ?>
-                                    <?php endif ?>
-                                <?php endforeach ?>
+                                <?php $competitionResult = $info->findBy("projectdetails", "competition result") ?>
+                                <?php if ($competitionResult): ?>
+                                    <?= $competitionResult->value() ?>
+                                <?php endif ?>
                             </div>
 
-                            <?php foreach ($project->information()->toStructure() as $projectDetail): ?>
-                                <?php if ($projectDetail->projectDetails()->value() == "collaboration" && $projectDetail->value()->isNotEmpty()): ?>
-                                    <div class="lg:col-span-2">
-                                        <?= $projectDetail->value() ?>
-                                    </div>
-                                <?php endif ?>
-                            <?php endforeach ?>
-
+                            <?php $collab = $info->findBy("projectdetails", "collaboration") ?>
+                            <?php if ($collab): ?>
+                                <div class="lg:col-span-2">
+                                    <?= $collab->value() ?>
+                                </div>
+                            <?php endif ?>
 
                             <div class="lg:col-span-2 lg:col-end-13 lg:text-right">
-                                <?php foreach ($project->information()->toStructure() as $projectDetail): ?>
-                                    <?php if ($projectDetail->projectDetails()->value() == "timeframe"): ?>
-                                        <?= $projectDetail->value() ?>
-                                    <?php endif ?>
-                                <?php endforeach ?>
+                            <?php $timeframe = $info->findBy("projectdetails", "timeframe") ?>
+                                <?php if ($timeframe): ?>
+                                    <?= $timeframe->value() ?>
+                                <?php endif ?>
                             </div>
 
                         </a>

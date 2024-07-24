@@ -22,9 +22,6 @@ Information:
   projectdetails: collaboration
   value: '<p>martina</p>'
 - 
-  projectdetails: competition result
-  value: '<p>1. preis</p>'
-- 
   projectdetails: timeframe
   value: 2023–2025
 
