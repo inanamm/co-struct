@@ -146,29 +146,44 @@
                                 <?php endif ?>
                             </div>
 
-                                <?php
-                                $collab2 = $info->findBy("projectdetails", "collaboration");
-                                $architecture2 = $info->findBy("projectdetails", "architecture");
-                                ?>
-                                <?php if ($collab2): ?>
-                                    <div class="col-span-1 lg:col-span-2">
-                                        <?= $collab2->value()->excerpt(0, true) ?>
-                                    </div>
-                                <?php endif ?>
-                                <?php if (!$collab2 && $architecture2): ?>
-                                    <div class="col-span-1 lg:col-span-2">
-                                        <?= $architecture2->value()->excerpt(0, true) ?>
-                                    </div>
-                                <?php endif ?>
+                            <?php
+                            $collab2 = $info->findBy("projectdetails", "collaboration");
+                            $architecture2 = $info->findBy("projectdetails", "architecture");
+                            ?>
+                            <?php if ($collab2): ?>
+                                <div class="col-span-1 lg:col-span-2">
+                                    <?= $collab2->value()->excerpt(0, true) ?>
+                                </div>
+                            <?php endif ?>
+                            <?php if (!$collab2 && $architecture2): ?>
+                                <div class="col-span-1 lg:col-span-2">
+                                    <?= $architecture2->value()->excerpt(0, true) ?>
+                                </div>
+                            <?php endif ?>
 
 
 
-                            <div class="lg:col-span-2 lg:col-end-13 lg:text-right">
+                            <!-- <div class="lg:col-span-2 lg:col-end-13 lg:text-right">
                                 <?php $timeframe = $info->findBy("projectdetails", "timeframe") ?>
                                 <?php if ($timeframe): ?>
                                     <?= $timeframe->value() ?>
                                 <?php endif ?>
-                            </div>
+                            </div> -->
+
+                            <?php
+                            $timeframe = $info->findBy("projectdetails", "timeframe");
+                            $planificationperiod = $info->findBy("projectdetails", "planification period");
+                            ?>
+                            <?php if ($timeframe): ?>
+                                <div class="lg:col-span-2 lg:col-end-13 lg:text-right">
+                                    <?= $timeframe->value() ?>
+                                </div>
+                            <?php endif ?>
+                            <?php if (!$timeframe && $planificationperiod): ?>
+                                <div class="lg:col-span-2 lg:col-end-13 lg:text-right">
+                                    <?= $planificationperiod->value() ?>
+                                </div>
+                            <?php endif ?>
 
                         </a>
                     <?php endforeach ?>

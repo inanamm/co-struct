@@ -25,7 +25,7 @@ Information:
   projectdetails: competition result
   value: '<p>2. Preis</p>'
 - 
-  projectdetails: timeframe
+  projectdetails: planification period
   value: 2015–2019
 
 ----
