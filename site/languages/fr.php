@@ -45,6 +45,8 @@ return [
 
         'projecttitle'              => 'Nom',
         'project'                   => 'Projet',
+        'competitions'              => 'Concours',
+        'projects'                  => 'Projets',
 
         'built'             => 'Réalisés',
         'building'          => 'En construction',

@@ -34,25 +34,25 @@
         </h1>
 
         <h2 class="font-sans px-3 pt-6">
-            PROJEKTLISTE 
+            <?= t("projects") ?>
         </h2>
 
         <!-- PROJEKTLISTE -->
-        <div class="flex flex-col font-sans text-base pt-2 lg:px-0">
-            <div class="flex flex-col">
+        <div class="flex flex-col font-sans text-base pt-2 pb-4 lg:px-0">
+            <div class="flex flex-col px-3">
 
                 <?php
                 $projectsPage = $pages->get('projects');
                 $projects = $projectsPage->children();
                 $filteredProjects = $projects->filter(function ($project) {
                     return $project->categoryB()->value() !== 'choicethree' && $project->categoryB()->value() !== 'choicefour';
-                }); ?>
-                
-                <div class="font-mono text-xs grid grid-cols-12 px-3 gap-3 pb-1">
+                })->sortBy('title', 'asc'); ?>
+
+                <div class="font-mono text-xs grid grid-cols-12 gap-3 pb-1">
                     <p class="col-span-4"><?= t("projecttitle") ?></p>
                     <p class="col-span-4"><?= t("project") ?></p>
                     <p class="col-span-3"><?= t("collaboration") ?></p>
-                    <p class="col-span-1"><?= t("timeframe") ?></p>
+                    <p class="col-span-1 text-right"><?= t("timeframe") ?></p>
                 </div>
 
                 <?php foreach ($filteredProjects as $project): ?>
@@ -63,10 +63,14 @@
                     ?>
 
                     <a href=<?= $url ?>
-                        class="grid grid-cols-12 px-3 py-1 border-t border-csblack last:border-b gap-3 hover:text-cslightblue">
-                        <div class="col-span-4"><?= $name->kt() ?></div>
-                        <div class="col-span-4"><?= $title ?></div>
+                        class="grid grid-cols-12 py-1 border-t border-csblack last:border-b gap-3 hover:text-cslightblue group">
 
+                        <div class="col-span-4 flex flex-row">
+                            <p class="hidden group-hover:block pr-1">↗</p>
+                            <?= $name->kt() ?>
+                        </div>
+
+                        <div class="col-span-4"><?= $title ?></div>
                         <div class="col-span-3"><?php foreach ($project->information()->toStructure() as $projectDetail): ?>
                                 <?php if ($projectDetail->projectDetails()->value() == "collaboration"): ?>
                                     <?= $projectDetail->value() ?>
@@ -74,7 +78,7 @@
                             <?php endforeach ?>
                         </div>
 
-                        <div class="col-span-1">
+                        <div class="col-span-1 text-right">
                             <?php foreach ($project->information()->toStructure() as $projectDetail): ?>
                                 <?php if ($projectDetail->projectDetails()->value() == "timeframe"): ?>
                                     <?= $projectDetail->value() ?>
@@ -89,24 +93,24 @@
         <!-- WETTBEWERBE -->
 
         <h2 class="font-sans px-3 pt-6">
-            WETTBEWERBE 
+            <?= t("competitions") ?>
         </h2>
-        <div class="flex flex-col font-sans text-base pt-2 lg:px-0 pb-">
+        <div class="flex flex-col font-sans text-base pt-2">
 
-            <div class="flex flex-col">
+            <div class="flex flex-col px-3">
 
                 <?php
                 $projectsPage = $pages->get('projects');
                 $projects = $projectsPage->children();
                 $filteredProjects = $projects->filter(function ($project) {
                     return $project->categoryB()->value() === 'choicethree' || $project->categoryB()->value() === 'choicefour';
-                }); ?>
+                })->sortBy('title', 'asc'); ?>
 
-                <div class="font-mono text-xs grid grid-cols-12 px-3 gap-3 pb-1">
+                <div class="font-mono text-xs grid grid-cols-12 gap-3 pb-1">
                     <p class="col-span-4"><?= t("project") ?></p>
                     <p class="col-span-4"><?= t("competition result") ?></p>
                     <p class="col-span-3"><?= t("collaboration") ?></p>
-                    <p class="col-span-1"><?= t("timeframe") ?></p>
+                    <p class="col-span-1 text-right"><?= t("timeframe") ?></p>
                 </div>
 
                 <?php foreach ($filteredProjects as $project): ?>
@@ -117,8 +121,12 @@
                     ?>
 
                     <a href=<?= $url ?>
-                        class="grid grid-cols-12 px-3 py-1 border-t border-csblack last:border-b gap-3 hover:text-cslightblue">
-                        <div class="col-span-4"><?= $name->kt() ?></div>
+                        class="grid grid-cols-12 py-1 border-t border-csblack last:border-b gap-3 hover:text-cslightblue group">
+
+                        <div class="col-span-4 flex flex-row">
+                            <p class="hidden group-hover:block pr-1">↗</p>
+                            <?= $name->kt() ?>
+                        </div>
 
                         <div class="col-span-4"><?php foreach ($project->information()->toStructure() as $projectDetail): ?>
                                 <?php if ($projectDetail->projectDetails()->value() == "competition result"): ?>
@@ -133,7 +141,7 @@
                             <?php endforeach ?>
                         </div>
 
-                        <div class="col-span-1">
+                        <div class="col-span-1 text-right">
                             <?php foreach ($project->information()->toStructure() as $projectDetail): ?>
                                 <?php if ($projectDetail->projectDetails()->value() == "timeframe"): ?>
                                     <?= $projectDetail->value() ?>
