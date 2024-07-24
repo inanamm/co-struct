@@ -100,7 +100,6 @@
                 <?= t("competitions") ?>
             </h2>
             <div class="flex flex-col font-sans text-base pt-2">
-
                 <div class="flex flex-col px-3">
 
                     <?php
@@ -125,14 +124,14 @@
                         ?>
 
                         <a href=<?= $url ?>
-                            class="grid grid-cols-2 lg:grid-cols-12 py-1 border-t border-csblack last:border-b lg:gap-3 hover:text-cslightblue group">
+                            class="grid grid-rows-2 auto-cols-fr grid-flow-col lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-12 py-1 border-t border-csblack last:border-b lg:gap-3 hover:text-cslightblue group">
 
-                            <div class="col-span-1 col-start-1 lg:col-span-4 lg:flex flex-row">
+                            <div class="lg:col-span-4 lg:flex">
                                 <p class="hidden lg:group-hover:block pr-1">↗</p>
                                 <?= $name->kt() ?>
                             </div>
 
-                            <div class="col-start-1 col-span-1 lg:col-span-4">
+                            <div class="lg:col-span-4">
                                 <?php foreach ($project->information()->toStructure() as $projectDetail): ?>
                                     <?php if ($projectDetail->projectDetails()->value() == "competition result"): ?>
                                         <?= $projectDetail->value() ?>
@@ -142,19 +141,21 @@
 
                             <?php foreach ($project->information()->toStructure() as $projectDetail): ?>
                                 <?php if ($projectDetail->projectDetails()->value() == "collaboration" && $projectDetail->value()->isNotEmpty()): ?>
-                                    <div class="col-start-2 col-span-1 lg:col-span-2 row-start-1 lg:row-start-auto">
+                                    <div class="lg:col-span-2">
                                         <?= $projectDetail->value() ?>
                                     </div>
                                 <?php endif ?>
                             <?php endforeach ?>
 
-                            <div class="col-start-2 col-span-1 lg:col-span-2 lg:col-end-13 lg:text-right">
+
+                            <div class="lg:col-span-2 lg:col-end-13 lg:text-right">
                                 <?php foreach ($project->information()->toStructure() as $projectDetail): ?>
                                     <?php if ($projectDetail->projectDetails()->value() == "timeframe"): ?>
                                         <?= $projectDetail->value() ?>
                                     <?php endif ?>
                                 <?php endforeach ?>
                             </div>
+
                         </a>
                     <?php endforeach ?>
                 </div>
