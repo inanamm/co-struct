@@ -31,7 +31,7 @@ permissions:
     changeStatus: false
     changeTemplate: false
     changeTitle: true
-    create: true
+    create: false
     delete: false
     duplicate: true
     preview: true
