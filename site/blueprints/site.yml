@@ -5,9 +5,6 @@ tabs:
   pages:
     icon: text
     sections:
-      draft:
-        type: pages
-        status: draft
       pages:
         type: pages
         status: published
