@@ -2,7 +2,7 @@ Title: testdingi
 
 ----
 
-Categoryb: choicetwo
+Categoryb: choicethree
 
 ----
 

@@ -2,7 +2,7 @@ Title: Farbige Stadt
 
 ----
 
-Categoryb: choiceone
+Categoryb: choicefour
 
 ----
 
@@ -22,7 +22,7 @@ Information:
   projectdetails: ""
   value: CH—8004 Zürich
 - 
-  projectdetails: ""
+  projectdetails: competition result
   value: 25 Mio
 - 
   projectdetails: timeframe

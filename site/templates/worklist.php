@@ -91,6 +91,7 @@
         </div>
 
         <!-- WETTBEWERBE -->
+        <?php if ($pages->get('projects')->children()->filterBy('choicethree' || 'choicefour')->isEmpty()): ?>
 
         <h2 class="font-sans px-3 pt-6">
             <?= t("competitions") ?>
@@ -152,6 +153,7 @@
                 <?php endforeach ?>
             </div>
         </div>
+        <?php endif ?>
 
 
     </main>
