@@ -85,4 +85,4 @@ To build the project run:
 └── README.md
 ```
 
-Martina Holenstein & Guido Offermans, 2023
+Martina Holenstein & Guido Offermans, 2024

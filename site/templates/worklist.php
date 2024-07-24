@@ -33,7 +33,7 @@
             <?= $page->title() ?>
         </h1>
 
-        <h2 class="font-sans px-3 pt-6">
+        <h2 class="font-sans px-3">
             <?= t("projects") ?>
         </h2>
 
