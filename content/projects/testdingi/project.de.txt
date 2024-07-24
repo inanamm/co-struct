@@ -30,6 +30,9 @@ Information:
 - 
   projectdetails: ""
   value: '<p>38m<sup>3</sup></p>'
+- 
+  projectdetails: collaboration
+  value: '<p>martina2</p>'
 
 ----
 

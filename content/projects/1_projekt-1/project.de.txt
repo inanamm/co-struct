@@ -17,7 +17,7 @@ Information:
   value: Gemeinde Vals
 - 
   projectdetails: architecture
-  value: Peter Zumthor
+  value: '<p><a href="https://google.com">Peter Zumthor</a></p>'
 - 
   projectdetails: location
   value: 6 Mio
@@ -33,9 +33,6 @@ Information:
 - 
   projectdetails: mobility
   value: '<p>fjdksla</p>'
-- 
-  projectdetails: collaboration
-  value: '<p>Martina Holenstein</p>'
 - 
   projectdetails: competition result
   value: '<p>1. Preis</p>'

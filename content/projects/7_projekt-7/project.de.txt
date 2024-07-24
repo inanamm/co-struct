@@ -17,7 +17,7 @@ Information:
   value: Stadt Zürich
 - 
   projectdetails: architecture
-  value: 'Herzog &amp; De Meuron'
+  value: '<p><a href="https://google.com">Herzog &amp; De Meuron</a></p>'
 - 
   projectdetails: ""
   value: CH—8004 Zürich

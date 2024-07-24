@@ -60,6 +60,7 @@
                     $name = $project->title();
                     $title = $project->listTitle();
                     $url = $project->url();
+                    $info = $project->information()->toStructure();
                     ?>
 
                     <a href=<?= $url ?>
@@ -72,14 +73,20 @@
 
                         <div class="col-start-1 col-span-1 lg:col-span-4"><?= $title ?></div>
 
-                        <?php foreach ($project->information()->toStructure() as $projectDetail): ?>
-                            <?php if ($projectDetail->projectDetails()->value() == "collaboration" && $projectDetail->value()->isNotEmpty()): ?>
-                                <div class="col-start-2 col-span-1 lg:col-span-2">
-                                    <?= $projectDetail->value() ?>
-                                </div>
-                            <?php endif ?>
-                        <?php endforeach ?>
-
+                        <?php
+                        $collab = $info->findBy("projectdetails", "collaboration");
+                        $architecture = $info->findBy("projectdetails", "architecture");
+                        ?>
+                        <?php if ($collab): ?>
+                            <div class="col-start-2 col-span-1 lg:col-span-2">
+                                <?= $collab->value()->excerpt(0, true) ?>
+                            </div>
+                        <?php endif ?>
+                        <?php if (!$collab && $architecture): ?>
+                            <div class="col-start-2 col-span-1 lg:col-span-2">
+                                <?= $architecture->value()->excerpt(0, true) ?>
+                            </div>
+                        <?php endif ?>
 
                         <div class="col-start-2 col-span-1 lg:col-span-2 lg:col-end-13 lg:text-right">
                             <?php foreach ($project->information()->toStructure() as $projectDetail): ?>
@@ -139,15 +146,25 @@
                                 <?php endif ?>
                             </div>
 
-                            <?php $collab = $info->findBy("projectdetails", "collaboration") ?>
-                            <?php if ($collab): ?>
-                                <div class="lg:col-span-2">
-                                    <?= $collab->value() ?>
-                                </div>
-                            <?php endif ?>
+                                <?php
+                                $collab2 = $info->findBy("projectdetails", "collaboration");
+                                $architecture2 = $info->findBy("projectdetails", "architecture");
+                                ?>
+                                <?php if ($collab2): ?>
+                                    <div class="col-span-1 lg:col-span-2">
+                                        <?= $collab2->value()->excerpt(0, true) ?>
+                                    </div>
+                                <?php endif ?>
+                                <?php if (!$collab2 && $architecture2): ?>
+                                    <div class="col-span-1 lg:col-span-2">
+                                        <?= $architecture2->value()->excerpt(0, true) ?>
+                                    </div>
+                                <?php endif ?>
+
+
 
                             <div class="lg:col-span-2 lg:col-end-13 lg:text-right">
-                            <?php $timeframe = $info->findBy("projectdetails", "timeframe") ?>
+                                <?php $timeframe = $info->findBy("projectdetails", "timeframe") ?>
                                 <?php if ($timeframe): ?>
                                     <?= $timeframe->value() ?>
                                 <?php endif ?>
