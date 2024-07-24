@@ -34,7 +34,34 @@ return [
 			'active' => false,
 		]
 	],
-	'routes' => [
+    'zephir.cookieconsent' => [
+        'guiOptions' => [
+            'consentModal' => [
+                'layout' => 'box inline',
+                'position' => 'bottom right',
+                'flipButtons' => true,
+                'equalWeightButtons' => true
+            ],
+            'preferencesModal' => [
+                'layout' => 'box',
+                // 'position' => 'left', // only relevant with the "bar" layout
+                'flipButtons' => true,
+                'equalWeightButtons' => true
+            ]
+        ],
+        'categories' => [
+            'necessary' => [
+                'enabled' => true,
+                'readOnly' => true
+            ],
+            'measurement' => [],
+            'functionality' => [],
+            'experience' => [],
+            'marketing' => []
+        ],
+    ],
+
+    'routes' => [
 		[
 			'pattern' => 'ajax/projects',
 			'method' => 'GET',
@@ -77,7 +104,7 @@ return [
 			}
 		],
 
-		[
+        [
 			'pattern' => 'sitemap.xml',
 			'action'  => function () {
 				$pages = site()->pages()->index();

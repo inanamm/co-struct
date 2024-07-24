@@ -118,11 +118,11 @@ function displayProjectImages($pages): void {
   foreach ($filteredProjects as $singleProject) {
     foreach ($singleProject->gallery()->toFiles() as $image) {
       $allProjectImagesWithUrl[] = (object)[
-        'imageX' => $image,
-        'imageUrl' => $image->url(),
-        'imageAlt' => $image->alt(),
+        'imageX'       => $image,
+        'imageUrl'     => $image->url(),
+        'imageAlt'     => $image->alt(),
         'projectTitle' => $singleProject->title(),
-        'projectUrl' => $singleProject->url()
+        'projectUrl'   => $singleProject->url()
       ];
     }
   }
@@ -132,8 +132,8 @@ function displayProjectImages($pages): void {
     <a href="<?= $image->projectUrl ?>" class="pb-5 hover:text-cslightblue hover:brightness-105 w-full h-full">
       <?php echo $image->imageX->thumb([
         'quality' => 30,
-        'lazy' => true,
-        'format' => 'webp',
+        'lazy'    => true,
+        'format'  => 'webp',
       ])->html(); ?>
       <p class="font-mono text-xs w-full">
         <?= $image->projectTitle ?>

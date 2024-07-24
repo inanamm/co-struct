@@ -35,4 +35,5 @@
 			</div>
 		</div>
 	</div>
+  <?php snippet('cookieconsentJs') ?>
 </footer>

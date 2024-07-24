@@ -101,3 +101,16 @@
 }
 
 /*# sourceMappingURL=glide.core.min.css.map */
+
+#cc-main {
+  --cc-font-family: "Monospace821BT",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  --cc-modal-border-radius: .0rem;
+  --cc-btn-border-radius: .0rem;
+  --cc-modal-transition-duration: .25s;
+  --cc-modal-margin: 1rem;
+  --cc-z-index: 2147483647;
+  --cc-btn-primary-bg: #FF7314;
+  --cc-btn-primary-border-color: #FF7314;
+  --cc-btn-primary-hover-bg: #91BAD2;
+  --cc-btn-primary-hover-border-color: #91BAD2;
+}
