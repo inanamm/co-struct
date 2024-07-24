@@ -54,9 +54,9 @@ tabs:
                   location: Location
                   construction costs: Construction Costs
                   timeframe: Timeframe
-                  planification period: Planification Period
+                  planification period: Planning Period
                   construction period: Construction Period
-                  SIA volume: SIA Volume
+                  SIA volume: Volume (SIA)
                   span: Span
                   competition result: Competition Result
                   project phase: Project Phase
@@ -64,24 +64,29 @@ tabs:
                   construction management: Construction Management
                   general planification: General Planification
                   general contractor: General Contractor
-                  total contractor: Total Contractor
+                  total contractor: Total service contractor
                   landscape architecture: Landscape Architecture
-                  timber engineer: Timber Engineer
+                  timber engineer: Timber engineering
                   building services: Building Services
                   electro: Electro
                   building physics: Building Physics
                   collaboration: Collaboration
                   environment: Environment
-                  fire protection: Fire Protection
+                  fire protection: Fire life savety
                   facade: Facade
                   light planification: Light Planification
-                  mobility: Mobility
+                  mobility: Traffic planning
                   steel construction: Steel Construction
                   concrete construction: Concrete Construction
                   timber construction: Timber Construction
                   natural stone: Natural Stone
                   excavation: Excavation
                   publication: Publication
+                  funding: Funding
+                  publisher: Publisher
+                  institution: Institution
+                  credits: Credits
+
 
               value:
                 label: Value

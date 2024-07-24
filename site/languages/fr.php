@@ -42,6 +42,10 @@ return [
         'natural stone'           => 'Pierre naturelle',
         'excavation'              => 'Excavation',
         'publication'             => 'Publication',
+        'funding'                 => 'Fonds',
+        'publisher'               => 'Edition',
+        'institution'             => 'Institution',    
+        'credits'                 => 'Crédits',
 
         'projecttitle' => 'Nom',
         'project'      => 'Projet',
