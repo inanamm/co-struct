@@ -10,6 +10,11 @@ tabs:
         label: Project Drafts
         status: draft
 
+      private:
+        extends: sections/projects
+        label: Privately Published Drafts
+        status: unlisted
+
       published:
         extends: sections/projects
         label: Published Drafts
