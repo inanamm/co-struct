@@ -33,9 +33,13 @@ tabs:
             width: 1/2
             translate: false
             options:
-              built: Realized
-              building: Building
-              notbuilt: Not realized
+              education: Education
+              artInstallation: Art installation
+              infrastructure: Infrastructure
+              housing: Housing
+              research: Research
+              serviceAndIndustry: Service and industry
+              sportAndCulture: Sport and culture
 
           information:
             label: Info
