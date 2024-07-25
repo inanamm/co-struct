@@ -60,6 +60,11 @@ tabs:
                 type: info
                 theme: positive
                 text: The first address in the list will be displayed in the footer as well. It is also shown on top on the about page.
+              info2:
+                label: Main Address
+                type: info
+                theme: warning
+                text: The toggle for visibility can be turned off to make an address disappear without deleting it. Turning off the first one will also make it disappear in the footer!
               addresses:
                 label: Addresses
                 type: structure
