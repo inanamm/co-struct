@@ -59,7 +59,7 @@ tabs:
                 label: Info Addresses
                 type: info
                 theme: positive
-                text: The first address in the list will be displayed in the footer as well. It is also shown on top on the about page. You can leave parts empty (e.g description) if you want to.
+                text: The first address in the list will be displayed in the footer as well. It is also shown on top on the about page.
               addresses:
                 label: Addresses
                 type: structure
