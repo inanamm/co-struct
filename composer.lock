@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "366655d36fdb1eff7a18aff049e5d31e",
+    "content-hash": "e8541a3a9f87a434b450c0d58e6d9c00",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -836,6 +836,54 @@
             "time": "2023-02-14T16:46:30+00:00"
         },
         {
+            "name": "srwiez/thumbhash",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SRWieZ/thumbhash.git",
+                "reference": "2d5c6237fb16b79e9bd5d0d2a1571f9d6d3f1f66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SRWieZ/thumbhash/zipball/2d5c6237fb16b79e9bd5d0d2a1571f9d6d3f1f66",
+                "reference": "2d5c6237fb16b79e9bd5d0d2a1571f9d6d3f1f66",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "ext-gd": "*",
+                "ext-imagick": "*",
+                "pestphp/pest": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Thumbhash\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eser DENIZ",
+                    "email": "srwiez@gmail.com"
+                }
+            ],
+            "description": "A brief description of your package",
+            "support": {
+                "issues": "https://github.com/SRWieZ/thumbhash/issues",
+                "source": "https://github.com/SRWieZ/thumbhash/tree/v1.2.1"
+            },
+            "time": "2024-02-11T11:22:22+00:00"
+        },
+        {
             "name": "symfony/deprecation-contracts",
             "version": "v3.4.0",
             "source": {
@@ -1354,6 +1402,61 @@
                 }
             ],
             "time": "2024-04-10T09:49:19+00:00"
+        },
+        {
+            "name": "tobimori/kirby-thumbhash",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tobimori/kirby-thumbhash.git",
+                "reference": "9cd6c2d93f171a8cd484a686d267ff8adbb2b9fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tobimori/kirby-thumbhash/zipball/9cd6c2d93f171a8cd484a686d267ff8adbb2b9fe",
+                "reference": "9cd6c2d93f171a8cd484a686d267ff8adbb2b9fe",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2",
+                "php": ">=8.0.0",
+                "srwiez/thumbhash": "^1.1"
+            },
+            "require-dev": {
+                "getkirby/cms": "^3.8"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "kirby-cms-path": false
+            },
+            "autoload": {
+                "psr-4": {
+                    "tobimori\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Möritz",
+                    "email": "tobias@moeritz.io"
+                }
+            ],
+            "description": "Kirby Image placeholders with the smarter ThumbHash integration",
+            "homepage": "https://github.com/tobimori/kirby-thumbhash#readme",
+            "support": {
+                "issues": "https://github.com/tobimori/kirby-thumbhash/issues",
+                "source": "https://github.com/tobimori/kirby-thumbhash/tree/1.1.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/tobimori",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-04-12T16:48:19+00:00"
         }
     ],
     "packages-dev": [],
