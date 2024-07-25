@@ -117,8 +117,8 @@
                     })->sortBy('title', 'asc'); ?>
 
                     <div class="font-mono text-xs grid grid-cols-2 lg:grid-cols-12 lg:gap-3 pb-1">
-                        <p class="lg:block lg:col-span-4"><?= t("project") ?></p>
-                        <p class="row-start-2 lg:row-start-1 lg:col-span-4"><?= t("competition result") ?></p>
+                        <p class="col-start-1 lg:col-start-1 lg:col-span-4"><?= t("project") ?></p>
+                        <p class="row-start-2 lg:row-start-1 lg:col-start-5 lg:col-span-4"><?= t("competition result") ?></p>
                         <p class="col-start-2 lg:col-span-2"><?= t("collaboration") ?></p>
                         <p class="col-start-2 lg:col-span-2 lg:text-right"><?= t("timeframe") ?></p>
                     </div>
