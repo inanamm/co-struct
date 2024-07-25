@@ -6,8 +6,29 @@ Intro: <p>co–struct ist ist ein inhabergeführtes Büro für Tragwerksplanung 
 
 ----
 
-Addressoffice:
+Addresses:
 
+- 
+  companyname: co–struct AG
+  description: NEU Tragwerksentwurf
+  street: Hohlstrasse 209
+  place: CH—8004 Zürich
+  toggle: 'true'
+  postalcode: "8004"
+  zip: ""
+  city: ""
+- 
+  companyname: co–struct SA
+  description: NOUVEAU Design structurel
+  street: Chemin des Clos 17
+  place: CH—1170 Aubonne
+  toggle: 'true'
+- 
+  companyname: co–struct Nummer 3
+  description: hihi
+  street: Hallihallo strasse 9
+  place: CH—8005 Zürich
+  toggle: 'true'
 description: "1"
 companyname: co–struct AG
 street: Badenerstrasse 370
@@ -101,6 +122,36 @@ Robotssnippet: default
 ----
 
 Socialmediaaccounts: 
+
+----
+
+Addressoffice:
+
+description: Büroadresse
+companyname: co–struct AG
+street: Badenerstrasse 370
+postalcode: CH—8004
+place: Zürich
+
+----
+
+Addresszh:
+
+companyname: co–struct AG
+description: Tragwerksplanung
+street: Förrlibuckstrasse 225
+postalcode: CH—8005
+place: Zürich
+
+----
+
+Addressvd:
+
+companyname: co–struct AG
+description: Ingénierie structurale
+street: Chemin des Clos 17
+postalcode: CH—1170
+place: Aubonne
 
 ----
 
