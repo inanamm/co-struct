@@ -30,17 +30,21 @@
 		<!-- RECHTS -->
 		<div id="four" class="lg:w-1/2 lg:divide-none divide-y divide-csblue no-scrollbar">
 			<div class="flex flex-col lg:flex-row gap-4 font-sans text-lg px-3 pt-2 pb-5 lg:pb-6 lg:px-0 lg:pr-3">
-				<?php if ($site->addresses()->toStructure()->first()->toggle()->toBool() === true): ?>
-					<div class="flex flex-col gap-4">
-						<?php if ($footerAddress = $site->addresses()->toStructure()->first()): ?>
-							<?= $footerAddress->companyName() ?></br>
-							<?= $footerAddress->description() ?></br>
-							<?= $footerAddress->street() ?></br>
-							<?= $footerAddress->place() ?></br>
-						<?php endif ?>
-					</div>
-				<?php endif ?>
-				
+				<div class="flex flex-col gap-4">
+					<?php if ($address = $site->addressOffice()->toObject()): ?>
+						<?php snippet(
+							'address',
+							[
+								'companyName' => $address->companyName()->escape(),
+								'description' => $address->description()->escape(),
+								'street' => $address->street()->escape(),
+								'postalCode' => $address->postalCode()->escape(),
+								'place' => $address->place()->escape(),
+							]
+						) ?>
+					<?php endif ?>
+
+				</div>
 				<div class="flex flex-col gap-0 lg:order-first lg:w-[35%]">
 					<?php snippet('contact', ['phone' => $site->phone()->escape(), 'email' => $site->email()->escape()]) ?>
 					<?php snippet('link', [
@@ -57,35 +61,36 @@
 			</div>
 
 			<!-- ADRESSEN -->
-			<?php
-			$addresses = $site->addresses()->toStructure()->without(0);
-			$hasVisibleAddresses = false;
+			<div class="flex flex-col lg:flex-row font-sans text-lg px-3 pt-2 pb-5 lg:gap-4 lg:pb-6 lg:px-0 lg:pr-3">
+				<div class="flex flex-col gap-4">
+					<?php if ($address = $site->addressZH()->toObject()): ?>
+						<?php snippet(
+							'address',
+							[
+								'companyName' => $address->companyName()->escape(),
+								'description' => $address->description()->escape(),
+								'street' => $address->street()->escape(),
+								'postalCode' => $address->postalCode()->escape(),
+								'place' => $address->place()->escape(),
+							]
+						) ?>
+					<?php endif ?>
 
-			foreach ($addresses as $address) {
-				if ($address->toggle()->toBool()) {
-					$hasVisibleAddresses = true;
-					break;
-				}
-			}
-
-			if ($hasVisibleAddresses): ?>
-				<div class="flex flex-col lg:flex-row font-sans text-lg px-3 pt-2 pb-5 lg:gap-4 lg:pb-6 lg:px-0 lg:pr-3">
-					<div class="flex flex-col gap-4">
-						<?php foreach ($addresses as $address): ?>
-							<?php if ($address->toggle()->toBool()): ?>
-								<div class="singleAddress">
-									<?= $address->companyName() ?><br>
-									<?= $address->description() ?><br>
-									<?= $address->street() ?><br>
-									<?= $address->place() ?><br>
-								</div>
-							<?php endif ?>
-						<?php endforeach ?>
-					</div>
-
-					<div class="flex flex-col gap-0 lg:order-first lg:w-[35%]"></div>
+					<?php if ($address = $site->addressVD()->toObject()): ?>
+						<?php snippet(
+							'address',
+							[
+								'companyName' => $address->companyName()->escape(),
+								'description' => $address->description()->escape(),
+								'street' => $address->street()->escape(),
+								'postalCode' => $address->postalCode()->escape(),
+								'place' => $address->place()->escape(),
+							]
+						) ?>
+					<?php endif ?>
 				</div>
-			<?php endif ?>
+				<div class="flex flex-col gap-0 lg:order-first lg:w-[35%]"></div>
+			</div>
 
 
 			<!-- MITARBEITENDE -->
