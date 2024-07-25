@@ -55,13 +55,20 @@ tabs:
           generalinfo:
             type: fields
             fields:
-              addressOffice:
-                label: Address Office
-                type: object
-                fields:
-                  description:
-                    label: Description
-                    type: text
+              info:
+                label: Info Addresses
+                type: info
+                theme: positive
+                text: The first address in the list will be displayed in the footer as well. It is also shown on top on the about page.
+              info2:
+                label: Main Address
+                type: info
+                theme: warning
+                text: The toggle for visibility can be turned off to make an address disappear without deleting it. Turning off the first one will also make it disappear in the footer!
+              addresses:
+                label: Addresses
+                type: structure
+                columns:
                   companyName:
                     width: 2/9
                   description:
@@ -97,7 +104,6 @@ tabs:
                       - "No"
                       - "Yes"
                     default: true
-
 
       sidebar:
         width: 1/3
