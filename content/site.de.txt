@@ -8,7 +8,7 @@ Intro: <p>co–struct ist ist ein inhabergeführtes Büro für Tragwerksplanung 
 
 Addressoffice:
 
-description: Büroadresse
+description: "1"
 companyname: co–struct AG
 street: Badenerstrasse 370
 postalcode: CH—8004
@@ -19,7 +19,7 @@ place: Zürich
 Addresszh:
 
 companyname: co–struct AG
-description: Tragwerksplanung
+description: "2"
 street: Förrlibuckstrasse 225
 postalcode: CH—8005
 place: Zürich
@@ -29,7 +29,7 @@ place: Zürich
 Addressvd:
 
 companyname: co–struct AG
-description: Ingénierie structurale
+description: "3"
 street: Chemin des Clos 17
 postalcode: CH—1170
 place: Aubonne
