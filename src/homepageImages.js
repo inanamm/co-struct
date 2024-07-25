@@ -72,5 +72,4 @@ function createProjectElement(thumb) {
 
 document.addEventListener("DOMContentLoaded", function () {
   setupFilterButtons();
-  fetchProjects();
 });

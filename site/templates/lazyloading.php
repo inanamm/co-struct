@@ -12,18 +12,14 @@
 <?php snippet('head') ?>
 
 <body>
-    <main>
+    <main class="h-screen">
         <?php foreach ($site->images() as $image): ?>
-            <img alt="<?= $image->alt() ?>" class="lazy" data-src="<?= $image->url() ?>" />
-
+            <img class="h-48" 
+            src="<?= $image->thumbhashUri() ?>" data-src="<?= $image->url() ?>" loading="lazy"
+                alt="<?= $image->alt() ?>" />
         <?php endforeach ?>
     </main>
-    <script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.iife.js"></script>
-    <script>
-        var lazyLoadInstance = new LazyLoad({
-            // Your custom settings go here
-        });
-    </script>
+    <script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.iife.js" defer init></script>
 </body>
 
 </html>
