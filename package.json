@@ -12,7 +12,8 @@
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
     "alpinejs": "^3.13.10",
-    "animejs": "^3.2.2"
+    "animejs": "^3.2.2",
+    "htmx.org": "^2.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
