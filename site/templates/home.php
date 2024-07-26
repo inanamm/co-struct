@@ -81,7 +81,7 @@
                             <button
                               data-tag="<?= $tag ?>"
                               class="tag-button"
-                              hx-get="/htmx-projects/<?= $tag ?>"
+                              hx-get="/htmx-projects/<?= $tag ?>?language=fr"
                               hx-trigger="click"
                               hx-target="#content"
                               hx-swap="innerHTML"

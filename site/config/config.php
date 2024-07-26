@@ -39,6 +39,8 @@ return [
             'pattern' => 'htmx-projects/(:any)',
             'method'  => 'GET',
             'action'  => function ($filter) {
+                $language = get('language');
+
                 $projects = site()->page('projects')->children()->listed();
                 if ($filter && $filter !== 'all') {
                     $projects = $projects->filterBy('tag', $filter);
@@ -46,6 +48,7 @@ return [
 
                 return snippet('tagImages', [
                     "projects" => $projects,
+                    "language" => $language,
                 ], true);
             }
         ],

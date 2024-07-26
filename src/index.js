@@ -70,12 +70,15 @@ function removeFilterFromURL() {
 const elements = document.querySelectorAll('.tag-button');
 const homeButton = document.getElementById('home-button');
 
-homeButton.addEventListener('click', function () {
-  removeFilterFromURL()
-  elements.forEach(el => {
-    el.parentElement.classList.remove('pl-3', 'text-cslightblue');
-  });
-})
+if (homeButton) {
+  homeButton.addEventListener('click', function () {
+    removeFilterFromURL()
+    elements.forEach(el => {
+      el.parentElement.classList.remove('pl-3', 'text-cslightblue');
+    });
+  })
+}
+
 elements.forEach(element => {
   element.addEventListener('click', function () {
     removeFilterFromURL()

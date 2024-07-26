@@ -1,15 +1,15 @@
-<?php displayProjectImages($projects); ?>
+<?php displayProjectImages($projects, $language); ?>
 
 <?php
-function displayProjectImages($filteredProjects): void {
+function displayProjectImages($filteredProjects, $language): void {
 
   $allProjectImagesWithUrl = [];
   foreach ($filteredProjects as $singleProject) {
     foreach ($singleProject->gallery()->toFiles() as $image) {
       $allProjectImagesWithUrl[] = (object)[
         'image'        => $image,
-        'projectTitle' => $singleProject->title(),
-        'projectUrl'   => $singleProject->url(),
+        'projectTitle' => $singleProject->content("fr")->get('title'),
+        'projectUrl'   => $singleProject->url($language),
       ];
     }
   }

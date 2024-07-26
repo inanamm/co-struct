@@ -1,8 +1,4 @@
-Title: Haus der Kreativität
-
-----
-
-Listtitle: <p>FR Haus der Kreativität</p>
+Title: Haus der Kreativität FR
 
 ----
 
@@ -43,6 +39,10 @@ Im Inneren des "Farbigen Hauses der Kreativität" finden sich innovative Wohnkon
 Das Gebäude wird nicht nur als Wohnraum genutzt, sondern auch als Treffpunkt für Künstler, Designer und kreative Köpfe aus der Stadt. Es bietet Galerien, Ateliers und Veranstaltungsräume, um die lokale Kunstszene zu fördern und eine Plattform für kulturellen Austausch und Inspiration zu schaffen.
 
 Unser Ziel mit diesem Projekt ist es, die Stadtlandschaft zu bereichern und ein Symbol der Kreativität und Lebensfreude zu schaffen. "Das Farbige Haus der Kreativität" ist nicht nur ein Ort zum Leben, sondern ein Ort, der die Sinne anspricht, die Vorstellungskraft beflügelt und die Gemeinschaft fördert. Es ist ein Ausdruck der Überzeugung, dass Farbe und Architektur die Lebensqualität in der Stadt steigern können, und ein Ort, an dem die Menschen sich inspiriert fühlen.
+
+----
+
+Listtitle: <p>FR Haus der Kreativität</p>
 
 ----
 
