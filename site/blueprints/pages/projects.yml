@@ -20,12 +20,6 @@ tabs:
         label: Published Drafts
         status: listed
 
-# fields:
-#   info:
-#     label: Info
-#     type: info
-#     text: |
-#       WOops! You can't edit anything on this page. Please go back to the panel homepage to the tab "projects".
 
 options:
   changeSlug:
@@ -38,6 +32,7 @@ options:
     editor: false
   create:
     editor: true
+    admin: true
   delete:
     editor: false
   duplicate:
