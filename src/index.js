@@ -1,12 +1,22 @@
 import Alpine from "alpinejs";
 import Glide from "@glidejs/glide";
 import anime from "animejs/lib/anime.es.js";
+import {lazyLoad} from 'unlazy'
+import Htmx from 'htmx.org';
 
 import "./index.css";
 
+window.htmx = Htmx;
 window.Alpine = Alpine;
 
 Alpine.start();
+
+lazyLoad();
+document.addEventListener('htmx:afterSwap', function (event) {
+  if (event.detail.target.id === 'content') {
+    lazyLoad('img[data-custom-lazy]')
+  }
+});
 
 const timeLine = anime
   .timeline()
@@ -25,33 +35,6 @@ const timeLine = anime
     },
     "-=100",
   )
-  .add(
-    {
-      targets: "#second",
-      opacity: "100%",
-      duration: 600,
-      easing: "easeInOutCubic",
-    },
-    "-=2000",
-  )
-  .add(
-    {
-      targets: "#third",
-      opacity: "100%",
-      duration: 1000,
-      easing: "easeInOutCubic",
-    },
-    "-=2800",
-  )
-  .add(
-    {
-      targets: "#four",
-      opacity: "100%",
-      duration: 400,
-      easing: "easeInOutCubic",
-    },
-    "-=3000",
-  );
 
 if (document.querySelector(".glide")) {
   let glide = new Glide(".glide", {
@@ -76,3 +59,33 @@ if (document.querySelector(".glide")) {
     });
   });
 }
+
+function removeFilterFromURL() {
+  const url = new URL(window.location);
+  const params = url.pathname.split('/').filter(param => !param.includes(`filter:`));
+  const newPathname = params.join('/');
+  history.pushState({}, '', newPathname);
+}
+
+const elements = document.querySelectorAll('.tag-button');
+const homeButton = document.getElementById('home-button');
+
+if (homeButton) {
+  homeButton.addEventListener('click', function () {
+    removeFilterFromURL()
+    elements.forEach(el => {
+      el.parentElement.classList.remove('pl-3', 'text-cslightblue');
+    });
+  })
+}
+
+elements.forEach(element => {
+  element.addEventListener('click', function () {
+    removeFilterFromURL()
+    elements.forEach(el => {
+      el.parentElement.classList.remove('pl-3', 'text-cslightblue');
+    });
+    element.parentElement.classList.add('pl-3', 'text-cslightblue');
+  })
+});
+

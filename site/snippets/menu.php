@@ -74,15 +74,15 @@
     <div class="flex flex-col pt-2 pb-5 px-3 font-mono text-sm gap-3">
       <?php snippet('contact', ['phone' => $site->phone(), 'email' => $site->email()]) ?>
       <?php if ($site->addresses()->toStructure()->first()->toggle()->toBool() === true): ?>
-					<div class="flex flex-col gap-4">
-						<?php if ($footerAddress = $site->addresses()->toStructure()->first()): ?>
-							<?= $footerAddress->companyName() ?></br>
-							<?= $footerAddress->description() ?></br>
-							<?= $footerAddress->street() ?></br>
-							<?= $footerAddress->place() ?></br>
-						<?php endif ?>
-					</div>
-				<?php endif ?>
+        <div class="flex flex-col gap-4">
+          <?php if ($footerAddress = $site->addresses()->toStructure()->first()): ?>
+            <?= $footerAddress->companyName() ?></br>
+            <?= $footerAddress->description() ?></br>
+            <?= $footerAddress->street() ?></br>
+            <?= $footerAddress->place() ?></br>
+          <?php endif ?>
+        </div>
+      <?php endif ?>
     </div>
   </div>
 
