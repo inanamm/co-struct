@@ -59,6 +59,7 @@ return [
         'research'           => 'Recherche',
         'serviceAndIndustry' => 'Services et industrie',
         'sportAndCulture'    => 'Sport et culture',
+        'field'              => 'Domaine',
 
         'choiceone'   => 'Recherche',
         'choicetwo'   => 'Divers',

@@ -1,4 +1,4 @@
-Title: Basler Münster
+Title: Projekttitel
 
 ----
 
@@ -6,7 +6,7 @@ Categoryb: choicetwo
 
 ----
 
-Tag: building
+Tag: artInstallation
 
 ----
 
@@ -49,7 +49,7 @@ Das Basler Münster ist nicht nur ein Ort der Anbetung, sondern auch ein Ort der
 
 ----
 
-Listtitle: <p>Münster</p>
+Listtitle: <p>Projektname</p>
 
 ----
 
