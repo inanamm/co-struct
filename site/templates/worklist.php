@@ -48,7 +48,7 @@
                     return $project->categoryB()->value() !== 'choicethree';
                 })->sortBy('title', 'asc'); ?>
 
-                <div class="font-mono text-sm grid grid-cols-2 lg:grid-cols-12 lg:gap-1 pb-1">
+                <div class="font-mono text-sm grid gap-x-2 grid-cols-2 lg:grid-cols-12 lg:gap-1 pb-1">
                     <p class="lg:col-span-3"><?= t("projecttitle") ?></p>
                     <p class="hidden lg:block lg:row-start-1 lg:col-span-3"><?= t("project") ?></p>
                     <p class="col-start-2 lg:col-span-2"><?= t("collaboration") ?></p>
@@ -65,7 +65,7 @@
                     ?>
 
                     <a href=<?= $url ?>
-                        class="grid grid-cols-2 lg:grid-cols-12 py-1 border-t border-csblack last:border-b lg:gap-1 hover:text-cslightblue group">
+                        class="grid grid-cols-2 gap-x-2 lg:grid-cols-12 py-1 border-t border-csblack last:border-b lg:gap-1 hover:text-cslightblue group">
 
                         <div class="hidden col-span-1 lg:col-span-3 lg:flex flex-row">
                             <p class="hidden lg:group-hover:block pr-1">↗</p>
@@ -122,7 +122,7 @@
                         return $project->categoryB()->value() === 'choicethree' || $project->categoryB()->value() === 'choicefour';
                     })->sortBy('title', 'asc'); ?>
 
-                    <div class="font-mono text-sm grid grid-cols-2 lg:grid-cols-12 lg:gap-1 pb-1">
+                    <div class="font-mono text-sm grid grid-cols-2 gap-x-2 lg:grid-cols-12 lg:gap-1 pb-1">
                         <p class="row-start-1 col-start-1 lg:col-start-1 lg:col-span-3"><?= t("projecttitle") ?></p>
                         <p class="row-start-2 lg:row-start-auto lg:col-span-3"><?= t("competition result") ?>
                         </p>
@@ -140,7 +140,7 @@
                         ?>
 
                         <a href=<?= $url ?>
-                            class="grid grid-rows-2 auto-cols-fr grid-flow-col lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-12 py-1 border-t border-csblack last:border-b lg:gap-1 hover:text-cslightblue group">
+                            class="grid auto-cols-fr grid-flow-col gap-x-2 lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-12 py-1 border-t border-csblack last:border-b lg:gap-1 hover:text-cslightblue group">
 
                             <div class="lg:col-span-3 lg:flex">
                                 <p class="hidden lg:group-hover:block pr-1">↗</p>

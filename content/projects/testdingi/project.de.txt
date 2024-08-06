@@ -2,7 +2,7 @@ Title: testdingi
 
 ----
 
-Categoryb: choicethree
+Categoryb: choicefour
 
 ----
 
@@ -44,7 +44,7 @@ Text:
 
 ----
 
-Listtitle: <p>Testprojekt Privat Published</p>
+Listtitle: <p>Testprojekt Privat Published Mega Langer Titel als Test für den Umbruch</p>
 
 ----
 
