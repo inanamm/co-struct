@@ -51,8 +51,8 @@
                 <div class="font-mono text-sm grid gap-x-2 grid-cols-2 lg:grid-cols-12 lg:gap-1 pb-1">
                     <p class="lg:col-span-3"><?= t("projecttitle") ?></p>
                     <p class="hidden lg:block lg:row-start-1 lg:col-span-3"><?= t("project") ?></p>
-                    <p class="col-start-2 lg:col-span-2"><?= t("collaboration") ?></p>
-                    <p class="col-start-2 lg:col-span-3"><?= t("field") ?></p>
+                    <p class="col-start-2 lg:col-span-3"><?= t("collaboration") ?></p>
+                    <p class="col-start-2 lg:col-span-2"><?= t("field") ?></p>
                     <p class="col-start-2 lg:col-span-1 lg:text-right"><?= t("timeframe") ?></p>
                 </div>
 
@@ -79,18 +79,18 @@
                         $architecture = $info->findBy("projectdetails", "architecture");
                         ?>
                         <?php if ($collab): ?>
-                            <div class="col-start-2 col-span-1 lg:col-span-2">
+                            <div class="col-start-2 col-span-1 lg:col-span-3">
                                 <?= $collab->value()->excerpt(0, true) ?>
                             </div>
                         <?php endif ?>
                         <?php if (!$collab && $architecture): ?>
-                            <div class="col-start-2 col-span-1 lg:col-span-2">
+                            <div class="col-start-2 col-span-1 lg:col-span-3">
                                 <?= $architecture->value()->excerpt(0, true) ?>
                             </div>
                         <?php endif ?>
 
 
-                        <div class="col-start-2 col-span-1 lg:col-span-3">
+                        <div class="col-start-2 col-span-1 lg:col-span-2">
                             <?= t($project->tag()->value()) ?>
                         </div>
 
@@ -126,8 +126,8 @@
                         <p class="row-start-1 col-start-1 lg:col-start-1 lg:col-span-3"><?= t("projecttitle") ?></p>
                         <p class="row-start-2 lg:row-start-auto lg:col-span-3"><?= t("competition result") ?>
                         </p>
-                        <p class="col-start-2 lg:col-span-2"><?= t("collaboration") ?></p>
-                        <p class="col-start-2 lg:col-span-3"><?= t("field") ?></p>
+                        <p class="col-start-2 lg:col-span-3"><?= t("collaboration") ?></p>
+                        <p class="col-start-2 lg:col-span-2"><?= t("field") ?></p>
                         <p class="col-start-2 lg:col-span-1 lg:text-right"><?= t("timeframe") ?></p>
                     </div>
 
@@ -159,17 +159,17 @@
                             $architecture2 = $info->findBy("projectdetails", "architecture");
                             ?>
                             <?php if ($collab2): ?>
-                                <div class="col-start-2 lg:col-span-2">
+                                <div class="col-start-2 lg:col-span-3">
                                     <?= $collab2->value()->excerpt(0, true) ?>
                                 </div>
                             <?php endif ?>
                             <?php if (!$collab2 && $architecture2): ?>
-                                <div class="col-start-2 lg:col-span-2">
+                                <div class="col-start-2 lg:col-span-3">
                                     <?= $architecture2->value()->excerpt(0, true) ?>
                                 </div>
                             <?php endif ?>
 
-                            <div class="col-start-2 lg:col-span-3">
+                            <div class="col-start-2 lg:col-span-2">
                                 <?= t($project->tag()->value()) ?>
                             </div>
 
