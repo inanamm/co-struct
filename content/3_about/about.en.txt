@@ -1,0 +1,124 @@
+Title: About us
+
+----
+
+Bueroprofil: <p>co–struct is an owner-managed office for structural engineering with a slightly different corporate culture.</p><p>Our goal is to plan innovative structural systems from the very beginning of a project, with a special focus on aesthetic aspects. Close collaboration with various partners and proactive optimization of the conceived structures are close to co–struct's heart. Ecology in construction stimulates our creativity to find the most suitable materials for each building.</p><p>Our corporate culture emphasizes interpersonal relationships. In our projects, we strive for open and constructive communication between all parties involved to foster joy and motivation. Internally, bossy attitudes and complex hierarchies are as foreign to us as garden politics. Challenges are tackled together, problems are openly addressed and solved. We want to create a place where we not only work but also live friendship and freedom, with room for diverse personalities, interests, and development. This enables us to fully realize our potential.</p>
+
+----
+
+Coworkerstitle: Team
+
+----
+
+Coworkers:
+
+- 
+  name: Fabrice Meylan
+  title: Geschäftsleitung | Co–Founder
+  phone: +41 79 363 29 36
+  email: fabrice@co-struct.ch
+  description: Bio
+  image: [ ]
+- 
+  name: Sam Bouten
+  title: GL
+  phone: +41 79 305 32 46
+  email: sam@co-struct.ch
+  description: Bio
+  image: [ ]
+
+----
+
+Applicationstitle: Applications
+
+----
+
+Openpositionslinktext: Out open positions
+
+----
+
+Noopenpositions: Unfortunately, we currently do not have any open positions. If you feel inspired by our team, we would be happy to receive your application materials (a portfolio would be great!) and a few lines about your vision of structural engineering in Switzerland.
+
+----
+
+Oldcoworkerstitle: Former Employees
+
+----
+
+Worklisttitle: Worklist
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
+
+----
+
+Competitionlist: <ul><li>fdsafdsaf</li><li>fdsfdsfdsa</li><li>fdsfdsfdsa</li><li>fdsfdfdsa</li><li>fdsdsa</li></ul>
+
+----
+
+Worklist: 
+
+----
+
+Sitetitle: Wer wir sind

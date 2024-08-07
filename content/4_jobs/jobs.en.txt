@@ -1,0 +1,77 @@
+Title: Open positions
+
+----
+
+Sitetitle: Open positions
+
+----
+
+Bueroprofil: EN co–struct is designed as an office with a flat hierarchy. We work closely as a team and rely on motivated and dedicated employees. With a flat hierarchy comes a significant amount of responsibility, which we are happy to entrust to you.
+
+----
+
+Endtext: <p>If this sounds like a suitable description for you, please feel free to contact us via Mail for one of the positions described above.</p>
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
