@@ -15,4 +15,9 @@
   <?php snippet('cookieconsentCss') ?>
 
   <?= vite()->css('index.css') ?>
+    <?php if ($kirby->option('analytics', false)): ?>
+      hi boe, analytics are on!
+    <?php endif; ?>
+
+    <?= vite()->css('index.css') ?>
 </head>
