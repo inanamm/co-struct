@@ -158,3 +158,4 @@ options:
   changeStatus:
     editor: true
     admin: true
+    

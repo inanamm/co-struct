@@ -73,31 +73,16 @@
 
     <div class="flex flex-col pt-2 pb-5 px-3 font-mono text-sm gap-3">
       <?php snippet('contact', ['phone' => $site->phone(), 'email' => $site->email()]) ?>
-      <?php if ($address = $site->addressZH()->toObject()): ?>
-        <?php snippet(
-          'address',
-          [
-            'companyName' => $address->companyName(),
-            'description' => $address->description(),
-            'street' => $address->street(),
-            'postalCode' => $address->postalCode(),
-            'place' => $address->place(),
-          ]
-        ) ?>
-      <?php endif ?>
-
-      <?php if ($address = $site->addressVD()->toObject()): ?>
-        <?php snippet(
-          'address',
-          [
-            'companyName' => $address->companyName(),
-            'description' => $address->description(),
-            'street' => $address->street(),
-            'postalCode' => $address->postalCode(),
-            'place' => $address->place(),
-          ]
-        ) ?>
-      <?php endif ?>
+      <?php if ($site->addresses()->toStructure()->first()->toggle()->toBool() === true): ?>
+					<div class="flex flex-col gap-4">
+						<?php if ($footerAddress = $site->addresses()->toStructure()->first()): ?>
+							<?= $footerAddress->companyName() ?></br>
+							<?= $footerAddress->description() ?></br>
+							<?= $footerAddress->street() ?></br>
+							<?= $footerAddress->place() ?></br>
+						<?php endif ?>
+					</div>
+				<?php endif ?>
     </div>
   </div>
 

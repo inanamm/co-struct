@@ -6,7 +6,7 @@ Categoryb: choicetwo
 
 ----
 
-Tag: building
+Tag: infrastructure
 
 ----
 

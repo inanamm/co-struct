@@ -1,12 +1,12 @@
-Title: SmartCity Mobility
+Title: Die aufgehängte Turnhalle
 
 ----
 
-Categoryb: choiceone
+Categoryb: choicefour
 
 ----
 
-Tag: notbuilt
+Tag: serviceAndIndustry
 
 ----
 
@@ -27,6 +27,9 @@ Information:
 - 
   projectdetails: timeframe
   value: 2022–2023
+- 
+  projectdetails: competition result
+  value: '<p>1. Platz</p>'
 
 ----
 
@@ -52,7 +55,7 @@ Diese umfassenden Ziele sind die Grundlage unseres Engagements, die Stadt in ein
 
 ----
 
-Listtitle: <p>SmartCity</p>
+Listtitle: <p>Collège de Vidy, Lausanne</p>
 
 ----
 

@@ -71,6 +71,7 @@ return [
         'research'           => 'Forschung',
         'serviceAndIndustry' => 'Dienstleistung und Gewerbe',
         'sportAndCulture'    => 'Sport und Kultur',
+        'field'              => 'Bereich',
 
         'choiceone'             => 'Recherche',
         'choicetwo'             => 'Anderes',
