@@ -2,6 +2,7 @@
 
 return [
 	'debug' => true,
+	'analytics' => false,
 	'cache' => [
 		'pages' => [
 			'type' => 'php',
