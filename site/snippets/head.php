@@ -11,5 +11,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="Deutsch, Francais">
 
+    <?php if ($kirby->option('analytics', false)): ?>
+      hi boe, analytics are on!
+    <?php endif; ?>
+
     <?= vite()->css('index.css') ?>
 </head>
