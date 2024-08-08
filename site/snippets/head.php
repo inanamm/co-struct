@@ -15,25 +15,12 @@
   <?php snippet('cookieconsentCss') ?>
 
   <?php if ($kirby->option('analytics', false)): ?>
-    <script id="google-analytics" async type="text/plain" data-category="measurement">
-            console.log("test");
-          </script>
+    <script id="google-analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-L8GEECWSV2" type="text/plain"
+      data-category="measurement"></script>
 
     <script type="text/plain" data-category="measurement" data-service="Google Analytics">
-
-            function setCookie(name, value, days, path) {
-              let expires = "";
-              if (days) {
-                  const date = new Date();
-                  date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-                  expires = "; expires=" + date.toUTCString();
-              }
-              document.cookie = name + "=" + (value || "") + expires + "; path=" + (path || "/");
-            }
-
-            setCookie("testCookie", "testValue", 7);
-            setCookie("_ga", "GA1.2.123456789.123456789", 365); 
-          </script>
+      window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-L8GEECWSV2');
+    </script>
   <?php endif; ?>
 
   <?= vite()->css('index.css') ?>
