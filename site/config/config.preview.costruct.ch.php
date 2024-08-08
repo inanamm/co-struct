@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'analytics' => true,
+    'analytics' => false,
 ];
