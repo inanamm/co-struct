@@ -1,0 +1,80 @@
+Title: News
+
+----
+
+News:
+
+- 
+  image: [ ]
+  date: 2023-09-24
+  title: '<p>co–struct receives prestigious architecture award</p>'
+  description: '<p>The engineering and structural design firm Co–Struct is awarded a prestigious architecture prize for its outstanding work on a skyscraper project.</p>'
+- 
+  image: [ ]
+  date: 2023-09-20
+  title: '<p>co–struct presents innovative construction software</p>'
+  description: '<p>co–struct introduces an innovative software solution that optimizes construction designs and increases cost efficiency.</p>'
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 

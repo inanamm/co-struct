@@ -1,0 +1,122 @@
+Title: EN Projekttitel
+
+----
+
+Information:
+
+- 
+  projectdetails: client
+  value: Die Stadt Basel
+- 
+  projectdetails: architecture
+  value: >
+    Verschiedene Architekten über
+    Jahrhunderte
+- 
+  projectdetails: location
+  value: CH—4051 Basel
+- 
+  projectdetails: timeframe
+  value: '<p>2014</p>'
+- 
+  projectdetails: collaboration
+  value: '<p>Test</p>'
+- 
+  projectdetails: competition result
+  value: '<p>3. Preis</p>'
+
+----
+
+Texttitle: Die Altehrwürdige Kathedrale
+
+----
+
+Text:
+
+Das Basler Münster ist ein zeitloses und architektonisch faszinierendes Bauwerk, das im Herzen von Basel thront. Seine Geschichte erstreckt sich über Jahrhunderte hinweg, und verschiedene Architekten haben dazu beigetragen, dieses religiöse und kulturelle Wahrzeichen zu formen.
+
+Die gotische Architektur des Münsters mit ihren filigranen Türmen und kunstvollen Verzierungen fasziniert Besucher aus aller Welt. Das Innere des Münsters ist ebenso beeindruckend, mit prachtvollen Fresken, glänzenden Glasfenstern und einer Aura der Spiritualität.
+
+Das Basler Münster ist nicht nur ein Ort der Anbetung, sondern auch ein Ort der Geschichte und Kultur. Es spiegelt die eindrucksvolle Handwerkskunst vergangener Epochen wider und bleibt ein stolzes Symbol für die Stadt Basel und die Schweizer Architekturgeschichte.
+
+----
+
+Listtitle: <p>Projektname</p>
+
+----
+
+Gallery:
+
+- file://gNpkTFSNieEBwuiN
+- file://Z6ZWFOySuTVVr6SU
+- file://MKkSVR1yw2pEvRr8
+- file://0Eje026kXGPOfbZp
+- file://l0DpAUCkwPJ4bzzO
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 

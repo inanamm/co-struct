@@ -1,0 +1,116 @@
+Title: EN Tonhalle Maag
+
+----
+
+Information:
+
+- 
+  projectdetails: client
+  value: Tonhalle-Gesellschaft Zürich
+- 
+  projectdetails: architecture
+  value: Annette Gigon / Mike Guyer Architekten
+- 
+  projectdetails: ""
+  value: CH—8005 Zürich
+- 
+  projectdetails: ""
+  value: 100 Mio
+- 
+  projectdetails: timeframe
+  value: 2010–2014
+
+----
+
+Texttitle: Die Elegante Philharmonie
+
+----
+
+Text:
+
+Die Tonhalle Maag ist ein beeindruckendes architektonisches Juwel im Herzen von Zürich. Dieses erstklassige Konzertgebäude wurde als Erweiterung der Tonhalle Zürich konzipiert und bietet eine herausragende Akustik und eine moderne, ästhetisch ansprechende Umgebung für musikalische Darbietungen.
+
+Die Architektur von Annette Gigon und Mike Guyer zeichnet sich durch klare Linien und moderne Formen aus. Die Konzertsaal-Fassade ist mit einer reflektierenden Glasfront gestaltet, die das Gebäude in der Umgebung lebendig erscheinen lässt. Das Innere des Saals wurde sorgfältig gestaltet, um eine optimale Klangqualität zu gewährleisten, was es zu einem beliebten Ziel für erstklassige musikalische Aufführungen macht.
+
+Die Tonhalle Maag ist nicht nur ein Ort für klassische Musik, sondern auch für eine Vielzahl von musikalischen Genres und kulturellen Veranstaltungen. Sie hat sich zu einem wichtigen kulturellen Zentrum in Zürich entwickelt, das die Vielfalt der musikalischen Welt feiert und ein breites Publikum anspricht.
+
+----
+
+Listtitle: <p>Maaghalle</p>
+
+----
+
+Gallery:
+
+- file://vLHAfNzKd2Z5o8E3
+- file://SbuK8ZDMdUNoK5RV
+- file://dASKm58VXC1TGCLM
+- file://XqTHnLM3UIHnTArG
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 

@@ -1,0 +1,126 @@
+Title: EN Die Fachwerk-Sheds
+
+----
+
+Information:
+
+- 
+  projectdetails: client
+  value: Gemeinde Vals
+- 
+  projectdetails: architecture
+  value: '<p><a href="https://google.com">Peter Zumthor</a></p>'
+- 
+  projectdetails: location
+  value: 6 Mio
+- 
+  projectdetails: timeframe
+  value: 1993–1996
+- 
+  projectdetails: span
+  value: 340m²
+- 
+  projectdetails: electro
+  value: '<p>CH—9765 Vals</p>'
+- 
+  projectdetails: mobility
+  value: '<p>fjdksla</p>'
+- 
+  projectdetails: competition result
+  value: '<p>1. Preis</p>'
+
+----
+
+Texttitle: EN Die Alpine Schönheit ?
+
+----
+
+Text: <p>EN in "Meisterwerk ?" l'école "hallo, ich bin ein 'künstler', was bist du ?"  1/2 ``hallo`` ^ ` '  ? “ # Ç [ ] |  { } ≠ ¿ ´  \`künstler\` </p><p>Die <a href="https://www.google.com/" target="_blank">Therme Vals</a> ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.</p><p>Die <a href="https://www.google.com/" target="_blank">Therme Vals</a> ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.</p><p>Die <a href="https://www.google.com/" target="_blank">Therme Vals</a> ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.</p>
+
+----
+
+Listtitle: <p>EN Schule Eglisau</p>
+
+----
+
+Gallery:
+
+- file://gBqsQCjtBRbpGt9F
+- file://O0svetcUwQUPCwAY
+- file://UOTz3a1NLiaBoiJX
+- file://cmtRL4UoEXFeHylA
+- file://jILioJaUmwtCITo3
+- file://pwMVRYH1tSCIkZHt
+- file://x9iePdl6MQNWlAcY
+
+----
+
+Credit: <p><a href="https://www.google.com/" target="_blank">Robert</a>, <a href="https://www.google.com/" target="_blank" title="hallo">Röbi</a> und <a href="https://www.google.com/" target="_blank">Rolf</a></p>
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
+
+----
+
+Name: Schule Eglisau
