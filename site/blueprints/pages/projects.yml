@@ -46,5 +46,5 @@ options:
     editor: true
   list: 
     admin: true
-    editor: false
+    # editor: false
     
