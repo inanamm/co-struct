@@ -19,9 +19,9 @@
   },
   "require": {
     "php":                    ">=8.0.0 <8.3.0",
-    "getkirby/cms":           "4.4.1", 
-    "arnoson/kirby-vite":     "5.3.1",
-    "tobimori/kirby-seo":     "1.1.2",
+    "getkirby/cms":           "^4.8", 
+    "arnoson/kirby-vite":     "^5.6.1",
+    "tobimori/kirby-seo":     "^1.1.2",
     "zephir/kirby-cookieconsent": "^3.2"
   },
   "config": {
