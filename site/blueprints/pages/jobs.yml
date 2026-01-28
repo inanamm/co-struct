@@ -35,9 +35,9 @@ tabs:
         template: job
         type: pages
 
-    options:
-      url: false
-      status: false
-      delete: false
+options:
+  url: false
+  status: false
+  delete: false
 
   seo: seo/page
