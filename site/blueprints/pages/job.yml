@@ -41,3 +41,7 @@ sections:
               - ul
             spellcheck: true
 
+options:
+  changeStatus: true
+  delete: true
+
