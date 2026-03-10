@@ -9,34 +9,47 @@ Intro: <p>co–struct ist ist ein inhabergeführtes Büro für Tragwerksplanung 
 Addresses:
 
 - 
-  companyname: co–struct AG
-  description: NEU Tragwerksentwurf
-  street: Hohlstrasse 209
+  companyname: HI co–struct AG
+  description: Tragwerksplanung
+  street: Weberstrasse 12
   place: CH—8004 Zürich
+  phonenumber: +41 44 506 66 30
   toggle: 'true'
-  postalcode: "8004"
-  zip: ""
-  city: ""
+  footer_toggle: 'true'
+  footertoggle: 'true'
+  toggle2: false
 - 
   companyname: co–struct SA
-  description: NOUVEAU Design structurel
-  street: Chemin des Clos 17
-  place: CH—1170 Aubonne
+  description: Ingénierie structurelle
+  street: Rue du Petit-Chêne 38
+  place: CH—1003 Lausanne
+  phonenumber: +41 21 888 45 60
   toggle: 'true'
+  footer_toggle: 'true'
+  footertoggle: 'true'
+  toggle2: true
 - 
-  companyname: co–struct Nummer 3
-  description: hihi
-  street: Hallihallo strasse 9
-  place: CH—8005 Zürich
+  companyname: co–struct
+  description: INTERNATIONAL
+  street: California Drive
+  place: London
+  phonenumber: +41 666 55 55
   toggle: 'true'
+  footer_toggle: 'true'
+  footertoggle: 'true'
+  toggle2: true
+- 
+  companyname: co–struct 4
+  description: NATIONAL
+  street: Blueberry Road
+  place: Miami
+  phonenumber: +749 320 23 45
+  toggle: 'true'
+  footer_toggle: 'true'
 
 ----
 
 Email: hello@co-struct.ch
-
-----
-
-Phone: +41 44 506 66 30
 
 ----
 
@@ -100,33 +113,7 @@ Socialmediaaccounts:
 
 ----
 
-Addresszh:
-
-companyname: co–struct AG
-description: Tragwerksplanung
-street: Förrlibuckstrasse 225
-postalcode: CH—8005
-place: Zürich
-
-----
-
-Addressvd:
-
-companyname: co–struct AG
-description: Ingénierie structurale
-street: Chemin des Clos 17
-postalcode: CH—1170
-place: Aubonne
-
-----
-
-Addressoffice:
-
-description: Büroadresse
-companyname: co–struct AG
-street: Badenerstrasse 370
-postalcode: CH—8004
-place: Zürich
+Phone: +41 44 506 66 30
 
 ----
 
@@ -259,3 +246,33 @@ Robots-nosnippet: enabled
 ----
 
 Text: 
+
+----
+
+Addresszh:
+
+companyname: co–struct AG
+description: Tragwerksplanung
+street: Förrlibuckstrasse 225
+postalcode: CH—8005
+place: Zürich
+
+----
+
+Addressvd:
+
+companyname: co–struct AG
+description: Ingénierie structurale
+street: Chemin des Clos 17
+postalcode: CH—1170
+place: Aubonne
+
+----
+
+Addressoffice:
+
+description: Büroadresse
+companyname: co–struct AG
+street: Badenerstrasse 370
+postalcode: CH—8004
+place: Zürich

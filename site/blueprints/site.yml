@@ -56,29 +56,33 @@ tabs:
             type: fields
             fields:
               info:
-                label: Info Addresses
+                label: General 
                 type: info
                 theme: positive
-                text: The first address in the list will be displayed in the footer as well. It is also shown on top on the about page.
+                text: The toggle for visibility can be turned off to make an address disappear without deleting it. The visibilty can be targeted separately for the footer and the about page.
               info2:
-                label: Main Address
+                label: Footer Info
                 type: info
-                theme: warning
-                text: The toggle for visibility can be turned off to make an address disappear without deleting it. Turning off the first one will also make it disappear in the footer!
+                theme: critical
+                text: In the footer a maximum of 3 visible addresses is recommended. If more than 3 addresses are visible, the fourth address will be hidden.
               addresses:
                 label: Addresses
                 type: structure
                 columns:
                   companyName:
-                    width: 2/9
+                    width: 2/11
                   description:
-                    width: 2/9
+                    width: 3/11
                   street:
-                    width: 2/9
+                    width: 3/11
                   place:
-                    width: 2/9
+                    width: 3/11
+                  phoneNumber:
+                    width: 3/11
                   toggle:
-                    width: 1/9
+                    width: 2/11
+                  footer_toggle:
+                    width: 2/11
                 fields:
                   companyName:
                     label: Name
@@ -96,8 +100,20 @@ tabs:
                     label: CH—0000 Place
                     type: text
                     width: 1/2
+                  phoneNumber:
+                    label: Phone Number
+                    type: tel
+                    width: 1/2
                   toggle:
-                    label: Visible
+                    label: About Page
+                    type: toggle
+                    width: 1/4
+                    text: 
+                      - "No"
+                      - "Yes"
+                    default: true
+                  footer_toggle:
+                    label: Footer
                     type: toggle
                     width: 1/4
                     text: 
@@ -114,9 +130,6 @@ tabs:
               email:
                 label: General Email
                 type: email
-              phone:
-                label: General Phonennumber
-                type: tel
               instagram:
                 label: Instagram Handle
                 type: url
