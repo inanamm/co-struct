@@ -73,16 +73,23 @@
 
     <div class="flex flex-col pt-2 pb-5 px-3 font-mono text-sm gap-3">
       <?php snippet('contact', ['phone' => $site->phone(), 'email' => $site->email()]) ?>
-      <?php if ($site->addresses()->toStructure()->first()->toggle()->toBool() === true): ?>
-					<div class="flex flex-col gap-4">
-						<?php if ($footerAddress = $site->addresses()->toStructure()->first()): ?>
-							<?= $footerAddress->companyName() ?></br>
-							<?= $footerAddress->description() ?></br>
-							<?= $footerAddress->street() ?></br>
-							<?= $footerAddress->place() ?></br>
-						<?php endif ?>
+			<?php
+			$addresses = $site->addresses()->toStructure();
+			$visibleAddresses = $addresses->filter(fn ($address) => $address->footer_toggle()->toBool())->limit(3);
+
+			if ($visibleAddresses->isNotEmpty()): ?>
+					<div class="grid gap-4">
+						<?php foreach ($visibleAddresses as $address): ?>
+							<div class="singleAddress">
+								<?= $address->companyName() ?><br>
+								<?= $address->description() ?><br>
+								<?= $address->street() ?><br>
+								<?= $address->place() ?><br>
+								<a href="tel:<?= $address->phoneNumber() ?>" class="underline-none hover:text-cslightblue"><?= $address->phoneNumber() ?></a>
+							</div>
+						<?php endforeach ?>
 					</div>
-				<?php endif ?>
+			<?php endif ?>		
     </div>
   </div>
 
