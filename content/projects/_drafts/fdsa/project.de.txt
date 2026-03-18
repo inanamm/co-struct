@@ -1,0 +1,132 @@
+Title: fdsa
+
+----
+
+Categoryb: choicetwo
+
+----
+
+Tag: infrastructure
+
+----
+
+Information: 
+
+----
+
+Texttitle: 
+
+----
+
+Text: 
+
+----
+
+Listtitle: <p>EFH</p>
+
+----
+
+Toggle-detailpage: true
+
+----
+
+Gallery:
+
+- file://Fydqg2xiSVBPCVBT
+- file://SbuK8ZDMdUNoK5RV
+- file://swXe0XVfBxoP9PFx
+- file://pwMVRYH1tSCIkZHt
+- file://Npzuv4BoRg3wYQQz
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Images:
+
+- 
+  image:
+    - file://UOTz3a1NLiaBoiJX
+  show_on_landing: 'false'
+- 
+  image:
+    - file://pwMVRYH1tSCIkZHt
+  show_on_landing: 'true'
+- 
+  image:
+    - file://gBqsQCjtBRbpGt9F
+  show_on_landing: 'true'
+
+----
+
+Toggle: false
+
+----
+
+Uuid: J4lhAxFHMiI716qL

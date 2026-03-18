@@ -121,11 +121,26 @@ tabs:
                 type: writer
                 label: List Name
                 help: Projectname in the index
+                placeholder: EFH/Brücke
+                maxlength: 60
                 translate: true
                 marks: false
                 nodes: false
+                required: true
+                width: 1/2
+              toggle_detailpage:
+                type: toggle
+                label: Detailpage?
+                text: 
+                  - "no"
+                  - "yes"
+                default: true
+                help: "No: The project is shown in the index but doesn't have it's own detailed page. No images shown on landing page."
+                width: 1/2
+                translate: false
               lineB:
                 type: line
+
           images:
             type: fields
             fields:
@@ -146,6 +161,7 @@ tabs:
                   - sub
                   - sup
                 nodes: false
+                placeholder: "Visualisierungen: Name"
 
 
 

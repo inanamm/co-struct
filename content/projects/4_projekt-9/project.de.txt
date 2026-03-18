@@ -59,7 +59,15 @@ Listtitle: <p>Collège de Vidy, Lausanne</p>
 
 ----
 
-Gallery: - file://93hMl9v5IM5o4szu
+Toggle-detailpage: false
+
+----
+
+Gallery:
+
+- file://93hMl9v5IM5o4szu
+- file://jRSnd1HeqY4uRCQ2
+- file://gX8mjIxThRIdKosx
 
 ----
 

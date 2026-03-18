@@ -1,0 +1,13 @@
+Sort: 1
+
+----
+
+Toggle-show-on-landing: true
+
+----
+
+Uuid: oTLzQ4cg9l4koYIX
+
+----
+
+Template: gallery-image
