@@ -117,6 +117,8 @@ function displayProjectImages($pages): void {
   $allProjectImagesWithUrl = [];
   foreach ($filteredProjects as $singleProject) {
     foreach ($singleProject->gallery()->toFiles() as $image) {
+      if ($image->show_on_landing()->isNotEmpty() && $image->show_on_landing()->toBool() === false) continue;
+
       $allProjectImagesWithUrl[] = (object)[
         'imageX'       => $image,
         'imageUrl'     => $image->url(),

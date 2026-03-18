@@ -80,6 +80,7 @@ return [
 				foreach ($projects as $project) {
 					$thumbsData = [];
 					foreach ($project->gallery()->toFiles() as $image) {
+						if ($image->show_on_landing()->isNotEmpty() && $image->show_on_landing()->toBool() === false) continue;
 						$thumb = $image->thumb([
 							'quality' => 60,
 							'lazy' => true,
