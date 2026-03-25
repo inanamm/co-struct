@@ -13,20 +13,8 @@ Tag: housing
 Information:
 
 - 
-  projectdetails: client
-  value: Tonhalle-Gesellschaft Zürich
-- 
-  projectdetails: architecture
-  value: Annette Gigon / Mike Guyer Architekten
-- 
-  projectdetails: ""
-  value: CH—8005 Zürich
-- 
-  projectdetails: ""
-  value: 100 Mio
-- 
-  projectdetails: timeframe
-  value: 2010–2014
+  projectdetails: construction period
+  value: '<p>fdsa</p>'
 
 ----
 
@@ -45,6 +33,10 @@ Die Tonhalle Maag ist nicht nur ein Ort für klassische Musik, sondern auch für
 ----
 
 Listtitle: <p>Maaghalle</p>
+
+----
+
+Toggle-detailpage: true
 
 ----
 

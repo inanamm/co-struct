@@ -50,28 +50,28 @@
             <div style="<?= calculateBarLength($page->categoryB()->escape()) ?>" class="bg-csblack h-[0.26rem] lg:hover:bg-csorange border-none lg:h-[0.40rem] self-left bar relative" onmouseover="document.querySelector('.category').style.color='#ff9900'; document.querySelector('.category').style.visibility='visible';" onmouseout="document.querySelector('.category').style.color='csblack'; document.querySelector('.category').style.visibility='hidden';">
             </div>
 
+        <?php if ($page->information()->toStructure()->isNotEmpty()) : ?>
             <div class="font-mono text-sm px-3 pt-2 pb-3 text_with_link">
-                <?php if ($info = $page->information()->toStructure()) : ?>
                     <?php snippet(
                         'accordion',
                         ['buttonText' => 'Information'],
                         slots: true
-                    )
-                    ?>
+                        )
+                        ?>
                     <?php slot() ?>
                     <div class="flex flex-col gap-3 mt-3">
-                        <?php foreach ($info as $detail) : ?>
+                        <?php foreach ($page->information()->toStructure() as $detail) : ?>
                             <div class="flex flex-col">
                                 <p><?= t($detail->projectDetails()->smartypants()) ?></p>
                                 <p><?= $detail->value()->smartypants() ?></p>
                             </div>
-                        <?php endforeach ?>
-                    </div>
+                            <?php endforeach ?>
+                        </div>
                     <?php endslot() ?>
-                    <?php endsnippet() ?>
-                <?php endif ?>
+                <?php endsnippet() ?>
             </div>
-
+        <?php endif ?>
+                    
             <article class="flex flex-col h-full font-sans text-base px-3 pt-2 pb-5 gap-3 text_with_link">
                 <h2><?= $page->textTitle()->kt()->smartypants() ?></h2>
                 <?= $page->text()->kt()->smartypants() ?>
