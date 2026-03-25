@@ -21,6 +21,8 @@
     <script type="text/plain" data-category="measurement" data-service="Google Analytics">
       window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-L8GEECWSV2');
     </script>
+
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="833df107-14e1-4a15-bb2f-647285fff65e"></script>
   <?php endif; ?>
 
   <?= vite()->css('index.css') ?>
