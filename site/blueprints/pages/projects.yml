@@ -1,6 +1,13 @@
 title: Projects
 
 sections:
+  fields:
+    type: fields
+    fields:
+      myCustomBackgroundColor:
+        label: Color
+        type: hidden
+        width: 1/6
   drafts:
     extends: sections/projects
     layout: list

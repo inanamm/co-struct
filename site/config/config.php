@@ -71,7 +71,7 @@ return [
 				$data = [];
 
 				// Fetch projects based on the filter
-				$projects = site()->page('projects')->children()->listed();
+				$projects = site()->page('home')->children()->listed();
 				if ($filter) {
 					$projects = $projects->filterBy('tag', $filter);
 				}

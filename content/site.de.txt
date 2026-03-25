@@ -276,3 +276,7 @@ companyname: co–struct AG
 street: Badenerstrasse 370
 postalcode: CH—8004
 place: Zürich
+
+----
+
+Mycustombackgroundcolor: #fafafa

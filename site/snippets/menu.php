@@ -39,7 +39,7 @@
                     <?php
                     $filter = param("filter");
                     $languageCode = $kirby->language()->code();
-                    $projectPage = $pages->get('projects');
+                    $projectPage = $pages->get('home');
                     $tags = ['education', 'artInstallation', 'infrastructure', 'housing', 'research', 'serviceAndIndustry', 'sportAndCulture'];
                     foreach ($tags as $tag):
                       if ($projectPage->children()->filterBy('tag', $tag)->isNotEmpty()): ?>

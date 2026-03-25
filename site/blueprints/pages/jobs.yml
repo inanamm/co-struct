@@ -8,6 +8,10 @@ tabs:
       fieldsA:
         type: fields
         fields: 
+          myCustomBackgroundColor:
+            label: Color
+            type: hidden
+            width: 1/6
           sitetitle:
             label: Site title
             type: text

@@ -9,6 +9,10 @@ tabs:
       pages:
         type: pages
         status: published
+        image:
+          icon: false
+          query: false
+          back: "{{ page.myCustomBackgroundColor }}"
 
   #tab2 INFO CO—STRUCT AG
   Info Co–struct AG:

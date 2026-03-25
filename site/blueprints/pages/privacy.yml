@@ -10,6 +10,10 @@ columns:
             type: text
             label: Title
             width: 1/3
+          myCustomBackgroundColor:
+            label: Color
+            type: hidden
+            width: 1/6
           privacyPolicy:
             label: Privacy Policy
             type: textarea

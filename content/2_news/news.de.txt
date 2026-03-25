@@ -2,6 +2,10 @@ Title: News
 
 ----
 
+Mycustombackgroundcolor: #007605
+
+----
+
 News:
 
 - 

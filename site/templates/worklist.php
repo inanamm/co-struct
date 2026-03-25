@@ -42,7 +42,7 @@
             <div class="flex flex-col px-3">
 
                 <?php
-                $projectsPage = $pages->get('projects');
+                $projectsPage = $pages->get('home');
                 $projects = $projectsPage->children();
                 $filteredProjects = $projects->filter(function ($project) {
                     return $project->categoryB()->value() !== 'choicethree';
@@ -107,7 +107,7 @@
         </div>
 
         <!-- WETTBEWERBE -->
-        <?php if ($pages->get('projects')->children()->filterBy('choicethree' || 'choicefour')->isEmpty()): ?>
+        <?php if ($pages->get('home')->children()->filterBy('choicethree' || 'choicefour')->isEmpty()): ?>
 
             <h2 class="px-3 pt-6 font-sans text-lg">
                 <?= t("competitions") ?>
@@ -116,7 +116,7 @@
                 <div class="flex flex-col px-3">
 
                     <?php
-                    $projectsPage = $pages->get('projects');
+                    $projectsPage = $pages->get('home');
                     $projects = $projectsPage->children();
                     $filteredProjects = $projects->filter(function ($project) {
                         return $project->categoryB()->value() === 'choicethree' || $project->categoryB()->value() === 'choicefour';
