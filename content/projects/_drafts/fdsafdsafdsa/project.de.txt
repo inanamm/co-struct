@@ -1,4 +1,4 @@
-Title: fdsafdsa
+Title: fdsafdsafdsa
 
 ----
 
@@ -6,11 +6,7 @@ Categoryb: choicethree
 
 ----
 
-Tag: building
-
-----
-
-Listtitle: 
+Tag: artInstallation
 
 ----
 
@@ -26,10 +22,15 @@ Text:
 
 ----
 
-Gallery:
+Listtitle: <p>hi</p>
 
-- file://x9iePdl6MQNWlAcY
-- file://0ZdwJnOy5slULeUE
+----
+
+Toggle-detailpage: false
+
+----
+
+Gallery: - file://vLHAfNzKd2Z5o8E3
 
 ----
 
@@ -77,8 +78,28 @@ Twitterauthor:
 
 ----
 
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
 Metainherit: 
 
 ----
 
-Uuid: kPcr3U1zz2rKKP7L
+Uuid: RyFUkXAigNsTTx9f

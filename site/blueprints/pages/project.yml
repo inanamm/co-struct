@@ -3,7 +3,6 @@ title: Project
 status:
   draft: Draft
   listed: Published
-  unlisted: Privately Published
 
 tabs:
   content:
@@ -171,7 +170,6 @@ options:
   delete:
     editor: true
     admin: true
-  changeStatus:
-    editor: true
-    admin: true
+  changeStatus: true
+  move: false
     

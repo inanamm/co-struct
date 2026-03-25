@@ -1,0 +1,108 @@
+Title: fdsafdsa
+
+----
+
+Categoryb: choicethree
+
+----
+
+Tag: artInstallation
+
+----
+
+Information: 
+
+----
+
+Texttitle: 
+
+----
+
+Text: 
+
+----
+
+Listtitle: <p>Brücke</p>
+
+----
+
+Toggle-detailpage: true
+
+----
+
+Gallery:
+
+- file://x9iePdl6MQNWlAcY
+- file://0ZdwJnOy5slULeUE
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: kPcr3U1zz2rKKP7L

@@ -15,7 +15,7 @@ Addresses:
   place: CH—8004 Zürich
   phonenumber: +41 44 506 66 30
   toggle: 'true'
-  footer_toggle: 'true'
+  footer_toggle: 'false'
   footertoggle: 'true'
   toggle2: false
 - 
@@ -25,7 +25,7 @@ Addresses:
   place: CH—1003 Lausanne
   phonenumber: +41 21 888 45 60
   toggle: 'true'
-  footer_toggle: 'true'
+  footer_toggle: 'false'
   footertoggle: 'true'
   toggle2: true
 - 

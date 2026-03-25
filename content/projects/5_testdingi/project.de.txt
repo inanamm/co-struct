@@ -44,11 +44,18 @@ Text:
 
 ----
 
-Listtitle: <p>Testprojekt Privat Published Mega Langer Titel als Test für den Umbruch</p>
+Listtitle: <p>Testprojekt Privat Published Mega L</p>
 
 ----
 
-Gallery: - file://x9iePdl6MQNWlAcY
+Toggle-detailpage: true
+
+----
+
+Gallery:
+
+- file://pwMVRYH1tSCIkZHt
+- file://x9iePdl6MQNWlAcY
 
 ----
 

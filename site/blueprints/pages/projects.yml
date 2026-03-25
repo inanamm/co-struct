@@ -1,24 +1,23 @@
 title: Projects
 
-tabs:
-  #tab2 PROJECTS
-  projects:
-    icon: dashboard
-    sections:
-      drafts:
-        extends: sections/projects
-        label: Project Drafts
-        status: draft
+sections:
+  drafts:
+    extends: sections/projects
+    layout: list
+    label: Drafts
+    status: draft
 
-      private:
-        extends: sections/projects
-        label: Privately Published Drafts
-        status: unlisted
+  published_without_detailpage:
+    extends: sections/projects
+    label: Projects without Detailpage
+    query: page.children.listed.filterBy("toggle_detailpage", false)
+    create: false
 
-      published:
-        extends: sections/projects
-        label: Published Drafts
-        status: listed
+  published_with_detailpage:
+    extends: sections/projects
+    label: Projects with Detailpage
+    query: page.children.listed.filterBy("toggle_detailpage", true)
+    create: false
 
 
 options:
