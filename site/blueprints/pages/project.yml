@@ -12,33 +12,55 @@ tabs:
       main:
         width: 2/3
         fields:
-          categoryB:
-            label: Category
-            type: radio
+          listTitle:
+            type: writer
+            label: Name
+            help: Projectname in the index
+            placeholder: EFH/Brücke
+            maxlength: 60
+            translate: true
+            marks: false
+            nodes: false
             required: true
-            translate: false
+          competencies:
+            label: Competencies
+            type: tags
             width: 1/2
-            options:
-              choiceone: Research
-              choicetwo: Other
-              choicethree: Competition
-              choicefour: Competition won
-              choicefive: Direct Commission
-
-          tag:
-            label: Tag
-            type: radio
+            separator: ","
             required: true
-            width: 1/2
+            search: true
             translate: false
             options:
-              education: Education
-              artInstallation: Art installation
-              infrastructure: Infrastructure
-              housing: Housing
-              research: Research
-              serviceAndIndustry: Service and industry
-              sportAndCulture: Sport and culture
+              type: query
+              query: site.find("language-helper").competencies.toStructure
+              text: "{{ item.EN_term }}"
+              value: "{{ item.EN_term }}"
+          fields:
+            label: Fields
+            type: tags
+            width: 1/2
+            separator: ","
+            required: true
+            search: true
+            translate: false
+            options:
+              type: query
+              query: site.find("language-helper").fields.toStructure
+              text: "{{ item.EN_term }}"
+              value: "{{ item.EN_term }}"
+          material:
+            label: Material
+            type: tags
+            width: 1/2
+            separator: ","
+            required: true
+            search: true
+            translate: false
+            options:
+              type: query
+              query: site.find("language-helper").material.toStructure
+              text: "{{ item.EN_term }}"
+              value: "{{ item.EN_term }}"
 
           information:
             label: Info
@@ -116,17 +138,6 @@ tabs:
           fieldsA:
             type: fields
             fields:
-              listTitle:
-                type: writer
-                label: List Name
-                help: Projectname in the index
-                placeholder: EFH/Brücke
-                maxlength: 60
-                translate: true
-                marks: false
-                nodes: false
-                required: true
-                width: 1/2
               toggle_detailpage:
                 type: toggle
                 label: Detailpage?
@@ -137,6 +148,18 @@ tabs:
                 help: "No: The project is shown in the index but doesn't have it's own detailed page. No images shown on landing page."
                 width: 1/2
                 translate: false
+              categoryB:
+                label: Orange Bar Category
+                type: radio
+                required: true
+                translate: false
+                width: 1/2
+                options:
+                  choiceone: Research
+                  choicetwo: Other
+                  choicethree: Competition
+                  choicefour: Competition won
+                  choicefive: Direct Commission
               lineB:
                 type: line
 

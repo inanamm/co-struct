@@ -8,7 +8,16 @@ tabs:
     sections:
       pages:
         type: pages
-        status: published
+        status: listed
+        image:
+          icon: false
+          query: false
+          back: "{{ page.myCustomBackgroundColor }}"
+
+      helper_pages:
+        type: pages
+        label: Helper Pages
+        status: unlisted
         image:
           icon: false
           query: false

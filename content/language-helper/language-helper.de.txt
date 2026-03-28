@@ -1,0 +1,96 @@
+Title: Language Helper
+
+----
+
+Competencies:
+
+- 
+  en_term: Building Construction
+  de_term: Bau
+  fr_term: Construction
+- 
+  en_term: Bridges
+  de_term: Brücken
+  fr_term: Ponts
+- 
+  en_term: Specialty Structures
+  de_term: Sonderbau
+  fr_term: Structures spéciales
+- 
+  en_term: Existing Structures
+  de_term: Bestandsbau
+  fr_term: Bâtiments existants
+- 
+  en_term: Parametric Design
+  de_term: Parametrisches Design
+  fr_term: Conception paramétrique
+- 
+  en_term: Sustainability
+  de_term: Nachhaltigkeit
+  fr_term: Durabilité
+
+----
+
+Fields:
+
+- 
+  en_term: Residential
+  de_term: Wohnen
+  fr_term: Résidentiel
+- 
+  en_term: Industry/Commercial
+  de_term: Industrie / Gewerbe
+  fr_term: Industrie / Commercial
+- 
+  en_term: Education
+  de_term: Bildung
+  fr_term: Éducation
+- 
+  en_term: Arts + Culture
+  de_term: Kunst + Kultur
+  fr_term: Arts + Culture
+- 
+  en_term: Infrastructure
+  de_term: Infrastruktur
+  fr_term: Infrastructure
+- 
+  en_term: Public/Office
+  de_term: Öffentlich/Büro
+  fr_term: Public / Bureau
+- 
+  en_term: Health
+  de_term: Gesundheit
+  fr_term: Santé
+- 
+  en_term: Sports
+  de_term: Sport
+  fr_term: Sport
+
+----
+
+Material:
+
+- 
+  en_term: Timber Construction
+  de_term: Holzbau
+  fr_term: Construction en bois
+- 
+  en_term: Steel Structures
+  de_term: Stahlbau
+  fr_term: Construction en acier
+- 
+  en_term: Solid Construction
+  de_term: Massivbau
+  fr_term: Construction en béton
+- 
+  en_term: Hybrid Systems
+  de_term: Hybridbau
+  fr_term: Construction hybride
+- 
+  en_term: Innovative Materials
+  de_term: Innovative Materialien
+  fr_term: Matériaux innovants
+
+----
+
+Uuid: l9DNnxNDivqcTS8C

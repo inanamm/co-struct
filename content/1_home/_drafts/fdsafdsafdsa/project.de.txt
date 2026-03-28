@@ -2,15 +2,27 @@ Title: fdsafdsafdsa
 
 ----
 
-Categoryb: choicethree
+Listtitle: <p>hi</p>
 
 ----
 
-Tag: artInstallation
+Competencies: Existing Structures
 
 ----
 
-Information: 
+Fields: Industry/Commercial
+
+----
+
+Material: Hybrid Systems
+
+----
+
+Information:
+
+- 
+  projectdetails: general contractor
+  value: '<p>fdsasd</p><p></p>'
 
 ----
 
@@ -22,11 +34,11 @@ Text:
 
 ----
 
-Listtitle: <p>hi</p>
+Toggle-detailpage: false
 
 ----
 
-Toggle-detailpage: false
+Categoryb: choicethree
 
 ----
 
@@ -99,6 +111,10 @@ Robotssnippet: default
 ----
 
 Metainherit: 
+
+----
+
+Tag: artInstallation
 
 ----
 
