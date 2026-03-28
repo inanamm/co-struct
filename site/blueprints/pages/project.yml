@@ -35,7 +35,7 @@ tabs:
               type: query
               query: site.find("language-helper").competencies.toStructure
               text: "{{ item.EN_term }}"
-              value: "{{ item.EN_term }}"
+              value: "{{ item.key }}"
           fields:
             label: Fields
             type: tags
@@ -49,7 +49,7 @@ tabs:
               type: query
               query: site.find("language-helper").fields.toStructure
               text: "{{ item.EN_term }}"
-              value: "{{ item.EN_term }}"
+              value: "{{ item.key }}"
           material:
             label: Material
             type: tags
@@ -63,7 +63,7 @@ tabs:
               type: query
               query: site.find("language-helper").material.toStructure
               text: "{{ item.EN_term }}"
-              value: "{{ item.EN_term }}"
+              value: "{{ item.key }}"
 
           information:
             label: Info

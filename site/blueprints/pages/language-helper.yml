@@ -12,7 +12,7 @@ fields:
     fields:
       key:
         label: Key
-        type: slug
+        type: hidden
         disabled: true
       EN_term:
         label: EN Value
@@ -40,7 +40,7 @@ fields:
     fields:
       key:
         label: Key
-        type: slug
+        type: hidden
         disabled: true
       EN_term:
         label: EN Value
@@ -68,7 +68,7 @@ fields:
     fields:
       key:
         label: Key
-        type: slug
+        type: hidden
         disabled: true
       EN_term:
         label: EN Value

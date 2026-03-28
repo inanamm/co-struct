@@ -5,77 +5,87 @@ Title: Language Helper
 Competencies:
 
 - 
-  key: ""
-  en_term: Building Construction
-  de_term: Bau
+  key: c88faa39-bfdf-47ca-a619-4b64bec2f2fc
+  en_term: Building Construction22222
+  de_term: Bau2
   fr_term: Construction
 - 
-  key: ""
+  key: 5ca6c259-ff78-4f11-b599-9ac3cd218781
   en_term: Bridges
   de_term: Brücken
   fr_term: Ponts
 - 
-  key: ""
+  key: d54dd283-9967-4e10-bb86-e321ffd27f4f
   en_term: Specialty Structures
   de_term: Sonderbau
   fr_term: Structures spéciales
 - 
-  key: ""
+  key: 3e99f85d-1c9a-4d5a-ace7-6902f307f127
   en_term: Existing Structures
   de_term: Bestandsbau
   fr_term: Bâtiments existants
 - 
-  key: ""
+  key: cbd2c615-18ce-4119-910c-43d979008f60
   en_term: Parametric Design
   de_term: Parametrisches Design
   fr_term: Conception paramétrique
 - 
-  key: ""
+  key: 71d63743-c752-4013-a8ca-4152e063e5c7
   en_term: Sustainability
   de_term: Nachhaltigkeit
   fr_term: Durabilité
+- 
+  key: f096b5a8-b1fa-4813-a3c3-eda73d0583b8
+  en_term: tet
+  de_term: test
+  fr_term: test
+- 
+  key: f76bee17-54c5-4125-9f84-cc0494f132bc
+  en_term: hello
+  de_term: hello
+  fr_term: hello
 
 ----
 
 Fields:
 
 - 
-  key: ""
+  key: 2e66597d-43ea-423a-adce-68ec7efe4d6c
   en_term: Residential
   de_term: Wohnen2
   fr_term: Résidentiel
 - 
-  key: ""
+  key: c2c61886-42e7-4cf3-98c8-97e991724334
   en_term: Industry/Commercial
   de_term: Industrie / Gewerbe
   fr_term: Industrie / Commercial
 - 
-  key: ""
+  key: 1ac8efbc-52ee-47ba-826f-bbc2a5e11f90
   en_term: Education
   de_term: Bildung
   fr_term: Éducation
 - 
-  key: ""
+  key: ce2ac7bb-ee53-4f5e-81c8-18facacc0781
   en_term: Arts + Culture
   de_term: Kunst + Kultur
   fr_term: Arts + Culture
 - 
-  key: ""
+  key: 10532bcb-27ad-4beb-94c5-b17ff2ae5846
   en_term: Infrastructure
   de_term: Infrastruktur
   fr_term: Infrastructure
 - 
-  key: ""
+  key: b8ebc25b-1d48-4aed-89db-e1db12e93b8c
   en_term: Public/Office
   de_term: Öffentlich/Büro
   fr_term: Public / Bureau
 - 
-  key: ""
+  key: 6bb57cb6-bc48-429b-93cb-162a3e39889f
   en_term: Health
   de_term: Gesundheit
   fr_term: Santé
 - 
-  key: ""
+  key: 84be052c-8b98-4947-aac8-971db6aee43d
   en_term: Sports
   de_term: Sport
   fr_term: Sport
@@ -85,27 +95,27 @@ Fields:
 Material:
 
 - 
-  key: ""
+  key: 9209959e-3b2c-4f12-9503-58385575422d
   en_term: Timber Construction
   de_term: Holzbau
   fr_term: Construction en bois
 - 
-  key: ""
+  key: 1ac9ccb2-56f7-4b98-847c-cb1f1b8e0319
   en_term: Steel Structures
   de_term: Stahlbau
   fr_term: Construction en acier
 - 
-  key: ""
+  key: 4373387f-56fb-4257-8bfc-22000b6c8213
   en_term: Solid Construction
   de_term: Massivbau
   fr_term: Construction en béton
 - 
-  key: ""
+  key: 783bd1d3-4b5a-4774-b8c4-13de4c820c2a
   en_term: Hybrid Systems
   de_term: Hybridbau
   fr_term: Construction hybride
 - 
-  key: ""
+  key: 53607c49-e541-498e-a481-bb7c8b826d78
   en_term: Innovative Materials
   de_term: Innovative Materialien
   fr_term: Matériaux innovants
