@@ -7,18 +7,21 @@ return [
 	'panel' => [
 		'install' => false,
 		'favicon' => [
-			'apple-touch-icon' => [
-				'type' => 'image/png',
-				'url'  =>  '/apple-touch-icon.png',
+			[
+			'rel'  => 'apple-touch-icon',
+			'type' => 'image/png',
+			'href' => '/apple-touch-icon.png',
 			],
-			'shortcut icon' => [
-				'type' => 'image/svg+xml',
-				'url'  => 'git/favicon.svg',
+			[
+			'rel'  => 'shortcut icon',
+			'type' => 'image/svg+xml',
+			'href' => 'git/favicon.svg',
 			],
-			'alternate icon' => [
-				'type' => 'image/png',
-				'url'  => '/favicon.png',
-			]
+			[
+			'rel'  => 'icon',
+			'type' => 'image/png',
+			'href' => '/favicon.ico',
+			],
 		]
 	],
 	'auth' => [
