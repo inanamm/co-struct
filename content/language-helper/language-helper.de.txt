@@ -5,26 +5,32 @@ Title: Language Helper
 Competencies:
 
 - 
+  key: ""
   en_term: Building Construction
   de_term: Bau
   fr_term: Construction
 - 
+  key: ""
   en_term: Bridges
   de_term: Brücken
   fr_term: Ponts
 - 
+  key: ""
   en_term: Specialty Structures
   de_term: Sonderbau
   fr_term: Structures spéciales
 - 
+  key: ""
   en_term: Existing Structures
   de_term: Bestandsbau
   fr_term: Bâtiments existants
 - 
+  key: ""
   en_term: Parametric Design
   de_term: Parametrisches Design
   fr_term: Conception paramétrique
 - 
+  key: ""
   en_term: Sustainability
   de_term: Nachhaltigkeit
   fr_term: Durabilité
@@ -34,34 +40,42 @@ Competencies:
 Fields:
 
 - 
+  key: ""
   en_term: Residential
-  de_term: Wohnen
+  de_term: Wohnen2
   fr_term: Résidentiel
 - 
+  key: ""
   en_term: Industry/Commercial
   de_term: Industrie / Gewerbe
   fr_term: Industrie / Commercial
 - 
+  key: ""
   en_term: Education
   de_term: Bildung
   fr_term: Éducation
 - 
+  key: ""
   en_term: Arts + Culture
   de_term: Kunst + Kultur
   fr_term: Arts + Culture
 - 
+  key: ""
   en_term: Infrastructure
   de_term: Infrastruktur
   fr_term: Infrastructure
 - 
+  key: ""
   en_term: Public/Office
   de_term: Öffentlich/Büro
   fr_term: Public / Bureau
 - 
+  key: ""
   en_term: Health
   de_term: Gesundheit
   fr_term: Santé
 - 
+  key: ""
   en_term: Sports
   de_term: Sport
   fr_term: Sport
@@ -71,22 +85,27 @@ Fields:
 Material:
 
 - 
+  key: ""
   en_term: Timber Construction
   de_term: Holzbau
   fr_term: Construction en bois
 - 
+  key: ""
   en_term: Steel Structures
   de_term: Stahlbau
   fr_term: Construction en acier
 - 
+  key: ""
   en_term: Solid Construction
   de_term: Massivbau
   fr_term: Construction en béton
 - 
+  key: ""
   en_term: Hybrid Systems
   de_term: Hybridbau
   fr_term: Construction hybride
 - 
+  key: ""
   en_term: Innovative Materials
   de_term: Innovative Materialien
   fr_term: Matériaux innovants

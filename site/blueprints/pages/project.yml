@@ -30,6 +30,7 @@ tabs:
             required: true
             search: true
             translate: false
+            accept: options
             options:
               type: query
               query: site.find("language-helper").competencies.toStructure
@@ -43,6 +44,7 @@ tabs:
             required: true
             search: true
             translate: false
+            accept: options
             options:
               type: query
               query: site.find("language-helper").fields.toStructure
@@ -56,6 +58,7 @@ tabs:
             required: true
             search: true
             translate: false
+            accept: options
             options:
               type: query
               query: site.find("language-helper").material.toStructure

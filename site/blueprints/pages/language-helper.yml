@@ -10,6 +10,10 @@ fields:
       FR_term:
         width: 1/3
     fields:
+      key:
+        label: Key
+        type: slug
+        disabled: true
       EN_term:
         label: EN Value
         type: text
@@ -34,6 +38,10 @@ fields:
       FR_term:
         width: 1/3
     fields:
+      key:
+        label: Key
+        type: slug
+        disabled: true
       EN_term:
         label: EN Value
         type: text
@@ -58,6 +66,10 @@ fields:
       FR_term:
         width: 1/3
     fields:
+      key:
+        label: Key
+        type: slug
+        disabled: true
       EN_term:
         label: EN Value
         type: text

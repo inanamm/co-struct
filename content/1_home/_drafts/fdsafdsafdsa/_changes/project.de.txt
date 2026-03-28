@@ -1,0 +1,129 @@
+Title: fdsafdsafdsa
+
+----
+
+Listtitle: <p>hi</p>
+
+----
+
+Competencies: Existing Structures, Bridges, Parametric Design
+
+----
+
+Fields: Industry/Commercial, Infrastructure
+
+----
+
+Material: Hybrid Systems
+
+----
+
+Information:
+
+- 
+  projectdetails: general contractor
+  value: '<p>fdsasd</p><p></p>'
+
+----
+
+Texttitle: 
+
+----
+
+Text: 
+
+----
+
+Toggle-detailpage: false
+
+----
+
+Categoryb: choicethree
+
+----
+
+Gallery: - file://vLHAfNzKd2Z5o8E3
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Cropogimage: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Tag: artInstallation
+
+----
+
+Uuid: RyFUkXAigNsTTx9f
+
+----
+
+Lock: Yj9x7Dnv
