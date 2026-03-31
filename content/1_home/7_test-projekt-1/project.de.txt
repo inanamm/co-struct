@@ -6,7 +6,7 @@ Listtitle: <p>Name Test Projekt 1</p>
 
 ----
 
-Status: In planning
+Project-status: executed
 
 ----
 
@@ -127,6 +127,10 @@ Robotssnippet: default
 ----
 
 Metainherit: 
+
+----
+
+Status: In planning
 
 ----
 

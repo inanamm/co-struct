@@ -75,7 +75,14 @@ return [
         'choicethree' => 'Concours',
         'choicefour' => 'Concours gagné',
         'choicefive' => 'Mandat direct',
-        'Test' => 'TEST FR'
+        'Test' => 'TEST FR',
+        'competition_Result' => 'Résultat du concours',
+        'fields' => 'Domaine',
+        'material' => 'Matérial',
+        'competencies' => 'Compétence',
+        'in_planning' => 'En planification',
+        'executed' => 'Exécuté',
+        'competition' => 'Concours'
     ],
     'url' => NULL
 ];

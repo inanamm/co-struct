@@ -6,11 +6,11 @@ Listtitle: <p>Collège de Vidy, Lausanne</p>
 
 ----
 
-Status: Executed
+Project-status: in_planning
 
 ----
 
-Competition-result: 
+Competition-result: 2. Preis
 
 ----
 
@@ -160,6 +160,10 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Status: Executed
 
 ----
 

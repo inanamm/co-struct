@@ -6,7 +6,7 @@ Listtitle: <p>Name Testprojekt 3 </p>
 
 ----
 
-Status: Competition
+Project-status: executed
 
 ----
 
@@ -148,6 +148,10 @@ Robotssnippet: default
 ----
 
 Metainherit: 
+
+----
+
+Status: Competition
 
 ----
 

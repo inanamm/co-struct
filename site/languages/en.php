@@ -74,7 +74,14 @@ return [
         'choicethree' => 'Competition',
         'choicefour' => 'Competition won',
         'choicefive' => 'Direct contract',
-        'Test' => 'Test EN'
+        'Test' => 'Test EN',
+        'competencies' => 'Competency',
+        'competition_Result' => 'Competition result',
+        'fields' => 'Domaine',
+        'material' => 'Material',
+        'competition' => 'Competition',
+        'executed' => 'Executed',
+        'in_planning' => 'In Planning'
     ],
     'url' => NULL
 ];

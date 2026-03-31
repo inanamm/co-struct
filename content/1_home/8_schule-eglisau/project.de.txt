@@ -6,7 +6,7 @@ Listtitle: <p>Schule Eglisau</p>
 
 ----
 
-Status: Executed
+Project-status: executed
 
 ----
 
@@ -156,6 +156,10 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Status: Executed
 
 ----
 

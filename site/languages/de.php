@@ -74,7 +74,14 @@ return [
         'choicethree' => 'Wettbewerb',
         'choicefour' => 'Wettbewerb gewonnen',
         'choicefive' => 'Direktauftrag',
-        'Test' => 'TEST DE'
+        'Test' => 'TEST DE',
+        'competition_Result' => 'Wettbewerbsergebnis',
+        'competencies' => 'Kompetenzbereich',
+        'fields' => 'Bereich',
+        'material' => 'Material',
+        'in_planning' => 'In Planung',
+        'executed' => 'Ausgeführt',
+        'competition' => 'Wettbewerb'
     ],
     'url' => NULL
 ];

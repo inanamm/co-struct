@@ -29,9 +29,12 @@ tabs:
             required: true
             width: 1/2
             options:
-              - In planning
-              - Executed
-              - Competition
+              - value: in_planning
+                text: In planning
+              - value: executed
+                text: Executed
+              - value: competition
+                text: Competition
           competition_Result:
             label: Competition Result
             type: text
@@ -39,7 +42,7 @@ tabs:
             width: 1/2
             placeholder: 1st Prize
             when: 
-              status: Competition
+              project_Status: competition
           spacer:
             type: gap
           year:
@@ -54,7 +57,7 @@ tabs:
             type: text
             required: true
             width: 1/2
-            placeholder: Zurich
+            placeholder: Zurich (ZH)
           competencies:
             label: Competencies
             type: tags

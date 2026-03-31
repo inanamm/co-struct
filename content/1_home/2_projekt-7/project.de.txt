@@ -6,7 +6,7 @@ Listtitle: <p>Farbstadt</p>
 
 ----
 
-Status: Competition
+Project-status: executed
 
 ----
 
@@ -151,6 +151,10 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Status: Competition
 
 ----
 

@@ -6,11 +6,11 @@ Listtitle: <p>Kreativhuus</p>
 
 ----
 
-Status: Executed
+Project-status: competition
 
 ----
 
-Competition-result: 
+Competition-result: 2. Preis
 
 ----
 
@@ -153,6 +153,10 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Status: Executed
 
 ----
 

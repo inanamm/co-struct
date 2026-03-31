@@ -2,11 +2,39 @@ Title: fdsafdsa
 
 ----
 
-Categoryb: choicethree
+Listtitle: <p>Brücke</p>
 
 ----
 
-Tag: artInstallation
+Project-status: Competition
+
+----
+
+Competition-result: 
+
+----
+
+Year: 
+
+----
+
+Location: 
+
+----
+
+Competencies: 
+
+----
+
+Fields: 
+
+----
+
+Material: 
+
+----
+
+Collaboration: 
 
 ----
 
@@ -22,11 +50,11 @@ Text:
 
 ----
 
-Listtitle: <p>Brücke</p>
+Toggle-detailpage: true
 
 ----
 
-Toggle-detailpage: true
+Categoryb: choicethree
 
 ----
 
@@ -73,11 +101,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
+Cropogimage: 
 
 ----
 
@@ -102,6 +126,18 @@ Robotssnippet: default
 ----
 
 Metainherit: 
+
+----
+
+Tag: artInstallation
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
 
 ----
 

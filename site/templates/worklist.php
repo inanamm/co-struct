@@ -50,13 +50,13 @@
                 $projects = $projectsPage->children()->published();
                 $filteredProjects = $projects->sortBy('year', 'asc'); ?>
 
-                <div class="font-mono text-sm grid gap-x-2 grid-cols-2 lg:grid-cols-12 lg:gap-1 pb-1">
+                <div class="font-mono text-xs grid gap-x-2 grid-cols-2 lg:grid-cols-12 lg:gap-1 pb-1">
                     <p class="lg:col-span-2"><?= t("projecttitle") ?></p>
                     <p class="lg:col-span-2"><?= t("project") ?></p>
                     <p class="lg:col-span-1"><?= t("location") ?></p>
                     <p class="lg:col-span-1"><?= t("status") ?></p>
                     <p class="lg:col-span-1"><?= t("collaboration") ?></p>
-                    <p class="lg:col-span-1"><?= t("competency") ?></p>
+                    <p class="lg:col-span-1"><?= t("competencies") ?></p>
                     <p class="lg:col-span-1"><?= t("material") ?></p>
                     <p class="lg:col-span-1"><?= t("field") ?></p>
                     <p class="lg:col-span-1"><?= t("competition_Result") ?></p>
@@ -68,21 +68,26 @@
                     $name = $project->title();
                     $title = $project->listTitle();
                     $url = $project->url();
+                    $hasDetailpage = $project->toggle_detailpage()->toBool();
                     ?>
 
-                    <a href=<?= $url ?>
-                        class="grid grid-cols-2 gap-x-2 lg:grid-cols-12 py-1 border-t border-csblack last:border-b lg:gap-1 hover:text-cslightblue group">
+                    <a <?= $hasDetailpage ? 'href="' . $url . '"' : 'aria-disabled="true" tabindex="-1"' ?>
+                        class="grid grid-cols-2 gap-x-2 lg:grid-cols-12 py-1 border-t border-csblack last:border-b lg:gap-1 group <?= $hasDetailpage ? 'hover:text-cslightblue' : 'pointer-events-none cursor-default' ?>">
 
-                        <div class="lg:col-span-2">
-                            <p class="hidden lg:group-hover:block pr-1">↗</p>
-                            <?= $name->kt() ?>
+                        <div class="lg:col-span-2 flex flex-row">
+                            <?php if ($hasDetailpage): ?>
+                                <p class="hidden lg:group-hover:block pr-1">↗</p>
+                            <?php endif ?>
+                            <?= $name->escape() ?>
                         </div>
 
                         <div class="lg:col-span-2"><?= $title ?></div>
 
-                        <div class="lg:col-span-1"><?= $project->location()->kt() ?></div>
+                        <div class="lg:col-span-1"><?= $project->location()->escape() ?></div>
 
-                        <div class="lg:col-span-1"><?= $project->project_Status() ?></div>
+                        <div class="lg:col-span-1"><?= t($project->project_Status()) ?></div>
+
+                        <div class="lg:col-span-1"><?= $project->collaboration()->escape() ?></div>
 
                         <div class="lg:col-span-1">
                             <?= SlothieHelpers()->format_tag_names($project->competencies()->tags()) ?>
@@ -96,14 +101,15 @@
                             <?= SlothieHelpers()->format_tag_names($project->material()->tags()) ?>
                         </div>
 
-                        <div class="lg:col-span-1"><?= $project->collaboration()->kt() ?></div>
 
 
-                        <?php if ($project->project_Status() == 'Competition'): ?>
-                        <div class="lg:col-span-1"><?= $project->competition_Result()->kt() ?></div>
-                        <?php endif ?>
+                        <div class="lg:col-span-1">
+                            <?php if ($project->project_Status() == 'competition'): ?>
+                                <?= $project->competition_Result()->escape() ?>
+                            <?php endif ?>
+                        </div>
 
-                        <div class="lg:col-span-1"><?= $project->year()->kt() ?></div>
+                        <div class="lg:col-span-1 text-right"><?= $project->year()->escape() ?></div>
 
                     </a>
                 <?php endforeach ?>

@@ -6,11 +6,11 @@ Listtitle: <p>Maaghalle</p>
 
 ----
 
-Status: In planning
+Project-status: competition
 
 ----
 
-Competition-result: 
+Competition-result: 1. Preis
 
 ----
 
@@ -138,6 +138,10 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Status: In planning
 
 ----
 

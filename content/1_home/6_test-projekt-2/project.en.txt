@@ -6,35 +6,11 @@ Listtitle: <p>EFH</p>
 
 ----
 
-Project-status: competition
-
-----
-
-Competition-result: 3. Preis
-
-----
-
-Year: 2025
+Competition-result: 3. Price
 
 ----
 
 Location: Zürich
-
-----
-
-Competencies: cbd2c615-18ce-4119-910c-43d979008f60, d54dd283-9967-4e10-bb86-e321ffd27f4f
-
-----
-
-Fields: 6bb57cb6-bc48-429b-93cb-162a3e39889f, 84be052c-8b98-4947-aac8-971db6aee43d
-
-----
-
-Material: 4373387f-56fb-4257-8bfc-22000b6c8213
-
-----
-
-Collaboration: Dubovic
 
 ----
 
@@ -47,14 +23,6 @@ Texttitle:
 ----
 
 Text: 
-
-----
-
-Toggle-detailpage: false
-
-----
-
-Categoryb: choicetwo
 
 ----
 
@@ -166,7 +134,3 @@ Images:
 ----
 
 Toggle: false
-
-----
-
-Uuid: J4lhAxFHMiI716qL

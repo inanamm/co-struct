@@ -6,6 +6,14 @@ Listtitle: <p>FR Haus der Kreativität</p>
 
 ----
 
+Competition-result: 2. Prix
+
+----
+
+Location: Greifensee
+
+----
+
 Information:
 
 - 
@@ -91,11 +99,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
+Cropogimage: 
 
 ----
 
@@ -120,3 +124,19 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Status: Executed
+
+----
+
+Tag: sportAndCulture
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 

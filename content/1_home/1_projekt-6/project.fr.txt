@@ -6,6 +6,14 @@ Listtitle: <p>FR Tonhalle Maag</p>
 
 ----
 
+Competition-result: 1. Prix
+
+----
+
+Location: Lausanne
+
+----
+
 Information:
 
 - 
@@ -85,11 +93,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
+Cropogimage: 
 
 ----
 
@@ -114,3 +118,19 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Status: In planning
+
+----
+
+Tag: housing
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
