@@ -1,0 +1,178 @@
+Title: Schule Eglisau
+
+----
+
+Listtitle: <p>Schule Eglisau</p>
+
+----
+
+Status: Executed
+
+----
+
+Competition-result: 
+
+----
+
+Year: 2023
+
+----
+
+Location: Eglisau
+
+----
+
+Competencies: d54dd283-9967-4e10-bb86-e321ffd27f4f, cbd2c615-18ce-4119-910c-43d979008f60
+
+----
+
+Fields: c2c61886-42e7-4cf3-98c8-97e991724334
+
+----
+
+Material: 4373387f-56fb-4257-8bfc-22000b6c8213
+
+----
+
+Collaboration: Dubovic
+
+----
+
+Information:
+
+- 
+  projectdetails: client
+  value: Gemeinde Vals
+- 
+  projectdetails: architecture
+  value: '<p><a href="https://google.com">Peter Zumthor</a></p>'
+- 
+  projectdetails: location
+  value: 6 Mio
+- 
+  projectdetails: timeframe
+  value: 1993–1996
+- 
+  projectdetails: span
+  value: 340m²
+- 
+  projectdetails: electro
+  value: '<p>CH—9765 Vals</p>'
+- 
+  projectdetails: mobility
+  value: '<p>fjdksla</p>'
+- 
+  projectdetails: competition result
+  value: '<p>1. Preis</p>'
+
+----
+
+Texttitle: Die Alpine Schönheit ?
+
+----
+
+Text: <p>in "Meisterwerk ?" l'école "hallo, ich bin ein 'künstler', was bist du ?"  1/2 ``hallo`` ^ ` '  ? “&nbsp;#&nbsp;Ç&nbsp;[&nbsp;]&nbsp;|&nbsp;&nbsp;{&nbsp;}&nbsp;≠&nbsp;¿&nbsp;´&nbsp; \`künstler\` </p><p>Die <a href="https://www.google.com/" target="_blank">Therme Vals</a> ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.</p><p>Die <a href="https://www.google.com/" target="_blank">Therme Vals</a> ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.</p><p>Die <a href="https://www.google.com/" target="_blank">Therme Vals</a> ist ein Meisterwerk der minimalistischen Architektur und eine Hommage an die natürliche Schönheit der Alpen. Das Gebäude wurde direkt in die Berglandschaft integriert und nutzt die heilenden Kräfte der Thermalquellen in der Umgebung. Es ist ein Ort der Ruhe und Entspannung, der die Besucher inmitten der majestätischen Schweizer Alpen in die Natur eintauchen lässt.</p>
+
+----
+
+Toggle-detailpage: true
+
+----
+
+Categoryb: choicetwo
+
+----
+
+Gallery:
+
+- file://gBqsQCjtBRbpGt9F
+- file://O0svetcUwQUPCwAY
+- file://UOTz3a1NLiaBoiJX
+- file://cmtRL4UoEXFeHylA
+- file://jILioJaUmwtCITo3
+- file://pwMVRYH1tSCIkZHt
+- file://x9iePdl6MQNWlAcY
+
+----
+
+Credit: <p><a href="https://www.google.com/" target="_blank">Robert</a>, <a href="https://www.google.com/" target="_blank" title="hallo">Röbi</a> und <a href="https://www.google.com/" target="_blank">Rolf</a></p>
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Cropogimage: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
+
+----
+
+Tag: research
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Name: Schule Eglisau
+
+----
+
+Uuid: hUfBnccjuwIv1kjn

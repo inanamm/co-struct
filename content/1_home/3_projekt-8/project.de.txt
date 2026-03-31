@@ -2,11 +2,39 @@ Title: Haus der Kreativität
 
 ----
 
-Categoryb: choicethree
+Listtitle: <p>Kreativhuus</p>
 
 ----
 
-Tag: sportAndCulture
+Status: Executed
+
+----
+
+Competition-result: 
+
+----
+
+Year: 2021
+
+----
+
+Location: Greifensee
+
+----
+
+Competencies: c88faa39-bfdf-47ca-a619-4b64bec2f2fc, f76bee17-54c5-4125-9f84-cc0494f132bc
+
+----
+
+Fields: 1ac8efbc-52ee-47ba-826f-bbc2a5e11f90, b8ebc25b-1d48-4aed-89db-e1db12e93b8c
+
+----
+
+Material: 783bd1d3-4b5a-4774-b8c4-13de4c820c2a
+
+----
+
+Collaboration: –
 
 ----
 
@@ -47,7 +75,11 @@ Unser Ziel mit diesem Projekt ist es, die Stadtlandschaft zu bereichern und ein 
 
 ----
 
-Listtitle: <p>Kreativhuus</p>
+Toggle-detailpage: true
+
+----
+
+Categoryb: choicethree
 
 ----
 
@@ -96,11 +128,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
+Cropogimage: 
 
 ----
 
@@ -125,6 +153,18 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Tag: sportAndCulture
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
 
 ----
 

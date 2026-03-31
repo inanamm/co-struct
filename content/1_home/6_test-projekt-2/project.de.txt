@@ -1,12 +1,40 @@
-Title: fdsa
+Title: Test Projekt 2
 
 ----
 
-Categoryb: choicetwo
+Listtitle: <p>EFH</p>
 
 ----
 
-Tag: infrastructure
+Status: Executed
+
+----
+
+Competition-result: 
+
+----
+
+Year: 2025
+
+----
+
+Location: Zürich
+
+----
+
+Competencies: cbd2c615-18ce-4119-910c-43d979008f60, d54dd283-9967-4e10-bb86-e321ffd27f4f
+
+----
+
+Fields: 6bb57cb6-bc48-429b-93cb-162a3e39889f, 84be052c-8b98-4947-aac8-971db6aee43d
+
+----
+
+Material: 4373387f-56fb-4257-8bfc-22000b6c8213
+
+----
+
+Collaboration: Dubovic
 
 ----
 
@@ -22,11 +50,11 @@ Text:
 
 ----
 
-Listtitle: <p>EFH</p>
+Toggle-detailpage: false
 
 ----
 
-Toggle-detailpage: true
+Categoryb: choicetwo
 
 ----
 
@@ -76,11 +104,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
+Cropogimage: 
 
 ----
 
@@ -105,6 +129,18 @@ Robotssnippet: default
 ----
 
 Metainherit: 
+
+----
+
+Tag: infrastructure
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
 
 ----
 

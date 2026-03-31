@@ -2,11 +2,39 @@ Title: Tonhalle Maag
 
 ----
 
-Categoryb: choicefive
+Listtitle: <p>Maaghalle</p>
 
 ----
 
-Tag: housing
+Status: In planning
+
+----
+
+Competition-result: 
+
+----
+
+Year: 2026
+
+----
+
+Location: Lausanne
+
+----
+
+Competencies: c88faa39-bfdf-47ca-a619-4b64bec2f2fc, 71d63743-c752-4013-a8ca-4152e063e5c7
+
+----
+
+Fields: 2e66597d-43ea-423a-adce-68ec7efe4d6c, ce2ac7bb-ee53-4f5e-81c8-18facacc0781, 6bb57cb6-bc48-429b-93cb-162a3e39889f
+
+----
+
+Material: 9209959e-3b2c-4f12-9503-58385575422d
+
+----
+
+Collaboration: Dubovic
 
 ----
 
@@ -32,11 +60,11 @@ Die Tonhalle Maag ist nicht nur ein Ort für klassische Musik, sondern auch für
 
 ----
 
-Listtitle: <p>Maaghalle</p>
+Toggle-detailpage: true
 
 ----
 
-Toggle-detailpage: true
+Categoryb: choicefive
 
 ----
 
@@ -85,11 +113,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
+Cropogimage: 
 
 ----
 
@@ -114,6 +138,18 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Tag: housing
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
 
 ----
 

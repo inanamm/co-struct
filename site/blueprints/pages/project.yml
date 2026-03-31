@@ -22,6 +22,39 @@ tabs:
             marks: false
             nodes: false
             required: true
+          project_Status:
+            label: Status
+            type: toggles
+            translate: false
+            required: true
+            width: 1/2
+            options:
+              - In planning
+              - Executed
+              - Competition
+          competition_Result:
+            label: Competition Result
+            type: text
+            required: true
+            width: 1/2
+            placeholder: 1st Prize
+            when: 
+              status: Competition
+          spacer:
+            type: gap
+          year:
+            label: Year
+            type: text
+            required: true
+            width: 1/2
+            placeholder: 2026 or 2023–2026
+            translate: false
+          location:
+            label: Location
+            type: text
+            required: true
+            width: 1/2
+            placeholder: Zurich
           competencies:
             label: Competencies
             type: tags
@@ -64,7 +97,13 @@ tabs:
               query: site.find("language-helper").material.toStructure
               text: "{{ item.EN_term }}"
               value: "{{ item.key }}"
-
+          collaboration:
+            label: Collaboration with
+            type: text
+            required: true
+            translate: false
+            width: 1/2
+            placeholder: Architecture office
           information:
             label: Info
             type: structure
@@ -111,7 +150,6 @@ tabs:
                   institution: Institution
                   credits: Credits
 
-
               value:
                 label: Value
                 type: writer
@@ -120,8 +158,9 @@ tabs:
                   - sub
                   - sup
                 nodes: false
-          line:
-            type: line
+
+          headline:
+            label: Text Detailpage
           textTitle:
             label: Text title
             type: text

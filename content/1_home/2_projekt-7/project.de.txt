@@ -6,6 +6,22 @@ Listtitle: <p>Farbstadt</p>
 
 ----
 
+Status: Competition
+
+----
+
+Competition-result: 2. Preis
+
+----
+
+Year: 2025
+
+----
+
+Location: Dübendorf
+
+----
+
 Competencies: c88faa39-bfdf-47ca-a619-4b64bec2f2fc, 5ca6c259-ff78-4f11-b599-9ac3cd218781
 
 ----
@@ -15,6 +31,10 @@ Fields: c2c61886-42e7-4cf3-98c8-97e991724334
 ----
 
 Material: 9209959e-3b2c-4f12-9503-58385575422d
+
+----
+
+Collaboration: –
 
 ----
 

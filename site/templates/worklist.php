@@ -37,23 +37,30 @@
             <?= t("projects") ?>
         </h2>
 
+        <h3 class="px-3 font-mono text-sm">
+            <?= t("filter") ?>
+        </h3>
+
         <!-- PROJEKTLISTE -->
         <div class="flex flex-col font-sans text-base pt-2 pb-4 lg:px-0">
             <div class="flex flex-col px-3">
 
                 <?php
                 $projectsPage = $pages->get('home');
-                $projects = $projectsPage->children();
-                $filteredProjects = $projects->filter(function ($project) {
-                    return $project->categoryB()->value() !== 'choicethree';
-                })->sortBy('title', 'asc'); ?>
+                $projects = $projectsPage->children()->published();
+                $filteredProjects = $projects->sortBy('year', 'asc'); ?>
 
                 <div class="font-mono text-sm grid gap-x-2 grid-cols-2 lg:grid-cols-12 lg:gap-1 pb-1">
-                    <p class="lg:col-span-3"><?= t("projecttitle") ?></p>
-                    <p class="hidden lg:block lg:row-start-1 lg:col-span-3"><?= t("project") ?></p>
-                    <p class="col-start-2 lg:col-span-3"><?= t("collaboration") ?></p>
-                    <p class="col-start-2 lg:col-span-2"><?= t("field") ?></p>
-                    <p class="col-start-2 lg:col-span-1 lg:text-right"><?= t("timeframe") ?></p>
+                    <p class="lg:col-span-2"><?= t("projecttitle") ?></p>
+                    <p class="lg:col-span-2"><?= t("project") ?></p>
+                    <p class="lg:col-span-1"><?= t("location") ?></p>
+                    <p class="lg:col-span-1"><?= t("status") ?></p>
+                    <p class="lg:col-span-1"><?= t("collaboration") ?></p>
+                    <p class="lg:col-span-1"><?= t("competency") ?></p>
+                    <p class="lg:col-span-1"><?= t("material") ?></p>
+                    <p class="lg:col-span-1"><?= t("field") ?></p>
+                    <p class="lg:col-span-1"><?= t("competition_Result") ?></p>
+                    <p class="lg:col-span-1 lg:text-right"><?= t("year") ?></p>
                 </div>
 
                 <?php foreach ($filteredProjects as $project): ?>
@@ -61,140 +68,53 @@
                     $name = $project->title();
                     $title = $project->listTitle();
                     $url = $project->url();
-                    $info = $project->information()->toStructure();
                     ?>
 
                     <a href=<?= $url ?>
                         class="grid grid-cols-2 gap-x-2 lg:grid-cols-12 py-1 border-t border-csblack last:border-b lg:gap-1 hover:text-cslightblue group">
 
-                        <div class="hidden col-span-1 lg:col-span-3 lg:flex flex-row">
+                        <div class="lg:col-span-2">
                             <p class="hidden lg:group-hover:block pr-1">↗</p>
                             <?= $name->kt() ?>
                         </div>
 
-                        <div class="col-start-1 col-span-1 lg:col-span-3"><?= $title ?></div>
+                        <div class="lg:col-span-2"><?= $title ?></div>
 
-                        <?php
-                        $collab = $info->findBy("projectdetails", "collaboration");
-                        $architecture = $info->findBy("projectdetails", "architecture");
-                        ?>
-                        <?php if ($collab): ?>
-                            <div class="col-start-2 col-span-1 lg:col-span-3">
-                                <?= $collab->value()->excerpt(0, true) ?>
-                            </div>
-                        <?php endif ?>
-                        <?php if (!$collab && $architecture): ?>
-                            <div class="col-start-2 col-span-1 lg:col-span-3">
-                                <?= $architecture->value()->excerpt(0, true) ?>
-                            </div>
-                        <?php endif ?>
+                        <div class="lg:col-span-1"><?= $project->location()->kt() ?></div>
 
+                        <div class="lg:col-span-1"><?= $project->project_Status() ?></div>
 
-                        <div class="col-start-2 col-span-1 lg:col-span-2">
-                            <?= t($project->tag()->value()) ?>
-                        </div>
-
-                        <div class="col-start-2 col-span-1 lg:col-span-1 lg:col-end-13 lg:text-right">
-                            <?php foreach ($project->information()->toStructure() as $projectDetail): ?>
-                                <?php if ($projectDetail->projectDetails()->value() == "timeframe"): ?>
-                                    <?= $projectDetail->value() ?>
-                                <?php endif ?>
+                        <div class="lg:col-span-1">
+                            <?php foreach ($project->competencies()->tags()->split(',') as $competency): ?>
+                                <?= get_tag_name($competency) ?>
                             <?php endforeach ?>
                         </div>
+
+                        <div class="lg:col-span-1">
+                            <?php foreach ($project->fields()->tags()->split(',') as $field): ?>
+                                <?= get_tag_name($field) ?>
+                            <?php endforeach ?>
+                        </div>
+
+                        <div class="lg:col-span-1">
+                            <?php foreach ($project->material()->tags()->split(',') as $material): ?>
+                                <?= get_tag_name($material) ?>
+                            <?php endforeach ?>
+                        </div>
+
+                        <div class="lg:col-span-1"><?= $project->collaboration()->kt() ?></div>
+                        
+
+                        <?php if ($project->project_Status() == 'Competition'): ?>
+                        <div class="lg:col-span-1"><?= $project->competition_Result()->kt() ?></div>
+                        <?php endif ?>
+
+                        <div class="lg:col-span-1"><?= $project->year()->kt() ?></div>
+
                     </a>
                 <?php endforeach ?>
             </div>
         </div>
-
-        <!-- WETTBEWERBE -->
-        <?php if ($pages->get('home')->children()->filterBy('choicethree' || 'choicefour')->isEmpty()): ?>
-
-            <h2 class="px-3 pt-6 font-sans text-lg">
-                <?= t("competitions") ?>
-            </h2>
-            <div class="flex flex-col font-sans text-base pt-2">
-                <div class="flex flex-col px-3">
-
-                    <?php
-                    $projectsPage = $pages->get('home');
-                    $projects = $projectsPage->children();
-                    $filteredProjects = $projects->filter(function ($project) {
-                        return $project->categoryB()->value() === 'choicethree' || $project->categoryB()->value() === 'choicefour';
-                    })->sortBy('title', 'asc'); ?>
-
-                    <div class="font-mono text-sm grid grid-cols-2 gap-x-2 lg:grid-cols-12 lg:gap-1 pb-1">
-                        <p class="row-start-1 col-start-1 lg:col-start-1 lg:col-span-3"><?= t("projecttitle") ?></p>
-                        <p class="row-start-2 lg:row-start-auto lg:col-span-3"><?= t("competition result") ?>
-                        </p>
-                        <p class="col-start-2 lg:col-span-3"><?= t("collaboration") ?></p>
-                        <p class="col-start-2 lg:col-span-2"><?= t("field") ?></p>
-                        <p class="col-start-2 lg:col-span-1 lg:text-right"><?= t("timeframe") ?></p>
-                    </div>
-
-                    <?php foreach ($filteredProjects as $project): ?>
-                        <?php
-                        $name = $project->title();
-                        $title = $project->listTitle();
-                        $url = $project->url();
-                        $info = $project->information()->toStructure();
-                        ?>
-
-                        <a href=<?= $url ?>
-                            class="grid auto-cols-fr grid-flow-col gap-x-2 lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-12 py-1 border-t border-csblack last:border-b lg:gap-1 hover:text-cslightblue group">
-
-                            <div class="lg:col-span-3 lg:flex">
-                                <p class="hidden lg:group-hover:block pr-1">↗</p>
-                                <?= $title->kt() ?>
-                            </div>
-
-                            <div class="lg:col-span-3">
-                                <?php $competitionResult = $info->findBy("projectdetails", "competition result") ?>
-                                <?php if ($competitionResult): ?>
-                                    <?= $competitionResult->value() ?>
-                                <?php endif ?>
-                            </div>
-
-                            <?php
-                            $collab2 = $info->findBy("projectdetails", "collaboration");
-                            $architecture2 = $info->findBy("projectdetails", "architecture");
-                            ?>
-                            <?php if ($collab2): ?>
-                                <div class="col-start-2 lg:col-span-3">
-                                    <?= $collab2->value()->excerpt(0, true) ?>
-                                </div>
-                            <?php endif ?>
-                            <?php if (!$collab2 && $architecture2): ?>
-                                <div class="col-start-2 lg:col-span-3">
-                                    <?= $architecture2->value()->excerpt(0, true) ?>
-                                </div>
-                            <?php endif ?>
-
-                            <div class="col-start-2 lg:col-span-2">
-                                <?= t($project->tag()->value()) ?>
-                            </div>
-
-                            <?php
-                            $timeframe = $info->findBy("projectdetails", "timeframe");
-                            $planificationperiod = $info->findBy("projectdetails", "planification period");
-                            ?>
-                            <?php if ($timeframe): ?>
-                                <div class="col-start-2 lg:col-span-1 lg:col-end-13 lg:text-right">
-                                    <?= $timeframe->value() ?>
-                                </div>
-                            <?php endif ?>
-
-                            <?php if (!$timeframe && $planificationperiod): ?>
-                                <div class="col-start-2 lg:col-span-1 lg:col-end-13 lg:text-right">
-                                    <?= $planificationperiod->value() ?>
-                                </div>
-                            <?php endif ?>
-
-                        </a>
-                    <?php endforeach ?>
-                </div>
-            </div>
-        <?php endif ?>
-
 
     </main>
 

@@ -6,8 +6,8 @@ Competencies:
 
 - 
   key: c88faa39-bfdf-47ca-a619-4b64bec2f2fc
-  en_term: Building Construction22222
-  de_term: Bau2
+  en_term: Building Construction
+  de_term: Bau
   fr_term: Construction
 - 
   key: 5ca6c259-ff78-4f11-b599-9ac3cd218781

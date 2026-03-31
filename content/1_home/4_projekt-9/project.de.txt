@@ -2,11 +2,39 @@ Title: Die aufgehängte Turnhalle
 
 ----
 
-Categoryb: choicefour
+Listtitle: <p>Collège de Vidy, Lausanne</p>
 
 ----
 
-Tag: serviceAndIndustry
+Status: Executed
+
+----
+
+Competition-result: 
+
+----
+
+Year: 2018–2026
+
+----
+
+Location: Wallisellen
+
+----
+
+Competencies: 71d63743-c752-4013-a8ca-4152e063e5c7
+
+----
+
+Fields: 10532bcb-27ad-4beb-94c5-b17ff2ae5846
+
+----
+
+Material: 53607c49-e541-498e-a481-bb7c8b826d78
+
+----
+
+Collaboration: –
 
 ----
 
@@ -55,11 +83,11 @@ Diese umfassenden Ziele sind die Grundlage unseres Engagements, die Stadt in ein
 
 ----
 
-Listtitle: <p>Collège de Vidy, Lausanne</p>
+Toggle-detailpage: true
 
 ----
 
-Toggle-detailpage: true
+Categoryb: choicefour
 
 ----
 
@@ -107,11 +135,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
+Cropogimage: 
 
 ----
 
@@ -136,6 +160,18 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Tag: serviceAndIndustry
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
 
 ----
 
