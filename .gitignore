@@ -47,7 +47,7 @@ Icon
 # ---------------
 
 site/plugins/*
-!site/plugins/custom
+!site/plugins/language-helpers
 
 # License
 # ---------------
