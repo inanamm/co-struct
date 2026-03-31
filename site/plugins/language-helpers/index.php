@@ -1,19 +1,30 @@
-<?php 
+<?php
 
-function get_tag_name(String $key) {
-    $lang = strtolower(kirby()->language()->code());
+Kirby::plugin("SlothieStudio/language-helpers", []);
 
-    $helper = site()->find('language-helper');
+class SlothieHelpers
+{
+    public function get_tag_name(string $key)
+    {
+        $lang = strtolower(kirby()->language()->code());
 
-    $bigAssLookup = $helper->competencies()->toStructure()
-        ->extend($helper->material()->toStructure())
-        ->extend($helper->fields()->toStructure());
+        $helper = site()->find('language-helper');
 
-    $match = $bigAssLookup->findBy('key', $key);
+        $bigAssLookup = $helper->competencies()->toStructure()
+            ->add($helper->material()->toStructure())
+            ->add($helper->fields()->toStructure());
 
-    if ($match && $match->{$lang . '_term'}()->isNotEmpty()) {
-        return $match->{$lang . '_term'}()->html();
+        $match = $bigAssLookup->findBy('key', $key);
+
+        if ($match && $match->{$lang . '_term'}()->isNotEmpty()) {
+            return $match->{$lang . '_term'}()->html();
+        }
+
+        return null;
     }
+}
 
-    return null;
+function slothieHelpers(): SlothieHelpers
+{
+    return new SlothieHelpers();
 }

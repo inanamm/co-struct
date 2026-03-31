@@ -86,24 +86,24 @@
 
                         <div class="lg:col-span-1">
                             <?php foreach ($project->competencies()->tags()->split(',') as $competency): ?>
-                                <?= get_tag_name($competency) ?>
+                                <?= SlothieHelpers()->get_tag_name($competency) ?>
                             <?php endforeach ?>
                         </div>
 
                         <div class="lg:col-span-1">
                             <?php foreach ($project->fields()->tags()->split(',') as $field): ?>
-                                <?= get_tag_name($field) ?>
+                                <?=  SlothieHelpers()->get_tag_name($field) ?>
                             <?php endforeach ?>
                         </div>
 
                         <div class="lg:col-span-1">
                             <?php foreach ($project->material()->tags()->split(',') as $material): ?>
-                                <?= get_tag_name($material) ?>
+                                <?=  SlothieHelpers()->get_tag_name($material) ?>
                             <?php endforeach ?>
                         </div>
 
                         <div class="lg:col-span-1"><?= $project->collaboration()->kt() ?></div>
-                        
+
 
                         <?php if ($project->project_Status() == 'Competition'): ?>
                         <div class="lg:col-span-1"><?= $project->competition_Result()->kt() ?></div>
