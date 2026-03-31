@@ -85,21 +85,15 @@
                         <div class="lg:col-span-1"><?= $project->project_Status() ?></div>
 
                         <div class="lg:col-span-1">
-                            <?php foreach ($project->competencies()->tags()->split(',') as $competency): ?>
-                                <?= SlothieHelpers()->get_tag_name($competency) ?>
-                            <?php endforeach ?>
+                            <?= SlothieHelpers()->format_tag_names($project->competencies()->tags()) ?>
                         </div>
 
                         <div class="lg:col-span-1">
-                            <?php foreach ($project->fields()->tags()->split(',') as $field): ?>
-                                <?=  SlothieHelpers()->get_tag_name($field) ?>
-                            <?php endforeach ?>
+                            <?= SlothieHelpers()->format_tag_names($project->fields()->tags()) ?>
                         </div>
 
                         <div class="lg:col-span-1">
-                            <?php foreach ($project->material()->tags()->split(',') as $material): ?>
-                                <?=  SlothieHelpers()->get_tag_name($material) ?>
-                            <?php endforeach ?>
+                            <?= SlothieHelpers()->format_tag_names($project->material()->tags()) ?>
                         </div>
 
                         <div class="lg:col-span-1"><?= $project->collaboration()->kt() ?></div>
