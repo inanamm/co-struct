@@ -2,7 +2,7 @@ Title: Die aufgehängte Turnhalle
 
 ----
 
-Listtitle: <p>Collège de Vidy, Lausanne</p>
+Listtitle: <p>Collège</p>
 
 ----
 
@@ -18,7 +18,7 @@ Year: 2018–2026
 
 ----
 
-Location: Wallisellen
+Location: Vidy (VD)
 
 ----
 

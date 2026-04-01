@@ -2,7 +2,7 @@ Title: Haus der Kreativität
 
 ----
 
-Listtitle: <p>Kreativhuus</p>
+Listtitle: <p>Zweigenerationenhaus</p>
 
 ----
 
@@ -18,7 +18,7 @@ Year: 2021
 
 ----
 
-Location: Greifensee
+Location: Greifensee (ZH)
 
 ----
 

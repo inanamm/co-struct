@@ -1,8 +1,8 @@
-Title: Test Projekt 1
+Title: Runde Fenster
 
 ----
 
-Listtitle: <p>Name Test Projekt 1</p>
+Listtitle: <p>Einfamliienhaus</p>
 
 ----
 
@@ -18,7 +18,7 @@ Year: 2025
 
 ----
 
-Location: Zurich
+Location: Uster (ZH)
 
 ----
 

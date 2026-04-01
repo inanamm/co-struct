@@ -1,8 +1,12 @@
-Title: Test Projekt 2
+Title: EN Das rote Dach
 
 ----
 
-Listtitle: <p>EFH</p>
+Slug: en-das-rote-dach
+
+----
+
+Listtitle: <p>Einfamilienhaus Rotacher</p>
 
 ----
 
@@ -10,7 +14,7 @@ Competition-result: 3. Price
 
 ----
 
-Location: Zürich
+Location: Zurich (ZH)
 
 ----
 

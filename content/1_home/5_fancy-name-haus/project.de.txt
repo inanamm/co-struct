@@ -1,8 +1,8 @@
-Title: Test Projekt 3
+Title: Fancy Name Haus
 
 ----
 
-Listtitle: <p>Name Testprojekt 3 </p>
+Listtitle: <p>Einfamilienhaus</p>
 
 ----
 
@@ -18,7 +18,7 @@ Year: 2030
 
 ----
 
-Location: Zürich
+Location: Zürich (ZH)
 
 ----
 

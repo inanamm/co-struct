@@ -1,8 +1,8 @@
-Title: Schule Eglisau
+Title: Eglisauer Ringli
 
 ----
 
-Listtitle: <p>Schule Eglisau</p>
+Listtitle: <p>Schulgebäude</p>
 
 ----
 

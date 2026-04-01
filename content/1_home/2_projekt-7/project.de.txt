@@ -2,7 +2,7 @@ Title: Farbige Stadt
 
 ----
 
-Listtitle: <p>Farbstadt</p>
+Listtitle: <p>Mehrfamilienhaus</p>
 
 ----
 
@@ -18,7 +18,7 @@ Year: 2025
 
 ----
 
-Location: Dübendorf
+Location: Dübendorf (ZH)
 
 ----
 
