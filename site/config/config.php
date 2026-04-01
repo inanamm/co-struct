@@ -71,20 +71,6 @@ return [
 
 	'routes' => [
 		[
-			'pattern' => 'ajax/projects',
-			'method' => 'GET',
-			'action' => function () {
-				$data = SlothieHelpers()->project_data(get('filter'), get('language'));
-
-				return [
-					'statusCode' => 200,
-					'body'       => json_encode($data),
-					'headers'    => ['Content-Type' => 'application/json']
-				];
-			}
-		],
-
-		[
 			'pattern' => 'sitemap.xml',
 			'action' => function () {
 				$pages = site()->pages()->index();

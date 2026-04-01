@@ -5,9 +5,7 @@
  * @var Kirby\Cms\Page $page
  * @var Kirby\Cms\Pages $pages
  */
-?>
 
-<?php
 $projects = $pages->get('home')->children();
 $filteredProjects = param("filter")
     ? $projects->filterBy('competencies', param("filter"), '*=')
@@ -24,10 +22,14 @@ foreach ($filteredProjects as $project) {
         ];
     }
 }
+
+$snippetId = $snippetId ?? 'project-images';
 ?>
-<?php foreach ($images as $image): ?>
+<div id="<?= $snippetId ?>" class="contents">
+  <?php foreach ($images as $image): ?>
     <a href="<?= $image->url ?>" class="pb-5 hover:text-cslightblue hover:brightness-105 w-full h-full">
         <?= $image->file->thumb(['quality' => 30, 'lazy' => true, 'format' => 'webp'])->html() ?>
         <p class="font-mono text-xs w-full"><?= $image->title ?></p>
     </a>
-<?php endforeach ?>
+  <?php endforeach ?>
+</div>
