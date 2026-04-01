@@ -30,8 +30,17 @@
 
     <?php
     $competencyOptions = SlothieHelpers()->competency_options();
+    $statusOptions     = ['in_planning', 'executed', 'competition'];
 
-    $activeFilters = array_filter(explode(',', get('filters') ?? ''));
+    $activeFilters  = array_filter(explode(',', get('filters') ?? ''));
+    $activeStatuses = array_filter(explode(',', get('status') ?? ''));
+
+    $filterUrl = function (array $filters, array $statuses) use ($page): string {
+        $params = [];
+        if (!empty($filters))  $params[] = 'filters=' . implode(',', $filters);
+        if (!empty($statuses)) $params[] = 'status='  . implode(',', $statuses);
+        return empty($params) ? $page->url() : $page->url() . '?' . implode('&', $params);
+    };
 
     $projectsPage = $site->find('home');
     $projects = $projectsPage->children()->published();
@@ -39,8 +48,13 @@
 
     if (!empty($activeFilters)) {
         $filteredProjects = $filteredProjects->filter(function ($project) use ($activeFilters) {
-            $projectComps = $project->competencies()->split(',');
-            return count(array_intersect($activeFilters, $projectComps)) > 0;
+            return count(array_intersect($activeFilters, $project->competencies()->split(','))) > 0;
+        });
+    }
+
+    if (!empty($activeStatuses)) {
+        $filteredProjects = $filteredProjects->filter(function ($project) use ($activeStatuses) {
+            return in_array($project->project_Status()->value(), $activeStatuses);
         });
     }
     ?>
@@ -60,7 +74,7 @@
                 <h3 class="px-3 font-mono text-sm pb-2">
                     <?= t("filter") ?>
                 </h3>
-                <div class="px-3 flex flex-row flex-wrap gap-2">
+                <div class="px-3 flex flex-row flex-wrap gap-1">
                     <?php foreach ($competencyOptions as $option):
                         $key = $option['key'];
                         $term = $option['term'];
@@ -68,9 +82,7 @@
                         $newFilters = $isActive
                             ? array_values(array_diff($activeFilters, [$key]))
                             : array_merge($activeFilters, [$key]);
-                        $href = empty($newFilters)
-                            ? $page->url()
-                            : $page->url() . '?filters=' . implode(',', $newFilters);
+                        $href = $filterUrl($newFilters, $activeStatuses);
                     ?>
                         <a href="<?= $href ?>"
                             hx-get="<?= $href ?>"
@@ -80,6 +92,24 @@
                             hx-push-url="true"
                             class="py-1 px-2 border border-csblack font-mono text-sm rounded-sm <?= $isActive ? 'bg-csblack text-cswhite' : '' ?>">
                             <?= $term ?>
+                        </a>
+                    <?php endforeach ?>
+
+                    <?php foreach ($statusOptions as $status):
+                        $isActive = in_array($status, $activeStatuses);
+                        $newStatuses = $isActive
+                            ? array_values(array_diff($activeStatuses, [$status]))
+                            : array_merge($activeStatuses, [$status]);
+                        $href = $filterUrl($activeFilters, $newStatuses);
+                    ?>
+                        <a href="<?= $href ?>"
+                            hx-get="<?= $href ?>"
+                            hx-target="#worklist-content"
+                            hx-select="#worklist-content"
+                            hx-swap="outerHTML"
+                            hx-push-url="true"
+                            class="py-1 px-2 border border-csblack font-mono text-sm rounded-sm <?= $isActive ? 'bg-csblack text-cswhite' : '' ?>">
+                            <?= t($status) ?>
                         </a>
                     <?php endforeach ?>
                 </div>
