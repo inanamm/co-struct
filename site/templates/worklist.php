@@ -28,6 +28,23 @@
         <?php endsnippet() ?>
     </div>
 
+    <?php
+    $competencyOptions = SlothieHelpers()->competency_options();
+
+    $activeFilters = array_filter(explode(',', get('filters') ?? ''));
+
+    $projectsPage = $site->find('home');
+    $projects = $projectsPage->children()->published();
+    $filteredProjects = $projects->sortBy('year', 'asc');
+
+    if (!empty($activeFilters)) {
+        $filteredProjects = $filteredProjects->filter(function ($project) use ($activeFilters) {
+            $projectComps = $project->competencies()->split(',');
+            return count(array_intersect($activeFilters, $projectComps)) > 0;
+        });
+    }
+    ?>
+
     <main id="third" class="flex flex-col gap-4 font-mono text-sm pt-2 pb-6 lg:text-sm">
         <h1 class="sr-only">
             <?= $page->title() ?>
@@ -37,84 +54,107 @@
             <?= t("projects") ?>
         </h2>
 
-        <h3 class="px-3 font-mono text-sm">
-            <?= t("filter") ?>
-        </h3>
+        <div id="worklist-content">
 
-        <!-- PROJEKTLISTE -->
-        <div class="flex flex-col font-sans text-base pt-2 pb-4 lg:px-0">
-            <div class="flex flex-col px-3">
-
-                <?php
-                $projectsPage = $pages->get('home');
-                $projects = $projectsPage->children()->published();
-                $filteredProjects = $projects->sortBy('year', 'asc'); ?>
-
-                <div class="font-mono text-xs grid gap-x-2 grid-cols-2 lg:grid-cols-12 lg:gap-1 pb-1">
-                    <p class="lg:col-span-2"><?= t("projecttitle") ?></p>
-                    <p class="lg:col-span-2"><?= t("project") ?></p>
-                    <p class="lg:col-span-1"><?= t("location") ?></p>
-                    <p class="lg:col-span-1"><?= t("status") ?></p>
-                    <p class="lg:col-span-1"><?= t("collaboration") ?></p>
-                    <p class="lg:col-span-1"><?= t("competencies") ?></p>
-                    <p class="lg:col-span-1"><?= t("material") ?></p>
-                    <p class="lg:col-span-1"><?= t("field") ?></p>
-                    <p class="lg:col-span-1"><?= t("competition_Result") ?></p>
-                    <p class="lg:col-span-1 lg:text-right"><?= t("year") ?></p>
-                </div>
-
-                <?php foreach ($filteredProjects as $project): ?>
-                    <?php
-                    $name = $project->title();
-                    $title = $project->listTitle();
-                    $url = $project->url();
-                    $hasDetailpage = $project->toggle_detailpage()->toBool();
+            <div>
+                <h3 class="px-3 font-mono text-sm pb-2">
+                    <?= t("filter") ?>
+                </h3>
+                <div class="px-3 flex flex-row flex-wrap gap-2">
+                    <?php foreach ($competencyOptions as $option):
+                        $key = $option['key'];
+                        $term = $option['term'];
+                        $isActive = in_array($key, $activeFilters);
+                        $newFilters = $isActive
+                            ? array_values(array_diff($activeFilters, [$key]))
+                            : array_merge($activeFilters, [$key]);
+                        $href = empty($newFilters)
+                            ? $page->url()
+                            : $page->url() . '?filters=' . implode(',', $newFilters);
                     ?>
-
-                    <a <?= $hasDetailpage ? 'href="' . $url . '"' : 'aria-disabled="true" tabindex="-1"' ?>
-                        class="grid grid-cols-2 gap-x-2 lg:grid-cols-12 py-1 border-t border-csblack last:border-b lg:gap-1 group <?= $hasDetailpage ? 'hover:text-cslightblue' : 'pointer-events-none cursor-default' ?>">
-
-                        <div class="lg:col-span-2 flex flex-row">
-                            <?php if ($hasDetailpage): ?>
-                                <p class="hidden lg:group-hover:block pr-1">↗</p>
-                            <?php endif ?>
-                            <?= $name->escape() ?>
-                        </div>
-
-                        <div class="lg:col-span-2"><?= $title ?></div>
-
-                        <div class="lg:col-span-1"><?= $project->location()->escape() ?></div>
-
-                        <div class="lg:col-span-1"><?= t($project->project_Status()) ?></div>
-
-                        <div class="lg:col-span-1"><?= $project->collaboration()->escape() ?></div>
-
-                        <div class="lg:col-span-1">
-                            <?= SlothieHelpers()->format_tag_names($project->competencies()->tags()) ?>
-                        </div>
-
-                        <div class="lg:col-span-1">
-                            <?= SlothieHelpers()->format_tag_names($project->fields()->tags()) ?>
-                        </div>
-
-                        <div class="lg:col-span-1">
-                            <?= SlothieHelpers()->format_tag_names($project->material()->tags()) ?>
-                        </div>
-
-
-
-                        <div class="lg:col-span-1">
-                            <?php if ($project->project_Status() == 'competition'): ?>
-                                <?= $project->competition_Result()->escape() ?>
-                            <?php endif ?>
-                        </div>
-
-                        <div class="lg:col-span-1 text-right"><?= $project->year()->escape() ?></div>
-
-                    </a>
-                <?php endforeach ?>
+                        <a href="<?= $href ?>"
+                            hx-get="<?= $href ?>"
+                            hx-target="#worklist-content"
+                            hx-select="#worklist-content"
+                            hx-swap="outerHTML"
+                            hx-push-url="true"
+                            class="py-1 px-2 border border-csblack font-mono text-sm rounded-sm <?= $isActive ? 'bg-csblack text-cswhite' : '' ?>">
+                            <?= $term ?>
+                        </a>
+                    <?php endforeach ?>
+                </div>
             </div>
+
+            <!-- PROJEKTLISTE -->
+            <div class="flex flex-col font-sans text-base pt-6 pb-4 lg:px-0">
+                <div class="flex flex-col px-3">
+
+                    <div class="font-mono text-xs grid gap-x-2 grid-cols-2 lg:grid-cols-12 lg:gap-1 pb-1">
+                        <p class="lg:col-span-2"><?= t("projecttitle") ?></p>
+                        <p class="lg:col-span-2"><?= t("project") ?></p>
+                        <p class="lg:col-span-1"><?= t("location") ?></p>
+                        <p class="lg:col-span-1"><?= t("status") ?></p>
+                        <p class="lg:col-span-1"><?= t("collaboration") ?></p>
+                        <p class="lg:col-span-1"><?= t("competencies") ?></p>
+                        <p class="lg:col-span-1"><?= t("material") ?></p>
+                        <p class="lg:col-span-1"><?= t("field") ?></p>
+                        <p class="lg:col-span-1"><?= t("competition_Result") ?></p>
+                        <p class="lg:col-span-1 lg:text-right"><?= t("year") ?></p>
+                    </div>
+
+                    <?php foreach ($filteredProjects as $project): ?>
+                        <?php
+                        $name = $project->title();
+                        $title = $project->listTitle();
+                        $url = $project->url();
+                        $hasDetailpage = $project->toggle_detailpage()->toBool();
+                        ?>
+
+                        <a <?= $hasDetailpage ? 'href="' . $url . '"' : 'aria-disabled="true" tabindex="-1"' ?>
+                            class="grid grid-cols-2 gap-x-2 lg:grid-cols-12 py-1 border-t border-csblack last:border-b lg:gap-1 group <?= $hasDetailpage ? 'hover:text-cslightblue' : 'pointer-events-none cursor-default' ?>">
+
+                            <div class="lg:col-span-2 flex flex-row">
+                                <?php if ($hasDetailpage): ?>
+                                    <p class="hidden lg:group-hover:block pr-1">↗</p>
+                                <?php endif ?>
+                                <?= $name->escape() ?>
+                            </div>
+
+                            <div class="lg:col-span-2"><?= $title ?></div>
+
+                            <div class="lg:col-span-1"><?= $project->location()->escape() ?></div>
+
+                            <div class="lg:col-span-1"><?= t($project->project_Status()) ?></div>
+
+                            <div class="lg:col-span-1"><?= $project->collaboration()->escape() ?></div>
+
+                            <div class="lg:col-span-1">
+                                <?= SlothieHelpers()->format_tag_names($project->competencies()->tags()) ?>
+                            </div>
+
+                            <div class="lg:col-span-1">
+                                <?= SlothieHelpers()->format_tag_names($project->fields()->tags()) ?>
+                            </div>
+
+                            <div class="lg:col-span-1">
+                                <?= SlothieHelpers()->format_tag_names($project->material()->tags()) ?>
+                            </div>
+
+                            <div class="lg:col-span-1">
+                                <?php if ($project->project_Status() == 'competition'): ?>
+                                    <?= $project->competition_Result()->escape() ?>
+                                <?php endif ?>
+                            </div>
+
+                            <div class="lg:col-span-1 text-right"><?= $project->year()->escape() ?></div>
+
+                        </a>
+                    <?php endforeach ?>
+                </div>
+            </div>
+
         </div>
+      <!-- #worklist-content -->
 
     </main>
 

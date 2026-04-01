@@ -40,13 +40,14 @@
                     $filter = param("filter");
                     $languageCode = $kirby->language()->code();
                     $projectPage = $pages->get('home');
-                    $tags = ['education', 'artInstallation', 'infrastructure', 'housing', 'research', 'serviceAndIndustry', 'sportAndCulture'];
-                    foreach ($tags as $tag):
-                      if ($projectPage->children()->filterBy('tag', $tag)->isNotEmpty()): ?>
-                        <li class="hover:text-cslightblue <?= e($filter === $tag, 'pl-3 text-cslightblue') ?>">
-                          <a href="<?= url($languageCode . '/filter:' . $tag) ?>" class="filter-btn"
-                             data-filter="<?= $tag ?>">
-                            <?= t($tag) ?>
+                    foreach (SlothieHelpers()->competency_options() as $option):
+                      $key = $option['key'];
+                      $term = $option['term'];
+                      if ($projectPage->children()->filterBy('competencies', $key, '*=')->isNotEmpty()): ?>
+                        <li class="hover:text-cslightblue <?= e($filter === $key, 'pl-3 text-cslightblue') ?>">
+                          <a href="<?= url($languageCode . '/filter:' . $key) ?>" class="filter-btn"
+                             data-filter="<?= $key ?>">
+                            <?= $term ?>
                           </a>
                         </li>
                       <?php endif;

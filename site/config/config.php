@@ -74,42 +74,12 @@ return [
 			'pattern' => 'ajax/projects',
 			'method' => 'GET',
 			'action' => function () {
-				$filter = get('filter');
-				$language = get('language');
-				$data = [];
-
-				// Fetch projects based on the filter
-				$projects = site()->page('home')->children()->listed();
-				if ($filter) {
-					$projects = $projects->filterBy('tag', $filter);
-				}
-
-				// Prepare data to be returned
-				foreach ($projects as $project) {
-					$thumbsData = [];
-					foreach ($project->gallery()->toFiles() as $image) {
-						if ($image->show_on_landing()->isNotEmpty() && $image->show_on_landing()->toBool() === false)
-							continue;
-						$thumb = $image->thumb([
-							'quality' => 60,
-							'lazy' => true,
-							'format' => 'webp',
-						])->html();
-						$thumbsData[] = $thumb;
-					}
-
-
-					$data[] = [
-						'content' => $project->translation($language)->content(),
-						'url' => $project->url($language),
-						'thumbs' => $thumbsData,
-					];
-				}
+				$data = SlothieHelpers()->project_data(get('filter'), get('language'));
 
 				return [
 					'statusCode' => 200,
-					'body' => json_encode($data),
-					'headers' => ['Content-Type' => 'application/json']
+					'body'       => json_encode($data),
+					'headers'    => ['Content-Type' => 'application/json']
 				];
 			}
 		],
@@ -148,8 +118,8 @@ return [
 		}
 		$running = true;
 
-		$page = page($newPage->id()); // 🔥 fresh mutable instance
-	
+		$page = page($newPage->id());
+
 		$structuresToUpdate = ['competencies', 'fields'];
 
 		foreach ($structuresToUpdate as $fieldName) {

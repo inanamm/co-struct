@@ -3,6 +3,7 @@
  * @var Kirby\Cms\App $kirby
  * @var Kirby\Cms\Site $site
  * @var Kirby\Cms\Page $page
+ * @var Kirby\Cms\Pages $pages
  */
 ?>
 
@@ -48,6 +49,7 @@
 
         <?php
         $items = $pages->listed();
+
         if ($items->isNotEmpty()): ?>
           <ul>
             <?php foreach ($items as $item): ?>
@@ -63,16 +65,20 @@
                       $filter = param("filter");
                       $languageCode = $kirby->language()->code();
                       $projectPage = $pages->get('home');
-                      $tags = ['education', 'artInstallation', 'infrastructure', 'housing', 'research', 'serviceAndIndustry', 'sportAndCulture'];
-                      foreach ($tags as $tag):
-                        if ($projectPage->children()->filterBy('tag', $tag)->isNotEmpty()): ?>
-                          <li class="hover:text-cslightblue <?= e($filter === $tag, 'pl-3 text-cslightblue') ?>">
-                            <button class="filter-btn" data-filter="<?= $tag ?>">
-                              <?= t($tag) ?>
+
+                      foreach (SlothieHelpers()->competency_options() as $option):
+                        $key = $option['key'];
+                        $term = $option['term'];
+
+                        if ($projectPage->children()->filterBy('competencies', $key, '*=')->isNotEmpty()): ?>
+                          <li class="hover:text-cslightblue <?= $filter === $key ? 'pl-3 text-cslightblue' : null ?>">
+                            <button class="filter-btn" data-filter="<?= $key ?>">
+                              <?= $term ?>
                             </button>
                           </li>
                         <?php endif;
                       endforeach; ?>
+
                     </nav>
                   <?php endif; ?>
                 </li>
@@ -112,7 +118,7 @@
 <?php
 function displayProjectImages($pages): void {
   $projects = $pages->get('home')->children();
-  $filteredProjects = param("filter") ? $projects->filterBy('tag', param("filter")) : $projects;
+  $filteredProjects = param("filter") ? $projects->filterBy('competencies', param("filter"), '*=') : $projects;
 
   $allProjectImagesWithUrl = [];
   foreach ($filteredProjects as $singleProject) {
@@ -128,7 +134,6 @@ function displayProjectImages($pages): void {
       ];
     }
   }
-  // shuffle($allProjectImagesWithUrl);
 
   foreach ($allProjectImagesWithUrl as $image): ?>
     <a href="<?= $image->projectUrl ?>" class="pb-5 hover:text-cslightblue hover:brightness-105 w-full h-full">
