@@ -30,7 +30,6 @@
 
     <?php
     $competencyOptions = SlothieHelpers()->competency_options();
-    $statusOptions     = ['in_planning', 'executed', 'competition'];
 
     $activeFilters  = array_filter(explode(',', get('filters') ?? ''));
     $activeStatuses = array_filter(explode(',', get('status') ?? ''));
@@ -44,6 +43,7 @@
 
     $projectsPage = $site->find('home');
     $projects = $projectsPage->children()->published();
+    $statusOptions = $projects->pluck('project_Status', null, true);
     $filteredProjects = $projects->sortBy('year', 'asc');
 
     if (!empty($activeFilters)) {

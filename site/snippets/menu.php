@@ -36,22 +36,7 @@
                 </a>
                 <?php if ($item->id() === 'home'): ?>
                   <nav>
-                    <?php
-                    $filter = param("filter");
-                    $languageCode = $kirby->language()->code();
-                    $projectPage = $pages->get('home');
-                    foreach (SlothieHelpers()->competency_options() as $option):
-                      $key = $option['key'];
-                      $term = $option['term'];
-                      if ($projectPage->children()->filterBy('competencies', $key, '*=')->isNotEmpty()): ?>
-                        <li class="hover:text-cslightblue <?= e($filter === $key, 'pl-3 text-cslightblue') ?>">
-                          <a href="<?= url($languageCode . '/filter:' . $key) ?>" class="filter-btn"
-                             data-filter="<?= $key ?>">
-                            <?= $term ?>
-                          </a>
-                        </li>
-                      <?php endif;
-                    endforeach; ?>
+                    <?php snippet('home-filter-nav', ['filter' => param("filter")]) ?>
                   </nav>
                 <?php endif; ?>
               </li>
