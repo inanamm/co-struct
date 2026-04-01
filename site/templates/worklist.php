@@ -12,7 +12,7 @@
 <?php snippet('head') ?>
 
 <body class="text-csblack flex flex-col h-screen no-scrollbar">
-    <div class="header pb-5">
+    <div class="header bg-gradient-to-b from-cswhite to-transparent pb-5 relative lg:sticky top-0 z-50">
         <?php snippet('header', slots: true) ?>
         <?php slot('dash') ?>
         <div id="dash" class="w-7 bg-csblack h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center"
@@ -163,6 +163,7 @@
                                     <span class="hidden lg:flex lg:flex-col">
                                         <?= $title->inline() . ', ' . $project->location()->escape() ?>
                                     </span>
+                                    <!-- Collaboration (unchanged) -->
                                     <p class="hidden lg:flex font-mono text-sm">
                                         <?= $project->collaboration()->escape() ?>
                                     </p>

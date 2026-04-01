@@ -8,7 +8,7 @@
     <!--LEFT SIDE-->
     <div class="flex flex-col w-full relative lg:w-1/2 h-screen overflow-y-auto no-scrollbar">
 
-        <div class="header bg-cswhite pb-5">
+        <div class="header bg-gradient-to-b from-cswhite to-transparent pb-5 relative lg:sticky top-0 z-50">
             <?php snippet('header', slots: true) ?>
             <?php slot('dash') ?>
             <div id="dash" class="w-7 bg-csblack h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center"
@@ -73,7 +73,9 @@
                         <div class="flex flex-col">
                             <p><?= t("status") ?></p>
                             <div>
-                                <div><?= trim(t($page->project_Status())) ?><?= $page->project_Status()->is('competition') ? ', ' . $page->competition_Result()->escape() : '' ?></div>
+                                <div>
+                                    <?= trim(t($page->project_Status())) ?>    <?= $page->project_Status()->is('competition') ? ', ' . $page->competition_Result()->escape() : '' ?>
+                                </div>
                             </div>
                         </div>
 

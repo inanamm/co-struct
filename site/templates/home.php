@@ -16,7 +16,7 @@
 
   <main class="text-csblack h-screen flex flex-col lg:flex-row">
     <div class="flex flex-col lg:w-1/2 h-screen overflow-auto no-scrollbar">
-      <div class="header bg-cswhite pb-5">
+      <div class="header bg-gradient-to-b from-cswhite to-transparent pb-5 relative lg:sticky top-0 z-50">
         <?php snippet('header', slots: true) ?>
         <?php slot('dash') ?>
         <div
