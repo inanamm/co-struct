@@ -24,7 +24,8 @@ tabs:
           back: "{{ page.myCustomBackgroundColor }}"
 
   #tab2 INFO CO—STRUCT AG
-  Info Co–struct AG:
+  Info Co-struct AG:
+    label: Info co–struct AG 
     icon: pin
     columns:
       main:

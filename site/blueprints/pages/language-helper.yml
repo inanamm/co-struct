@@ -82,3 +82,7 @@ fields:
         label: FR Value
         type: text
         required: true
+
+options:
+  changeStatus:
+    editor: false

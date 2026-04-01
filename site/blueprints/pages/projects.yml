@@ -1,4 +1,4 @@
-title: Projects
+title: Competencies
 
 sections:
   fields:
@@ -8,24 +8,6 @@ sections:
         label: Color
         type: hidden
         width: 1/6
-  drafts:
-    extends: sections/projects
-    layout: list
-    label: Drafts
-    status: draft
-
-  published_without_detailpage:
-    extends: sections/projects
-    label: Projects without Detailpage
-    query: page.children.listed.filterBy("toggle_detailpage", false)
-    create: false
-
-  published_with_detailpage:
-    extends: sections/projects
-    label: Projects with Detailpage
-    query: page.children.listed.filterBy("toggle_detailpage", true)
-    create: false
-
 
 options:
   changeSlug:
@@ -52,5 +34,4 @@ options:
     editor: true
   list: 
     admin: true
-    # editor: false
-    
+   

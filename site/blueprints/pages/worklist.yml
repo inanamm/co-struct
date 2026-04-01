@@ -1,4 +1,4 @@
-title: Worklist
+title: Projects
 
 sections:
   fields:
@@ -9,7 +9,62 @@ sections:
         type: hidden
         width: 1/6
 
+  fields:
+    type: fields
+    fields:
+      myCustomBackgroundColor:
+        label: Color
+        type: hidden
+        width: 1/6
+  drafts:
+    extends: sections/projects
+    layout: list
+    label: Drafts
+    status: draft
+
+  published_without_detailpage:
+    extends: sections/projects
+    label: Projects without Detailpage
+    query: page.children.listed.filterBy("toggle_detailpage", false)
+    create: false
+
+  published_with_detailpage:
+    extends: sections/projects
+    label: Projects with Detailpage
+    query: page.children.listed.filterBy("toggle_detailpage", true)
+    create: false
+
+
+options:
+  changeSlug:
+    editor: false
+  changeStatus:
+    editor: false
+  changeTemplate:
+    editor: false
+  changeTitle:
+    editor: false
+  create:
+    editor: true
+    admin: true
+  delete:
+    editor: false
+  duplicate:
+    editor: false
+  read:
+    admin: true
+    editor: true
+  sort:
+    editor: false
+  update:
+    editor: true
+  list: 
+    admin: true
+   
+
 options:
   list: 
     admin: true
+    editor: false
+  changeStatus:
     editor: false

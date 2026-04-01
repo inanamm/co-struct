@@ -72,21 +72,12 @@
             </div>
         <?php endif ?>
 
-
           <?php
           $lang = strtolower(kirby()->language()->code());
           $helper = site()->find('language-helper');
           $competenciesLookup = $helper->competencies()->toStructure();
 
           ?>
-          <ul>
-            <-- COMPETENCIES -->
-            <?php foreach ($page->competencies()->split() as $key): ?>
-              <?php $match = $competenciesLookup->findBy('key', $key); ?>
-
-              <li><?= $match ? $match->{$lang . '_term'}()->html() : $key ?></li>
-            <?php endforeach ?>
-          </ul>
 
             <article class="flex flex-col h-full font-sans text-base px-3 pt-2 pb-5 gap-3 text_with_link">
                 <h2><?= $page->textTitle()->kt()->smartypants() ?></h2>

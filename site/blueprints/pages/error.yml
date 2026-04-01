@@ -13,4 +13,6 @@ options:
   list: 
     admin: true
     editor: false
+  changeStatus:
+    editor: false
 

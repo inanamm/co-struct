@@ -109,4 +109,8 @@ tabs:
                   - sup                  
                 translate: false
 
+options:
+  changeStatus:
+    editor: false
+
   seo: seo/page

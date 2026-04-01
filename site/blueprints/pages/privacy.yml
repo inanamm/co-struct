@@ -18,3 +18,7 @@ columns:
             label: Privacy Policy
             type: textarea
             buttons: false
+
+options:
+  changeStatus:
+    editor: false
