@@ -88,7 +88,7 @@
                         ?>
                         <a href="<?= $href ?>" hx-get="<?= $href ?>" hx-target="#worklist-content"
                             hx-select="#worklist-content" hx-swap="outerHTML" hx-push-url="true"
-                            class="py-1 px-2 border border-csblack font-mono text-sm rounded-sm <?= $isActive ? 'bg-csblack text-cswhite' : '' ?>">
+                            class="py-1 px-2 border border-csblack font-mono text-sm rounded-sm <?= $isActive ? 'bg-cslightblue text-csblack border-cslightblue' : '' ?> hover:bg-cslightblue hover:text-csblack">
                             <?= $term ?>
                         </a>
                     <?php endforeach ?>
@@ -102,7 +102,7 @@
                         ?>
                         <a href="<?= $href ?>" hx-get="<?= $href ?>" hx-target="#worklist-content"
                             hx-select="#worklist-content" hx-swap="outerHTML" hx-push-url="true"
-                            class="py-1 px-2 border border-csblack font-mono text-sm rounded-sm <?= $isActive ? 'bg-csblack text-cswhite' : '' ?>">
+                            class="py-1 px-2 border border-csblack font-mono text-sm rounded-sm <?= $isActive ? 'bg-cslightblue text-csblack border-cslightblue' : '' ?> hover:bg-cslightblue hover:text-csblack">
                             <?= t($status) ?>
                         </a>
                     <?php endforeach ?>
@@ -113,17 +113,22 @@
             <div class="flex flex-col font-sans text-base pt-6 pb-4 lg:px-0">
                 <div class="flex flex-col px-3">
 
-                    <div class="font-mono text-xs grid gap-x-2 grid-cols-2 lg:grid-cols-24 lg:gap-2 pb-1">
+                    <div class="font-mono text-xs grid gap-x-2 lg:grid-cols-24 lg:gap-2 pb-1">
                         <div class="lg:col-span-5">
-                            <?= t("projecttitle") ?>, <?= t("year") ?>
+                            <?= t("projecttitle") ?>
+                            <p class="hidden lg:flex lg:flex-col"><?= t("year") ?></p>
                         </div>
-                        <p class="lg:col-span-5"><?= t("project") ?>, <?= t("location") ?> <br>
-                            <?= t("collaboration") ?>
-                        </p>
+                        <div class="lg:flex lg:flex-col lg:col-span-5">
+                            <div class="flex flex-row">
+                                <div class="hidden lg:flex"><?= t("project") ?>,&nbsp;</div>
+                                <div class="flex"><?= t("location") ?> </div>
+                            </div>
+                            <div class="hidden lg:flex"><?= t("collaboration") ?></div>
+                        </div>
                         <p class="lg:col-span-4"><?= t("competencies") ?></p>
-                        <p class="lg:col-span-4"><?= t("material") ?></p>
-                        <p class="lg:col-span-4"><?= t("field") ?></p>
-                        <p class="lg:col-span-2 lg:text-right"><?= t("status") ?></p>
+                        <p class="hidden lg:flex lg:flex-col lg:col-span-4"><?= t("material") ?></p>
+                        <p class="hidden lg:flex lg:flex-col lg:col-span-4"><?= t("field") ?></p>
+                        <p class="hidden lg:flex lg:flex-col lg:col-span-2 lg:text-right "><?= t("status") ?></p>
                     </div>
 
                     <?php foreach ($filteredProjects as $project): ?>
@@ -135,7 +140,7 @@
                         ?>
 
                         <a <?= $hasDetailpage ? 'href="' . $url . '"' : 'aria-disabled="true" tabindex="-1"' ?>
-                            class="grid grid-cols-2 gap-x-2 lg:grid-cols-24 py-1 border-t border-csblack last:border-b lg:gap-1 group <?= $hasDetailpage ? 'hover:text-cslightblue' : 'pointer-events-none cursor-default' ?>">
+                            class="grid gap-x-2 lg:grid-cols-24 py-1 border-t border-csblack last:border-b lg:gap-2 group <?= $hasDetailpage ? 'hover:text-cslightblue' : 'pointer-events-none cursor-default' ?>">
 
                             <div class="lg:col-span-5 flex flex-col">
                                 <div class="flex flex-row">
@@ -144,11 +149,25 @@
                                     <?php endif ?>
                                     <?= $name->escape() ?>
                                 </div>
-                                <?= $project->year()->escape() ?>
+                                <p class="hidden lg:flex font-mono text-sm"><?= $project->year()->escape() ?></p>
                             </div>
 
-                            <div class="lg:col-span-5"><?= $title->inline() . ', ' . $project->location()->escape() ?>
-                                <p><?= $project->collaboration()->escape() ?></p>
+                            <div class="pt-1 lg:pt-0 lg:flex lg:col-span-5">
+                                <!-- Mobile: location only -->
+                                <span class="lg:hidden font-mono text-sm">
+                                    <?= $project->location()->escape() ?>
+                                </span>
+
+                                <div class="lg:flex lg:flex-col">
+                                    <!-- Desktop layout -->
+                                    <span class="hidden lg:flex lg:flex-col">
+                                        <?= $title->inline() . ', ' . $project->location()->escape() ?>
+                                    </span>
+                                    <!-- Collaboration (unchanged) -->
+                                    <p class="hidden lg:flex font-mono text-sm">
+                                        <?= $project->collaboration()->escape() ?>
+                                    </p>
+                                </div>
                             </div>
 
 
@@ -156,15 +175,15 @@
                                 <?= SlothieHelpers()->format_tag_names($project->competencies()->tags()) ?>
                             </div>
 
-                            <div class="lg:col-span-4 font-mono text-sm">
+                            <div class="hidden lg:flex lg:col-span-4 font-mono text-sm">
                                 <?= SlothieHelpers()->format_tag_names($project->material()->tags()) ?>
                             </div>
 
-                            <div class="lg:col-span-4 font-mono text-sm">
+                            <div class="hidden lg:flex lg:col-span-4 font-mono text-sm">
                                 <?= SlothieHelpers()->format_tag_names($project->fields()->tags()) ?>
                             </div>
 
-                            <div class="lg:col-span-2 text-right font-mono text-sm">
+                            <div class="hidden lg:flex lg:flex-col lg:col-span-2 text-right font-mono text-sm">
                                 <div><?= t($project->project_Status()) ?></div>
                                 <?php if ($project->project_Status() == 'competition'): ?>
                                     <div><?= $project->competition_Result()->escape() ?></div>

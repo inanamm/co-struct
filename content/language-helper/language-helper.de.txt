@@ -34,16 +34,6 @@ Competencies:
   en_term: Sustainability
   de_term: Nachhaltigkeit
   fr_term: Durabilité
-- 
-  key: f096b5a8-b1fa-4813-a3c3-eda73d0583b8
-  en_term: tet
-  de_term: test
-  fr_term: test
-- 
-  key: f76bee17-54c5-4125-9f84-cc0494f132bc
-  en_term: hello
-  de_term: hello
-  fr_term: hello
 
 ----
 
@@ -52,12 +42,12 @@ Fields:
 - 
   key: 2e66597d-43ea-423a-adce-68ec7efe4d6c
   en_term: Residential
-  de_term: Wohnen2
+  de_term: Wohnen
   fr_term: Résidentiel
 - 
   key: c2c61886-42e7-4cf3-98c8-97e991724334
   en_term: Industry/Commercial
-  de_term: Industrie / Gewerbe
+  de_term: Industrie/Gewerbe
   fr_term: Industrie / Commercial
 - 
   key: 1ac8efbc-52ee-47ba-826f-bbc2a5e11f90
