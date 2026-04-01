@@ -15,15 +15,19 @@ $otherPages = $pages->listed()->not($homePage)->filter(function ($item) {
 
 ?>
 
-<nav
-  id="second"
-  class="hidden lg:flex justify-between pt-2 pb-5 px-3 font-sans text-lg border-t border-csblack"
->
-  <ul>
+  <ul id="home-nav">
     <li class="mb-2">
       <a
-        <?= $homePage->isOpen() ? 'class="font-sansbold hover:text-cslightblue"' : null ?>
-        href="<?= $homePage->url() ?>" class="hover:text-cslightblue"
+        href="<?= $homePage->url() ?>"
+        class="<?= $homePage->isOpen() ? 'font-sansbold hover:text-cslightblue' : 'hover:text-cslightblue' ?>"
+        <?php if ($homePage->isOpen()): ?>
+          hx-get="<?= $homePage->url() ?>"
+          hx-target="#project-images"
+          hx-select="#project-images"
+          hx-select-oob="#project-images-desktop,#home-nav"
+          hx-swap="outerHTML"
+          hx-push-url="true"
+        <?php endif ?>
       >
         <?= $homePage->title()->html() ?>
       </a>
@@ -43,4 +47,3 @@ $otherPages = $pages->listed()->not($homePage)->filter(function ($item) {
       </li>
     <?php endforeach; ?>
   </ul>
-</nav>
