@@ -1,0 +1,143 @@
+Title: Testprojekt neu 1
+
+----
+
+Listtitle: <p>Museum</p>
+
+----
+
+Project-status: in_planning
+
+----
+
+Competition-result: 
+
+----
+
+Year: 2026
+
+----
+
+Location: Zürich (ZH)
+
+----
+
+Competencies: d54dd283-9967-4e10-bb86-e321ffd27f4f
+
+----
+
+Fields: ce2ac7bb-ee53-4f5e-81c8-18facacc0781
+
+----
+
+Material: 1ac9ccb2-56f7-4b98-847c-cb1f1b8e0319
+
+----
+
+Collaboration: nuar GmbH
+
+----
+
+Information:
+
+- 
+  projectdetails: status
+  value: ""
+
+----
+
+Texttitle: Titel Testprojekt neu 1
+
+----
+
+Text: <p>Dies ist ein tolles Museum, findest du nicht?</p>
+
+----
+
+Toggle-detailpage: true
+
+----
+
+Categoryb: choicefive
+
+----
+
+Gallery:
+
+- file://elbkK3MyRTGCwBko
+- file://Zk3IYp6expJjMhxt
+- file://jwefseToreLGjp1a
+- file://Wr9cuk1N28hxMYx4
+- file://iliFj3NwJNMi1I54
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Cropogimage: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: z09alzls3vllzxvy
+
+----
+
+Lock: Yj9x7Dnv

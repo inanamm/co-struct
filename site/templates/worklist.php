@@ -163,7 +163,6 @@
                                     <span class="hidden lg:flex lg:flex-col">
                                         <?= $title->inline() . ', ' . $project->location()->escape() ?>
                                     </span>
-                                    <!-- Collaboration (unchanged) -->
                                     <p class="hidden lg:flex font-mono text-sm">
                                         <?= $project->collaboration()->escape() ?>
                                     </p>
