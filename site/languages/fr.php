@@ -82,7 +82,9 @@ return [
         'competencies' => 'Compétence',
         'in_planning' => 'En planification',
         'executed' => 'Exécuté',
-        'competition' => 'Concours'
+        'competition' => 'Concours',
+        'no_projects_found' => 'Aucun projet trouvé.',
+        'look_at_these_instead' => 'Ces projets pourraient vous intéresser :'
     ],
     'url' => NULL
 ];

@@ -12,7 +12,7 @@
 <?php snippet('head') ?>
 
 <body class="text-csblack flex flex-col h-screen no-scrollbar">
-    <div class="header bg-gradient-to-b from-cswhite to-transparent pb-5 relative lg:sticky top-0 z-50">
+    <div class="headern bg-gradient-to-b from-cswhite to-transparent pb-5 relative lg:sticky top-0 z-50">
         <?php snippet('header', slots: true) ?>
         <?php slot('dash') ?>
         <div id="dash" class="w-7 bg-csblack h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center"
@@ -113,6 +113,31 @@
             <div class="flex flex-col font-sans text-base pt-6 pb-4 lg:px-0">
                 <div class="flex flex-col px-3">
 
+                    <?php if ($filteredProjects->count() === 0):
+                        // alternative, same competency filters, different status
+                        $alternativeProjects = $projects->sortBy('year', 'asc');
+                        if (!empty($activeFilters)) {
+                            $alternativeProjects = $alternativeProjects->filter(function ($project) use ($activeFilters) {
+                                return count(array_intersect($activeFilters, $project->competencies()->split(','))) > 0;
+                            });
+                        }
+                        // if none active, show all
+                        if (!empty($activeStatuses)) {
+                            $alternativeProjects = $alternativeProjects->filter(function ($project) use ($activeStatuses) {
+                                return !in_array($project->project_Status()->value(), $activeStatuses);
+                            });
+                        }
+                        // if still empty, show all projects
+                        if ($alternativeProjects->count() === 0) {
+                            $alternativeProjects = $projects->sortBy('year', 'asc');
+                        }
+                    ?>
+                        <div class="pb-10 font-sans text-md">
+                            <span class="text-cslightblue"><?= t('no_projects_found') ?></span>
+                            <?= t('look_at_these_instead') ?>
+                        </div>
+                    <?php endif ?>
+
                     <div class="font-mono text-xs grid gap-x-2 lg:grid-cols-24 lg:gap-2 pb-1">
                         <div class="lg:col-span-5">
                             <?= t("projecttitle") ?>
@@ -130,6 +155,64 @@
                         <p class="hidden lg:flex lg:flex-col lg:col-span-4"><?= t("field") ?></p>
                         <p class="hidden lg:flex lg:flex-col lg:col-span-2 lg:text-right "><?= t("status") ?></p>
                     </div>
+
+                    <?php if (isset($alternativeProjects)):
+                        foreach ($alternativeProjects as $project):
+                            $name = $project->title();
+                            $title = $project->listTitle();
+                            $url = $project->url();
+                            $hasDetailpage = $project->toggle_detailpage()->toBool();
+                        ?>
+                        <a <?= $hasDetailpage ? 'href="' . $url . '"' : 'aria-disabled="true" tabindex="-1"' ?>
+                            class="grid gap-x-2 lg:grid-cols-24 py-1 border-t border-csblack last:border-b lg:gap-2 group <?= $hasDetailpage ? 'hover:text-cslightblue' : 'pointer-events-none cursor-default' ?>">
+
+                            <div class="lg:col-span-5 flex flex-col">
+                                <div class="flex flex-row">
+                                    <?php if ($hasDetailpage): ?>
+                                        <p class="hidden lg:group-hover:block pr-1">↗</p>
+                                    <?php endif ?>
+                                    <?= $name->escape() ?>
+                                </div>
+                                <p class="hidden lg:flex font-mono text-sm"><?= $project->year()->escape() ?></p>
+                            </div>
+
+                            <div class="pt-1 lg:pt-0 lg:flex lg:col-span-5">
+                                <span class="lg:hidden font-mono text-sm">
+                                    <?= $project->location()->escape() ?>
+                                </span>
+                                <div class="lg:flex lg:flex-col">
+                                    <span class="hidden lg:flex lg:flex-col">
+                                        <?= $title->inline() . ', ' . $project->location()->escape() ?>
+                                    </span>
+                                    <p class="hidden lg:flex font-mono text-sm">
+                                        <?= $project->collaboration()->escape() ?>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="lg:col-span-4 font-mono text-sm">
+                                <?= SlothieHelpers()->format_tag_names($project->competencies()->tags()) ?>
+                            </div>
+
+                            <div class="hidden lg:flex lg:col-span-4 font-mono text-sm">
+                                <?= SlothieHelpers()->format_tag_names($project->material()->tags()) ?>
+                            </div>
+
+                            <div class="hidden lg:flex lg:col-span-4 font-mono text-sm">
+                                <?= SlothieHelpers()->format_tag_names($project->fields()->tags()) ?>
+                            </div>
+
+                            <div class="hidden lg:flex lg:flex-col lg:col-span-2 text-right font-mono text-sm">
+                                <div><?= t($project->project_Status()) ?></div>
+                                <?php if ($project->project_Status() == 'competition'): ?>
+                                    <div><?= $project->competition_Result()->escape() ?></div>
+                                <?php endif ?>
+                            </div>
+
+                        </a>
+                        <?php endforeach ?>
+
+                    <?php else: ?>
 
                     <?php foreach ($filteredProjects as $project): ?>
                         <?php
@@ -192,6 +275,7 @@
 
                         </a>
                     <?php endforeach ?>
+                    <?php endif ?>
                 </div>
             </div>
 

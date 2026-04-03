@@ -81,7 +81,9 @@ return [
         'material' => 'Material',
         'competition' => 'Competition',
         'executed' => 'Executed',
-        'in_planning' => 'In Planning'
+        'in_planning' => 'In Planning',
+        'no_projects_found' => 'No projects found.',
+        'look_at_these_instead' => 'You might also be interested in:'
     ],
     'url' => NULL
 ];

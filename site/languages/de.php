@@ -81,7 +81,9 @@ return [
         'material' => 'Material',
         'in_planning' => 'In Planung',
         'executed' => 'Ausgeführt',
-        'competition' => 'Wettbewerb'
+        'competition' => 'Wettbewerb',
+        'no_projects_found' => 'Keine Projekte gefunden.',
+        'look_at_these_instead' => 'Vielleicht interessiert dich das:'
     ],
     'url' => NULL
 ];
