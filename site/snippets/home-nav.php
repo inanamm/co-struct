@@ -22,7 +22,7 @@ $otherPages = $pages->listed()->not($homePage)->filter(function ($item) {
         href="<?= $homePage->url() ?>"
         class="<?= $homePage->isOpen() ? 'font-sansbold hover:text-cslightblue' : 'hover:text-cslightblue' ?>"
         <?php if ($homePage->isOpen()): ?>
-          hx-get="<?= $projectsPage->url() ?>"
+          hx-get="<?= $homePage->url() ?>"
           hx-target="#project-images"
           hx-select="#project-images"
           hx-select-oob="#project-images-desktop,#home-nav"
