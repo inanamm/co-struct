@@ -103,7 +103,6 @@ tabs:
           collaboration:
             label: Collaboration with
             type: writer
-            inline: true
             marks:
               - link
             required: true

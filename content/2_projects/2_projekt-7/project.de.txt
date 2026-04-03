@@ -6,7 +6,7 @@ Listtitle: <p>Mehrfamilienhaus</p>
 
 ----
 
-Project-status: executed
+Project-status: competition
 
 ----
 
@@ -34,7 +34,7 @@ Material: 9209959e-3b2c-4f12-9503-58385575422d
 
 ----
 
-Collaboration: –SCHIU<br>fdsafsa
+Collaboration: nummer 1<br>nummer 2
 
 ----
 
@@ -46,12 +46,6 @@ Information:
 - 
   projectdetails: architecture
   value: '<p><a href="https://google.com">Herzog &amp; De Meuron</a></p>'
-- 
-  projectdetails: ""
-  value: CH—8004 Zürich
-- 
-  projectdetails: ""
-  value: '<p>2. Preis</p>'
 - 
   projectdetails: planification period
   value: 2015–2019

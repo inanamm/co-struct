@@ -67,15 +67,13 @@
                     <div class="flex flex-col gap-3 mt-3">
                         <div class="flex flex-col">
                             <p><?= t("projecttitle") ?></p>
-                            <p><?= $page->title()->inline() . ', ' . $page->location()->escape() ?></p>
+                            <p><?= $page->listTitle()->inline() . ', ' . $page->location()->escape() ?></p>
                         </div>
 
                         <div class="flex flex-col">
                             <p><?= t("status") ?></p>
                             <div>
-                                <div>
-                                    <?= trim(t($page->project_Status())) ?>    <?= $page->project_Status()->is('competition') ? ', ' . $page->competition_Result()->escape() : '' ?>
-                                </div>
+                                <?= t($page->project_Status()) . ($page->project_Status()->value() == 'competition' ? ', ' . $page->competition_Result()->escape() : '') ?>
                             </div>
                         </div>
 
@@ -98,6 +96,12 @@
                             <p><?= t("fields") ?></p>
                             <p><?= SlothieHelpers()->format_tag_names($page->fields()->tags()) ?></p>
                         </div>
+
+                        <div class="flex flex-col">
+                            <p><?= t("collaboration") ?></p>
+                            <?= $page->collaboration()->text() ?>
+                        </div>
+
 
                         <?php foreach ($page->information()->toStructure() as $detail): ?>
                             <div class="flex flex-col">

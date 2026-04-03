@@ -188,12 +188,12 @@
                                 <span class="lg:hidden font-mono text-sm">
                                     <?= $project->location()->escape() ?>
                                 </span>
-                                <div class="lg:flex lg:flex-col">
-                                    <span class="hidden lg:flex lg:flex-col">
+                                <div class="lg:flex lg:flex-col ">
+                                    <span class="hidden  lg:flex lg:flex-col">
                                         <?= $title->inline() . ', ' . $project->location()->escape() ?>
                                     </span>
                                     <p class="hidden lg:flex font-mono text-sm">
-                                        <?= $project->collaboration()->escape() ?>
+                                        <?= $project->collaboration()->text() ?>
                                     </p>
                                 </div>
                             </div>
@@ -256,7 +256,7 @@
                                     </span>
                                     <!-- Collaboration (unchanged) -->
                                     <p class="hidden lg:flex font-mono text-sm">
-                                        <?= $project->collaboration()->escape() ?>
+                                        <?= $project->collaboration()->text() ?>
                                     </p>
                                 </div>
                             </div>
