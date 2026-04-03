@@ -1,6 +1,6 @@
 type: pages
 label: Projects
-parent: kirby.page('home')
+parent: kirby.page('projects')
 layout: cardlets
 template: project
 image:

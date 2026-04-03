@@ -15,7 +15,7 @@ class SlothieHelpers
 
     public function project_data(?string $filter, string $language): array
     {
-        $projects = site()->page('home')->children()->listed();
+        $projects = site()->page('projects')->children()->listed();
 
         if ($filter) {
             $projects = $projects->filterBy('competencies', $filter, '*=');

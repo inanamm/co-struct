@@ -11,11 +11,13 @@
 
 <ul>
   <?php
+  $projectsPage = $pages->get('projects');
   $homePage = $pages->get('home');
+
   foreach (SlothieHelpers()->competency_options() as $option):
     $key  = $option['key'];
     $term = $option['term'];
-    if ($homePage->children()->filterBy('competencies', $key, '*=')->isEmpty()) continue;
+    if ($projectsPage->children()->filterBy('competencies', $key, '*=')->isEmpty()) continue;
     $href = $filter === $key ? $homePage->url() : $homePage->url() . '/filter:' . $key;
   ?>
     <li class="hover:text-cslightblue <?= $filter === $key ? 'pl-3 text-cslightblue' : '' ?>">

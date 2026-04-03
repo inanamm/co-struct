@@ -45,10 +45,6 @@ Oldcoworkerstitle: Former Employees
 
 ----
 
-Worklisttitle: Worklist
-
-----
-
 Metatitle: 
 
 ----
@@ -114,10 +110,6 @@ Metainherit:
 ----
 
 Competitionlist: <ul><li>fdsafdsaf</li><li>fdsfdsfdsa</li><li>fdsfdsfdsa</li><li>fdsfdfdsa</li><li>fdsdsa</li></ul>
-
-----
-
-Worklist: 
 
 ----
 

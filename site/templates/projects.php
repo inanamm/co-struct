@@ -43,7 +43,7 @@
         return empty($params) ? $page->url() : $page->url() . '?' . implode('&', $params);
     };
 
-    $projectsPage = $site->find('home');
+    $projectsPage = $site->find('projects');
     $projects = $projectsPage->children()->published();
 
     $usedCompetencyKeys = [];

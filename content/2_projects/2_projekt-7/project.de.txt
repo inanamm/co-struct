@@ -34,7 +34,7 @@ Material: 9209959e-3b2c-4f12-9503-58385575422d
 
 ----
 
-Collaboration: –
+Collaboration: –SCHIU<br>fdsafsa
 
 ----
 
@@ -50,7 +50,7 @@ Information:
   projectdetails: ""
   value: CH—8004 Zürich
 - 
-  projectdetails: competition result
+  projectdetails: ""
   value: '<p>2. Preis</p>'
 - 
   projectdetails: planification period

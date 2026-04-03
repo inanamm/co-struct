@@ -7,6 +7,7 @@
  */
 
 $filter = param("filter");
+$projectsPage = $pages->get('projects');
 $homePage = $pages->get('home');
 
 $otherPages = $pages->listed()->not($homePage)->filter(function ($item) {
@@ -21,7 +22,7 @@ $otherPages = $pages->listed()->not($homePage)->filter(function ($item) {
         href="<?= $homePage->url() ?>"
         class="<?= $homePage->isOpen() ? 'font-sansbold hover:text-cslightblue' : 'hover:text-cslightblue' ?>"
         <?php if ($homePage->isOpen()): ?>
-          hx-get="<?= $homePage->url() ?>"
+          hx-get="<?= $projectsPage->url() ?>"
           hx-target="#project-images"
           hx-select="#project-images"
           hx-select-oob="#project-images-desktop,#home-nav"

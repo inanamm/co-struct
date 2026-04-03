@@ -40,7 +40,7 @@ tabs:
             type: text
             required: true
             width: 1/2
-            placeholder: 1st Prize
+            placeholder: 1st Place
             when: 
               project_Status: competition
           spacer:
@@ -102,7 +102,10 @@ tabs:
               value: "{{ item.key }}"
           collaboration:
             label: Collaboration with
-            type: text
+            type: writer
+            inline: true
+            marks:
+              - link
             required: true
             translate: false
             width: 1/2
@@ -117,16 +120,12 @@ tabs:
                 options:
                   client: Client
                   architecture: Architecture
-                  location: Location
-                  construction costs: Construction Costs
-                  timeframe: Timeframe
+                  project phase: Project Phase
                   planification period: Planning Period
                   construction period: Construction Period
                   SIA volume: Volume (SIA)
                   span: Span
-                  competition result: Competition Result
-                  project phase: Project Phase
-                  status: Status
+                  construction costs: Construction Costs
                   construction management: Construction Management
                   general planification: General Planification
                   general contractor: General Contractor
@@ -136,7 +135,6 @@ tabs:
                   building services: Building Services
                   electro: Electro
                   building physics: Building Physics
-                  collaboration: Collaboration
                   environment: Environment
                   fire protection: Fire life savety
                   facade: Facade

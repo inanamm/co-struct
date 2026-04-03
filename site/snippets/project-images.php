@@ -6,7 +6,7 @@
  * @var Kirby\Cms\Pages $pages
  */
 
-$projects = $pages->get('home')->children();
+$projects = $pages->get('projects')->children();
 $filteredProjects = param("filter")
     ? $projects->filterBy('competencies', param("filter"), '*=')
     : $projects;
