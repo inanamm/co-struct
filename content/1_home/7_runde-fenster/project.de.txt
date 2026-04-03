@@ -22,7 +22,7 @@ Location: Uster (ZH)
 
 ----
 
-Competencies: 5ca6c259-ff78-4f11-b599-9ac3cd218781, 3e99f85d-1c9a-4d5a-ace7-6902f307f127, 71d63743-c752-4013-a8ca-4152e063e5c7
+Competencies: 5ca6c259-ff78-4f11-b599-9ac3cd218781, 71d63743-c752-4013-a8ca-4152e063e5c7
 
 ----
 

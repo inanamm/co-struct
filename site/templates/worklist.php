@@ -45,6 +45,14 @@
 
     $projectsPage = $site->find('home');
     $projects = $projectsPage->children()->published();
+
+    $usedCompetencyKeys = [];
+    foreach ($projects as $project) {
+        $usedCompetencyKeys = array_merge($usedCompetencyKeys, $project->competencies()->split(','));
+    }
+    $usedCompetencyKeys = array_unique(array_filter($usedCompetencyKeys));
+    $competencyOptions = array_filter($competencyOptions, fn($opt) => in_array($opt['key'], $usedCompetencyKeys));
+
     $statusOptions = $projects->pluck('project_Status', null, true);
     $filteredProjects = $projects->sortBy('year', 'asc');
 
