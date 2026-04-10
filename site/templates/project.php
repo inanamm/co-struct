@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            <div style="<?= calculateBarLength($page->categoryB()->escape()) ?>"
+            <div style="<?= calculateBarLength($page->categoryB()) ?>"
                 class="bg-csblack h-[0.26rem] lg:hover:bg-csorange border-none lg:h-[0.40rem] self-left bar relative"
                 onmouseover="document.querySelector('.category').style.color='#ff9900'; document.querySelector('.category').style.visibility='visible';"
                 onmouseout="document.querySelector('.category').style.color='csblack'; document.querySelector('.category').style.visibility='hidden';">
@@ -67,19 +67,19 @@
                     <div class="flex flex-col gap-3 mt-3">
                         <div class="flex flex-col">
                             <p><?= t("projecttitle") ?></p>
-                            <p><?= $page->listTitle()->inline() . ', ' . $page->location()->escape() ?></p>
+                            <p><?= $page->listTitle()->inline() . ', ' . $page->location() ?></p>
                         </div>
 
                         <div class="flex flex-col">
                             <p><?= t("status") ?></p>
                             <div>
-                                <?= t($page->project_Status()) . ($page->project_Status()->value() == 'competition' ? ', ' . $page->competition_Result()->escape() : '') ?>
+                                <?= t($page->project_Status()) . ($page->project_Status()->value() == 'competition' ? ', ' . $page->competition_Result() : '') ?>
                             </div>
                         </div>
 
                         <div class="flex flex-col">
                             <p><?= t("year") ?></p>
-                            <p><?= $page->year()->escape() ?></p>
+                            <p><?= $page->year() ?></p>
                         </div>
 
                         <div class="flex flex-col">

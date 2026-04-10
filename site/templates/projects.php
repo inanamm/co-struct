@@ -186,11 +186,11 @@
 
                             <div class="pt-1 lg:pt-0 lg:flex lg:col-span-5">
                                 <span class="lg:hidden font-mono text-sm">
-                                    <?= $project->location()->escape() ?>
+                                    <?= $project->location() ?>
                                 </span>
                                 <div class="lg:flex lg:flex-col ">
-                                    <span class="hidden  lg:flex lg:flex-col">
-                                        <?= $title->inline() . ', ' . $project->location()->escape() ?>
+                                    <span class="hidden lg:flex lg:flex-col">
+                                        <?= $title->inline() . ', ' . $project->location() ?>
                                     </span>
                                     <p class="hidden lg:flex font-mono text-sm">
                                         <?= $project->collaboration()->text() ?>
@@ -213,7 +213,7 @@
                             <div class="hidden lg:flex lg:flex-col lg:col-span-2 text-right font-mono text-sm">
                                 <div><?= t($project->project_Status()) ?></div>
                                 <?php if ($project->project_Status() == 'competition'): ?>
-                                    <div><?= $project->competition_Result()->escape() ?></div>
+                                    <div><?= $project->competition_Result() ?></div>
                                 <?php endif ?>
                             </div>
 
@@ -238,22 +238,18 @@
                                     <?php if ($hasDetailpage): ?>
                                         <p class="hidden lg:group-hover:block pr-1">↗</p>
                                     <?php endif ?>
-                                    <?= $name->escape() ?>
+                                    <?= $name ?>
                                 </div>
-                                <p class="hidden lg:flex font-mono text-sm"><?= $project->year()->escape() ?></p>
+                                <p class="hidden lg:flex font-mono text-sm"><?= $project->year() ?></p>
                             </div>
 
                             <div class="pt-1 lg:pt-0 lg:flex lg:col-span-5">
                                 <!-- Mobile: location only -->
-                                <span class="lg:hidden font-mono text-sm">
-                                    <?= $project->location()->escape() ?>
-                                </span>
 
-                                <div class="lg:flex lg:flex-col">
+
+                                <div class="inline-flex lg:flex-col">
                                     <!-- Desktop layout -->
-                                    <span class="hidden lg:flex lg:flex-col">
-                                        <?= $title->inline() . ', ' . $project->location()->escape() ?>
-                                    </span>
+                                        <?= $title->inline() . ', ' . $project->location() ?>
                                     <!-- Collaboration (unchanged) -->
                                     <p class="hidden lg:flex font-mono text-sm">
                                         <?= $project->collaboration()->text() ?>

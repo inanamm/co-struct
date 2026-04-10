@@ -54,7 +54,10 @@ tabs:
             translate: false
           location:
             label: Location
-            type: text
+            type: writer
+            marks:
+              - link
+            nodes: false
             required: true
             width: 1/2
             placeholder: Zurich (ZH)
@@ -105,6 +108,7 @@ tabs:
             type: writer
             marks:
               - link
+            nodes: false
             required: true
             translate: false
             width: 1/2

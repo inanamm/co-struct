@@ -2,11 +2,39 @@ Title: Projekttitel
 
 ----
 
-Categoryb: choicetwo
+Listtitle: <p>Projektname</p>
 
 ----
 
-Tag: artInstallation
+Project-status: executed
+
+----
+
+Competition-result: 
+
+----
+
+Year: 2019
+
+----
+
+Location: fdsafdsa
+
+----
+
+Competencies: 
+
+----
+
+Fields: 
+
+----
+
+Material: 
+
+----
+
+Collaboration: <p>fdsasf</p>
 
 ----
 
@@ -21,16 +49,16 @@ Information:
     Verschiedene Architekten über
     Jahrhunderte
 - 
-  projectdetails: location
+  projectdetails: ""
   value: CH—4051 Basel
 - 
-  projectdetails: timeframe
+  projectdetails: ""
   value: '<p>2014</p>'
 - 
-  projectdetails: collaboration
+  projectdetails: ""
   value: '<p>Test</p>'
 - 
-  projectdetails: competition result
+  projectdetails: ""
   value: '<p>3. Preis</p>'
 
 ----
@@ -49,7 +77,11 @@ Das Basler Münster ist nicht nur ein Ort der Anbetung, sondern auch ein Ort der
 
 ----
 
-Listtitle: <p>Projektname</p>
+Toggle-detailpage: true
+
+----
+
+Categoryb: choicetwo
 
 ----
 
@@ -99,11 +131,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
+Cropogimage: 
 
 ----
 
@@ -128,6 +156,18 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Tag: artInstallation
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
 
 ----
 
