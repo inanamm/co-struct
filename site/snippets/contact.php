@@ -6,7 +6,4 @@
             'blank' => false
         ]) ?>
     <?php endif ?>
-    <a href="tel:<?= $phone ?>" class="underline-none hover:text-cslightblue">
-        <?= $phone ?>
-    </a>
 </div>

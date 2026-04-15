@@ -6,32 +6,6 @@ Intro: <p>As passionate engineers, we collaborate on a high-quality architecture
 
 ----
 
-Addresses:
-
-- 
-  companyname: co–struct AG
-  description: NEU Tragwerksentwurf
-  street: Hohlstrasse 209
-  place: CH—8004 Zürich
-  toggle: 'true'
-  postalcode: "8004"
-  zip: ""
-  city: ""
-- 
-  companyname: co–struct SA
-  description: NOUVEAU Design structurel
-  street: Chemin des Clos 17
-  place: CH—1170 Aubonne
-  toggle: 'true'
-- 
-  companyname: co–struct Nummer 3
-  description: hihi
-  street: Hallihallo strasse 9
-  place: CH—8005 Zürich
-  toggle: 'true'
-
-----
-
 Email: hello@co-struct.ch
 
 ----
