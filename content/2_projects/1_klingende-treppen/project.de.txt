@@ -1,0 +1,160 @@
+Title: Klingende Treppen
+
+----
+
+Listtitle: <p>Eventhalle</p>
+
+----
+
+Project-status: competition
+
+----
+
+Competition-result: 1. Preis
+
+----
+
+Year: 2026
+
+----
+
+Location: Lausanne (GE)
+
+----
+
+Competencies: c88faa39-bfdf-47ca-a619-4b64bec2f2fc, 71d63743-c752-4013-a8ca-4152e063e5c7
+
+----
+
+Fields: 2e66597d-43ea-423a-adce-68ec7efe4d6c, ce2ac7bb-ee53-4f5e-81c8-18facacc0781, 6bb57cb6-bc48-429b-93cb-162a3e39889f
+
+----
+
+Material: 9209959e-3b2c-4f12-9503-58385575422d
+
+----
+
+Collaboration: Dubovic
+
+----
+
+Information:
+
+- 
+  projectdetails: construction period
+  value: '<p>fdsa</p>'
+
+----
+
+Texttitle: Die Elegante Philharmonie
+
+----
+
+Text:
+
+Die Tonhalle Maag ist ein beeindruckendes architektonisches Juwel im Herzen von Zürich. Dieses erstklassige Konzertgebäude wurde als Erweiterung der Tonhalle Zürich konzipiert und bietet eine herausragende Akustik und eine moderne, ästhetisch ansprechende Umgebung für musikalische Darbietungen.
+
+Die Architektur von Annette Gigon und Mike Guyer zeichnet sich durch klare Linien und moderne Formen aus. Die Konzertsaal-Fassade ist mit einer reflektierenden Glasfront gestaltet, die das Gebäude in der Umgebung lebendig erscheinen lässt. Das Innere des Saals wurde sorgfältig gestaltet, um eine optimale Klangqualität zu gewährleisten, was es zu einem beliebten Ziel für erstklassige musikalische Aufführungen macht.
+
+Die Tonhalle Maag ist nicht nur ein Ort für klassische Musik, sondern auch für eine Vielzahl von musikalischen Genres und kulturellen Veranstaltungen. Sie hat sich zu einem wichtigen kulturellen Zentrum in Zürich entwickelt, das die Vielfalt der musikalischen Welt feiert und ein breites Publikum anspricht.
+
+----
+
+Toggle-detailpage: true
+
+----
+
+Categoryb: choicefive
+
+----
+
+Gallery:
+
+- file://vLHAfNzKd2Z5o8E3
+- file://SbuK8ZDMdUNoK5RV
+- file://dASKm58VXC1TGCLM
+- file://XqTHnLM3UIHnTArG
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Cropogimage: 
+
+----
+
+Robotsindex: false
+
+----
+
+Robotsfollow: false
+
+----
+
+Robotsarchive: false
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: false
+
+----
+
+Metainherit: 
+
+----
+
+Status: In planning
+
+----
+
+Tag: housing
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Uuid: SlD4zLTtl5Qharwx

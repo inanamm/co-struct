@@ -1,4 +1,6 @@
 <?php
+use Kirby\Toolkit\Str;
+use Kirby\Data\Yaml;
 
 return [
 	'languages' => true,
@@ -6,19 +8,25 @@ return [
 	'smartypants' => true,
 	'panel' => [
 		'install' => false,
+		'vue' => [
+			'compiler' => false,
+		],
 		'favicon' => [
-			'apple-touch-icon' => [
+			[
+				'rel' => 'apple-touch-icon',
 				'type' => 'image/png',
-				'url'  =>  '/apple-touch-icon.png',
+				'href' => '/apple-touch-icon.png',
 			],
-			'shortcut icon' => [
+			[
+				'rel' => 'shortcut icon',
 				'type' => 'image/svg+xml',
-				'url'  => 'git/favicon.svg',
+				'href' => 'git/favicon.svg',
 			],
-			'alternate icon' => [
+			[
+				'rel' => 'icon',
 				'type' => 'image/png',
-				'url'  => '/favicon.png',
-			]
+				'href' => '/favicon.ico',
+			],
 		]
 	],
 	'auth' => [
@@ -34,79 +42,37 @@ return [
 			'active' => false,
 		]
 	],
-    'zephir.cookieconsent' => [
-        'guiOptions' => [
-            'consentModal' => [
-                'layout' => 'box inline',
-                'position' => 'bottom right',
-                'flipButtons' => true,
-                'equalWeightButtons' => true
-            ],
-            'preferencesModal' => [
-                'layout' => 'box',
-                // 'position' => 'left', // only relevant with the "bar" layout
-                'flipButtons' => true,
-                'equalWeightButtons' => true
-            ]
-        ],
-        'categories' => [
-            'necessary' => [
-                'enabled' => true,
-                'readOnly' => true
-            ],
-            'measurement' => [],
-            'functionality' => [],
-            'experience' => [],
-            'marketing' => []
-        ],
-    ],
-
-    'routes' => [
-		[
-			'pattern' => 'ajax/projects',
-			'method' => 'GET',
-			'action'  => function () {
-				$filter = get('filter');
-				$language = get('language');
-				$data = [];
-
-				// Fetch projects based on the filter
-				$projects = site()->page('projects')->children()->listed();
-				if ($filter) {
-					$projects = $projects->filterBy('tag', $filter);
-				}
-
-				// Prepare data to be returned
-				foreach ($projects as $project) {
-					$thumbsData = [];
-					foreach ($project->gallery()->toFiles() as $image) {
-						$thumb = $image->thumb([
-							'quality' => 60,
-							'lazy' => true,
-							'format' => 'webp',
-						])->html();
-						$thumbsData[] = $thumb;
-					}
-
-					
-					$data[] = [
-						'content' => $project->translation($language)->content(),
-						'url' => $project->url($language),
-						'thumbs' => $thumbsData,
-					];
-				}
-
-				return [
-					'statusCode' => 200,
-					'body' => json_encode($data),
-					'headers' => ['Content-Type' => 'application/json']
-				];
-			}
+	'zephir.cookieconsent' => [
+		'guiOptions' => [
+			'consentModal' => [
+				'layout' => 'box inline',
+				'position' => 'bottom right',
+				'flipButtons' => true,
+				'equalWeightButtons' => true
+			],
+			'preferencesModal' => [
+				'layout' => 'box',
+				// 'position' => 'left', // only relevant with the "bar" layout
+				'flipButtons' => true,
+				'equalWeightButtons' => true
+			]
 		],
+		'categories' => [
+			'necessary' => [
+				'enabled' => true,
+				'readOnly' => true
+			],
+			'measurement' => [],
+			'functionality' => [],
+			'experience' => [],
+			'marketing' => []
+		],
+	],
 
-        [
+	'routes' => [
+		[
 			'pattern' => 'sitemap.xml',
-			'action'  => function () {
+			'action' => function () {
 				$pages = site()->pages()->index();
 
 				// fetch the pages to ignore from the config settings,
@@ -121,9 +87,64 @@ return [
 		],
 		[
 			'pattern' => 'sitemap',
-			'action'  => function () {
+			'action' => function () {
 				return go('sitemap.xml', 301);
 			}
 		]
-	]
+	],
+	'page.update:after' => function (Kirby\Cms\Page $newPage, Kirby\Cms\Page $oldPage) {
+
+		if ($newPage->intendedTemplate()->name() !== 'language-helper') {
+			return;
+		}
+
+		static $running = false;
+		if ($running) {
+			return;
+		}
+		$running = true;
+
+		$page = page($newPage->id());
+
+		$structuresToUpdate = ['competencies', 'fields'];
+
+		foreach ($structuresToUpdate as $fieldName) {
+
+			if ($page->$fieldName()->isEmpty()) {
+				continue;
+			}
+
+			$items = $page->$fieldName()->yaml();
+
+			$usedKeys = [];
+
+			foreach ($items as $i => $item) {
+
+				if (!empty($item['key'])) {
+					$usedKeys[] = $item['key'];
+					continue;
+				}
+
+				$base = Str::slug($item['en_term'] ?? 'item');
+				$key = $base;
+				$n = 1;
+
+				while (in_array($key, $usedKeys)) {
+					$key = $base . '-' . $n;
+					$n++;
+				}
+
+				$items[$i]['key'] = $key;
+				$usedKeys[] = $key;
+			}
+
+			if ($items !== $page->$fieldName()->yaml()) {
+				$page->update([
+					$fieldName => $items
+				]);
+			}
+		}
+
+		$running = false;
+	}
 ];

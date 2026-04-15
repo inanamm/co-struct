@@ -3,7 +3,6 @@ title: Project
 status:
   draft: Draft
   listed: Published
-  unlisted: Privately Published
 
 tabs:
   content:
@@ -13,34 +12,107 @@ tabs:
       main:
         width: 2/3
         fields:
-          categoryB:
-            label: Category
-            type: radio
+          listTitle:
+            type: writer
+            label: Name
+            help: Projectname in the index
+            placeholder: EFH/Brücke
+            maxlength: 60
+            translate: true
+            marks: false
+            nodes: false
+            required: true
+          project_Status:
+            label: Status
+            type: toggles
+            translate: false
+            required: true
+            width: 1/2
+            options:
+              - value: in_planning
+                text: In planning
+              - value: executed
+                text: Executed
+              - value: competition
+                text: Competition
+          competition_Result:
+            label: Competition Result
+            type: text
+            required: true
+            width: 1/2
+            placeholder: 1st Place
+            when: 
+              project_Status: competition
+          spacer:
+            type: gap
+          year:
+            label: Year
+            type: text
+            required: true
+            width: 1/2
+            placeholder: 2026 or 2023–2026
+            translate: false
+          location:
+            label: Location
+            type: writer
+            marks:
+              - link
+            nodes: false
+            required: true
+            width: 1/2
+            placeholder: Zurich (ZH)
+          competencies:
+            label: Competencies
+            type: tags
+            width: 1/2
+            separator: ","
+            required: true
+            search: true
+            translate: false
+            accept: options
+            options:
+              type: query
+              query: site.find("language-helper").competencies.toStructure
+              text: "{{ item.EN_term }}"
+              value: "{{ item.key }}"
+          fields:
+            label: Fields
+            type: tags
+            width: 1/2
+            separator: ","
+            required: true
+            search: true
+            translate: false
+            accept: options
+            options:
+              type: query
+              query: site.find("language-helper").fields.toStructure
+              text: "{{ item.EN_term }}"
+              value: "{{ item.key }}"
+          material:
+            label: Material
+            type: tags
+            width: 1/2
+            separator: ","
+            required: true
+            search: true
+            translate: false
+            accept: options
+            options:
+              type: query
+              query: site.find("language-helper").material.toStructure
+              text: "{{ item.EN_term }}"
+              value: "{{ item.key }}"
+          collaboration:
+            label: Collaboration with
+            type: writer
+            marks:
+              - link
+            nodes: false
             required: true
             translate: false
             width: 1/2
-            options:
-              choiceone: Research
-              choicetwo: Other
-              choicethree: Competition
-              choicefour: Competition won
-              choicefive: Direct Commission
-
-          tag:
-            label: Tag
-            type: radio
-            required: true
-            width: 1/2
-            translate: false
-            options:
-              education: Education
-              artInstallation: Art installation
-              infrastructure: Infrastructure
-              housing: Housing
-              research: Research
-              serviceAndIndustry: Service and industry
-              sportAndCulture: Sport and culture
-
+            placeholder: Architecture office
           information:
             label: Info
             type: structure
@@ -51,16 +123,12 @@ tabs:
                 options:
                   client: Client
                   architecture: Architecture
-                  location: Location
-                  construction costs: Construction Costs
-                  timeframe: Timeframe
+                  project phase: Project Phase
                   planification period: Planning Period
                   construction period: Construction Period
                   SIA volume: Volume (SIA)
                   span: Span
-                  competition result: Competition Result
-                  project phase: Project Phase
-                  status: Status
+                  construction costs: Construction Costs
                   construction management: Construction Management
                   general planification: General Planification
                   general contractor: General Contractor
@@ -70,7 +138,6 @@ tabs:
                   building services: Building Services
                   electro: Electro
                   building physics: Building Physics
-                  collaboration: Collaboration
                   environment: Environment
                   fire protection: Fire life savety
                   facade: Facade
@@ -87,7 +154,6 @@ tabs:
                   institution: Institution
                   credits: Credits
 
-
               value:
                 label: Value
                 type: writer
@@ -96,8 +162,9 @@ tabs:
                   - sub
                   - sup
                 nodes: false
-          line:
-            type: line
+
+          headline:
+            label: Text Detailpage
           textTitle:
             label: Text title
             type: text
@@ -117,15 +184,31 @@ tabs:
           fieldsA:
             type: fields
             fields:
-              listTitle:
-                type: writer
-                label: List Name
-                help: Projectname in the index
-                translate: true
-                marks: false
-                nodes: false
+              toggle_detailpage:
+                type: toggle
+                label: Detailpage?
+                text: 
+                  - "no"
+                  - "yes"
+                default: true
+                help: "No: The project is shown in the index but doesn't have it's own detailed page. No images shown on landing page."
+                width: 1/2
+                translate: false
+              categoryB:
+                label: Orange Bar Category
+                type: radio
+                required: true
+                translate: false
+                width: 1/2
+                options:
+                  choiceone: Research
+                  choicetwo: Other
+                  choicethree: Competition
+                  choicefour: Competition won
+                  choicefive: Direct Commission
               lineB:
                 type: line
+
           images:
             type: fields
             fields:
@@ -146,6 +229,7 @@ tabs:
                   - sub
                   - sup
                 nodes: false
+                placeholder: "Visualisierungen: Name"
 
 
 
@@ -155,7 +239,6 @@ options:
   delete:
     editor: true
     admin: true
-  changeStatus:
-    editor: true
-    admin: true
+  changeStatus: true
+  move: false
     

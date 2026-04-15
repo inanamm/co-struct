@@ -1,0 +1,88 @@
+fields:
+  competencies:
+    label: Competencies
+    type: structure
+    columns:
+      EN_term:
+        width: 1/3
+      DE_term:
+        width: 1/3
+      FR_term:
+        width: 1/3
+    fields:
+      key:
+        label: Key
+        type: hidden
+        disabled: true
+      EN_term:
+        label: EN Value
+        type: text
+        required: true
+      DE_term:
+        label: DE Value
+        type: text
+        required: true
+      FR_term:
+        label: FR Value
+        type: text
+        required: true
+
+  fields:
+    label: Fields
+    type: structure
+    columns:
+      EN_term:
+        width: 1/3
+      DE_term:
+        width: 1/3
+      FR_term:
+        width: 1/3
+    fields:
+      key:
+        label: Key
+        type: hidden
+        disabled: true
+      EN_term:
+        label: EN Value
+        type: text
+        required: true
+      DE_term:
+        label: DE Value
+        type: text
+        required: true
+      FR_term:
+        label: FR Value
+        type: text
+        required: true
+
+  material:
+    label: Material
+    type: structure
+    columns:
+      EN_term:
+        width: 1/3
+      DE_term:
+        width: 1/3
+      FR_term:
+        width: 1/3
+    fields:
+      key:
+        label: Key
+        type: hidden
+        disabled: true
+      EN_term:
+        label: EN Value
+        type: text
+        required: true
+      DE_term:
+        label: DE Value
+        type: text
+        required: true
+      FR_term:
+        label: FR Value
+        type: text
+        required: true
+
+options:
+  changeStatus:
+    editor: false

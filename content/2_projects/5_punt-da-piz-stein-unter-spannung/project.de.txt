@@ -1,0 +1,170 @@
+Title: Punt da Piz – Stein unter Spannung
+
+----
+
+Listtitle: <p>Einfamilienhaus</p>
+
+----
+
+Project-status: executed
+
+----
+
+Competition-result: 1. Preis
+
+----
+
+Year: 2030
+
+----
+
+Location: Zürich (ZH)
+
+----
+
+Competencies: d54dd283-9967-4e10-bb86-e321ffd27f4f, cbd2c615-18ce-4119-910c-43d979008f60
+
+----
+
+Fields: 10532bcb-27ad-4beb-94c5-b17ff2ae5846
+
+----
+
+Material: 4373387f-56fb-4257-8bfc-22000b6c8213
+
+----
+
+Collaboration: SCHIBLIHOLENSTEIN ARCHITEKTEN
+
+----
+
+Information:
+
+- 
+  projectdetails: client
+  value: '<p>Nummer 1</p>'
+- 
+  projectdetails: architecture
+  value: '<p><a href="https://schibliholenstein.ch">schibliholenstein</a></p>'
+- 
+  projectdetails: ""
+  value: '<p>10Mio.</p>'
+- 
+  projectdetails: competition result
+  value: '<p>3. Preis</p>'
+- 
+  projectdetails: timeframe
+  value: '<p>2019–2022</p>'
+- 
+  projectdetails: ""
+  value: '<p>38m<sup>3</sup></p>'
+- 
+  projectdetails: collaboration
+  value: '<p>martina2</p>'
+
+----
+
+Texttitle: 
+
+----
+
+Text: 
+
+----
+
+Toggle-detailpage: true
+
+----
+
+Categoryb: choicefour
+
+----
+
+Gallery:
+
+- file://pwMVRYH1tSCIkZHt
+- file://x9iePdl6MQNWlAcY
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Cropogimage: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Status: Competition
+
+----
+
+Tag: housing
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Uuid: bQyY50rcwN4P8eOT

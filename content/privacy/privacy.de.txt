@@ -6,6 +6,10 @@ Privacypolicytitle: Datenschutzerklärung
 
 ----
 
+Mycustombackgroundcolor: #191919
+
+----
+
 Privacypolicy:
 
 co–struct AG
@@ -107,6 +111,14 @@ Haftungsansprüche gegen den Autor wegen Schäden materieller oder immaterieller
 Alle Angebote sind freibleibend. Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.
 
 Quelle: BrainBox Solutions
+
+----
+
+Cover: - file://HagrUBf1RDcGJAgR
+
+----
+
+Mycustomiconcolor: #00ff59
 
 ----
 

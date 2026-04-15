@@ -2,8 +2,16 @@ title: Image
 
 accept:
   extension: jpg, png, jpeg, webp
-
+  
 fields:
+  show_on_landing:
+    label: Show on landing page?
+    type: toggle
+    text:
+      - "no"
+      - "yes"
+    default: true
+    width: 1/4
   alt:
     label: Alt Text
     type: text

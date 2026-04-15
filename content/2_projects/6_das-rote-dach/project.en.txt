@@ -1,0 +1,140 @@
+Title: EN Das rote Dach
+
+----
+
+Slug: en-das-rote-dach
+
+----
+
+Listtitle: <p>Einfamilienhaus Rotacher</p>
+
+----
+
+Competition-result: 3. Price
+
+----
+
+Location: Zurich (ZH)
+
+----
+
+Information: 
+
+----
+
+Texttitle: 
+
+----
+
+Text: 
+
+----
+
+Gallery:
+
+- file://Fydqg2xiSVBPCVBT
+- file://SbuK8ZDMdUNoK5RV
+- file://swXe0XVfBxoP9PFx
+- file://pwMVRYH1tSCIkZHt
+- file://Npzuv4BoRg3wYQQz
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Cropogimage: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Status: Executed
+
+----
+
+Tag: infrastructure
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Images:
+
+- 
+  image:
+    - file://UOTz3a1NLiaBoiJX
+  show_on_landing: 'false'
+- 
+  image:
+    - file://pwMVRYH1tSCIkZHt
+  show_on_landing: 'true'
+- 
+  image:
+    - file://gBqsQCjtBRbpGt9F
+  show_on_landing: 'true'
+
+----
+
+Toggle: false

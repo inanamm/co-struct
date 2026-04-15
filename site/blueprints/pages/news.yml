@@ -11,6 +11,10 @@ tabs:
           fields:
             type: fields
             fields:
+              myCustomBackgroundColor:
+                label: Color
+                type: hidden
+                width: 1/6
               news:
                 label: Entries
                 type: structure

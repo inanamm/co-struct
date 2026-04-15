@@ -1,57 +1,50 @@
 title: CO–STRUCT AG
 
 tabs:
+        
   #tab1 PAGES
-  pages:
+  landing:
     icon: text
     sections:
-      # draft:
-      #   type: pages
-      #   status: draft
       pages:
         type: pages
-        status: published
-      fields:
-        type: fields
-        fields:
-          intro:
-            label: Introtext
-            type: writer
-            marks: 
-              - link
-              - sub
-              - sup
-            nodes: false
-            counter: true
-            maxlength: 500
-            spellcheck: true
-
-  #tab2 PROJECTS
-  projects:
-    icon: dashboard
-    sections:
-      drafts:
-        extends: sections/projects
-        label: Project Drafts
-        status: draft
-      
-      private:
-        extends: sections/projects
-        label: Privately Published Drafts
-        status: unlisted
-
-      published:
-        extends: sections/projects
-        label: Published Drafts
         status: listed
+        image:
+          icon: false
+          query: false
+          back: "{{ page.myCustomBackgroundColor }}"
 
-  #tab3 INFO CO—STRUCT AG
-  Info Co–struct AG:
+      helper_pages:
+        type: pages
+        label: Helper Pages
+        status: unlisted
+        image:
+          icon: false
+          query: false
+          back: "{{ page.myCustomBackgroundColor }}"
+
+  #tab2 INFO CO—STRUCT AG
+  Info Co-struct AG:
+    label: Info co–struct AG 
     icon: pin
     columns:
       main:
         width: 2/3
         sections:
+          fields:
+            type: fields
+            fields:
+              intro:
+                label: Introtext
+                type: writer
+                marks: 
+                  - link
+                  - sub
+                  - sup
+                nodes: false
+                counter: true
+                maxlength: 500
+                spellcheck: true
           generalinfo:
             type: fields
             fields:
@@ -60,11 +53,6 @@ tabs:
                 type: info
                 theme: positive
                 text: The toggle for visibility can be turned off to make an address disappear without deleting it. The visibilty can be targeted separately for the footer and the about page.
-              info2:
-                label: Footer Info
-                type: info
-                theme: critical
-                text: In the footer a maximum of 3 visible addresses is recommended. If more than 3 addresses are visible, the fourth address will be hidden.
               addresses:
                 label: Addresses
                 type: structure
@@ -120,6 +108,11 @@ tabs:
                       - "No"
                       - "Yes"
                     default: true
+              info2:
+                label: Footer Info
+                type: info
+                theme: critical
+                text: In the footer a maximum of 3 visible addresses is recommended. If more than 3 addresses are visible, the fourth address will be hidden.
 
       sidebar:
         width: 1/3
@@ -137,8 +130,7 @@ tabs:
                 label: LinkedIn Handle
                 type: url
 
-  seo: seo/site
-
+  #tab3 MEDIA
   media:
     icon: images
     sections:
@@ -148,8 +140,10 @@ tabs:
         layout: cards
         size: small
         limit: 50
-        info: "{{ file.dimensions }}"
+        info: "{{ file.dimensions }}<br>{{ file.niceSize }}<br>{{ file.alt }}"
         image:
           cover: true
           ratio: 1/1
+
+  seo: seo/site
           

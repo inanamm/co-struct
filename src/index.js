@@ -1,10 +1,12 @@
 import Alpine from "alpinejs";
+import htmx from "htmx.org";
 import Glide from "@glidejs/glide";
 import anime from "animejs/lib/anime.es.js";
 
 import "./index.css";
 
 window.Alpine = Alpine;
+window.htmx = htmx;
 
 Alpine.start();
 

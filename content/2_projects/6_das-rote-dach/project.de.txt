@@ -1,0 +1,172 @@
+Title: Das rote Dach
+
+----
+
+Listtitle: <p>Einfamilienhaus Rotacher</p>
+
+----
+
+Project-status: competition
+
+----
+
+Competition-result: 3. Preis
+
+----
+
+Year: 2025
+
+----
+
+Location: Zürich (ZH)
+
+----
+
+Competencies: cbd2c615-18ce-4119-910c-43d979008f60
+
+----
+
+Fields: 6bb57cb6-bc48-429b-93cb-162a3e39889f, 84be052c-8b98-4947-aac8-971db6aee43d
+
+----
+
+Material: 4373387f-56fb-4257-8bfc-22000b6c8213
+
+----
+
+Collaboration: Dubovic
+
+----
+
+Information: 
+
+----
+
+Texttitle: 
+
+----
+
+Text: 
+
+----
+
+Toggle-detailpage: false
+
+----
+
+Categoryb: choicetwo
+
+----
+
+Gallery:
+
+- file://Fydqg2xiSVBPCVBT
+- file://SbuK8ZDMdUNoK5RV
+- file://swXe0XVfBxoP9PFx
+- file://pwMVRYH1tSCIkZHt
+- file://Npzuv4BoRg3wYQQz
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Cropogimage: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Status: Executed
+
+----
+
+Tag: infrastructure
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Images:
+
+- 
+  image:
+    - file://UOTz3a1NLiaBoiJX
+  show_on_landing: 'false'
+- 
+  image:
+    - file://pwMVRYH1tSCIkZHt
+  show_on_landing: 'true'
+- 
+  image:
+    - file://gBqsQCjtBRbpGt9F
+  show_on_landing: 'true'
+
+----
+
+Toggle: false
+
+----
+
+Uuid: J4lhAxFHMiI716qL

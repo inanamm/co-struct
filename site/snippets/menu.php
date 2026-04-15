@@ -1,4 +1,15 @@
-<div class="relative z-40" x-data="{ menuOpen: false }">
+<?php
+/**
+ * @var Kirby\Cms\App $kirby
+ * @var Kirby\Cms\Site $site
+ * @var Kirby\Cms\Page $page
+ * @var Kirby\Cms\Pages $pages
+ *
+ * @var string | null $filter
+ */
+?>
+
+<div class="relative z-40" x-data="{ menuOpen: false }" @close-menu.window="menuOpen = false">
   <div class="h-screen w-full bg-csblack opacity-30 bg-blend-multiply fixed inset-0" @click="menuOpen = false"
        x-show="menuOpen" :aria-expanded="menuOpen.toString()" style="display: none;"
        x-transition:enter="transition duration-500 ease-in-out" x-transition:enter-start="opacity-0"
@@ -23,41 +34,7 @@
        style="display: none;">
 
     <nav class="flex justify-between pt-2 pb-5 px-3 font-sans text-lg">
-      <?php
-      $items = $pages->listed();
-      if ($items->isNotEmpty()): ?>
-        <ul>
-          <?php foreach ($items as $item): ?>
-            <?php if (!($item->id() === "jobs" && $pages->get('jobs')->children()->listed()->count() < 1)): ?>
-              <li <?= e($item->id() === 'news', 'class="mt-4 hover:text-cslightblue"') ?>>
-                <a <?= e($item->isOpen(), 'class="font-sansbold mt-2 hover:text-cslightblue"') ?>
-                  href="<?= $item->url() ?>" class="hover:text-cslightblue">
-                  <?= $item->title()->html() ?>
-                </a>
-                <?php if ($item->id() === 'home'): ?>
-                  <nav>
-                    <?php
-                    $filter = param("filter");
-                    $languageCode = $kirby->language()->code();
-                    $projectPage = $pages->get('projects');
-                    $tags = ['education', 'artInstallation', 'infrastructure', 'housing', 'research', 'serviceAndIndustry', 'sportAndCulture'];
-                    foreach ($tags as $tag):
-                      if ($projectPage->children()->filterBy('tag', $tag)->isNotEmpty()): ?>
-                        <li class="hover:text-cslightblue <?= e($filter === $tag, 'pl-3 text-cslightblue') ?>">
-                          <a href="<?= url($languageCode . '/filter:' . $tag) ?>" class="filter-btn"
-                             data-filter="<?= $tag ?>">
-                            <?= t($tag) ?>
-                          </a>
-                        </li>
-                      <?php endif;
-                    endforeach; ?>
-                  </nav>
-                <?php endif; ?>
-              </li>
-            <?php endif; ?>
-          <?php endforeach; ?>
-        </ul>
-      <?php endif; ?>
+      <?php snippet('home-nav') ?>
 
       <ul>
         <?php foreach ($kirby->languages() as $language): ?>

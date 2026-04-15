@@ -1,0 +1,149 @@
+Title: Runde Fenster
+
+----
+
+Listtitle: <p>Einfamilienhaus</p>
+
+----
+
+Project-status: executed
+
+----
+
+Competition-result: 
+
+----
+
+Year: 2025
+
+----
+
+Location: <p>(:<a href="https://google.com" title="HI">fdsa</a></p>
+
+----
+
+Competencies: 5ca6c259-ff78-4f11-b599-9ac3cd218781, 71d63743-c752-4013-a8ca-4152e063e5c7
+
+----
+
+Fields: c2c61886-42e7-4cf3-98c8-97e991724334, 1ac8efbc-52ee-47ba-826f-bbc2a5e11f90
+
+----
+
+Material: 783bd1d3-4b5a-4774-b8c4-13de4c820c2a
+
+----
+
+Collaboration: SCHIBLIHOLENSTEIN ARCHITEKTEN
+
+----
+
+Information:
+
+- 
+  projectdetails: general contractor
+  value: '<p>fdsasd</p><p></p>'
+
+----
+
+Texttitle: 
+
+----
+
+Text: 
+
+----
+
+Toggle-detailpage: false
+
+----
+
+Categoryb: choicethree
+
+----
+
+Gallery: - file://vLHAfNzKd2Z5o8E3
+
+----
+
+Credit: 
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Cropogimage: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Status: In planning
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Tag: artInstallation
+
+----
+
+Uuid: RyFUkXAigNsTTx9f
