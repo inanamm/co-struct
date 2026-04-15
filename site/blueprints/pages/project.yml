@@ -124,6 +124,7 @@ tabs:
                   client: Client
                   architecture: Architecture
                   project phase: Project Phase
+                  competition result: Competition Result
                   planification period: Planning Period
                   construction period: Construction Period
                   SIA volume: Volume (SIA)

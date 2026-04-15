@@ -8,6 +8,10 @@ sections:
         label: Color
         type: hidden
         width: 1/6
+      info:
+        type: info
+        label: Info
+        text: There is nothing to edit here. Go back to the <a href="/panel/site">home</a> page.
 
 options:
   changeSlug:
@@ -19,7 +23,7 @@ options:
   changeTitle:
     editor: false
   create:
-    editor: true
+    editor: false
     admin: true
   delete:
     editor: false
@@ -31,6 +35,7 @@ options:
   sort:
     editor: false
   update:
-    editor: true
+    editor: false
   list: 
-    admin: true    
+    admin: true  
+    editor: true  
