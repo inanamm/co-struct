@@ -18,7 +18,7 @@
     "source": "https://github.com/getkirby/starterkit"
   },
   "require": {
-    "php":                    ">=8.0.0 <8.4",
+    "php":                    ">=8.3.0 <8.5.0",
     "getkirby/cms":           "^5.3", 
     "arnoson/kirby-vite":     "^5.6.1",
     "tobimori/kirby-seo":     "2.0.0-beta.3",
