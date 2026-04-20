@@ -13,6 +13,9 @@ sections:
     layout: list
     label: Drafts
     status: draft
+    image:
+      back: "#91BAD2"
+      icon: none
 
   published_without_detailpage:
     extends: sections/projects
