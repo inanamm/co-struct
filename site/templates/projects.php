@@ -7,11 +7,11 @@
 ?>
 
 <!DOCTYPE html>
-<html class="bg-cswhite h-screen" lang="de">
+<html class="bg-cswhite" lang="de">
 
 <?php snippet('head') ?>
 
-<body class="text-csblack flex flex-col h-screen no-scrollbar">
+<body class="text-csblack flex flex-col min-h-screen no-scrollbar">
     <div class="headern bg-gradient-to-b from-cswhite to-transparent pb-5 relative lg:sticky top-0 z-50">
         <?php snippet('header', slots: true) ?>
         <?php slot('dash') ?>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html class="bg-csblue h-screen" lang="de">
+<html class="bg-csblue" lang="de">
 
 <?php snippet('head') ?>
 
-<body class="text-cswhite flex flex-col overflow-y-auto h-full no-scrollbar">
-    <div class="header pb-5">
+<body class="text-cswhite flex flex-col min-h-screen no-scrollbar">
+    <div class="header bg-gradient-to-b from-csblue to-transparent pb-5 relative lg:sticky top-0 z-50">
         <?php snippet('header', slots: true) ?>
         <?php slot('dash') ?>
         <div id="dash" class="w-7 bg-cswhite h-[0.26rem] lg:h-[0.40rem] mt-[0.30rem] lg:mt-[0.44rem] self-center" alt="logo"></div>

@@ -35,7 +35,7 @@ Addresses:
   place: London
   phonenumber: +41 666 55 55
   toggle: 'true'
-  footer_toggle: 'true'
+  footer_toggle: 'false'
   footertoggle: 'true'
   toggle2: true
 - 

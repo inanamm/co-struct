@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html class="bg-cswhite h-screen" lang="de">
+<html class="bg-cswhite" lang="de">
 
 <?php snippet('head') ?>
 
-<body class="text-csblue flex flex-col h-full overflow-y-auto no-scrollbar">
+<body class="text-csblue flex flex-col min-h-screen no-scrollbar">
 	<div class="header bg-gradient-to-b from-cswhite to-transparent pb-5 relative lg:sticky top-0 z-50">
 		<?php snippet('header', slots: true) ?>
 		<?php slot('dash') ?>
