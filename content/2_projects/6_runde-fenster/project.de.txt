@@ -62,7 +62,7 @@ Categoryb: choicethree
 
 ----
 
-Gallery: - file://vLHAfNzKd2Z5o8E3
+Gallery: 
 
 ----
 

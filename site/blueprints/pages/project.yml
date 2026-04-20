@@ -214,6 +214,8 @@ tabs:
             type: fields
             fields:
               gallery:
+                when:
+                  toggle_detailpage: true
                 min: 1
                 required: true
                 type: files

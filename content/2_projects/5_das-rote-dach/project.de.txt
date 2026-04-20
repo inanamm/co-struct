@@ -58,13 +58,7 @@ Categoryb: choicetwo
 
 ----
 
-Gallery:
-
-- file://Fydqg2xiSVBPCVBT
-- file://SbuK8ZDMdUNoK5RV
-- file://swXe0XVfBxoP9PFx
-- file://pwMVRYH1tSCIkZHt
-- file://Npzuv4BoRg3wYQQz
+Gallery: 
 
 ----
 

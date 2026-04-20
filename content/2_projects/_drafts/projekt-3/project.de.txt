@@ -2,11 +2,39 @@ Title: KKL Luzern (Kultur- und Kongresszentrum Luzern)
 
 ----
 
-Categoryb: choicetwo
+Listtitle: <p>KKL</p>
 
 ----
 
-Tag: research
+Project-status: 
+
+----
+
+Competition-result: 
+
+----
+
+Year: 
+
+----
+
+Location: 
+
+----
+
+Competencies: 
+
+----
+
+Fields: 
+
+----
+
+Material: 
+
+----
+
+Collaboration: 
 
 ----
 
@@ -25,7 +53,7 @@ Information:
   projectdetails: ""
   value: 220 Mio
 - 
-  projectdetails: timeframe
+  projectdetails: ""
   value: 1995—2000
 
 ----
@@ -44,7 +72,11 @@ Als Veranstaltungsort für Konzerte, Konferenzen und kulturelle Veranstaltungen 
 
 ----
 
-Listtitle: <p>KKL</p>
+Toggle-detailpage: true
+
+----
+
+Categoryb: choicetwo
 
 ----
 
@@ -95,11 +127,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
+Cropogimage: 
 
 ----
 
@@ -124,6 +152,18 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Tag: research
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
 
 ----
 

@@ -2,11 +2,39 @@ Title: EPFL Rolex Learning Center
 
 ----
 
-Categoryb: choicetwo
+Listtitle: <p>EPFL </p>
 
 ----
 
-Tag: infrastructure
+Project-status: executed
+
+----
+
+Competition-result: 
+
+----
+
+Year: 2023
+
+----
+
+Location: <p>hi</p>
+
+----
+
+Competencies: c88faa39-bfdf-47ca-a619-4b64bec2f2fc
+
+----
+
+Fields: 1ac8efbc-52ee-47ba-826f-bbc2a5e11f90
+
+----
+
+Material: 4373387f-56fb-4257-8bfc-22000b6c8213
+
+----
+
+Collaboration: <p>oh</p>
 
 ----
 
@@ -27,7 +55,7 @@ Information:
   projectdetails: ""
   value: 80 Mio
 - 
-  projectdetails: timeframe
+  projectdetails: ""
   value: 2007–2010
 
 ----
@@ -46,17 +74,15 @@ Das Rolex Learning Center ist nicht nur ein Ort des Studiums, sondern auch ein O
 
 ----
 
-Listtitle: <p>EPFL </p>
+Toggle-detailpage: false
 
 ----
 
-Gallery:
+Categoryb: choicetwo
 
-- file://MLmAkibCcMAq5rEg
-- file://KbqodQNElDjZFzb0
-- file://DM7Ob7UpQq5H8ruO
-- file://iliFj3NwJNMi1I54
-- file://Wr9cuk1N28hxMYx4
+----
+
+Gallery: 
 
 ----
 
@@ -96,11 +122,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
+Cropogimage: 
 
 ----
 
@@ -125,6 +147,18 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Tag: infrastructure
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
 
 ----
 

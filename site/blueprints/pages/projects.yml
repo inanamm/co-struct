@@ -19,6 +19,10 @@ sections:
     label: Projects without Detailpage
     query: page.children.listed.filterBy("toggle_detailpage", false)
     create: false
+    image:
+      back: "#91BAD2"
+      icon: none
+
 
   published_with_detailpage:
     extends: sections/projects
