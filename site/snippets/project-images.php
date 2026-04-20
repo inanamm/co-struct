@@ -14,7 +14,7 @@ $filteredProjects = param("filter")
 $images = [];
 foreach ($filteredProjects as $project) {
     foreach ($project->gallery()->toFiles() as $image) {
-        if ($image->show_on_landing()->isNotEmpty() && $image->show_on_landing()->toBool() === false) continue;
+        if ($image->show_on_landing()->isNotEmpty() && $image->show_on_landing()->toBool() === true) continue;
         $images[] = (object)[
             'file'  => $image,
             'title' => $project->title(),

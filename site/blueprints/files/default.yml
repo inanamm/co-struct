@@ -8,8 +8,8 @@ fields:
     label: Show on landing page?
     type: toggle
     text:
-      - "no"
       - "yes"
+      - "no"
     default: true
     width: 1/4
   alt:
