@@ -15,7 +15,7 @@ Addresses:
   place: CH—8004 Zürich
   phonenumber: +41 44 506 66 30
   toggle: 'true'
-  footer_toggle: 'false'
+  footer_toggle: 'true'
   footertoggle: 'true'
   toggle2: false
 - 
@@ -25,7 +25,7 @@ Addresses:
   place: CH—1003 Lausanne
   phonenumber: +41 21 888 45 60
   toggle: 'true'
-  footer_toggle: 'false'
+  footer_toggle: 'true'
   footertoggle: 'true'
   toggle2: true
 - 
@@ -45,7 +45,7 @@ Addresses:
   place: Miami
   phonenumber: +749 320 23 45
   toggle: 'true'
-  footer_toggle: 'true'
+  footer_toggle: 'false'
 
 ----
 
@@ -85,7 +85,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: summary
+Cropogimage: true
 
 ----
 
@@ -110,6 +110,10 @@ Robotssnippet: default
 ----
 
 Socialmediaaccounts: 
+
+----
+
+Twittercardtype: summary
 
 ----
 

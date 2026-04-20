@@ -8,9 +8,10 @@
 			<?php
 			$addresses = $site->addresses()->toStructure();
 			$visibleAddresses = $addresses->filter(fn ($address) => $address->footer_toggle()->toBool())->limit(3);
+			$gridCols = $visibleAddresses->count() === 3 ? 'lg:grid-cols-[35%_1fr_1fr]' : 'lg:grid-cols-[35%_1fr]';
 
 			if ($visibleAddresses->isNotEmpty()): ?>
-					<div class="grid lg:grid lg:grid-cols-[35%_1fr_1fr] gap-4">
+					<div class="grid lg:grid <?= $gridCols ?> gap-4">
 						<?php foreach ($visibleAddresses as $address): ?>
 							<div class="singleAddress">
 								<?= $address->companyName() ?><br>
