@@ -18,7 +18,7 @@ Year: 2025
 
 ----
 
-Location: Zürich (ZH)
+Location: <p><a href="https://s-m.nu/">Zürich</a> (ZH)</p>
 
 ----
 
@@ -34,7 +34,7 @@ Material: 4373387f-56fb-4257-8bfc-22000b6c8213
 
 ----
 
-Collaboration: Dubovic
+Collaboration: <p><a href="https://s-m.nu/">Dubovic</a></p>
 
 ----
 

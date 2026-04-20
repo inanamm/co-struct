@@ -34,7 +34,7 @@ Material: 9209959e-3b2c-4f12-9503-58385575422d
 
 ----
 
-Collaboration: nummer 1<br>nummer 2
+Collaboration: <p>nummer 1, nummer 2</p>
 
 ----
 

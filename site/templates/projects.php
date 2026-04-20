@@ -153,7 +153,7 @@
                         </div>
                         <div class="lg:flex lg:flex-col lg:col-span-5">
                             <div class="flex flex-row">
-                                <div class="hidden lg:flex"><?= t("project") ?>,&nbsp;</div>
+                                <div class="flex"><?= t("project") ?>,&nbsp;</div>
                                 <div class="flex"><?= t("location") ?> </div>
                             </div>
                             <div class="hidden lg:flex"><?= t("collaboration") ?></div>
@@ -182,20 +182,6 @@
                                     <?= $name->escape() ?>
                                 </div>
                                 <p class="hidden lg:flex font-mono text-sm"><?= $project->year()->escape() ?></p>
-                            </div>
-
-                            <div class="pt-1 lg:pt-0 lg:flex lg:col-span-5">
-                                <span class="lg:hidden font-mono text-sm">
-                                    <?= $project->location() ?>
-                                </span>
-                                <div class="lg:flex lg:flex-col ">
-                                    <span class="hidden lg:flex lg:flex-col">
-                                        <?= $title->inline() . ', ' . $project->location() ?>
-                                    </span>
-                                    <p class="hidden lg:flex font-mono text-sm">
-                                        <?= $project->collaboration()->text() ?>
-                                    </p>
-                                </div>
                             </div>
 
                             <div class="lg:col-span-4 font-mono text-sm">
@@ -244,15 +230,11 @@
                             </div>
 
                             <div class="pt-1 lg:pt-0 lg:flex lg:col-span-5">
-                                <!-- Mobile: location only -->
-
-
-                                <div class="inline-flex lg:flex-col">
+                                <div class="inline-flex lg:flex-col ">
                                     <!-- Desktop layout -->
-                                        <?= $title->inline() . ', ' . $project->location() ?>
-                                    <!-- Collaboration (unchanged) -->
+                                        <?= $title->inline() . ', ' . strip_tags($project->location()) ?>
                                     <p class="hidden lg:flex font-mono text-sm">
-                                        <?= $project->collaboration()->text() ?>
+                                        <?= strip_tags($project->collaboration()) ?>
                                     </p>
                                 </div>
                             </div>
@@ -284,7 +266,6 @@
             </div>
 
         </div>
-        <!-- #worklist-content -->
 
     </main>
 

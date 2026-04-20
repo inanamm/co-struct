@@ -18,7 +18,7 @@ Year: 2025
 
 ----
 
-Location: <p>(:<a href="https://google.com" title="HI">fdsa</a></p>
+Location: <p><a href="https://google.com" title="HI">fdsa</a></p>
 
 ----
 
@@ -34,7 +34,7 @@ Material: 783bd1d3-4b5a-4774-b8c4-13de4c820c2a
 
 ----
 
-Collaboration: SCHIBLIHOLENSTEIN ARCHITEKTEN
+Collaboration: <p><a href="https://schibliholenstein.ch/projekte" target="_blank">SCHIBLIHOLENSTEIN</a> ARCHITEKTEN</p>
 
 ----
 

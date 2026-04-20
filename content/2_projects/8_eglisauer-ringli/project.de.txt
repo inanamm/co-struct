@@ -18,7 +18,7 @@ Year: 2023
 
 ----
 
-Location: Eglisau
+Location: <p><a href="https://s-m.nu/">Eglisau</a></p>
 
 ----
 
@@ -34,7 +34,7 @@ Material: 4373387f-56fb-4257-8bfc-22000b6c8213
 
 ----
 
-Collaboration: Dubovic
+Collaboration: <p><a href="https://s-m.nu/">Dubovic</a></p>
 
 ----
 
@@ -47,10 +47,10 @@ Information:
   projectdetails: architecture
   value: '<p><a href="https://google.com">Peter Zumthor</a></p>'
 - 
-  projectdetails: location
+  projectdetails: ""
   value: 6 Mio
 - 
-  projectdetails: timeframe
+  projectdetails: ""
   value: 1993–1996
 - 
   projectdetails: span
