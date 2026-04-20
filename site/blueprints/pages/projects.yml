@@ -59,11 +59,4 @@ options:
     editor: true
   list: 
     admin: true
-   
-
-options:
-  list: 
-    admin: true
-    editor: false
-  changeStatus:
-    editor: false
+    editor: true
