@@ -54,7 +54,7 @@
     $competencyOptions = array_filter($competencyOptions, fn($opt) => in_array($opt['key'], $usedCompetencyKeys));
 
     $statusOptions = $projects->pluck('project_Status', null, true);
-    $filteredProjects = $projects->sortBy('year', 'asc');
+    $filteredProjects = $projects->sortBy('year', 'desc');
 
     if (!empty($activeFilters)) {
         $filteredProjects = $filteredProjects->filter(function ($project) use ($activeFilters) {
@@ -123,7 +123,7 @@
 
                     <?php if ($filteredProjects->count() === 0):
                         // alternative, same competency filters, different status
-                        $alternativeProjects = $projects->sortBy('year', 'asc');
+                        $alternativeProjects = $projects->sortBy('year', 'desc');
                         if (!empty($activeFilters)) {
                             $alternativeProjects = $alternativeProjects->filter(function ($project) use ($activeFilters) {
                                 return count(array_intersect($activeFilters, $project->competencies()->split(','))) > 0;
@@ -137,7 +137,7 @@
                         }
                         // if still empty, show all projects
                         if ($alternativeProjects->count() === 0) {
-                            $alternativeProjects = $projects->sortBy('year', 'asc');
+                            $alternativeProjects = $projects->sortBy('year', 'desc');
                         }
                     ?>
                         <div class="pb-10 font-sans text-md">
