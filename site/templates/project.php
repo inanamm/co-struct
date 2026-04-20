@@ -67,7 +67,7 @@
                     <div class="flex flex-col gap-3 mt-3">
                         <div class="flex flex-col">
                             <p><?= t("projecttitle") ?></p>
-                            <p><?= $page->listTitle()->inline() . ', ' . $page->location() ?></p>
+                            <p><?= $page->listTitle()->inline() . ', ' . $page->location()->inline() ?></p>
                         </div>
 
                         <div class="flex flex-col">
