@@ -20,7 +20,7 @@
     if ($projectsPage->children()->filterBy('competencies', $key, '*=')->isEmpty()) continue;
     $href = $filter === $key ? $homePage->url() : $homePage->url() . '/filter:' . $key;
   ?>
-    <li class="hover:text-cslightblue <?= $filter === $key ? 'pl-3 text-cslightblue' : '' ?>">
+    <li class="hover:text-cslightblue <?= $filter === $key ? 'pl-3 text-cslightblue' : 'pl-3' ?>">
       <a href="<?= $href ?>"
          @click="$dispatch('close-menu')"
          <?php if ($homePage->isOpen()): ?>
