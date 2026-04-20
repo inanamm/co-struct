@@ -2,11 +2,39 @@ Title: Rolex Learning Center
 
 ----
 
-Categoryb: choicetwo
+Listtitle: <p>Rolex</p>
 
 ----
 
-Tag: infrastructure
+Project-status: 
+
+----
+
+Competition-result: 
+
+----
+
+Year: 
+
+----
+
+Location: 
+
+----
+
+Competencies: 
+
+----
+
+Fields: 
+
+----
+
+Material: 
+
+----
+
+Collaboration: fdadsfdsa
 
 ----
 
@@ -19,16 +47,16 @@ Information:
   projectdetails: architecture
   value: SANAA (Kazuyo Sejima + Ryue Nishizawa)
 - 
-  projectdetails: location
+  projectdetails: ""
   value: CH—1015 Lausanne
 - 
   projectdetails: construction costs
   value: 55 Mio
 - 
-  projectdetails: timeframe
+  projectdetails: ""
   value: 2009–2010
 - 
-  projectdetails: collaboration
+  projectdetails: ""
   value: '<p>Markus Holenstein</p>'
 
 ----
@@ -47,7 +75,11 @@ Das Rolex Learning Center ist nicht nur ein Ort des Studiums, sondern auch ein O
 
 ----
 
-Listtitle: <p>Rolex</p>
+Toggle-detailpage: true
+
+----
+
+Categoryb: choicetwo
 
 ----
 
@@ -98,11 +130,7 @@ Ogimage:
 
 ----
 
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
+Cropogimage: 
 
 ----
 
@@ -127,6 +155,18 @@ Robotssnippet: false
 ----
 
 Metainherit: 
+
+----
+
+Tag: infrastructure
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
 
 ----
 

@@ -218,6 +218,7 @@ tabs:
                   toggle_detailpage: true
                 min: 1
                 required: true
+                translate: false
                 type: files
                 label: Gallery
                 query: site.images
