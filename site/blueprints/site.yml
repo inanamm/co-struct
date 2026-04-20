@@ -145,6 +145,7 @@ tabs:
         image:
           cover: true
           ratio: 1/1
+        sortBy: size desc
 
   seo: seo/site
           
