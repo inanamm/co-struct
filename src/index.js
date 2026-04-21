@@ -26,33 +26,6 @@ const timeLine = anime
       easing: "easeInOutCubic",
     },
     "-=100",
-  )
-  .add(
-    {
-      targets: "#second",
-      opacity: "100%",
-      duration: 600,
-      easing: "easeInOutCubic",
-    },
-    "-=2000",
-  )
-  .add(
-    {
-      targets: "#third",
-      opacity: "100%",
-      duration: 1000,
-      easing: "easeInOutCubic",
-    },
-    "-=2800",
-  )
-  .add(
-    {
-      targets: "#four",
-      opacity: "100%",
-      duration: 400,
-      easing: "easeInOutCubic",
-    },
-    "-=3000",
   );
 
 if (document.querySelector(".glide")) {

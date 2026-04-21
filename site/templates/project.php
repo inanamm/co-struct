@@ -24,7 +24,7 @@
         </div>
 
         <!--GLIDER MOBILE -->
-        <div id="four" class="glide lg:hidden pt-3">
+        <div  class="glide lg:hidden pt-3">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                     <?php foreach ($page->gallery()->toFiles() as $image): ?>
@@ -40,7 +40,7 @@
         </div>
 
         <!--TEXT PROJECT-->
-        <main id="four" class="flex flex-col divide-y divide-csblack grow">
+        <main  class="flex flex-col divide-y divide-csblack grow">
             <div class="flex flex-row font-sansbold text-lg px-3 pt-2 pb-3 lg:justify-between hover-container relative">
                 <h1><?= $page->title()->smartypants() ?></h1>
                 <div class="hidden lg:flex font-mono text-sm self-end category absolute right-3"
@@ -143,7 +143,7 @@
 </body>
 
 <!--RIGHT SIDE-->
-<div id="four" class="hidden lg:flex w-1/2 overflow-y-scroll no-scrollbar">
+<div  class="hidden lg:flex w-1/2 overflow-y-scroll no-scrollbar">
     <div>
         <ul>
             <?php foreach ($page->gallery()->toFiles() as $image): ?>

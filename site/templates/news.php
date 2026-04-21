@@ -28,7 +28,7 @@
             </div>
 
             <?php if ($newsArticle = $page->news()->toStructure()->sortby('date', 'desc')->first()): ?>
-                <div id="four" class="hidden lg:flex flex-col gap-1 pb-5 px-3 pt-3 h-sreen">
+                <div  class="hidden lg:flex flex-col gap-1 pb-5 px-3 pt-3 h-sreen">
                     <?php foreach ($newsArticle->image()->toFiles() as $image): ?>
                         <?php echo $image->thumb([
                             'quality' => 60,
@@ -87,7 +87,7 @@
             </div>
         </div>
 
-        <div id="four"
+        <div
             class="hidden divide-y divide-csgreen lg:grid gap-x-2 grid-cols-2 flex-col lg:flex-wrap lg:w-1/2 lg:divide-none overflow-auto h-screen no-scrollbar">
             <?php if ($news = $page->news()->toStructure()->without(0)->sortby('date', 'desc')): ?>
                 <?php foreach ($news as $newsArticle): ?>

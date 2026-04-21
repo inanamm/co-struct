@@ -69,7 +69,7 @@
     }
     ?>
 
-    <main id="third" class="flex flex-col gap-4 font-mono text-sm pt-2 pb-6 lg:text-sm">
+    <main class="flex flex-col gap-4 font-mono text-sm pt-2 pb-6 lg:text-sm">
         <h1 class="sr-only">
             <?= $page->title() ?>
         </h1>
