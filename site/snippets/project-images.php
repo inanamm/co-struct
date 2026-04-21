@@ -23,6 +23,8 @@ foreach ($filteredProjects as $project) {
     }
 }
 
+shuffle($images);
+
 $snippetId = $snippetId ?? 'project-images';
 ?>
 <div id="<?= $snippetId ?>" class="contents">
